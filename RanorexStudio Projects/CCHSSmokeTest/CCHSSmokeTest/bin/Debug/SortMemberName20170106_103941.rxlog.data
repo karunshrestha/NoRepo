@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="285fd98c31ead2fa"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 10:39:41 AM"
+		timestampiso="2017-01-06T15:39:41"
+		timeoutfactor="1"
+		module="SortMemberName">
+		<detail>
+			SortMemberName
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.092"
+			timeRelativeToTestModuleStartTime="00:00.092"
+			timeWallClock="10:39:41"
+			time="00:00.092"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varCompareName1, varComareName2
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.101"
+			timeRelativeToTestModuleStartTime="00:00.101"
+			timeWallClock="10:39:41"
+			time="00:00.101"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'LoginCCHSPortal.ATagPn0' and assigning its value to variable 'varCompareName1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.ATagPn0"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.329"
+			timeRelativeToTestModuleStartTime="00:00.329"
+			timeWallClock="10:39:42"
+			time="00:00.329"
+			level="Info"
+			category="User">
+			<message>
+				QA, Zoe
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="112"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.345"
+			timeRelativeToTestModuleStartTime="00:00.345"
+			timeWallClock="10:39:42"
+			time="00:00.345"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.MemberName' at 192;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div//table/thead/?/?/th[@innertext='Member Name']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.MemberName"
+				id="c943bf992846474d87d698f43e6f0df8"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="114"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.215"
+			timeRelativeToTestModuleStartTime="00:01.215"
+			timeWallClock="10:39:42"
+			time="00:01.215"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'LoginCCHSPortal.ATagPn0' and assigning its value to variable 'varComareName2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.ATagPn0"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="118"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.293"
+			timeRelativeToTestModuleStartTime="00:01.293"
+			timeWallClock="10:39:43"
+			time="00:01.293"
+			level="Info"
+			category="User">
+			<message>
+				Aalex, Aandy
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="122"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

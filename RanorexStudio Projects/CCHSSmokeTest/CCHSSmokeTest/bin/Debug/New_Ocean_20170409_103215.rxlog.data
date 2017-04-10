@@ -1,0 +1,1054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3310da7dd2cce1a8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="4"
+		totalfailedcount="2"
+		totalblockedcount="2"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="4/9/2017 10:32:15 AM"
+		timestampiso="2017-04-09T14:32:15"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="56.73s"
+			durationms="56734"
+			type="test suite"
+			rid="1b2b5c5ed832bf95"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="4"
+			totalfailedcount="2"
+			totalblockedcount="2"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="56.71s"
+				durationms="56714"
+				type="test case"
+				rid="79979add5175934"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="4"
+				totalfailedcount="2"
+				totalblockedcount="2"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource="NewConnector37"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="56.71s"
+					durationms="56713"
+					type="test case iteration"
+					rid="1ccefd475be74dff"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="4"
+					totalfailedcount="1"
+					totalblockedcount="2"
+					testcasename="Regression_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="colmDomainName">
+							qa.carecamhealthsystems.com
+						</field>
+						<field
+							name="colmEmail">
+							iecchs123@gmail.com
+						</field>
+						<field
+							name="colmValidationText">
+							Success
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="56.71s"
+						durationms="56711"
+						type="test case"
+						rid="1a839b5684e2e12c"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="4"
+						totalfailedcount="1"
+						totalblockedcount="2"
+						testcasename="ForgotPswdPN"
+						testcaseid="9d862735-e9be-461d-abdb-4d7432700955"
+						datasource="NewConnector38"
+						iterationcount="7"
+						maxchildren="0">
+						<params/>
+						<detail>
+							&lt;P&gt;Regression TC1&lt;/P&gt;
+						</detail>
+						<activity
+							result="Success"
+							duration="9.72s"
+							durationms="9716"
+							type="test case iteration"
+							rid="3feabe0303bf5fe"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="1">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+								</field>
+								<field
+									name="colmPassOne">
+								</field>
+								<field
+									name="colmPassTwo">
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="9.7s"
+								durationms="9704"
+								type="test module"
+								rid="117d170a509e498"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="FPSecurityAnswer"
+								moduleid="272a80d7-127d-4082-9fa5-7f44c183012e"
+								moduletype="UserCode">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSecAns"
+										value=""/>
+									<varbinding
+										name="varPassOne"
+										value=""/>
+									<varbinding
+										name="varPassTwo"
+										value=""/>
+									<varbinding
+										name="varDomainName"
+										value="qa.carecamhealthsystems.com"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.283"
+									timeRelativeToTestModuleStartTime="00:00.003"
+									timeWallClock="10:32:16"
+									time="00:00.283"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSecAns = '', $varPassOne = '', $varPassTwo = '', $varDomainName = 'qa.carecamhealthsystems.com'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:05.541"
+									timeRelativeToTestModuleStartTime="00:05.261"
+									timeWallClock="10:32:21"
+									time="00:05.541"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}'.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="93"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.493"
+									timeRelativeToTestModuleStartTime="00:09.213"
+									timeWallClock="10:32:25"
+									time="00:09.493"
+									level="Info"
+									category="User">
+									<message>
+										Current Index: 1
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="100"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.550"
+									timeRelativeToTestModuleStartTime="00:09.270"
+									timeWallClock="10:32:25"
+									time="00:09.550"
+									level="Info"
+									category="User">
+									<message>
+										&#32;Please correct the validation errors below.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="186"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.587"
+									timeRelativeToTestModuleStartTime="00:09.307"
+									timeWallClock="10:32:25"
+									time="00:09.587"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="187"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.672"
+									timeRelativeToTestModuleStartTime="00:09.392"
+									timeWallClock="10:32:25"
+									time="00:09.672"
+									level="Info"
+									category="User">
+									<message>
+										The Challenge Question answer is required.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="109"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.703"
+									timeRelativeToTestModuleStartTime="00:09.423"
+									timeWallClock="10:32:25"
+									time="00:09.703"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="110"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.789"
+									timeRelativeToTestModuleStartTime="00:09.509"
+									timeWallClock="10:32:25"
+									time="00:09.789"
+									level="Info"
+									category="User">
+									<message>
+										The New Password is required.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="113"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.822"
+									timeRelativeToTestModuleStartTime="00:09.542"
+									timeWallClock="10:32:25"
+									time="00:09.822"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="114"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.902"
+									timeRelativeToTestModuleStartTime="00:09.622"
+									timeWallClock="10:32:25"
+									time="00:09.902"
+									level="Info"
+									category="User">
+									<message>
+										The Confirm New Password is required.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="117"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.936"
+									timeRelativeToTestModuleStartTime="00:09.656"
+									timeWallClock="10:32:25"
+									time="00:09.936"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="118"
+										loglvl="Success"/>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Success"
+							duration="10.99s"
+							durationms="10986"
+							type="test case iteration"
+							rid="228efe832f7293b"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="2">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+								</field>
+								<field
+									name="colmPassOne">
+									Password1
+								</field>
+								<field
+									name="colmPassTwo">
+									Password1
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="10.98s"
+								durationms="10983"
+								type="test module"
+								rid="c0c085b30b5cbc8"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="FPSecurityAnswer"
+								moduleid="272a80d7-127d-4082-9fa5-7f44c183012e"
+								moduletype="UserCode">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSecAns"
+										value=""/>
+									<varbinding
+										name="varPassOne"
+										value="Password1"/>
+									<varbinding
+										name="varPassTwo"
+										value="Password1"/>
+									<varbinding
+										name="varDomainName"
+										value="qa.carecamhealthsystems.com"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.989"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="10:32:25"
+									time="00:09.989"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSecAns = '', $varPassOne = 'Password1', $varPassTwo = 'Password1', $varDomainName = 'qa.carecamhealthsystems.com'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:16.761"
+									timeRelativeToTestModuleStartTime="00:06.774"
+									timeWallClock="10:32:32"
+									time="00:16.761"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}'.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="93"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.698"
+									timeRelativeToTestModuleStartTime="00:10.710"
+									timeWallClock="10:32:36"
+									time="00:20.698"
+									level="Info"
+									category="User">
+									<message>
+										Current Index: 2
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="100"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.768"
+									timeRelativeToTestModuleStartTime="00:10.780"
+									timeWallClock="10:32:36"
+									time="00:20.768"
+									level="Info"
+									category="User">
+									<message>
+										&#32;Please correct the validation errors below.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="123"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.806"
+									timeRelativeToTestModuleStartTime="00:10.818"
+									timeWallClock="10:32:36"
+									time="00:20.806"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="124"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.889"
+									timeRelativeToTestModuleStartTime="00:10.901"
+									timeWallClock="10:32:36"
+									time="00:20.889"
+									level="Info"
+									category="User">
+									<message>
+										The Challenge Question answer is required.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="127"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.922"
+									timeRelativeToTestModuleStartTime="00:10.934"
+									timeWallClock="10:32:36"
+									time="00:20.922"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="128"
+										loglvl="Success"/>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Success"
+							duration="11.84s"
+							durationms="11835"
+							type="test case iteration"
+							rid="910f255e9ff3fd9"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="3">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+									incorrect
+								</field>
+								<field
+									name="colmPassOne">
+									Password1
+								</field>
+								<field
+									name="colmPassTwo">
+									Password1
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="11.83s"
+								durationms="11831"
+								type="test module"
+								rid="235a78eb3a876838"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="FPSecurityAnswer"
+								moduleid="272a80d7-127d-4082-9fa5-7f44c183012e"
+								moduletype="UserCode">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSecAns"
+										value="incorrect"/>
+									<varbinding
+										name="varPassOne"
+										value="Password1"/>
+									<varbinding
+										name="varPassTwo"
+										value="Password1"/>
+									<varbinding
+										name="varDomainName"
+										value="qa.carecamhealthsystems.com"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.977"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="10:32:36"
+									time="00:20.977"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSecAns = 'incorrect', $varPassOne = 'Password1', $varPassTwo = 'Password1', $varDomainName = 'qa.carecamhealthsystems.com'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:28.648"
+									timeRelativeToTestModuleStartTime="00:07.673"
+									timeWallClock="10:32:44"
+									time="00:28.648"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}'.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="93"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.631"
+									timeRelativeToTestModuleStartTime="00:11.656"
+									timeWallClock="10:32:48"
+									time="00:32.631"
+									level="Info"
+									category="User">
+									<message>
+										Current Index: 3
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="100"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.714"
+									timeRelativeToTestModuleStartTime="00:11.739"
+									timeWallClock="10:32:48"
+									time="00:32.714"
+									level="Info"
+									category="User">
+									<message>
+										&#32;The answer provided is incorrect. Please try again.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="133"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.760"
+									timeRelativeToTestModuleStartTime="00:11.785"
+									timeWallClock="10:32:48"
+									time="00:32.760"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="134"
+										loglvl="Success"/>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Success"
+							duration="12.21s"
+							durationms="12214"
+							type="test case iteration"
+							rid="2cf75a143a5ebed0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="4">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+									front street
+								</field>
+								<field
+									name="colmPassOne">
+									Password1
+								</field>
+								<field
+									name="colmPassTwo">
+									Password2
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="12.21s"
+								durationms="12212"
+								type="test module"
+								rid="1b019a28ed3756f"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="FPSecurityAnswer"
+								moduleid="272a80d7-127d-4082-9fa5-7f44c183012e"
+								moduletype="UserCode">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSecAns"
+										value="front street"/>
+									<varbinding
+										name="varPassOne"
+										value="Password1"/>
+									<varbinding
+										name="varPassTwo"
+										value="Password2"/>
+									<varbinding
+										name="varDomainName"
+										value="qa.carecamhealthsystems.com"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.812"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="10:32:48"
+									time="00:32.812"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSecAns = 'front street', $varPassOne = 'Password1', $varPassTwo = 'Password2', $varDomainName = 'qa.carecamhealthsystems.com'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:40.795"
+									timeRelativeToTestModuleStartTime="00:07.983"
+									timeWallClock="10:32:56"
+									time="00:40.795"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}'.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="93"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.760"
+									timeRelativeToTestModuleStartTime="00:11.948"
+									timeWallClock="10:33:00"
+									time="00:44.760"
+									level="Info"
+									category="User">
+									<message>
+										Current Index: 4
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="100"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.821"
+									timeRelativeToTestModuleStartTime="00:12.009"
+									timeWallClock="10:33:00"
+									time="00:44.821"
+									level="Info"
+									category="User">
+									<message>
+										&#32;Please correct the validation errors below.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="186"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.859"
+									timeRelativeToTestModuleStartTime="00:12.047"
+									timeWallClock="10:33:00"
+									time="00:44.859"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="187"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.942"
+									timeRelativeToTestModuleStartTime="00:12.130"
+									timeWallClock="10:33:00"
+									time="00:44.942"
+									level="Info"
+									category="User">
+									<message>
+										The new passwords must match.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="143"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.976"
+									timeRelativeToTestModuleStartTime="00:12.164"
+									timeWallClock="10:33:00"
+									time="00:44.976"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="144"
+										loglvl="Success"/>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Failed"
+							duration="11.95s"
+							durationms="11949"
+							type="test case iteration"
+							rid="2feb5cc2d255647"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="5">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+									front street
+								</field>
+								<field
+									name="colmPassOne">
+									Passwo#
+								</field>
+								<field
+									name="colmPassTwo">
+									Passwo#
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Failed"
+								duration="11.95s"
+								durationms="11946"
+								type="test module"
+								rid="172286d6e207da5b"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="FPSecurityAnswer"
+								moduleid="272a80d7-127d-4082-9fa5-7f44c183012e"
+								moduletype="UserCode">
+								<detail>
+								</detail>
+								<errmsg>
+									Condition is not true.
+								</errmsg>
+								<varbindings>
+									<varbinding
+										name="varSecAns"
+										value="front street"/>
+									<varbinding
+										name="varPassOne"
+										value="Passwo#"/>
+									<varbinding
+										name="varPassTwo"
+										value="Passwo#"/>
+									<varbinding
+										name="varDomainName"
+										value="qa.carecamhealthsystems.com"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:45.028"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="10:33:00"
+									time="00:45.028"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSecAns = 'front street', $varPassOne = 'Passwo#', $varPassTwo = 'Passwo#', $varDomainName = 'qa.carecamhealthsystems.com'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:52.619"
+									timeRelativeToTestModuleStartTime="00:07.591"
+									timeWallClock="10:33:08"
+									time="00:52.619"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}'.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="93"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.579"
+									timeRelativeToTestModuleStartTime="00:11.551"
+									timeWallClock="10:33:12"
+									time="00:56.579"
+									level="Info"
+									category="User">
+									<message>
+										Current Index: 5
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="100"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.639"
+									timeRelativeToTestModuleStartTime="00:11.611"
+									timeWallClock="10:33:12"
+									time="00:56.639"
+									level="Info"
+									category="User">
+									<message>
+										&#32;Please correct the validation errors below.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="186"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.678"
+									timeRelativeToTestModuleStartTime="00:11.650"
+									timeWallClock="10:33:12"
+									time="00:56.678"
+									level="Success"
+									category="Validation">
+									<message>
+										Condition is true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="187"
+										loglvl="Success"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.764"
+									timeRelativeToTestModuleStartTime="00:11.736"
+									timeWallClock="10:33:12"
+									time="00:56.764"
+									level="Info"
+									category="User"
+									errimg="images_New_Ocea_c8b53942\New_Ocea_c8b53942_b53e615d_trace.jpg"
+									errthumb="images_New_Ocea_c8b53942\New_Ocea_c8b53942_b53e615d_trace_thumb.jpg">
+									<message>
+										Please enter at least 8 characters.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="153"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.794"
+									timeRelativeToTestModuleStartTime="00:11.766"
+									timeWallClock="10:33:12"
+									time="00:56.794"
+									level="Failure"
+									category="Validation"
+									errimg="images_New_Ocea_c8b53942\New_Ocea_c8b53942_f13f0bdb_trace.jpg"
+									errthumb="images_New_Ocea_c8b53942\New_Ocea_c8b53942_f13f0bdb_trace_thumb.jpg">
+									<message>
+										Condition is not true.
+									</message>
+									<metainfo
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="154"
+										loglvl="Failure"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.849"
+									timeRelativeToTestModuleStartTime="00:11.821"
+									timeWallClock="10:33:12"
+									time="00:56.849"
+									level="Error"
+									category="Module"
+									errimg="images_New_Ocea_c8b53942\New_Ocea_c8b53942_44df02d8_trace.jpg"
+									errthumb="images_New_Ocea_c8b53942\New_Ocea_c8b53942_44df02d8_trace_thumb.jpg">
+									<message>
+										Module execution was aborted because a validation step has failed. Condition is not true.
+									</message>
+									<metainfo
+										stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.IsTrue(Boolean condition)
+   at CCHSSmokeTest.CodeModules.ResetPassword.FPSecurityAnswer.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs:line 154
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\ResetPassword\FPSecurityAnswer.cs"
+										codeline="154"
+										loglvl="Error"/>
+								</item>
+							</activity>
+						</activity>
+						<activity
+							result="Ignored"
+							duration="1ms"
+							durationms="1"
+							type="test case iteration"
+							rid="35f557d03b01a3b"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="6">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+									front street
+								</field>
+								<field
+									name="colmPassOne">
+									password1
+								</field>
+								<field
+									name="colmPassTwo">
+									password1
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+						</activity>
+						<activity
+							result="Ignored"
+							duration="1ms"
+							durationms="1"
+							type="test case iteration"
+							rid="7930c6330e90c"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="ForgotPswdPN"
+							iteration="7">
+							<datarow>
+								<field
+									name="colmSecAnswer">
+									front street
+								</field>
+								<field
+									name="colmPassOne">
+									Password1
+								</field>
+								<field
+									name="colmPassTwo">
+									Password1
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

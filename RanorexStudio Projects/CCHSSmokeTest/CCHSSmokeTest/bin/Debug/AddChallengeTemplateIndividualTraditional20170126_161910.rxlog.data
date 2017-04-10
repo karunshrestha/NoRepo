@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2288286c4b4abc7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/26/2017 4:19:11 PM"
+		timestampiso="2017-01-26T21:19:11"
+		timeoutfactor="1"
+		module="AddChallengeTemplateIndividualTraditional">
+		<detail>
+			AddChallengeTemplateIndividualTraditional
+		</detail>
+		<errmsg>
+			Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge3'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.120"
+			timeRelativeToTestModuleStartTime="00:00.120"
+			timeWallClock="16:19:11"
+			time="00:00.120"
+			level="Info"
+			category="Mouse"
+			errimg=".\AddChall_16b44883_84c6fe3e_trace.jpg"
+			errthumb=".\AddChall_16b44883_84c6fe3e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge3' at 6;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activityTab']/?/?//form/div[6]/div[1]/div/div/div/div/div//i"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge3"
+				id="b3398f5fafc544898cc2d683ef4fce04"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Challenges\AddChallengeTemplateIndividualTraditional.cs"
+				codeline="82"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.193"
+			timeRelativeToTestModuleStartTime="00:12.193"
+			timeWallClock="16:19:23"
+			time="00:12.193"
+			level="Error"
+			category="Module"
+			errimg=".\AddChall_16b44883_4440e80a_trace.jpg"
+			errthumb=".\AddChall_16b44883_4440e80a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge3'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'activityTab']/?/?//form/div[6]/div[1]/div/div/div/div/div//i' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.SystemComObjectFolder.get_IconIconGlobeIconLarge3() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 637
+   at CCHSSmokeTest.Recordings.Challenges.AddChallengeTemplateIndividualTraditional.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Challenges\AddChallengeTemplateIndividualTraditional.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Challenges\AddChallengeTemplateIndividualTraditional.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activityTab']/?/?//form/div[6]/div[1]/div/div/div/div/div//i"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge3"
+				id="b3398f5fafc544898cc2d683ef4fce04"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="22"/>
+		</item>
+	</activity>
+</report>

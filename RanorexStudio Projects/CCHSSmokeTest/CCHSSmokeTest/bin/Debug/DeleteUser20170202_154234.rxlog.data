@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="aea779ee5221615"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/2/2017 3:42:34 PM"
+		timestampiso="2017-02-02T20:42:34"
+		timeoutfactor="1"
+		module="DeleteUser">
+		<detail>
+			DeleteUser
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.105"
+			timeRelativeToTestModuleStartTime="00:00.105"
+			timeWallClock="15:42:35"
+			time="00:00.105"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Users.Actions' at 61;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'actions']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.Actions"
+				id="c834af9e8297422eae7dc59f5a45ce6f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\DeleteUser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.157"
+			timeRelativeToTestModuleStartTime="00:01.157"
+			timeWallClock="15:42:36"
+			time="00:01.157"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Users.Delete' at 64;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'delete']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.Delete"
+				id="e2655ef9c5314904959cddad0e1e4323"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\DeleteUser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.941"
+			timeRelativeToTestModuleStartTime="00:01.941"
+			timeWallClock="15:42:36"
+			time="00:01.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Users.DeleteYes' at 16;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteYes']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.DeleteYes"
+				id="ce69024ad0574ed795a32cc630c74c77"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\DeleteUser.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.726"
+			timeRelativeToTestModuleStartTime="00:02.726"
+			timeWallClock="15:42:37"
+			time="00:02.726"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText=' The user has been successfully deleted.') on item 'LoginCCHSPortal.Users.DivTagTheUserHasBeenSuccessfullyDe'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ user\ has\ been\ succes']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.DivTagTheUserHasBeenSuccessfullyDe"
+				id="259f2e9d17a0456da819d15869d05409"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\DeleteUser.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.893"
+			timeRelativeToTestModuleStartTime="00:02.893"
+			timeWallClock="15:42:37"
+			time="00:02.893"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Users.DivTagTheUserHasBeenSuccessfullyDe' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ user\ has\ been\ succes']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.DivTagTheUserHasBeenSuccessfullyDe"
+				id="259f2e9d17a0456da819d15869d05409"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\DeleteUser.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

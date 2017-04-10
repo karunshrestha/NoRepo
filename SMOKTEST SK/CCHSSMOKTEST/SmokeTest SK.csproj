@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{19625EDF-A5B3-40EC-BDAE-4351D40F1246}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CCHSSMOKTEST</RootNamespace>
+    <AssemblyName>SmokeTest SK</AssemblyName>
+    <RanorexVersion>6.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>47ebbc4b-63bf-4b30-8067-11767bedc6a4</projectdefaultrepository>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewRole.cs">
+      <BoundTo>e52cf9c2-786f-4eeb-9c1e-fc00bfcf86d9</BoundTo>
+      <DependentUpon>AddNewRole.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ab5bbba0-c04a-4b88-92b7-61c4c00c62dc</id>
+    </Compile>
+    <Compile Include="AddNewRole.UserCode.cs">
+      <BoundTo>e52cf9c2-786f-4eeb-9c1e-fc00bfcf86d9</BoundTo>
+      <DependentUpon>AddNewRole.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>337c2cf5-2c28-4bb4-a4cd-9e93be9d2455</id>
+    </Compile>
+    <Compile Include="Add_HealthTracker.cs">
+      <BoundTo>2fd823b2-0f21-4ac6-9efd-bb5680d1c09f</BoundTo>
+      <DependentUpon>Add HealthTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0e0c6f85-2cf2-4443-aa0b-b63f09227556</id>
+    </Compile>
+    <Compile Include="Add_HealthTracker.UserCode.cs">
+      <BoundTo>2fd823b2-0f21-4ac6-9efd-bb5680d1c09f</BoundTo>
+      <DependentUpon>Add HealthTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c65a298-8032-41c8-acad-e7649f34ded6</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>5fee6b4e-3eaa-401b-9292-2f0a1f78c753</id>
+    </Compile>
+    <Compile Include="CarePlanProgram.cs">
+      <BoundTo>3403e490-c4af-42b9-a393-26a7ee11c565</BoundTo>
+      <DependentUpon>CarePlanProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b1542f3-eb7d-4d69-9f0c-99a90221c467</id>
+    </Compile>
+    <Compile Include="CarePlanProgram.UserCode.cs">
+      <BoundTo>3403e490-c4af-42b9-a393-26a7ee11c565</BoundTo>
+      <DependentUpon>CarePlanProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7011e302-5c32-4514-b9e2-ca2a1909aea8</id>
+    </Compile>
+    <Compile Include="SMOKTEST_SKRepository.cs">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <DependentUpon>SMOKTEST_SKRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>6ef4ffb1-a265-4b86-9032-02ed8c4cc9db</id>
+    </Compile>
+    <Compile Include="DeleteForm.cs">
+      <BoundTo>01c3e020-a6a7-4726-936a-017e36d305de</BoundTo>
+      <DependentUpon>DeleteForm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5eff7a4d-9a36-4059-8ad0-61cc675b38e9</id>
+    </Compile>
+    <Compile Include="DeleteForm.UserCode.cs">
+      <BoundTo>01c3e020-a6a7-4726-936a-017e36d305de</BoundTo>
+      <DependentUpon>DeleteForm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae040f40-3ecb-4c50-b6a4-f94708efdc7f</id>
+    </Compile>
+    <Compile Include="DeleteHealthTracker.cs">
+      <BoundTo>d79dc63f-1823-4ea3-931a-c4f95410978c</BoundTo>
+      <DependentUpon>DeleteHealthTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8a416b7d-8c47-4700-85d7-719b35083e05</id>
+    </Compile>
+    <Compile Include="DeleteHealthTracker.UserCode.cs">
+      <BoundTo>d79dc63f-1823-4ea3-931a-c4f95410978c</BoundTo>
+      <DependentUpon>DeleteHealthTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0923c4c-97ce-40b7-b021-af1080f8c053</id>
+    </Compile>
+    <Compile Include="DeleteProgram.cs">
+      <BoundTo>02347056-c193-4cbb-9dbe-91070c452a16</BoundTo>
+      <DependentUpon>DeleteProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>146f5918-f30d-4cac-aeeb-af8b91cb0663</id>
+    </Compile>
+    <Compile Include="DeleteProgram.UserCode.cs">
+      <BoundTo>02347056-c193-4cbb-9dbe-91070c452a16</BoundTo>
+      <DependentUpon>DeleteProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2453c61-0df9-4546-847a-b6e60f5df2fa</id>
+    </Compile>
+    <Compile Include="DeleteRole.cs">
+      <BoundTo>ccd75056-b3ca-4364-8dae-4f027c1c1395</BoundTo>
+      <DependentUpon>DeleteRole.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aff95ccc-9ef9-4270-a76f-49afc1101c4b</id>
+    </Compile>
+    <Compile Include="DeleteRole.UserCode.cs">
+      <BoundTo>ccd75056-b3ca-4364-8dae-4f027c1c1395</BoundTo>
+      <DependentUpon>DeleteRole.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d3371c4a-3830-4889-90f7-f2c20de70020</id>
+    </Compile>
+    <Compile Include="EditForm.cs">
+      <BoundTo>e38d4b37-4ac6-4ea5-887b-fb04d0609fd1</BoundTo>
+      <DependentUpon>EditForm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b1612b6-bdef-44ac-ae24-9be6a7c6124d</id>
+    </Compile>
+    <Compile Include="EditForm.UserCode.cs">
+      <BoundTo>e38d4b37-4ac6-4ea5-887b-fb04d0609fd1</BoundTo>
+      <DependentUpon>EditForm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>980b928d-f007-42f9-9131-d2d78244a31b</id>
+    </Compile>
+    <Compile Include="EditHealthTracker.cs">
+      <BoundTo>b18432aa-39b4-431b-944a-a1fbbaf2b1db</BoundTo>
+      <DependentUpon>EditHealthTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a3fcea5-90d2-4d93-b33b-21c04b72145b</id>
+    </Compile>
+    <Compile Include="EditHealthTracker.UserCode.cs">
+      <BoundTo>b18432aa-39b4-431b-944a-a1fbbaf2b1db</BoundTo>
+      <DependentUpon>EditHealthTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f79d888-ba7a-45a6-9aae-49b222a72e89</id>
+    </Compile>
+    <Compile Include="EditMemberMiddleName.cs">
+      <BoundTo>347905cb-e8f6-48be-937b-81cdae02ad33</BoundTo>
+      <DependentUpon>EditMemberMiddleName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5ce1c9b2-01bd-4890-b507-f224abc5d906</id>
+    </Compile>
+    <Compile Include="EditMemberMiddleName.UserCode.cs">
+      <BoundTo>347905cb-e8f6-48be-937b-81cdae02ad33</BoundTo>
+      <DependentUpon>EditMemberMiddleName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d40a549e-5e2b-41db-95eb-c5ea8d1ed0ba</id>
+    </Compile>
+    <Compile Include="EditRegistration.cs">
+      <BoundTo>8878dd3e-b68b-4ed3-8664-7739f8e1a54d</BoundTo>
+      <DependentUpon>EditRegistration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>28581cd6-e969-4f48-b672-ca9be770b70f</id>
+    </Compile>
+    <Compile Include="EditRegistration.UserCode.cs">
+      <BoundTo>8878dd3e-b68b-4ed3-8664-7739f8e1a54d</BoundTo>
+      <DependentUpon>EditRegistration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>55c76240-7f90-45b0-9963-8b71540c3662</id>
+    </Compile>
+    <Compile Include="Add_Form.cs">
+      <BoundTo>b4c11f4d-8cd4-43cc-aa1c-492eb293a4de</BoundTo>
+      <DependentUpon>Add_Form.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>54c6ab61-fdc8-4560-9c08-d21770e0b60e</id>
+    </Compile>
+    <Compile Include="Add_Form.UserCode.cs">
+      <BoundTo>b4c11f4d-8cd4-43cc-aa1c-492eb293a4de</BoundTo>
+      <DependentUpon>Add_Form.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c548cad-2beb-4ab3-b009-f198c0fb614b</id>
+    </Compile>
+    <Compile Include="EditRole.cs">
+      <BoundTo>5447b0ca-c346-4fd0-821d-00b830c05e6a</BoundTo>
+      <DependentUpon>EditRole.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c1db515d-5667-44d8-90d4-5980feb851d8</id>
+    </Compile>
+    <Compile Include="EditRole.UserCode.cs">
+      <BoundTo>5447b0ca-c346-4fd0-821d-00b830c05e6a</BoundTo>
+      <DependentUpon>EditRole.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e406ee63-a55f-4535-b191-a7965e364322</id>
+    </Compile>
+    <Compile Include="Focuses.cs">
+      <BoundTo>a39de872-0717-47b6-aca0-a9fd94cbf36a</BoundTo>
+      <DependentUpon>Focuses.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>08928826-c85c-426b-a404-30cfe8f981a0</id>
+    </Compile>
+    <Compile Include="Focuses.UserCode.cs">
+      <BoundTo>a39de872-0717-47b6-aca0-a9fd94cbf36a</BoundTo>
+      <DependentUpon>Focuses.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb2ab44a-3254-41d5-8e36-147e4e7b0a5d</id>
+    </Compile>
+    <Compile Include="InactiveCarePlan.cs">
+      <BoundTo>a8683af8-a88d-431b-aff3-49e26a2a05ce</BoundTo>
+      <DependentUpon>InactiveCarePlan.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>11be6b6f-8262-41cf-9f75-29fc85078718</id>
+    </Compile>
+    <Compile Include="InactiveCarePlan.UserCode.cs">
+      <BoundTo>a8683af8-a88d-431b-aff3-49e26a2a05ce</BoundTo>
+      <DependentUpon>InactiveCarePlan.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>000f1ff6-0306-483a-978b-4aee7719a4cf</id>
+    </Compile>
+    <Compile Include="MemberSearchFN.cs">
+      <BoundTo>d67b54ba-ae25-4dc3-99ee-39478b821d3f</BoundTo>
+      <DependentUpon>MemberSearchFN.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>acbce48a-2852-40b1-ba50-22f5a8a6bb01</id>
+    </Compile>
+    <Compile Include="MemberSearchFN.UserCode.cs">
+      <BoundTo>d67b54ba-ae25-4dc3-99ee-39478b821d3f</BoundTo>
+      <DependentUpon>MemberSearchFN.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21d51650-72fa-4852-acc5-1c153a4da358</id>
+    </Compile>
+    <Compile Include="MemberSearchLN.cs">
+      <BoundTo>1f810a29-ce2d-4ff0-ac72-2dbdb5fe6aa6</BoundTo>
+      <DependentUpon>MemberSearchLN.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1082a7be-2973-469f-a811-1c951a739f18</id>
+    </Compile>
+    <Compile Include="MemberSearchLN.UserCode.cs">
+      <BoundTo>1f810a29-ce2d-4ff0-ac72-2dbdb5fe6aa6</BoundTo>
+      <DependentUpon>MemberSearchLN.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>803ddb7b-84f2-41e3-a2aa-042660b51570</id>
+    </Compile>
+    <Compile Include="NewEleciveProgram.cs">
+      <BoundTo>eb58abba-0043-4391-8ede-77b97d0ccafb</BoundTo>
+      <DependentUpon>NewEleciveProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>584abbc6-ef72-41f2-aa59-88c85f3462e7</id>
+    </Compile>
+    <Compile Include="NewEleciveProgram.UserCode.cs">
+      <BoundTo>eb58abba-0043-4391-8ede-77b97d0ccafb</BoundTo>
+      <DependentUpon>NewEleciveProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>878ee521-98a9-4fe0-a0a3-a733a2e76868</id>
+    </Compile>
+    <Compile Include="NewMember.cs">
+      <BoundTo>8074b4b3-210b-422d-a202-c9328d3bbbf4</BoundTo>
+      <DependentUpon>NewMember.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e01e0af1-5496-4d76-9408-63ea3a50e803</id>
+    </Compile>
+    <Compile Include="NewMember.UserCode.cs">
+      <BoundTo>8074b4b3-210b-422d-a202-c9328d3bbbf4</BoundTo>
+      <DependentUpon>NewMember.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>45d49668-c96d-40ae-9824-d0873cb8d199</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>0d3e2eaf-1c76-4208-8f81-818aae737933</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>2fc9cfbd-d408-4cda-b25c-6665981d659c</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f364c805-840d-4ab4-a9a3-952532680e43</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>2fc9cfbd-d408-4cda-b25c-6665981d659c</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dcbf3a72-52e8-41fc-9172-7c0870f58cf8</id>
+    </Compile>
+    <Compile Include="Recording2.cs">
+      <BoundTo>bdeee0d3-f71e-4c11-9516-e7cf8b0477af</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dcaa6a3e-7d38-43f5-bef5-72d47376804f</id>
+    </Compile>
+    <Compile Include="Recording2.UserCode.cs">
+      <BoundTo>bdeee0d3-f71e-4c11-9516-e7cf8b0477af</BoundTo>
+      <DependentUpon>Recording2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a0c7e8bd-725b-4f27-bc5f-d5a208907b07</id>
+    </Compile>
+    <Compile Include="RegistrationSearch.cs">
+      <BoundTo>c561d9ce-a710-4875-9206-9a912ce9b276</BoundTo>
+      <DependentUpon>RegistrationSearch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c28a3aff-7f89-406f-9172-3dccd99da2e0</id>
+    </Compile>
+    <Compile Include="RegistrationSearch.UserCode.cs">
+      <BoundTo>c561d9ce-a710-4875-9206-9a912ce9b276</BoundTo>
+      <DependentUpon>RegistrationSearch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>17a7d540-f345-48ff-bfc1-0c2117bdcf75</id>
+    </Compile>
+    <Compile Include="SearchCarePlan.cs">
+      <BoundTo>23187121-176d-4288-900e-f09017499174</BoundTo>
+      <DependentUpon>SearchCarePlan.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8102d2a1-ae67-4a10-b2db-20b7969db886</id>
+    </Compile>
+    <Compile Include="SearchCarePlan.UserCode.cs">
+      <BoundTo>23187121-176d-4288-900e-f09017499174</BoundTo>
+      <DependentUpon>SearchCarePlan.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac187df7-02cf-4375-a16a-fa17689eae75</id>
+    </Compile>
+    <Compile Include="SearchHealthTracker.cs">
+      <BoundTo>0b0d9149-d07a-4c8b-b897-be410a26e1ca</BoundTo>
+      <DependentUpon>SearchHealthTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e76fad76-031d-4155-a6f9-92ba408d7978</id>
+    </Compile>
+    <Compile Include="SearchHealthTracker.UserCode.cs">
+      <BoundTo>0b0d9149-d07a-4c8b-b897-be410a26e1ca</BoundTo>
+      <DependentUpon>SearchHealthTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6109bc9-eac4-4260-a9c2-946c95f0cb39</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>9e0648ae-331f-40a3-98a1-a9074943018e</id>
+    </Compile>
+    <Compile Include="UserCodeModule2.cs">
+      <id>2367a0c4-2447-4edf-bcda-1b72086af3f6</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Add HealthTracker.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>2fd823b2-0f21-4ac6-9efd-bb5680d1c09f</id>
+      <recordtableid>cab4bc40-7419-44b8-8ccf-e36d58fdb534</recordtableid>
+    </None>
+    <None Include="AddNewRole.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>e52cf9c2-786f-4eeb-9c1e-fc00bfcf86d9</id>
+      <recordtableid>fda1c1d0-7080-4afb-9570-a30f9e99d44a</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>5d7d322d-86c7-4994-b188-a2010941ebfd</id>
+    </None>
+    <None Include="CarePlanProgram.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>3403e490-c4af-42b9-a393-26a7ee11c565</id>
+      <recordtableid>c064007f-2016-4d2a-beb8-e7df7a990d7c</recordtableid>
+    </None>
+    <None Include="SMOKTEST_SKRepository.rximg">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <DependentUpon>SMOKTEST_SKRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>4efc8a85-9569-4879-9a5d-131a93244870</id>
+    </None>
+    <None Include="SMOKTEST_SKRepository.rxrep">
+      <id>47ebbc4b-63bf-4b30-8067-11767bedc6a4</id>
+      <repoid>6639eb22-8218-44b2-8733-b1d15807f2ca</repoid>
+      <reporootid>834aa82c-04c4-4daf-b8ed-2eea7ab0fe91</reporootid>
+    </None>
+    <None Include="DeleteForm.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>01c3e020-a6a7-4726-936a-017e36d305de</id>
+      <recordtableid>1266c6c0-8855-4083-9c95-c70de67706bd</recordtableid>
+    </None>
+    <None Include="DeleteHealthTracker.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>d79dc63f-1823-4ea3-931a-c4f95410978c</id>
+      <recordtableid>50508bd4-efc7-4cb5-a74d-32398be99802</recordtableid>
+    </None>
+    <None Include="DeleteProgram.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>02347056-c193-4cbb-9dbe-91070c452a16</id>
+      <recordtableid>7cbf444f-b55c-4245-a5af-3bed6d391330</recordtableid>
+    </None>
+    <None Include="DeleteRole.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>ccd75056-b3ca-4364-8dae-4f027c1c1395</id>
+      <recordtableid>874d1002-a48f-431f-b0a6-de76ebb21463</recordtableid>
+    </None>
+    <None Include="EditForm.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>e38d4b37-4ac6-4ea5-887b-fb04d0609fd1</id>
+      <recordtableid>f0a6f090-c7a3-49e2-8765-9227fd945ebe</recordtableid>
+    </None>
+    <None Include="EditHealthTracker.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>b18432aa-39b4-431b-944a-a1fbbaf2b1db</id>
+      <recordtableid>d19c6c8d-d6f5-4906-ad98-f01e96a585a0</recordtableid>
+    </None>
+    <None Include="EditMemberMiddleName.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>347905cb-e8f6-48be-937b-81cdae02ad33</id>
+      <recordtableid>69e3dbfc-2030-4d8f-811e-3ba7b3335dbc</recordtableid>
+    </None>
+    <None Include="EditRegistration.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>8878dd3e-b68b-4ed3-8664-7739f8e1a54d</id>
+      <recordtableid>d2b52c9d-0489-4974-a022-05ed28459bf5</recordtableid>
+    </None>
+    <None Include="Add_Form.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>b4c11f4d-8cd4-43cc-aa1c-492eb293a4de</id>
+      <recordtableid>324f408c-8edf-47ca-9e71-5ecdcb354c01</recordtableid>
+    </None>
+    <None Include="EditRole.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>5447b0ca-c346-4fd0-821d-00b830c05e6a</id>
+      <recordtableid>f2ef536e-eabe-41ed-a070-47012da7f465</recordtableid>
+    </None>
+    <None Include="Focuses.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>a39de872-0717-47b6-aca0-a9fd94cbf36a</id>
+      <recordtableid>3c2154e5-4491-4928-9054-7439dd6b3b38</recordtableid>
+    </None>
+    <None Include="InactiveCarePlan.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>a8683af8-a88d-431b-aff3-49e26a2a05ce</id>
+      <recordtableid>d34d4ee2-a4f9-40d8-bc6e-75dedb503b62</recordtableid>
+    </None>
+    <None Include="MemberSearchFN.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>d67b54ba-ae25-4dc3-99ee-39478b821d3f</id>
+      <recordtableid>f454f334-51b3-4138-928d-d80ea35631de</recordtableid>
+    </None>
+    <None Include="MemberSearchLN.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>1f810a29-ce2d-4ff0-ac72-2dbdb5fe6aa6</id>
+      <recordtableid>c0f877a0-fcb1-4535-88f7-6229094a37c2</recordtableid>
+    </None>
+    <None Include="NewEleciveProgram.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>eb58abba-0043-4391-8ede-77b97d0ccafb</id>
+      <recordtableid>747c4d65-8c6d-4521-9e7d-56024ca7e9af</recordtableid>
+    </None>
+    <None Include="NewMember.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>8074b4b3-210b-422d-a202-c9328d3bbbf4</id>
+      <recordtableid>75685009-13f4-4d49-aa0d-59a02918ce9a</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>2fc9cfbd-d408-4cda-b25c-6665981d659c</id>
+      <recordtableid>4b12d249-d9e0-4c67-aad1-bca05f2056b5</recordtableid>
+    </None>
+    <None Include="Recording2.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>bdeee0d3-f71e-4c11-9516-e7cf8b0477af</id>
+      <recordtableid>e60c9b48-b2d0-45b3-9c51-3a7b5ebcac3d</recordtableid>
+    </None>
+    <None Include="RegistrationSearch.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>c561d9ce-a710-4875-9206-9a912ce9b276</id>
+      <recordtableid>2a563b69-bd8d-4b2c-ac67-7e4b7c6dac9c</recordtableid>
+    </None>
+    <None Include="SearchCarePlan.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>23187121-176d-4288-900e-f09017499174</id>
+      <recordtableid>a636dae4-1de5-422d-a9f7-1a5c205117c2</recordtableid>
+    </None>
+    <None Include="SearchHealthTracker.rxrec">
+      <BoundTo>47ebbc4b-63bf-4b30-8067-11767bedc6a4</BoundTo>
+      <id>0b0d9149-d07a-4c8b-b897-be410a26e1ca</id>
+      <recordtableid>0e38fc76-824d-4db4-ac85-337fcc239d28</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CCHSSMOKTEST.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7d025fb8-e6eb-43da-b303-62eed3e357f7</id>
+    </Content>
+    <Content Include="CCHSSMOKTEST.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7e3ce400-3985-4a8b-aa78-dee14e891e5f</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

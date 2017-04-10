@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="225f51225bcf71d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/25/2017 11:05:26 PM"
+		timestampiso="2017-01-26T04:05:26"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="56.62s"
+			durationms="56618"
+			type="test suite"
+			rid="58c3f3d501aeeb1"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="56.61s"
+				durationms="56613"
+				type="test case"
+				rid="10adb980f6cbe0fd"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="56.6s"
+					durationms="56597"
+					type="test case iteration"
+					rid="29bc57d6f5a1e0"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="56.6s"
+						durationms="56596"
+						type="test case"
+						rid="781c5226789d474"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="Member_Registration"
+						testcaseid="bb594849-8eda-42ba-b3bb-2cc21f647ac2"
+						datasource="RegistrationSearchDataConnector"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="56.6s"
+							durationms="56596"
+							type="test case iteration"
+							rid="317a2e71965bc7a"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="Member_Registration"
+							iteration="1">
+							<datarow>
+								<field
+									name="ColumnEmail">
+									srujana.katta@carecamhealthsystems.com
+								</field>
+								<field
+									name="ColumnLN">
+									Smith
+								</field>
+								<field
+									name="ColumnMemberId">
+									Qa
+								</field>
+								<field
+									name="ColumnZipCode">
+									12345
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="42.6s"
+								durationms="42604"
+								type="test module"
+								rid="c3e5cd7fab1b6e"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="RegistrationSearch"
+								moduleid="ef2f1280-8e2e-4167-a076-d37f1bd5ddd9"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varEmail"
+										value="srujana.katta@carecamhealthsystems.com"/>
+									<varbinding
+										name="varLastName"
+										value="Smith"/>
+									<varbinding
+										name="varMemberId"
+										value="Qa"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.109"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="23:05:26"
+									time="00:00.109"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varEmail = 'srujana.katta@carecamhealthsystems.com', $varLastName = 'Smith', $varMemberId = 'Qa'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.172"
+									timeRelativeToTestModuleStartTime="00:00.064"
+									timeWallClock="23:05:26"
+									time="00:00.172"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Sidebars.Registrations_Menu_Item' at 90;10.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/?/?/ul//span[@innertext='Registrations']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Sidebars.Registrations_Menu_Item"
+										id="e22a8ede1ffe434b9609a3697873bd0c"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="121"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.696"
+									timeRelativeToTestModuleStartTime="00:01.588"
+									timeWallClock="23:05:27"
+									time="00:01.696"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.EmailAddress' at 81;19.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.EmailAddress"
+										id="05cf3d4416fa496fa5a753ed3e23a907"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="125"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.025"
+									timeRelativeToTestModuleStartTime="00:02.917"
+									timeWallClock="23:05:29"
+									time="00:03.025"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$varEmail' with focus on 'LoginCCHSPortal.Registration_Search.EmailAddress'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.EmailAddress"
+										id="05cf3d4416fa496fa5a753ed3e23a907"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="129"
+										itemindex="2"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.180"
+									timeRelativeToTestModuleStartTime="00:08.072"
+									timeWallClock="23:05:34"
+									time="00:08.180"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button' at 35;22.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button"
+										id="3a7c4dd2b5e741eb9e54ebc86a37c0a3"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="133"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.966"
+									timeRelativeToTestModuleStartTime="00:08.858"
+									timeWallClock="23:05:35"
+									time="00:08.966"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating Exists on item 'LoginCCHSPortal.Registration_Search.Email_Validation_Registration'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext~'^srujana\.katta@carecamheal']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Email_Validation_Registration"
+										id="480f1a491871409a9a581858de3620be"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="137"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.609"
+									timeRelativeToTestModuleStartTime="00:09.501"
+									timeWallClock="23:05:35"
+									time="00:09.609"
+									level="Success"
+									category="Validation">
+									<message>
+										Element for item 'Email_Validation_Registration' does exist.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext~'^srujana\.katta@carecamheal']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Email_Validation_Registration"
+										id="480f1a491871409a9a581858de3620be"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="138"
+										loglvl="Success"
+										itemindex="4"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.773"
+									timeRelativeToTestModuleStartTime="00:09.665"
+									timeWallClock="23:05:36"
+									time="00:09.773"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.EmailAddress' at 308;20.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.EmailAddress"
+										id="05cf3d4416fa496fa5a753ed3e23a907"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="141"
+										itemindex="5"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.568"
+									timeRelativeToTestModuleStartTime="00:10.460"
+									timeWallClock="23:05:36"
+									time="00:10.568"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="6"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="145"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.608"
+									timeRelativeToTestModuleStartTime="00:12.500"
+									timeWallClock="23:05:38"
+									time="00:12.608"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key 'Ctrl+A' Press with focus on 'LoginCCHSPortal.Registration_Search.EmailAddress'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.EmailAddress"
+										id="05cf3d4416fa496fa5a753ed3e23a907"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="148"
+										itemindex="7"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.779"
+									timeRelativeToTestModuleStartTime="00:12.671"
+									timeWallClock="23:05:39"
+									time="00:12.779"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="8"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="153"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:14.839"
+									timeRelativeToTestModuleStartTime="00:14.731"
+									timeWallClock="23:05:41"
+									time="00:14.839"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Delete}' with focus on 'LoginCCHSPortal.Registration_Search.EmailAddress'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.EmailAddress"
+										id="05cf3d4416fa496fa5a753ed3e23a907"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="156"
+										itemindex="9"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:15.166"
+									timeRelativeToTestModuleStartTime="00:15.058"
+									timeWallClock="23:05:41"
+									time="00:15.166"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="10"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="160"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:17.225"
+									timeRelativeToTestModuleStartTime="00:17.117"
+									timeWallClock="23:05:43"
+									time="00:17.225"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search' at 61;18.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="163"
+										itemindex="11"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:18.021"
+									timeRelativeToTestModuleStartTime="00:17.913"
+									timeWallClock="23:05:44"
+									time="00:18.021"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$varLastName' with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="167"
+										itemindex="12"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:18.785"
+									timeRelativeToTestModuleStartTime="00:18.677"
+									timeWallClock="23:05:45"
+									time="00:18.785"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button' at 48;21.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button"
+										id="3a7c4dd2b5e741eb9e54ebc86a37c0a3"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="171"
+										itemindex="13"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:19.583"
+									timeRelativeToTestModuleStartTime="00:19.475"
+									timeWallClock="23:05:45"
+									time="00:19.583"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating Exists on item 'LoginCCHSPortal.Registration_Search.Validation_for_Last_Name_on_registration_search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='Smith']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Validation_for_Last_Name_on_registration_search"
+										id="3ef88856b1ce4842a034fb3b5adf2d55"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="175"
+										itemindex="14"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.175"
+									timeRelativeToTestModuleStartTime="00:20.067"
+									timeWallClock="23:05:46"
+									time="00:20.175"
+									level="Success"
+									category="Validation">
+									<message>
+										Element for item 'Validation_for_Last_Name_on_registration_search' does exist.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='Smith']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Validation_for_Last_Name_on_registration_search"
+										id="3ef88856b1ce4842a034fb3b5adf2d55"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="176"
+										loglvl="Success"
+										itemindex="14"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:20.331"
+									timeRelativeToTestModuleStartTime="00:20.223"
+									timeWallClock="23:05:46"
+									time="00:20.331"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search' at 308;20.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="179"
+										itemindex="15"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:21.127"
+									timeRelativeToTestModuleStartTime="00:21.019"
+									timeWallClock="23:05:47"
+									time="00:21.127"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="16"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="183"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:23.155"
+									timeRelativeToTestModuleStartTime="00:23.047"
+									timeWallClock="23:05:49"
+									time="00:23.155"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key 'Ctrl+A' Press with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="186"
+										itemindex="17"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:23.311"
+									timeRelativeToTestModuleStartTime="00:23.203"
+									timeWallClock="23:05:49"
+									time="00:23.311"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="18"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="191"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:25.370"
+									timeRelativeToTestModuleStartTime="00:25.262"
+									timeWallClock="23:05:51"
+									time="00:25.370"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Delete}' with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="194"
+										itemindex="19"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:25.682"
+									timeRelativeToTestModuleStartTime="00:25.574"
+									timeWallClock="23:05:51"
+									time="00:25.682"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="20"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="198"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:27.741"
+									timeRelativeToTestModuleStartTime="00:27.633"
+									timeWallClock="23:05:53"
+									time="00:27.741"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search' at 98;17.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="201"
+										itemindex="21"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:28.539"
+									timeRelativeToTestModuleStartTime="00:28.431"
+									timeWallClock="23:05:54"
+									time="00:28.539"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '01/12/1976' with focus on 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="205"
+										itemindex="22"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:29.841"
+									timeRelativeToTestModuleStartTime="00:29.733"
+									timeWallClock="23:05:56"
+									time="00:29.841"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Tab}' with focus on 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="209"
+										itemindex="23"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:30.167"
+									timeRelativeToTestModuleStartTime="00:30.059"
+									timeWallClock="23:05:56"
+									time="00:30.167"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button' at 45;20.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button"
+										id="3a7c4dd2b5e741eb9e54ebc86a37c0a3"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="213"
+										itemindex="24"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:30.987"
+									timeRelativeToTestModuleStartTime="00:30.879"
+									timeWallClock="23:05:57"
+									time="00:30.987"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating Exists on item 'LoginCCHSPortal.Registration_Search.DOB_Validation_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='01/12/1976']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_Validation_Registration_Search"
+										id="4d9e24ff77c844e090105e69708382b9"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="217"
+										itemindex="25"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.213"
+									timeRelativeToTestModuleStartTime="00:32.104"
+									timeWallClock="23:05:58"
+									time="00:32.213"
+									level="Success"
+									category="Validation">
+									<message>
+										Element for item 'DOB_Validation_Registration_Search' does exist.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='01/12/1976']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_Validation_Registration_Search"
+										id="4d9e24ff77c844e090105e69708382b9"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="218"
+										loglvl="Success"
+										itemindex="25"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:32.369"
+									timeRelativeToTestModuleStartTime="00:32.260"
+									timeWallClock="23:05:58"
+									time="00:32.369"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search' at 308;20.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="221"
+										itemindex="26"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:33.135"
+									timeRelativeToTestModuleStartTime="00:33.027"
+									timeWallClock="23:05:59"
+									time="00:33.135"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="27"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="225"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:35.167"
+									timeRelativeToTestModuleStartTime="00:35.059"
+									timeWallClock="23:06:01"
+									time="00:35.167"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key 'Ctrl+A' Press with focus on 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="228"
+										itemindex="28"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:35.337"
+									timeRelativeToTestModuleStartTime="00:35.229"
+									timeWallClock="23:06:01"
+									time="00:35.337"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="29"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="233"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:37.396"
+									timeRelativeToTestModuleStartTime="00:37.288"
+									timeWallClock="23:06:03"
+									time="00:37.396"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Delete}' with focus on 'LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.DOB_On_Registration_Search"
+										id="85c8d2e90e2746baab491b6fbb40f842"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="236"
+										itemindex="30"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:37.724"
+									timeRelativeToTestModuleStartTime="00:37.616"
+									timeWallClock="23:06:03"
+									time="00:37.724"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 2s.
+									</message>
+									<metainfo
+										itemindex="31"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="240"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:39.783"
+									timeRelativeToTestModuleStartTime="00:39.675"
+									timeWallClock="23:06:06"
+									time="00:39.783"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Member_ID_on_Registartion' at 54;23.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'memberid']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Member_ID_on_Registartion"
+										id="b8577a2f98f2424599a4408a45bd4d88"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="243"
+										itemindex="32"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:40.581"
+									timeRelativeToTestModuleStartTime="00:40.473"
+									timeWallClock="23:06:06"
+									time="00:40.581"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$varMemberId' with focus on 'LoginCCHSPortal.Registration_Search.Member_ID_on_Registartion'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'memberid']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Member_ID_on_Registartion"
+										id="b8577a2f98f2424599a4408a45bd4d88"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="247"
+										itemindex="33"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:41.034"
+									timeRelativeToTestModuleStartTime="00:40.926"
+									timeWallClock="23:06:07"
+									time="00:41.034"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button' at 49;18.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button"
+										id="3a7c4dd2b5e741eb9e54ebc86a37c0a3"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="251"
+										itemindex="34"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:41.816"
+									timeRelativeToTestModuleStartTime="00:41.708"
+									timeWallClock="23:06:08"
+									time="00:41.816"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating Exists on item 'LoginCCHSPortal.Registration_Search.LN_Validation_On_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='Qa']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.LN_Validation_On_Registration_Search"
+										id="53f7064582ac43dbb8e4e4c7930fa28e"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="255"
+										itemindex="35"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:42.572"
+									timeRelativeToTestModuleStartTime="00:42.464"
+									timeWallClock="23:06:08"
+									time="00:42.572"
+									level="Success"
+									category="Validation">
+									<message>
+										Element for item 'LN_Validation_On_Registration_Search' does exist.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='Qa']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.LN_Validation_On_Registration_Search"
+										id="53f7064582ac43dbb8e4e4c7930fa28e"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\RegistrationSearch.cs"
+										codeline="256"
+										loglvl="Success"
+										itemindex="35"/>
+								</item>
+							</activity>
+							<activity
+								result="Failed"
+								duration="13.97s"
+								durationms="13965"
+								type="test module"
+								rid="2f94c5573d571311"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="EditRegistration"
+								moduleid="c4f04b93-bd45-476e-a62f-805e4b1d9f22"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<errmsg>
+									Failed to find item 'SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Actions_Button'.
+								</errmsg>
+								<varbindings>
+									<varbinding
+										name="varLastName"
+										value="Smith"/>
+									<varbinding
+										name="varZipCode"
+										value="12345"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:42.712"
+									timeRelativeToTestModuleStartTime="00:00.000"
+									timeWallClock="23:06:08"
+									time="00:42.712"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varLastName = 'Smith', $varZipCode = '12345'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:42.744"
+									timeRelativeToTestModuleStartTime="00:00.031"
+									timeWallClock="23:06:08"
+									time="00:42.744"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search' at 56;21.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:43.570"
+									timeRelativeToTestModuleStartTime="00:00.858"
+									timeWallClock="23:06:09"
+									time="00:43.570"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key 'Ctrl+A' Press with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:43.742"
+									timeRelativeToTestModuleStartTime="00:01.029"
+									timeWallClock="23:06:09"
+									time="00:43.742"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence '{Delete}' with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="117"
+										itemindex="2"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.070"
+									timeRelativeToTestModuleStartTime="00:01.357"
+									timeWallClock="23:06:10"
+									time="00:44.070"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search' at 24;19.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="121"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:44.881"
+									timeRelativeToTestModuleStartTime="00:02.168"
+									timeWallClock="23:06:11"
+									time="00:44.881"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$varLastName' with focus on 'LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'txtlastName']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Last_Name_on_Registration_Search"
+										id="174112cea2d84e7890eb061900dec752"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="125"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:45.645"
+									timeRelativeToTestModuleStartTime="00:02.932"
+									timeWallClock="23:06:11"
+									time="00:45.645"
+									level="Info"
+									category="Mouse"
+									errimg="images_CCHSSmok_b947f711\CCHSSmok_b947f711_17dfbb5a_trace.jpg"
+									errthumb="images_CCHSSmok_b947f711\CCHSSmok_b947f711_17dfbb5a_trace_thumb.jpg">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button' at 28;15.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Search_Button"
+										id="3a7c4dd2b5e741eb9e54ebc86a37c0a3"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="129"
+										itemindex="5"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:46.238"
+									timeRelativeToTestModuleStartTime="00:03.525"
+									timeWallClock="23:06:12"
+									time="00:46.238"
+									level="Info"
+									category="Mouse"
+									errimg="images_CCHSSmok_b947f711\CCHSSmok_b947f711_51f12d4b_trace.jpg"
+									errthumb="images_CCHSSmok_b947f711\CCHSSmok_b947f711_51f12d4b_trace_thumb.jpg">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Registration_Search.Actions_Button' at 2;4.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'row0']/span"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Actions_Button"
+										id="3085269cc692481193f258c107d6d2eb"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="133"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:56.568"
+									timeRelativeToTestModuleStartTime="00:13.855"
+									timeWallClock="23:06:22"
+									time="00:56.568"
+									level="Error"
+									category="Module"
+									errimg="images_CCHSSmok_b947f711\CCHSSmok_b947f711_ab619520_trace.jpg"
+									errthumb="images_CCHSSmok_b947f711\CCHSSmok_b947f711_ab619520_trace_thumb.jpg">
+									<message>
+										Failed to find item 'SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Actions_Button'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//a[#'row0']/span' within 1m.
+									</message>
+									<metainfo
+										stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSMOKTEST.SMOKTEST_SKRepositoryFolders.Registration_SearchFolder.get_Actions_Button() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SMOKTEST_SKRepository.cs:line 2303
+   at CCHSSmokeTest.Recordings.Members.EditRegistration.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs:line 134
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditRegistration.cs"
+										codeline="134"
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'row0']/span"
+										fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Registration_Search.Actions_Button"
+										id="3085269cc692481193f258c107d6d2eb"
+										timeout="60000"
+										loglvl="Error"
+										itemindex="6"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

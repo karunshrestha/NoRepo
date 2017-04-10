@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1477a0389c9d8780"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/4/2017 5:35:21 PM"
+		timestampiso="2017-02-04T22:35:21"
+		timeoutfactor="1"
+		module="SearchByDOB">
+		<detail>
+			SearchByDOB
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.090"
+			timeRelativeToTestModuleStartTime="00:00.090"
+			timeWallClock="17:35:21"
+			time="00:00.090"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varRepDOB, varDOB
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.099"
+			timeRelativeToTestModuleStartTime="00:00.099"
+			timeWallClock="17:35:21"
+			time="00:00.099"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.InputTagDob' at 88;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.InputTagDob"
+				id="77722c3f58d5424c85a16cc148e8f33f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="103"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.268"
+			timeRelativeToTestModuleStartTime="00:01.268"
+			timeWallClock="17:35:22"
+			time="00:01.268"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$varDOB' with focus on 'LoginCCHSPortal.InputTagDob'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.InputTagDob"
+				id="77722c3f58d5424c85a16cc148e8f33f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="107"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.372"
+			timeRelativeToTestModuleStartTime="00:02.372"
+			timeWallClock="17:35:23"
+			time="00:02.372"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'LoginCCHSPortal.InputTagDob'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.InputTagDob"
+				id="77722c3f58d5424c85a16cc148e8f33f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="111"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.682"
+			timeRelativeToTestModuleStartTime="00:02.682"
+			timeWallClock="17:35:23"
+			time="00:02.682"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member.Search1' at 32;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Member.Search1"
+				id="dce2be2ce4b64e369419a9ee6af34f90"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="115"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.456"
+			timeRelativeToTestModuleStartTime="00:03.456"
+			timeWallClock="17:35:24"
+			time="00:03.456"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeContains (InnerText&gt;$varDOB) on item 'LoginCCHSPortal.Member.TableFirstElementDOB'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext&lt;'']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Member.TableFirstElementDOB"
+				id="b020210cd305401b9056dadb477054fd"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="120"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.120"
+			timeRelativeToTestModuleStartTime="00:04.120"
+			timeWallClock="17:35:25"
+			time="00:04.120"
+			level="Failure"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Member.TableFirstElementDOB' does not match the specified RegEx (actual='Mobile', regex='1/12/1976').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext&lt;'']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Member.TableFirstElementDOB"
+				id="b020210cd305401b9056dadb477054fd"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="121"
+				loglvl="Failure"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.228"
+			timeRelativeToTestModuleStartTime="00:04.228"
+			timeWallClock="17:35:25"
+			time="00:04.228"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.InputTagDob' at 88;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.InputTagDob"
+				id="77722c3f58d5424c85a16cc148e8f33f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="125"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.067"
+			timeRelativeToTestModuleStartTime="00:05.067"
+			timeWallClock="17:35:26"
+			time="00:05.067"
+			level="Info"
+			category="Keyboard"
+			errimg=".\SearchBy_715d19b9_8b7bca45_trace.jpg"
+			errthumb=".\SearchBy_715d19b9_8b7bca45_trace_thumb.jpg">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="129"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.173"
+			timeRelativeToTestModuleStartTime="00:05.173"
+			timeWallClock="17:35:26"
+			time="00:05.173"
+			level="Info"
+			category="Keyboard"
+			errimg=".\SearchBy_715d19b9_5c9f991f_trace.jpg"
+			errthumb=".\SearchBy_715d19b9_5c9f991f_trace_thumb.jpg">
+			<message>
+				Key sequence '{Delete}{Return}'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\SearchByDOB.cs"
+				codeline="133"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.477"
+			timeRelativeToTestModuleStartTime="00:05.477"
+			timeWallClock="17:35:26"
+			time="00:05.477"
+			level="Error"
+			category="Module"
+			errimg=".\SearchBy_715d19b9_e7e26a16_trace.jpg"
+			errthumb=".\SearchBy_715d19b9_e7e26a16_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

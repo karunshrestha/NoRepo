@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="191285289ae0ff52"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/13/2017 5:01:49 PM"
+		timestampiso="2017-01-13T22:01:49"
+		timeoutfactor="1"
+		module="CreateUserNeg">
+		<detail>
+			CreateUserNeg
+		</detail>
+		<errmsg>
+			Object reference not set to an instance of an object.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.936"
+			timeRelativeToTestModuleStartTime="00:08.936"
+			timeWallClock="17:01:58"
+			time="00:08.936"
+			level="Error"
+			category="Module"
+			errimg=".\CreateUs_4222b7b4_0dfd6a6c_trace.jpg"
+			errthumb=".\CreateUs_4222b7b4_0dfd6a6c_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at CCHSSmokeTest.CodeModules.CreateUserNeg.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\CreateUserNeg.cs:line 71
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\CreateUserNeg.cs"
+				codeline="71"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

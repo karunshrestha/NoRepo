@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="234afe3b7d60fff2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/3/2017 3:24:39 PM"
+		timestampiso="2017-01-03T20:24:39"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="47.16s"
+			durationms="47161"
+			type="test suite"
+			rid="1517029bd4703f02"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="46.48s"
+				durationms="46477"
+				type="test case"
+				rid="c9e69002587c3b"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TC1_Change_Password"
+				testcaseid="224245c2-f6ee-47d4-908a-70d1ed7ffbdd"
+				datasource="ChangePassword"
+				iterationcount="1"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="46.47s"
+					durationms="46467"
+					type="test case iteration"
+					rid="2ff2ca3c7b134f9c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TC1_Change_Password"
+					iteration="1">
+					<datarow>
+						<field
+							name="LoginEmail">
+							shresthakarun@yahoo.com
+						</field>
+						<field
+							name="Password">
+							Password1
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="46.44s"
+						durationms="46435"
+						type="test module"
+						rid="8468ab0580595d2"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ChangePassword"
+						moduleid="1f8b880f-928f-436e-aded-c7fdcff59dcd"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful' does not match the specified value (Failed to find item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']' within 30s.).
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="LoginEmail"
+								value="shresthakarun@yahoo.com"/>
+							<varbinding
+								name="OldPassword"
+								value="Password1"/>
+							<varbinding
+								name="NewPassword"
+								value="Password1"/>
+							<varbinding
+								name="ConfirmNewPassword"
+								value="Password1"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.482"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="15:24:40"
+							time="00:01.482"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$LoginEmail = 'shresthakarun@yahoo.com', $OldPassword = 'Password1', $NewPassword = 'Password1', $ConfirmNewPassword = 'Password1'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.544"
+							timeRelativeToTestModuleStartTime="00:00.064"
+							timeWallClock="15:24:41"
+							time="00:01.544"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://qa.carecamhealthsystems.com' with browser 'Chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="134"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.642"
+							timeRelativeToTestModuleStartTime="00:00.162"
+							timeWallClock="15:24:41"
+							time="00:01.642"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Change_Password.Change' at 71;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'change']"
+								fullname="CCHSSmokeTestRepository.Change_Password.Change"
+								id="4362c549482549c7a8a0535ac08835d5"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="138"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.978"
+							timeRelativeToTestModuleStartTime="00:04.498"
+							timeWallClock="15:24:45"
+							time="00:05.978"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Login.Email' at 28;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+								fullname="CCHSSmokeTestRepository.Login.Email"
+								id="1d18b98d2fc1446caac6b1e3edf16591"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="142"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.116"
+							timeRelativeToTestModuleStartTime="00:05.636"
+							timeWallClock="15:24:46"
+							time="00:07.116"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$LoginEmail' with focus on 'Login.Email'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+								fullname="CCHSSmokeTestRepository.Login.Email"
+								id="1d18b98d2fc1446caac6b1e3edf16591"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="146"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.887"
+							timeRelativeToTestModuleStartTime="00:08.407"
+							timeWallClock="15:24:49"
+							time="00:09.887"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Change_Password.OldPassword' at 30;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'oldPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.OldPassword"
+								id="b3725e19824446d0a64cd75554566f26"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="150"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.906"
+							timeRelativeToTestModuleStartTime="00:09.426"
+							timeWallClock="15:24:50"
+							time="00:10.906"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$OldPassword' with focus on 'Change_Password.OldPassword'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'oldPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.OldPassword"
+								id="b3725e19824446d0a64cd75554566f26"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="154"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.196"
+							timeRelativeToTestModuleStartTime="00:10.716"
+							timeWallClock="15:24:51"
+							time="00:12.196"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Change_Password.NewPassword' at 72;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.NewPassword"
+								id="949b6acd640d4dff80050c3d07e55833"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="158"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.140"
+							timeRelativeToTestModuleStartTime="00:11.660"
+							timeWallClock="15:24:52"
+							time="00:13.140"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$NewPassword' with focus on 'Change_Password.NewPassword'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.NewPassword"
+								id="949b6acd640d4dff80050c3d07e55833"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="162"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.382"
+							timeRelativeToTestModuleStartTime="00:12.902"
+							timeWallClock="15:24:53"
+							time="00:14.382"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Change_Password.ConfirmNewPassword' at 64;23.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'confirmNewPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.ConfirmNewPassword"
+								id="22e79aec629341a0b74bf35bce010ac5"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="166"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.326"
+							timeRelativeToTestModuleStartTime="00:13.846"
+							timeWallClock="15:24:54"
+							time="00:15.326"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$ConfirmNewPassword' with focus on 'Change_Password.ConfirmNewPassword'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'confirmNewPassword']"
+								fullname="CCHSSmokeTestRepository.Change_Password.ConfirmNewPassword"
+								id="22e79aec629341a0b74bf35bce010ac5"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="170"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.552"
+							timeRelativeToTestModuleStartTime="00:15.072"
+							timeWallClock="15:24:56"
+							time="00:16.552"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Login.LoginBtn' at 177;16.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']"
+								fullname="CCHSSmokeTestRepository.Login.LoginBtn"
+								id="baf274284353498084e740cdf1446d00"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="174"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.511"
+							timeRelativeToTestModuleStartTime="00:16.030"
+							timeWallClock="15:24:57"
+							time="00:17.511"
+							level="Info"
+							category="Validation"
+							errimg="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_67a14137_trace.jpg"
+							errthumb="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_67a14137_trace_thumb.jpg">
+							<message>
+								Validating AttributeEqual (InnerText=' Your password has been successfully changed.') on item 'Change_Password.DivTagYourPasswordHasBeenSuccessful'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']"
+								fullname="CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful"
+								id="8af377545c184664af012ea4a2046a8a"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="178"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:47.690"
+							timeRelativeToTestModuleStartTime="00:46.210"
+							timeWallClock="15:25:27"
+							time="00:47.690"
+							level="Failure"
+							category="Validation"
+							errimg="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_4e29d338_trace.jpg"
+							errthumb="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_4e29d338_trace_thumb.jpg">
+							<message>
+								Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful' does not match the specified value (Failed to find item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']' within 30s.).
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']"
+								fullname="CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful"
+								id="8af377545c184664af012ea4a2046a8a"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="179"
+								loglvl="Failure"
+								itemindex="11"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:47.738"
+							timeRelativeToTestModuleStartTime="00:46.258"
+							timeWallClock="15:25:27"
+							time="00:47.738"
+							level="Error"
+							category="Module"
+							errimg="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_35e2c959_trace.jpg"
+							errthumb="images_CCHSSmok_9d2b810f\CCHSSmok_9d2b810f_35e2c959_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful' does not match the specified value (Failed to find item 'CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']' within 30s.).
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CCHSSmokeTest.ChangePassword.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs:line 179
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\ChangePassword.cs"
+								codeline="179"
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']"
+								fullname="CCHSSmokeTestRepository.Change_Password.DivTagYourPasswordHasBeenSuccessful"
+								id="8af377545c184664af012ea4a2046a8a"
+								timeout="30000"
+								loglvl="Error"
+								itemindex="11"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="fe4e44c7-8f8a-479a-824d-a27d3e9d1363"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		ValidationGeneral
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidationGeneral"
+	namespace="CCHSSmokeTest.Recordings.Validations"/>
+	<variables>
+		<var
+		name="varMatchValue"
+		id="f7f835b9-57a0-4095-9d71-a32116734378">
+			Your password
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="e1d466ee-0d9c-45a3-a24e-931befd4bef0"
+		action="AttributeContains">
+			<comment/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varMatchValue"/>
+			</bindings>
+			<info
+			sourcename="ElementTree"
+			id="10327d70-6d03-4ed8-b6cd-01b596071572">
+				<path>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~$varInnerTexVal]
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Your password
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="SmokeTestRepositoryKS"
+	id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+	rxversion="6.2"
+	relativepath="..\..\SmokeTestRepositoryKS.rxrep">
+		<codegen
+		classname="SmokeTestRepositoryKS"
+		namespace="CCHSSmokeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidationGeneral.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

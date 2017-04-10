@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b07d228abddf4f4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/1/2017 3:21:57 PM"
+		timestampiso="2017-02-01T20:21:57"
+		timeoutfactor="1"
+		module="NavSidebar">
+		<detail>
+			NavSidebar
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.100"
+			timeRelativeToTestModuleStartTime="00:00.100"
+			timeWallClock="15:21:57"
+			time="00:00.100"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varSidebarName
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.111"
+			timeRelativeToTestModuleStartTime="00:00.111"
+			timeWallClock="15:21:57"
+			time="00:00.111"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Sidebar.GlobalSidebarName' at 74;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/li[9]/ul//span[@innertext='Package Groups']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Sidebar.GlobalSidebarName"
+				id="b8d1f9513c764cff87f460f7522f0c49"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Navigations\NavSidebar.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.379"
+			timeRelativeToTestModuleStartTime="00:01.379"
+			timeWallClock="15:21:58"
+			time="00:01.379"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Navigations\NavSidebar.cs"
+				codeline="96"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

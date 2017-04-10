@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="28be351a80c67e4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/9/2017 11:41:36 AM"
+		timestampiso="2017-01-09T16:41:36"
+		timeoutfactor="1"
+		module="DeleteActivity">
+		<detail>
+			DeleteActivity
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.101"
+			timeRelativeToTestModuleStartTime="00:00.101"
+			timeWallClock="11:41:37"
+			time="00:00.101"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Delete' at 47;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'delete']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Delete"
+				id="54f2800b9de141859af6feee536cd259"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\DeleteActivity.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.902"
+			timeRelativeToTestModuleStartTime="00:01.902"
+			timeWallClock="11:41:38"
+			time="00:01.902"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'User.DeleteYes' at 16;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteYes']"
+				fullname="CCHSSmokeTestRepository.User.DeleteYes"
+				id="ce69024ad0574ed795a32cc630c74c77"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\DeleteActivity.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.896"
+			timeRelativeToTestModuleStartTime="00:02.896"
+			timeWallClock="11:41:39"
+			time="00:02.896"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText=' The Activity has been successfully deleted.') on item 'LoginCCHSPortal.DivTagTheActivityHasBeenSuccessfull'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Activity\ has\ been\ su']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagTheActivityHasBeenSuccessfull"
+				id="cd78b76ba79a42acb56442fd90799608"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\DeleteActivity.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.466"
+			timeRelativeToTestModuleStartTime="00:03.466"
+			timeWallClock="11:41:40"
+			time="00:03.466"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.DivTagTheActivityHasBeenSuccessfull' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Activity\ has\ been\ su']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagTheActivityHasBeenSuccessfull"
+				id="cd78b76ba79a42acb56442fd90799608"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\DeleteActivity.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

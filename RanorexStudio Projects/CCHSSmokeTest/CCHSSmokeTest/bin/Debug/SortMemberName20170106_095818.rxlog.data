@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="17eadcdc420ad068"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 9:58:18 AM"
+		timestampiso="2017-01-06T14:58:18"
+		timeoutfactor="1"
+		module="SortMemberName">
+		<detail>
+			SortMemberName
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.092"
+			timeRelativeToTestModuleStartTime="00:00.092"
+			timeWallClock="09:58:19"
+			time="00:00.092"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>test
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.092"
+			timeRelativeToTestModuleStartTime="00:00.092"
+			timeWallClock="09:58:19"
+			time="00:00.092"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'LoginCCHSPortal.ATagPn0' and assigning its value to variable 'test'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.ATagPn0"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.546"
+			timeRelativeToTestModuleStartTime="00:00.546"
+			timeWallClock="09:58:19"
+			time="00:00.546"
+			level="Info"
+			category="User">
+			<message>
+				Aalex, Aandy
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+				codeline="99"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

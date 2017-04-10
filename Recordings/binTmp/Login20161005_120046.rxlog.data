@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="39101aa4e9b7274"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="10/5/2016 12:00:46 PM"
+		timestampiso="2016-10-05T16:00:46"
+		timeoutfactor="1"
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<errmsg>
+			Failed to find item 'LoginRepository.LoginCCHSPortal.Email'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.093"
+			timeRelativeToTestModuleStartTime="00:00.093"
+			timeWallClock="12:00:46"
+			time="00:00.093"
+			level="Info"
+			category="Website"
+			errimg=".\Login201_28edf010_14f5f39c_trace.jpg"
+			errthumb=".\Login201_28edf010_14f5f39c_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://qa.carecamhealthsystems.com' with browser 'Firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\User\AppData\Local\Temp\Recording_Generated.tmp.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.188"
+			timeRelativeToTestModuleStartTime="00:00.188"
+			timeWallClock="12:00:46"
+			time="00:00.188"
+			level="Info"
+			category="Mouse"
+			errimg=".\Login201_28edf010_24047145_trace.jpg"
+			errthumb=".\Login201_28edf010_24047145_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Email' at 37;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+				fullname="LoginRepository.LoginCCHSPortal.Email"
+				id="03fc39a114bc40449d9f578469d3492c"
+				timeout="60000"
+				codefile="c:\Users\User\AppData\Local\Temp\Recording_Generated.tmp.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.335"
+			timeRelativeToTestModuleStartTime="01:00.335"
+			timeWallClock="12:01:46"
+			time="01:00.335"
+			level="Error"
+			category="Module"
+			errimg=".\Login201_28edf010_1f8b5995_trace.jpg"
+			errthumb=".\Login201_28edf010_1f8b5995_trace_thumb.jpg">
+			<message>
+				Failed to find item 'LoginRepository.LoginCCHSPortal.Email'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at MyTestProject.LoginRepositoryFolders.LoginCCHSPortalAppFolder.get_Email() in c:\Users\User\AppData\Local\Temp\Repository_Generated.tmp.cs:line 137
+   at MyTestProject.Login.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\AppData\Local\Temp\Recording_Generated.tmp.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\AppData\Local\Temp\Recording_Generated.tmp.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+				fullname="LoginRepository.LoginCCHSPortal.Email"
+				id="03fc39a114bc40449d9f578469d3492c"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1"/>
+		</item>
+	</activity>
+</report>

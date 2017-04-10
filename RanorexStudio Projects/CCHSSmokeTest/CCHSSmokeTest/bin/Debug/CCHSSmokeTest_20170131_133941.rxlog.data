@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26c954da480cf6e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/31/2017 1:39:41 PM"
+		timestampiso="2017-01-31T18:39:41"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="5.72s"
+			durationms="5724"
+			type="test suite"
+			rid="1e384da33aefb8bc"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="5.72s"
+				durationms="5718"
+				type="test case"
+				rid="1e882840e21e831"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="5.72s"
+					durationms="5718"
+					type="test case iteration"
+					rid="e8b54ee4b942177"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="5.72s"
+						durationms="5716"
+						type="test case"
+						rid="2ca4dca8d192ea84"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Add_Careplan_Program"
+						testcaseid="ab29962a-eb5e-4e93-8acc-37c590ceb967"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="1.34s"
+							durationms="1341"
+							type="test module"
+							rid="eb2f4f2c94041e4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ClickFocusTagPrograms"
+							moduleid="27d6b09d-8f10-4c68-9b5c-eeaeadc93235"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.163"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="13:39:41"
+								time="00:00.163"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Content.Select_Focus' at 10;8.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]//i"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Select_Focus"
+									id="ea1f913d3cf44eb8ae063c6124cfa2aa"
+									timeout="90000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\ClickFocusTagPrograms.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="4.33s"
+							durationms="4329"
+							type="test module"
+							rid="19f2bcacf363e8f4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="SelectFocus"
+							moduleid="e67f4e46-c5c3-4ddf-8d62-76dc9c9e9a79"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.512"
+								timeRelativeToTestModuleStartTime="00:00.007"
+								timeWallClock="13:39:43"
+								time="00:01.512"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Content.Focus' at 35;26.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//ul/?/?/a[@innertext='Focus']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Focus"
+									id="5a6ef6404377497789f7ad88654f341c"
+									timeout="90000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.575"
+								timeRelativeToTestModuleStartTime="00:01.070"
+								timeWallClock="13:39:44"
+								time="00:02.575"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Focus.Enter_Tags_Included' at 32;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']/descendant-or-self::*/?/span[@innertext='Enter tags...']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Focus.Enter_Tags_Included"
+									id="cd100cdfea5549c7bb465be1cea488f2"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.917"
+								timeRelativeToTestModuleStartTime="00:02.412"
+								timeWallClock="13:39:45"
+								time="00:03.917"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Content.Select_Depression_Prevention_Focus' at 54;13.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Depression Prevention']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Select_Depression_Prevention_Focus"
+									id="3de0b092046145b6ab75424adb4bfedb"
+									timeout="90000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.991"
+								timeRelativeToTestModuleStartTime="00:03.486"
+								timeWallClock="13:39:46"
+								time="00:04.991"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Focus.Close_Button_Focus' at 24;14.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'closeTagSelector']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Focus.Close_Button_Focus"
+									id="d5f117dca35e418593832af98c4f8b8e"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

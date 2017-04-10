@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25e9fcef95cb9ccf"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/30/2017 3:22:34 PM"
+		timestampiso="2017-01-30T20:22:34"
+		timeoutfactor="1"
+		module="GlobeFirst">
+		<detail>
+			GlobeFirst
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.100"
+			timeRelativeToTestModuleStartTime="00:00.100"
+			timeWallClock="15:22:34"
+			time="00:00.100"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varGlobeTextEnglish, varGlobeTextSpanish
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.112"
+			timeRelativeToTestModuleStartTime="00:00.112"
+			timeWallClock="15:22:34"
+			time="00:00.112"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge' at 8;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[3]/div[1]/div/div/div/div/div//i"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.IconIconGlobeIconLarge"
+				id="e38153bac2954a9ba1c6b31dc1f808b5"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Globe\GlobeFirst.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.447"
+			timeRelativeToTestModuleStartTime="00:03.447"
+			timeWallClock="15:22:37"
+			time="00:03.447"
+			level="Info"
+			category="Mouse"
+			errimg=".\GlobeFir_11aa94e1_f315a326_trace.jpg"
+			errthumb=".\GlobeFir_11aa94e1_f315a326_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Activities.Globe_Text_Box_1_En' at 100;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'localeValue0']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.Globe_Text_Box_1_En"
+				id="0dcfcf40a2844fbf89de898b4df27844"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Globe\GlobeFirst.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.586"
+			timeRelativeToTestModuleStartTime="00:05.586"
+			timeWallClock="15:22:39"
+			time="00:05.586"
+			level="Info"
+			category="Keyboard"
+			errimg=".\GlobeFir_11aa94e1_35d93397_trace.jpg"
+			errthumb=".\GlobeFir_11aa94e1_35d93397_trace_thumb.jpg">
+			<message>
+				Key sequence from variable '$varGlobeTextEnglish' with focus on 'LoginCCHSPortal.Activities.Globe_Text_Box_1_En'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'localeValue0']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.Globe_Text_Box_1_En"
+				id="0dcfcf40a2844fbf89de898b4df27844"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Globe\GlobeFirst.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.369"
+			timeRelativeToTestModuleStartTime="00:08.369"
+			timeWallClock="15:22:42"
+			time="00:08.369"
+			level="Error"
+			category="User"
+			errimg=".\GlobeFir_11aa94e1_d6036c9e_trace.jpg"
+			errthumb=".\GlobeFir_11aa94e1_d6036c9e_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

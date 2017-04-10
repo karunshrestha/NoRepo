@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a299841692d8189"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/1/2017 10:12:43 AM"
+		timestampiso="2017-02-01T15:12:43"
+		timeoutfactor="1"
+		module="DragContent">
+		<detail>
+			DragContent
+		</detail>
+		<errmsg>
+			Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.ContentDragSource'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.126"
+			timeRelativeToTestModuleStartTime="00:00.126"
+			timeWallClock="10:12:43"
+			time="00:00.126"
+			level="Warn"
+			category="Data"
+			errimg=".\DragCont_f5efb1d8_457ad10e_trace.jpg"
+			errthumb=".\DragCont_f5efb1d8_457ad10e_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>varContent, varContentDestination
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.136"
+			timeRelativeToTestModuleStartTime="00:00.136"
+			timeWallClock="10:12:43"
+			time="00:00.136"
+			level="Info"
+			category="Mouse"
+			errimg=".\DragCont_f5efb1d8_457ad10e_trace.jpg"
+			errthumb=".\DragCont_f5efb1d8_457ad10e_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'LoginCCHSPortal.ContentDragSource' at 22;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleContent']/div/div/div/span[@innertext='Article']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.ContentDragSource"
+				id="455bcb8e11e848b1ae6fde6410bf1d82"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\Elective\DragContent.cs"
+				codeline="102"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.426"
+			timeRelativeToTestModuleStartTime="00:27.426"
+			timeWallClock="10:13:11"
+			time="00:27.426"
+			level="Error"
+			category="Module"
+			errimg=".\DragCont_f5efb1d8_74b0f5d1_trace.jpg"
+			errthumb=".\DragCont_f5efb1d8_74b0f5d1_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.ContentDragSource'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleContent']/div/div/div/span[@innertext='Article']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.LoginCCHSPortalAppFolder.get_ContentDragSource() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 667
+   at CCHSSmokeTest.Recordings.Programs.Elective.DragContent.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\Elective\DragContent.cs:line 103
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\Elective\DragContent.cs"
+				codeline="103"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleContent']/div/div/div/span[@innertext='Article']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.ContentDragSource"
+				id="455bcb8e11e848b1ae6fde6410bf1d82"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

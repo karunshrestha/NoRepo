@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="80c11ea5a234d89"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/6/2017 1:17:50 PM"
+		timestampiso="2017-02-06T18:17:50"
+		timeoutfactor="1"
+		module="NewMember">
+		<detail>
+			NewMember
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.125"
+			timeRelativeToTestModuleStartTime="00:00.125"
+			timeWallClock="13:17:50"
+			time="00:00.125"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Email, EditEmail
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.137"
+			timeRelativeToTestModuleStartTime="00:00.137"
+			timeWallClock="13:17:50"
+			time="00:00.137"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Sidebars.Click_On_Search_Menu_Item' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/?/?/ul//span[@innertext='Search']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Sidebars.Click_On_Search_Menu_Item"
+				id="24942156d66e4b74b72f39c55a523fef"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\NewMember.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.490"
+			timeRelativeToTestModuleStartTime="00:01.490"
+			timeWallClock="13:17:51"
+			time="00:01.490"
+			level="Info"
+			category="Mouse"
+			errimg=".\NewMembe_1958351_b41bb8dd_trace.jpg"
+			errthumb=".\NewMembe_1958351_b41bb8dd_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Create_Member.New_Button' at 44;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'new']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Create_Member.New_Button"
+				id="a486b4c115724e908693f035d8ab0f2f"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\NewMember.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.459"
+			timeRelativeToTestModuleStartTime="00:02.459"
+			timeWallClock="13:17:52"
+			time="00:02.459"
+			level="Info"
+			category="Mouse"
+			errimg=".\NewMembe_1958351_ef825115_trace.jpg"
+			errthumb=".\NewMembe_1958351_ef825115_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.FirstName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'firstName']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.FirstName"
+				id="cffe77927d194037a63f3ae056857bd8"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\NewMember.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.958"
+			timeRelativeToTestModuleStartTime="00:03.958"
+			timeWallClock="13:17:54"
+			time="00:03.958"
+			level="Error"
+			category="User"
+			errimg=".\NewMembe_1958351_e68d6e75_trace.jpg"
+			errthumb=".\NewMembe_1958351_e68d6e75_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

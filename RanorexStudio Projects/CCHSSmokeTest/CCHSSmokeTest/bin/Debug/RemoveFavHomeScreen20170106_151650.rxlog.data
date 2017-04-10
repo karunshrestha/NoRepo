@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="855b2e9f395cefe"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 3:16:50 PM"
+		timestampiso="2017-01-06T20:16:50"
+		timeoutfactor="1"
+		module="RemoveFavHomeScreen">
+		<detail>
+			RemoveFavHomeScreen
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.094"
+			timeRelativeToTestModuleStartTime="00:00.094"
+			timeWallClock="15:16:50"
+			time="00:00.094"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varGetNameFav, varGetNameFav2
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.108"
+			timeRelativeToTestModuleStartTime="00:00.108"
+			timeWallClock="15:16:50"
+			time="00:00.108"
+			level="Info"
+			category="Get Value">
+			<message>
+				Step 1-9 Remove from fav by clicking fav icon<br/>Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varGetNameFav'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="109"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.301"
+			timeRelativeToTestModuleStartTime="00:00.301"
+			timeWallClock="15:16:50"
+			time="00:00.301"
+			level="Info"
+			category="User">
+			<message>
+				QA, Dan
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="113"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.302"
+			timeRelativeToTestModuleStartTime="00:00.302"
+			timeWallClock="15:16:50"
+			time="00:00.302"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.TopFavoriteIcon' at 7;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//i[@title='Remove from My Favorites']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.TopFavoriteIcon"
+				id="def5b04c5afe4aae8cc87274bf2cf232"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="115"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.246"
+			timeRelativeToTestModuleStartTime="00:01.246"
+			timeWallClock="15:16:51"
+			time="00:01.246"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Reports' at 21;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Reports']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Reports"
+				id="5bebac9d5364461d9224f4e6f53c6baa"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="119"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.033"
+			timeRelativeToTestModuleStartTime="00:02.033"
+			timeWallClock="15:16:52"
+			time="00:02.033"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="123"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.038"
+			timeRelativeToTestModuleStartTime="00:04.038"
+			timeWallClock="15:16:54"
+			time="00:04.038"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Home' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Home']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Home"
+				id="b48caedfab3c4481b68a43b7619ef3ae"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="126"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.794"
+			timeRelativeToTestModuleStartTime="00:04.794"
+			timeWallClock="15:16:55"
+			time="00:04.794"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varGetNameFav2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="130"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.951"
+			timeRelativeToTestModuleStartTime="00:04.951"
+			timeWallClock="15:16:55"
+			time="00:04.951"
+			level="Info"
+			category="User">
+			<message>
+				QA, Dave
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="134"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.953"
+			timeRelativeToTestModuleStartTime="00:04.953"
+			timeWallClock="15:16:55"
+			time="00:04.953"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeNotContains (InnerText!&gt;$varGetNameFav) on item 'Home_Screen.FirstMemberName_HomeScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="136"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.137"
+			timeRelativeToTestModuleStartTime="00:05.137"
+			timeWallClock="15:16:55"
+			time="00:05.137"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="137"
+				loglvl="Success"
+				itemindex="8"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.141"
+			timeRelativeToTestModuleStartTime="00:05.141"
+			timeWallClock="15:16:55"
+			time="00:05.141"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varGetNameFav'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="140"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.307"
+			timeRelativeToTestModuleStartTime="00:05.307"
+			timeWallClock="15:16:55"
+			time="00:05.307"
+			level="Info"
+			category="User">
+			<message>
+				QA, Dave
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="145"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.309"
+			timeRelativeToTestModuleStartTime="00:05.309"
+			timeWallClock="15:16:55"
+			time="00:05.309"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'User.Row0' at 51;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'row0']"
+				fullname="CCHSSmokeTestRepository.User.Row0"
+				id="0af6841cbb164379925f4fe497004689"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="147"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.084"
+			timeRelativeToTestModuleStartTime="00:06.084"
+			timeWallClock="15:16:56"
+			time="00:06.084"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.RemoveFromMyFavorites' at 108;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'f0']/span[@innertext='Remove from My Favorites']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.RemoveFromMyFavorites"
+				id="b4027f01a2a04cf3b5591de4acb3e682"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="151"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.887"
+			timeRelativeToTestModuleStartTime="00:06.887"
+			timeWallClock="15:16:57"
+			time="00:06.887"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Reports' at 21;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Reports']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Reports"
+				id="5bebac9d5364461d9224f4e6f53c6baa"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="155"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.711"
+			timeRelativeToTestModuleStartTime="00:07.711"
+			timeWallClock="15:16:58"
+			time="00:07.711"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="159"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.715"
+			timeRelativeToTestModuleStartTime="00:09.715"
+			timeWallClock="15:17:00"
+			time="00:09.715"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Home' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Home']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Home"
+				id="b48caedfab3c4481b68a43b7619ef3ae"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="162"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.525"
+			timeRelativeToTestModuleStartTime="00:10.525"
+			timeWallClock="15:17:01"
+			time="00:10.525"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varGetNameFav2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="166"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.672"
+			timeRelativeToTestModuleStartTime="00:10.672"
+			timeWallClock="15:17:01"
+			time="00:10.672"
+			level="Info"
+			category="User">
+			<message>
+				QA, Dee
+			</message>
+			<metainfo
+				itemindex="17"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="170"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.672"
+			timeRelativeToTestModuleStartTime="00:10.672"
+			timeWallClock="15:17:01"
+			time="00:10.672"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeNotContains (InnerText!&gt;$varGetNameFav) on item 'Home_Screen.FirstMemberName_HomeScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="172"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.906"
+			timeRelativeToTestModuleStartTime="00:10.906"
+			timeWallClock="15:17:01"
+			time="00:10.906"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="173"
+				loglvl="Success"
+				itemindex="18"/>
+		</item>
+	</activity>
+</report>

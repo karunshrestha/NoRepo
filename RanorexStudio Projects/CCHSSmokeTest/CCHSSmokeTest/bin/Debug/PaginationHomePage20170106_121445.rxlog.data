@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d8c5c437195dc02"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 12:14:45 PM"
+		timestampiso="2017-01-06T17:14:45"
+		timeoutfactor="1"
+		module="PaginationHomePage">
+		<detail>
+			PaginationHomePage
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.078"
+			timeRelativeToTestModuleStartTime="00:00.078"
+			timeWallClock="12:14:46"
+			time="00:00.078"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varPagination1, varPagination2
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.093"
+			timeRelativeToTestModuleStartTime="00:00.093"
+			timeWallClock="12:14:46"
+			time="00:00.093"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varPagination1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.499"
+			timeRelativeToTestModuleStartTime="00:00.499"
+			timeWallClock="12:14:46"
+			time="00:00.499"
+			level="Info"
+			category="User">
+			<message>
+				Aalex, Aandy
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="112"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.499"
+			timeRelativeToTestModuleStartTime="00:00.499"
+			timeWallClock="12:14:46"
+			time="00:00.499"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Page_2' at 12;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/ul/li[3]/a[@innertext='2']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Page_2"
+				id="9ae7216ecfdb4c0e90409c02bd93c19a"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="114"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.352"
+			timeRelativeToTestModuleStartTime="00:01.352"
+			timeWallClock="12:14:47"
+			time="00:01.352"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varPagination2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="118"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.414"
+			timeRelativeToTestModuleStartTime="00:01.414"
+			timeWallClock="12:14:47"
+			time="00:01.414"
+			level="Info"
+			category="User">
+			<message>
+				QA, Jake
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="122"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.414"
+			timeRelativeToTestModuleStartTime="00:01.414"
+			timeWallClock="12:14:47"
+			time="00:01.414"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeNotContains (InnerText!&gt;$varPagination1) on item 'Home_Screen.FirstMemberName_HomeScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="124"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.492"
+			timeRelativeToTestModuleStartTime="00:01.492"
+			timeWallClock="12:14:47"
+			time="00:01.492"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+				id="7c7d10794e8b4878957923f6462a590d"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\PaginationHomePage.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

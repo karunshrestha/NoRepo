@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2f1eb5cd460eb2c7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/30/2017 2:15:04 PM"
+		timestampiso="2017-01-30T19:15:04"
+		timeoutfactor="1"
+		module="SearchRewardGroupTemplate">
+		<detail>
+			SearchRewardGroupTemplate
+		</detail>
+		<errmsg>
+			Screenshot of item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate' does not contain the specified image (Feature size must not be greater than image size.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.104"
+			timeRelativeToTestModuleStartTime="00:00.104"
+			timeWallClock="14:15:04"
+			time="00:00.104"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Activities.SearchBox' at 53;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.267"
+			timeRelativeToTestModuleStartTime="00:01.267"
+			timeWallClock="14:15:06"
+			time="00:01.267"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Burn to Earn' with focus on 'LoginCCHSPortal.Activities.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.758"
+			timeRelativeToTestModuleStartTime="00:02.758"
+			timeWallClock="14:15:07"
+			time="00:02.758"
+			level="Info"
+			category="Validation"
+			errimg=".\SearchRe_978db8f9_ab2a2515_trace.jpg"
+			errthumb=".\SearchRe_978db8f9_ab2a2515_trace_thumb.jpg">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=83,Height=20}) on item 'LoginCCHSPortal.Content.FirstChallengeTemplate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/li[1]//span"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate"
+				id="7dae7893acc846059e0c6680d45ccd8a"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.086"
+			timeRelativeToTestModuleStartTime="00:03.086"
+			timeWallClock="14:15:07"
+			time="00:03.086"
+			level="Failure"
+			category="Validation"
+			errimg=".\SearchRe_978db8f9_b0313a64_trace.jpg"
+			errthumb=".\SearchRe_978db8f9_b0313a64_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate' does not contain the specified image (Feature size must not be greater than image size.).
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="91"
+				loglvl="Failure"
+				id="7dae7893acc846059e0c6680d45ccd8a"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/li[1]//span"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.097"
+			timeRelativeToTestModuleStartTime="00:03.097"
+			timeWallClock="14:15:07"
+			time="00:03.097"
+			level="Failure"
+			category="Expected image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\SearchRe_d2f188ac_rxlog.jpg"><img src=".\SearchRe_d2f188ac_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="91"
+				loglvl="Failure"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.100"
+			timeRelativeToTestModuleStartTime="00:03.100"
+			timeWallClock="14:15:07"
+			time="00:03.100"
+			level="Failure"
+			category="Searched image">
+			<message>
+				<a class="thickbox" style="padding-right:8px" rel="module" href=".\SearchRe_d2f288ac_rxlog.jpg"><img src=".\SearchRe_d2f288ac_rxlog_thumb.jpg" alt="Screenshot"/></a>
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="91"
+				loglvl="Failure"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.103"
+			timeRelativeToTestModuleStartTime="00:03.103"
+			timeWallClock="14:15:07"
+			time="00:03.103"
+			level="Error"
+			category="Module"
+			errimg=".\SearchRe_978db8f9_b0313a64_trace.jpg"
+			errthumb=".\SearchRe_978db8f9_b0313a64_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate' does not contain the specified image (Feature size must not be greater than image size.).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at CCHSSmokeTest.Recordings.Search.SearchRewardGroupTemplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="91"
+				loglvl="Error"
+				id="7dae7893acc846059e0c6680d45ccd8a"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/li[1]//span"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstChallengeTemplate"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

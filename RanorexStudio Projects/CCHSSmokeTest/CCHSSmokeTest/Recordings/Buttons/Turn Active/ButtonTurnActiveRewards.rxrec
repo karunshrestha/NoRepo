@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="22ffda5d-29cd-40bd-bcdd-1b773d55746e"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ButtonTurnActiveRewards
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ButtonTurnActiveRewards"
+	namespace="CCHSSmokeTest.Recordings.Buttons.Turn_Active"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="2c1c4124-5343-4de8-bb77-25a5bc28c629"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="d45e478d-1d6d-450b-ad45-a7cc25e70935">
+				<path>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsMain']/div[1]/?/?/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']//span[@innertext='No']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="SmokeTestRepositoryKS"
+	id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+	rxversion="6.2"
+	relativepath="..\..\..\SmokeTestRepositoryKS.rxrep">
+		<codegen
+		classname="SmokeTestRepositoryKS"
+		namespace="CCHSSmokeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ButtonTurnActiveRewards.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

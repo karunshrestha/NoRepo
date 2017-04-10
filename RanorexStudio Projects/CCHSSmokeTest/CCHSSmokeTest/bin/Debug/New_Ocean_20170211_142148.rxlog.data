@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="79290471ea24358"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="2"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="2/11/2017 2:21:48 PM"
+		timestampiso="2017-02-11T19:21:48"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="5.79s"
+			durationms="5788"
+			type="test suite"
+			rid="38531779f0f1d77d"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="2"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="5.77s"
+				durationms="5766"
+				type="test case"
+				rid="3b922589ee6350b"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="2"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource=""
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="5.76s"
+					durationms="5761"
+					type="test case"
+					rid="38f01422aaa9b"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="2"
+					testcasename="Login_PN"
+					testcaseid="f047c769-a997-48a8-a08a-b6966953bd76"
+					datasource="NewConnector35"
+					iterationcount="3"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="5.76s"
+						durationms="5756"
+						type="test case iteration"
+						rid="dfd9fbed58572"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="1">
+						<datarow>
+							<field
+								name="ColmEmail">
+								test
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="5.74s"
+							durationms="5739"
+							type="test module"
+							rid="2f8d17c1b70e6e40"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Attribute 'InnerText' of element '{DivTag:loginAlert}' does not match the specified value (actual=' Please correct the validation errors below.', expected='This field is required.').
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value="test"/>
+								<varbinding
+									name="varPassword"
+									value=""/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.326"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="14:21:48"
+								time="00:00.326"
+								level="Info"
+								category="Data"
+								errimg="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_6e5d595c_trace.jpg"
+								errthumb="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_6e5d595c_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$varLogin = 'test', $varPassword = ''
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.829"
+								timeRelativeToTestModuleStartTime="00:05.505"
+								timeWallClock="14:21:54"
+								time="00:05.829"
+								level="Failure"
+								category="Validation"
+								errimg="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_b7f5d0ff_trace.jpg"
+								errthumb="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_b7f5d0ff_trace_thumb.jpg">
+								<message>
+									Attribute 'InnerText' of element '{DivTag:loginAlert}' does not match the specified value (actual=' Please correct the validation errors below.', expected='This field is required.').
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="84"
+									loglvl="Failure"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.904"
+								timeRelativeToTestModuleStartTime="00:05.580"
+								timeWallClock="14:21:54"
+								time="00:05.904"
+								level="Error"
+								category="Module"
+								errimg="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_1c4f2cf4_trace.jpg"
+								errthumb="images_New_Ocea_4d83c92d\New_Ocea_4d83c92d_1c4f2cf4_trace_thumb.jpg">
+								<message>
+									Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element '{DivTag:loginAlert}' does not match the specified value (actual=' Please correct the validation errors below.', expected='This field is required.').
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(Element element, String name, Object value)
+   at CCHSSmokeTest.CodeModules.LoginPN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 84
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="84"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="d93acab6b95422b"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="2">
+						<datarow>
+							<field
+								name="ColmEmail">
+								karun.shrestha@newoceanhealth.com
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="7ad0af0cf6813a0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="3">
+						<datarow>
+							<field
+								name="ColmEmail">
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

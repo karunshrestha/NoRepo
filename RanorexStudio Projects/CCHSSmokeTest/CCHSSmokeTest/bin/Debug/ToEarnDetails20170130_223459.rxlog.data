@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1e265faebd9ad436"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/30/2017 10:35:00 PM"
+		timestampiso="2017-01-31T03:35:00"
+		timeoutfactor="1"
+		module="ToEarnDetails">
+		<detail>
+			ToEarnDetails
+		</detail>
+		<errmsg>
+			Item 'SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.CloseButtonSchedule' is no Button.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.082"
+			timeRelativeToTestModuleStartTime="00:00.082"
+			timeWallClock="22:35:00"
+			time="00:00.082"
+			level="Info"
+			category="Mouse"
+			errimg=".\ToEarnDe_2ad49211_155b2286_trace.jpg"
+			errthumb=".\ToEarnDe_2ad49211_155b2286_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.RewardGroupTemplates.CloseButtonSchedule' at 26;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureSchedule']/?/?/button[@id='modalClose']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.CloseButtonSchedule"
+				id="cf8814d7b6d44fbeb9740d1596763f4a"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Rewards\ToEarnDetails.cs"
+				codeline="82"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.503"
+			timeRelativeToTestModuleStartTime="00:00.503"
+			timeWallClock="22:35:00"
+			time="00:00.503"
+			level="Error"
+			category="Module"
+			errimg=".\ToEarnDe_2ad49211_babc96dc_trace.jpg"
+			errthumb=".\ToEarnDe_2ad49211_babc96dc_trace_thumb.jpg">
+			<message>
+				Item 'SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.CloseButtonSchedule' is no Button.<br/>The element does not support the required capability 'button'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.RewardGroupTemplatesFolder.get_CloseButtonSchedule() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 5107
+   at CCHSSmokeTest.Recordings.Rewards.ToEarnDetails.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Rewards\ToEarnDetails.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs"
+				codeline="5107"
+				loglvl="Error"
+				id="cf8814d7b6d44fbeb9740d1596763f4a"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureSchedule']/?/?/button[@id='modalClose']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.CloseButtonSchedule"
+				itemindex="15"/>
+		</item>
+	</activity>
+</report>

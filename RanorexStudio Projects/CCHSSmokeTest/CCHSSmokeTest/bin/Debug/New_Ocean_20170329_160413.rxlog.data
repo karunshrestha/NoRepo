@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="edb33834e98571d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="3/29/2017 4:04:13 PM"
+		timestampiso="2017-03-29T20:04:13"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="15.06s"
+			durationms="15061"
+			type="test suite"
+			rid="3e951d2e44396af2"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="15.04s"
+				durationms="15040"
+				type="test case"
+				rid="11929ba8932dcf4"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Smoke_Test"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="15.04s"
+					durationms="15040"
+					type="test case iteration"
+					rid="dc8f547cc3e574e"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Smoke_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="15.04s"
+						durationms="15038"
+						type="test case"
+						rid="b1435a9bd257f24"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TC35_Add_Package_Group"
+						testcaseid="680ccd98-1d23-457e-b77f-aee24147603d"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="14.98s"
+							durationms="14980"
+							type="test module"
+							rid="1888bd838c74f3da"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ButtonNewPackageGroup"
+							moduleid="caa796da-185a-4eab-81a7-8d063df80d64"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.328"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="16:04:13"
+								time="00:00.328"
+								level="Info"
+								category="Mouse"
+								errimg="images_New_Ocea_d8028662\New_Ocea_d8028662_5b3dc448_trace.jpg"
+								errthumb="images_New_Ocea_d8028662\New_Ocea_d8028662_5b3dc448_trace_thumb.jpg">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Package_Group.AddPackage' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='portal.carecamhealthsystems.com']//button[#'addPackage']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.AddPackage"
+									id="925643fe942e48dc881e046386d66ed9"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Buttons\NewButton\ButtonNewPackageGroup.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:15.168"
+								timeRelativeToTestModuleStartTime="00:14.843"
+								timeWallClock="16:04:28"
+								time="00:15.168"
+								level="Error"
+								category="User"
+								errimg="images_New_Ocea_d8028662\New_Ocea_d8028662_50df3867_trace.jpg"
+								errthumb="images_New_Ocea_d8028662\New_Ocea_d8028662_50df3867_trace_thumb.jpg">
+								<message>
+									The test run has been aborted by the user.
+								</message>
+								<metainfo
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

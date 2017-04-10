@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="5cd65174-2163-48e5-a8dc-d08bc3999fa5"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		LaunchApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchApplication"
+	namespace="CCHSSmokeTest.Recordings.Login"/>
+	<variables>
+		<var
+		name="BrowserType"
+		id="e0689827-3b0b-4e99-ae54-221469fc9955">
+			Chrome
+		</var>
+		<var
+		name="varDomainName"
+		id="fec448cf-af06-417b-952f-9dc1acdf5876">
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="Firefox"
+		args=""
+		maximized="True"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="BrowserType"/>
+				<binding
+				target="Url"
+				variable="varDomainName"/>
+			</bindings>
+			<url>
+				$varDomainName
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="SmokeTestRepositoryKS"
+	id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+	rxversion="6.2"
+	relativepath="..\..\SmokeTestRepositoryKS.rxrep">
+		<codegen
+		classname="SmokeTestRepositoryKS"
+		namespace="CCHSSmokeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchApplication.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

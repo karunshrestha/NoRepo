@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="1a79ad03-9369-4d42-8d3a-34a236d1ed1d"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="WebWordPressLibrary"/>
+	<variables>
+		<var
+		name="varLoginURL"
+		id="9fe5e6cf-d2fe-450b-abbe-23f245a46a9e">
+			http://bitly.com/wp_demo
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="IE"
+		args=""
+		maximized="True"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings>
+				<binding
+				target="Url"
+				variable="varLoginURL"/>
+			</bindings>
+			<url>
+				http://bitly.com/wp_demo
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="WebWordPressLibraryRepository"
+	id="b68c5ae7-5d54-49e3-893c-ecd04dbce34b"
+	rxversion="6.0"
+	relativepath="WebWordPressLibraryRepository.rxrep">
+		<codegen
+		classname="WebWordPressLibraryRepository"
+		namespace="WebWordPressLibrary"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="5251cef1-231f-4e1a-b0bd-41e54b4b13f8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\..\Web\WordPressSample\WordPressSample\bin\Debug\WordPressSample.exe
+		</reference>
+	</references>
+</recordtable>

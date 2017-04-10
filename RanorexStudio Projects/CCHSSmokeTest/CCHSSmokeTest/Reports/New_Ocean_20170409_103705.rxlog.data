@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b116a304f47b7d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="4/9/2017 10:37:05 AM"
+		timestampiso="2017-04-09T14:37:05"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="31.41s"
+			durationms="31413"
+			type="test suite"
+			rid="1e1bdd842075a4de"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="31.4s"
+				durationms="31396"
+				type="test case"
+				rid="135a8cb0532ce940"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource="NewConnector37"
+				iterationcount="1"
+				maxchildren="2">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="31.39s"
+					durationms="31394"
+					type="test case iteration"
+					rid="2d3dc90f76447bbc"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Regression_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="colmDomainName">
+							qa.carecamhealthsystems.com
+						</field>
+						<field
+							name="colmEmail">
+							iecchs123@gmail.com
+						</field>
+						<field
+							name="colmValidationText">
+							Success
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="31.34s"
+						durationms="31341"
+						type="test module"
+						rid="1196c4b1fd5342a8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ValidationGeneral"
+						moduleid="fe4e44c7-8f8a-479a-824d-a27d3e9d1363"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral' does not match the specified RegEx (Failed to find item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']' within 31s.).
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="varInnerTexVal"
+								value="Success"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.279"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="10:37:05"
+							time="00:00.279"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varInnerTexVal = 'Success'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.332"
+							timeRelativeToTestModuleStartTime="00:00.055"
+							timeWallClock="10:37:05"
+							time="00:00.332"
+							level="Info"
+							category="Validation"
+							errimg="images_New_Ocea_5559db71\New_Ocea_5559db71_e0955633_trace.jpg"
+							errthumb="images_New_Ocea_5559db71\New_Ocea_5559db71_e0955633_trace_thumb.jpg">
+							<message>
+								Validating AttributeContains (InnerText&gt;'Success') on item 'NewOceanAdminPortal.Validations.ToastMsgGeneral'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']"
+								fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral"
+								id="10327d706d034ed8b6cd01b596071572"
+								timeout="31000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationGeneral.cs"
+								codeline="92"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.442"
+							timeRelativeToTestModuleStartTime="00:31.165"
+							timeWallClock="10:37:36"
+							time="00:31.442"
+							level="Failure"
+							category="Validation"
+							errimg="images_New_Ocea_5559db71\New_Ocea_5559db71_88885757_trace.jpg"
+							errthumb="images_New_Ocea_5559db71\New_Ocea_5559db71_88885757_trace_thumb.jpg">
+							<message>
+								Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral' does not match the specified RegEx (Failed to find item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']' within 31s.).
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']"
+								fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral"
+								id="10327d706d034ed8b6cd01b596071572"
+								timeout="31000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationGeneral.cs"
+								codeline="93"
+								loglvl="Failure"
+								itemindex="0"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.489"
+							timeRelativeToTestModuleStartTime="00:31.212"
+							timeWallClock="10:37:36"
+							time="00:31.489"
+							level="Error"
+							category="Module"
+							errimg="images_New_Ocea_5559db71\New_Ocea_5559db71_af79cd96_trace.jpg"
+							errthumb="images_New_Ocea_5559db71\New_Ocea_5559db71_af79cd96_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral' does not match the specified RegEx (Failed to find item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']' within 31s.).
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex)
+   at CCHSSmokeTest.Recordings.Validations.ValidationGeneral.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationGeneral.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationGeneral.cs"
+								codeline="93"
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'Success']"
+								fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.ToastMsgGeneral"
+								id="10327d706d034ed8b6cd01b596071572"
+								timeout="31000"
+								loglvl="Error"
+								itemindex="0"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

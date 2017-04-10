@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f5863221a1c649"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/31/2017 10:00:18 PM"
+		timestampiso="2017-02-01T03:00:18"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.65s"
+			durationms="2651"
+			type="test suite"
+			rid="801ae5f6dcbe6aa"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="2.65s"
+				durationms="2645"
+				type="test case"
+				rid="180ea7f690579c93"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="2.64s"
+					durationms="2644"
+					type="test case iteration"
+					rid="bb1f686d9e2fa85"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="2.64s"
+						durationms="2643"
+						type="test case"
+						rid="11ce0f7320b7dd4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Delete_Careplan_Program"
+						testcaseid="54f22806-e06c-4ff0-912b-c96762e4f0c8"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2.61s"
+							durationms="2605"
+							type="test module"
+							rid="2510c80d09ac8b6b"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeleteItem"
+							moduleid="33f46103-08f7-44f3-a91c-e1906700ecc4"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.111"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="22:00:18"
+								time="00:00.111"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Buttons.Delete' at 47;11.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'delete']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Buttons.Delete"
+									id="54f2800b9de141859af6feee536cd259"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteItem.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.303"
+								timeRelativeToTestModuleStartTime="00:01.195"
+								timeWallClock="22:00:19"
+								time="00:01.303"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Users.DeleteYes' at 16;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteYes']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.DeleteYes"
+									id="ce69024ad0574ed795a32cc630c74c77"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteItem.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.067"
+								timeRelativeToTestModuleStartTime="00:01.959"
+								timeWallClock="22:00:20"
+								time="00:02.067"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeContains (InnerText&gt;'has been successfully deleted') on item 'LoginCCHSPortal.Activities.DivTagTheActivityHasBeenSuccessfull'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.DivTagTheActivityHasBeenSuccessfull"
+									id="cd78b76ba79a42acb56442fd90799608"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteItem.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.559"
+								timeRelativeToTestModuleStartTime="00:02.451"
+								timeWallClock="22:00:21"
+								time="00:02.559"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Activities.DivTagTheActivityHasBeenSuccessfull' does match the specified RegEx.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.DivTagTheActivityHasBeenSuccessfull"
+									id="cd78b76ba79a42acb56442fd90799608"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteItem.cs"
+									codeline="91"
+									loglvl="Success"
+									itemindex="2"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

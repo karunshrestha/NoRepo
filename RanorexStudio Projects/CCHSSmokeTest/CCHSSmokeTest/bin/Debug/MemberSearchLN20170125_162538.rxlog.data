@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f3d71528c0b6f0a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/25/2017 4:25:39 PM"
+		timestampiso="2017-01-25T21:25:39"
+		timeoutfactor="1"
+		module="MemberSearchLN">
+		<detail>
+			MemberSearchLN
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.129"
+			timeRelativeToTestModuleStartTime="00:00.129"
+			timeWallClock="16:25:39"
+			time="00:00.129"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'LoginCCHSPortal.Member_Demographics.Member_Search_Results.Validation_LN'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext~'^(?i:qa)']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Validation_LN"
+				id="54768321ed244ef3851ae853d3fc7d29"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberSearchLN.cs"
+				codeline="82"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.929"
+			timeRelativeToTestModuleStartTime="00:00.929"
+			timeWallClock="16:25:40"
+			time="00:00.929"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Validation_LN' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext~'^(?i:qa)']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Member_Search_Results.Validation_LN"
+				id="54768321ed244ef3851ae853d3fc7d29"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberSearchLN.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

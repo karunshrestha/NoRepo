@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7fda6eb28b97720"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/6/2017 11:17:13 AM"
+		timestampiso="2017-02-06T16:17:13"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="8.26s"
+			durationms="8260"
+			type="test suite"
+			rid="1a7bd75b2b368dbc"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="8.25s"
+				durationms="8253"
+				type="test case"
+				rid="752a7630b9abb40"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="New_Ocean_Admin_Portal_Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="8.25s"
+					durationms="8253"
+					type="test case iteration"
+					rid="15756c7c2e80ce8a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="New_Ocean_Admin_Portal_Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="8.25s"
+						durationms="8252"
+						type="test case"
+						rid="b86e83cba3b5774"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="NAVIGATIONmembers"
+						testcaseid="c6c2f851-72cd-414d-902b-9ea9a312bf1c"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="8.19s"
+							durationms="8186"
+							type="test module"
+							rid="562c4c828769e7f"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="NavMembers"
+							moduleid="a774dda2-fdeb-45a0-b96a-1f7a91037ed6"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.179"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="11:17:13"
+								time="00:00.179"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 7s.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Navigations\NavMembers.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.298"
+								timeRelativeToTestModuleStartTime="00:07.121"
+								timeWallClock="11:17:20"
+								time="00:07.298"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Sidebar.Members' at 39;9.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Members']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Sidebar.Members"
+									id="ffd133f05d584a48b4db28b241511c88"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Navigations\NavMembers.cs"
+									codeline="85"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

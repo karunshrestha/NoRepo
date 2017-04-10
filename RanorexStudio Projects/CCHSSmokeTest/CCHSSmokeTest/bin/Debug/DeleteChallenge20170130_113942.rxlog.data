@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b1128365c60daa"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/30/2017 11:39:43 AM"
+		timestampiso="2017-01-30T16:39:43"
+		timeoutfactor="1"
+		module="DeleteChallenge">
+		<detail>
+			DeleteChallenge
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.086"
+			timeRelativeToTestModuleStartTime="00:00.086"
+			timeWallClock="11:39:43"
+			time="00:00.086"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Buttons.Delete1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteMember']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Buttons.Delete1"
+				id="b00ddcc08c13424b8de0b9819ee1b4ac"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteChallenge.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.500"
+			timeRelativeToTestModuleStartTime="00:01.500"
+			timeWallClock="11:39:45"
+			time="00:01.500"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Users.DeleteYes' at 16;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteYes']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Users.DeleteYes"
+				id="ce69024ad0574ed795a32cc630c74c77"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteChallenge.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.311"
+			timeRelativeToTestModuleStartTime="00:02.311"
+			timeWallClock="11:39:46"
+			time="00:02.311"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText=' The Challenge has been successfully deleted.') on item 'LoginCCHSPortal.Validations.DivTagTheChallengeHasBeenSuccessful'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Challenge\ has\ been\ s']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Validations.DivTagTheChallengeHasBeenSuccessful"
+				id="f0b4111ecd4d4ef7b2bf997767a8ea37"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteChallenge.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.007"
+			timeRelativeToTestModuleStartTime="00:04.007"
+			timeWallClock="11:39:47"
+			time="00:04.007"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Validations.DivTagTheChallengeHasBeenSuccessful' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Challenge\ has\ been\ s']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Validations.DivTagTheChallengeHasBeenSuccessful"
+				id="f0b4111ecd4d4ef7b2bf997767a8ea37"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Delete\DeleteChallenge.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5adb444730ae40a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="3/30/2017 8:58:31 AM"
+		timestampiso="2017-03-30T12:58:31"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="12.95s"
+			durationms="12953"
+			type="test suite"
+			rid="abafca895d12b99"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="12.94s"
+				durationms="12935"
+				type="test case"
+				rid="14149a17e0d575c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Smoke_Test"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="12.93s"
+					durationms="12933"
+					type="test case iteration"
+					rid="47a4978359e5abb"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Smoke_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="12.93s"
+						durationms="12932"
+						type="test case"
+						rid="b5971bc80a039d8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC19_ProgramSort"
+						testcaseid="92a017f4-204b-4376-b154-4ef1d53325e7"
+						datasource="ConnectorProgramSort"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="12.93s"
+							durationms="12930"
+							type="test case iteration"
+							rid="7572b92aebd521b"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="TC19_ProgramSort"
+							iteration="1">
+							<datarow>
+								<field
+									name="ColumnProgmTitle1">
+								</field>
+								<field
+									name="ColumnProgmTitle2">
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="4.19s"
+								durationms="4187"
+								type="test module"
+								rid="25a8744859bb988e"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramTitleSort"
+								moduleid="5830cf42-9474-471d-a07e-5c65e660ce8e"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle1"
+										value=""/>
+									<varbinding
+										name="varSortProgmTitle2"
+										value=""/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.302"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="08:58:31"
+									time="00:00.302"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle1 = '', $varSortProgmTitle2 = ''
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.364"
+									timeRelativeToTestModuleStartTime="00:00.063"
+									timeWallClock="08:58:31"
+									time="00:00.364"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramTitle' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Title']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTitle"
+										id="73e1a5fdaf8a47eb9b035c2b612e49b5"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.646"
+									timeRelativeToTestModuleStartTime="00:02.345"
+									timeWallClock="08:58:33"
+									time="00:02.646"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramSearchFirstElement' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramSearchFirstElement"
+										id="16c4a6d798b24bd8868d056a63725208"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.849"
+									timeRelativeToTestModuleStartTime="00:02.548"
+									timeWallClock="08:58:33"
+									time="00:02.849"
+									level="Info"
+									category="User">
+									<message>
+										Advanced Strength Training
+									</message>
+									<metainfo
+										itemindex="2"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="116"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.899"
+									timeRelativeToTestModuleStartTime="00:02.598"
+									timeWallClock="08:58:34"
+									time="00:02.899"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramTitle' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Title']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTitle"
+										id="73e1a5fdaf8a47eb9b035c2b612e49b5"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="118"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.014"
+									timeRelativeToTestModuleStartTime="00:03.713"
+									timeWallClock="08:58:35"
+									time="00:04.014"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramSearchFirstElement' and assigning its value to variable 'varSortProgmTitle2'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramSearchFirstElement"
+										id="16c4a6d798b24bd8868d056a63725208"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="122"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.201"
+									timeRelativeToTestModuleStartTime="00:03.900"
+									timeWallClock="08:58:35"
+									time="00:04.201"
+									level="Info"
+									category="User">
+									<message>
+										Workout Partner
+									</message>
+									<metainfo
+										itemindex="5"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="126"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.251"
+									timeRelativeToTestModuleStartTime="00:03.950"
+									timeWallClock="08:58:35"
+									time="00:04.251"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating AttributeNotContains (InnerText!&gt;$varSortProgmTitle1) on item 'NewOceanAdminPortal.Content.ProgramSearchFirstElement'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramSearchFirstElement"
+										id="16c4a6d798b24bd8868d056a63725208"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="128"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.456"
+									timeRelativeToTestModuleStartTime="00:04.155"
+									timeWallClock="08:58:35"
+									time="00:04.456"
+									level="Success"
+									category="Validation">
+									<message>
+										Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramSearchFirstElement' does match the specified RegEx.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramSearchFirstElement"
+										id="16c4a6d798b24bd8868d056a63725208"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTitleSort.cs"
+										codeline="129"
+										loglvl="Success"
+										itemindex="6"/>
+								</item>
+							</activity>
+							<activity
+								result="Success"
+								duration="2.92s"
+								durationms="2917"
+								type="test module"
+								rid="122643fdf1f4ccf4"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramLevelSort"
+								moduleid="b2103653-8a66-4c28-9270-43051c0d69b7"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle2"
+										value="Workout Partner"/>
+									<varbinding
+										name="varSortProgmTitle1"
+										value="Advanced Strength Training"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.492"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="08:58:35"
+									time="00:04.492"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle2 = 'Workout Partner', $varSortProgmTitle1 = 'Advanced Strength Training'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:04.537"
+									timeRelativeToTestModuleStartTime="00:00.047"
+									timeWallClock="08:58:35"
+									time="00:04.537"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramLevel' at 74;15.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Level']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevel"
+										id="75bda6ed93234be5b3f983ee1bdc7383"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:05.534"
+									timeRelativeToTestModuleStartTime="00:01.044"
+									timeWallClock="08:58:36"
+									time="00:05.534"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramLevelEasy' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Easy']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevelEasy"
+										id="f04c2988a07841a395115ea6d051323a"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:05.730"
+									timeRelativeToTestModuleStartTime="00:01.240"
+									timeWallClock="08:58:36"
+									time="00:05.730"
+									level="Info"
+									category="User">
+									<message>
+										Easy
+									</message>
+									<metainfo
+										itemindex="2"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="116"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:05.788"
+									timeRelativeToTestModuleStartTime="00:01.298"
+									timeWallClock="08:58:36"
+									time="00:05.788"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramLevel' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Level']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevel"
+										id="75bda6ed93234be5b3f983ee1bdc7383"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="118"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:06.920"
+									timeRelativeToTestModuleStartTime="00:02.430"
+									timeWallClock="08:58:38"
+									time="00:06.920"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramLevelMedium' and assigning its value to variable 'varSortProgmTitle2'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext!='Medium']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevelMedium"
+										id="8b188041243e4762b818930dc19c9078"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="122"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:07.106"
+									timeRelativeToTestModuleStartTime="00:02.616"
+									timeWallClock="08:58:38"
+									time="00:07.106"
+									level="Info"
+									category="User">
+									<message>
+										Advanced Strength Training
+									</message>
+									<metainfo
+										itemindex="5"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="126"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:07.157"
+									timeRelativeToTestModuleStartTime="00:02.667"
+									timeWallClock="08:58:38"
+									time="00:07.157"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating AttributeNotContains (InnerText!&gt;$varSortProgmTitle1) on item 'NewOceanAdminPortal.Content.ProgramLevelMedium'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext!='Medium']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevelMedium"
+										id="8b188041243e4762b818930dc19c9078"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="128"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:07.369"
+									timeRelativeToTestModuleStartTime="00:02.879"
+									timeWallClock="08:58:38"
+									time="00:07.369"
+									level="Success"
+									category="Validation">
+									<message>
+										Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevelMedium' does match the specified RegEx.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext!='Medium']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramLevelMedium"
+										id="8b188041243e4762b818930dc19c9078"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="129"
+										loglvl="Success"
+										itemindex="6"/>
+								</item>
+							</activity>
+							<activity
+								result="Success"
+								duration="2.9s"
+								durationms="2900"
+								type="test module"
+								rid="10a4928e6f9842ee"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramTypeSort"
+								moduleid="cb75fa4a-30f5-4293-b5fa-9c9419b5ec76"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle1"
+										value="Easy"/>
+									<varbinding
+										name="varSortProgmTitle2"
+										value="Advanced Strength Training"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:07.412"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="08:58:38"
+									time="00:07.412"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle1 = 'Easy', $varSortProgmTitle2 = 'Advanced Strength Training'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:07.458"
+									timeRelativeToTestModuleStartTime="00:00.048"
+									timeWallClock="08:58:38"
+									time="00:07.458"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramType' at 77;12.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Type']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramType"
+										id="565d825d6d48440da66ff48107b9a565"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.469"
+									timeRelativeToTestModuleStartTime="00:01.059"
+									timeWallClock="08:58:39"
+									time="00:08.469"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramTypeCareplan' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Care Plan']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTypeCareplan"
+										id="fce38ffb4abc44b29d515955e4dc4c1f"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.659"
+									timeRelativeToTestModuleStartTime="00:01.249"
+									timeWallClock="08:58:39"
+									time="00:08.659"
+									level="Info"
+									category="User">
+									<message>
+										Care Plan
+									</message>
+									<metainfo
+										itemindex="2"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="116"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.706"
+									timeRelativeToTestModuleStartTime="00:01.296"
+									timeWallClock="08:58:39"
+									time="00:08.706"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramType' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Type']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramType"
+										id="565d825d6d48440da66ff48107b9a565"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="118"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.801"
+									timeRelativeToTestModuleStartTime="00:02.391"
+									timeWallClock="08:58:40"
+									time="00:09.801"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramTypeElective' and assigning its value to variable 'varSortProgmTitle2'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="122"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.006"
+									timeRelativeToTestModuleStartTime="00:02.596"
+									timeWallClock="08:58:41"
+									time="00:10.006"
+									level="Info"
+									category="User">
+									<message>
+										Elective
+									</message>
+									<metainfo
+										itemindex="5"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="126"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.058"
+									timeRelativeToTestModuleStartTime="00:02.648"
+									timeWallClock="08:58:41"
+									time="00:10.058"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating AttributeNotContains (InnerText!&gt;$varSortProgmTitle1) on item 'NewOceanAdminPortal.Content.ProgramTypeElective'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="128"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.276"
+									timeRelativeToTestModuleStartTime="00:02.866"
+									timeWallClock="08:58:41"
+									time="00:10.276"
+									level="Success"
+									category="Validation">
+									<message>
+										Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTypeElective' does match the specified RegEx.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="129"
+										loglvl="Success"
+										itemindex="6"/>
+								</item>
+							</activity>
+							<activity
+								result="Success"
+								duration="2.87s"
+								durationms="2868"
+								type="test module"
+								rid="fce9af19d48a69c"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramStatusSort"
+								moduleid="8af8f654-1a5b-4d44-91a5-d931f24ec308"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle1"
+										value="Care Plan"/>
+									<varbinding
+										name="varSortProgmTitle2"
+										value="Elective"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.313"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="08:58:41"
+									time="00:10.313"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle1 = 'Care Plan', $varSortProgmTitle2 = 'Elective'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.360"
+									timeRelativeToTestModuleStartTime="00:00.048"
+									timeWallClock="08:58:41"
+									time="00:10.360"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramStatus' at 72;14.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Status']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatus"
+										id="7eb58d2095914fb7adffc34cb5f2e52c"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:11.445"
+									timeRelativeToTestModuleStartTime="00:01.133"
+									timeWallClock="08:58:42"
+									time="00:11.445"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramStatusInactive' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Inactive']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatusInactive"
+										id="9da0e86e2cb349df98a2f64ae1381705"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:11.634"
+									timeRelativeToTestModuleStartTime="00:01.322"
+									timeWallClock="08:58:42"
+									time="00:11.634"
+									level="Info"
+									category="User">
+									<message>
+										Inactive
+									</message>
+									<metainfo
+										itemindex="2"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="116"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:11.677"
+									timeRelativeToTestModuleStartTime="00:01.365"
+									timeWallClock="08:58:42"
+									time="00:11.677"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Content.ProgramStatus' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Status']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatus"
+										id="7eb58d2095914fb7adffc34cb5f2e52c"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="118"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.685"
+									timeRelativeToTestModuleStartTime="00:02.373"
+									timeWallClock="08:58:43"
+									time="00:12.685"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'NewOceanAdminPortal.Content.ProgramStatusActive' and assigning its value to variable 'varSortProgmTitle2'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatusActive"
+										id="43e869603f4e41feb117ada1c98e9de2"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="122"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.882"
+									timeRelativeToTestModuleStartTime="00:02.570"
+									timeWallClock="08:58:44"
+									time="00:12.882"
+									level="Info"
+									category="User">
+									<message>
+										Active
+									</message>
+									<metainfo
+										itemindex="5"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="126"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.929"
+									timeRelativeToTestModuleStartTime="00:02.617"
+									timeWallClock="08:58:44"
+									time="00:12.929"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating AttributeNotContains (InnerText!&gt;$varSortProgmTitle1) on item 'NewOceanAdminPortal.Content.ProgramStatusActive'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatusActive"
+										id="43e869603f4e41feb117ada1c98e9de2"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="128"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:13.139"
+									timeRelativeToTestModuleStartTime="00:02.827"
+									timeWallClock="08:58:44"
+									time="00:13.139"
+									level="Success"
+									category="Validation">
+									<message>
+										Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatusActive' does match the specified RegEx.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='portal.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Content.ProgramStatusActive"
+										id="43e869603f4e41feb117ada1c98e9de2"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramStatusSort.cs"
+										codeline="129"
+										loglvl="Success"
+										itemindex="6"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

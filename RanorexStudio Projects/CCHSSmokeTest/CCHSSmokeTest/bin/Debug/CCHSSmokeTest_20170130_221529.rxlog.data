@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c153b4ec877bbf3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/30/2017 10:15:29 PM"
+		timestampiso="2017-01-31T03:15:29"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="4.42s"
+			durationms="4423"
+			type="test suite"
+			rid="2f4993096aa21c4"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="4.42s"
+				durationms="4419"
+				type="test case"
+				rid="3ad0dbe16f682ae"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="4.42s"
+					durationms="4418"
+					type="test case iteration"
+					rid="1d72ef9e73723b2b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="4.42s"
+						durationms="4417"
+						type="test case"
+						rid="135489163a96124d"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Add_Reward_Group_Template"
+						testcaseid="f43dfc70-f60c-4f27-b37a-08dcf1af0093"
+						datasource="NewConnector5"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="4.42s"
+							durationms="4416"
+							type="test case iteration"
+							rid="3f493924b068b86"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="Add_Reward_Group_Template"
+							iteration="1">
+							<datarow>
+								<field
+									name="ColumnRewardSource">
+									New Reward
+								</field>
+								<field
+									name="ColumnRewardDestination">
+									Rewards
+								</field>
+								<field
+									name="ColumnRewardTypeSource">
+									Self Reported
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="4.38s"
+								durationms="4381"
+								type="test module"
+								rid="1c21595bee41458"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="DragRewards"
+								moduleid="434b81bd-eba3-494c-9e8e-d767dc0d9cbc"
+								moduletype="Recording">
+								<detail>
+									Drag Reward Type - Self Reported
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varRewardDragSource"
+										value="Self Reported"/>
+									<varbinding
+										name="varRewardDragDestination"
+										value="Rewards"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.128"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="22:15:29"
+									time="00:00.128"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varRewardDragSource = 'Self Reported', $varRewardDragDestination = 'Rewards'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.203"
+									timeRelativeToTestModuleStartTime="00:00.077"
+									timeWallClock="22:15:29"
+									time="00:00.203"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Down item 'LoginCCHSPortal.RewardGroupTemplates.NewReward' at 62;14.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div//span[@innertext='Self Reported']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.NewReward"
+										id="3ef521742c2d41bda0f2674156bcb28d"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Rewards\DragRewards.cs"
+										codeline="102"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.702"
+									timeRelativeToTestModuleStartTime="00:01.576"
+									timeWallClock="22:15:30"
+									time="00:01.702"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Move item 'LoginCCHSPortal.RewardGroupTemplates.NewReward' at 70;6.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div//span[@innertext='Self Reported']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.NewReward"
+										id="3ef521742c2d41bda0f2674156bcb28d"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Rewards\DragRewards.cs"
+										codeline="107"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.599"
+									timeRelativeToTestModuleStartTime="00:03.473"
+									timeWallClock="22:15:32"
+									time="00:03.599"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Up item 'LoginCCHSPortal.RewardGroupTemplates.DragRewardHere' at 62;14.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div//h4[@innertext='Rewards']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.RewardGroupTemplates.DragRewardHere"
+										id="f1c0cdf589384eacad968225cc2e3140"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Rewards\DragRewards.cs"
+										codeline="111"
+										itemindex="2"
+										loglvl="Info"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="20bda2cf43b2c10"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/10/2017 1:39:47 PM"
+		timestampiso="2017-01-10T18:39:47"
+		timeoutfactor="1"
+		module="ProgramSearchByActive">
+		<detail>
+			ProgramSearchByActive
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.118"
+			timeRelativeToTestModuleStartTime="00:00.119"
+			timeWallClock="13:39:47"
+			time="00:00.118"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varTableRowNumber
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.137"
+			timeRelativeToTestModuleStartTime="00:00.138"
+			timeWallClock="13:39:47"
+			time="00:00.137"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '1' on item 'LoginCCHSPortal.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="93"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

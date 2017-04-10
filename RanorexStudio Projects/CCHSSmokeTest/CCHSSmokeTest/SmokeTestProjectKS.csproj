@@ -1,0 +1,2854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{D630DD06-6ADD-4C80-AFEA-C2B87A80D262}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CCHSSmokeTest</RootNamespace>
+    <AssemblyName>SmokeTestProjectKS</AssemblyName>
+    <RanorexVersion>6.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>8e1112f5-d072-49cd-9f68-e134b9891952</projectdefaultrepository>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>2ac7dd71-de03-44d4-935d-b3be9dcef7a6</id>
+    </Compile>
+    <Compile Include="CodeModules\FocusTag.cs">
+      <id>41342d00-e7ee-4811-9ef6-55de71630db5</id>
+    </Compile>
+    <Compile Include="CodeModules\LoginPN.cs">
+      <id>91500794-e39a-4fb5-9ab4-4893e3f9d936</id>
+    </Compile>
+    <Compile Include="CodeModules\Member\AddMemberPN.cs">
+      <id>9198d01a-f1e7-4033-abc7-49db83d48514</id>
+    </Compile>
+    <Compile Include="CodeModules\ResetPassword\ChangePassPN.cs">
+      <id>27bf29b5-14bf-47c2-9037-e23869340b07</id>
+    </Compile>
+    <Compile Include="CodeModules\ResetPassword\FPSecurityAnswer.cs">
+      <id>0d624b05-2a1c-49e8-bfe4-52ac940bf911</id>
+    </Compile>
+    <Compile Include="CodeModules\TestAcceptConsent.cs">
+      <id>f7b54d0d-b28e-4391-b96f-ed4fdb196aeb</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\ChallengeTypeElimination.cs">
+      <BoundTo>e0c23345-9dbc-4dbb-950b-42b3a3e77ff5</BoundTo>
+      <DependentUpon>ChallengeTypeElimination.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>beebc61d-d811-43cc-a0c6-3b303881f0ba</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\ChallengeTypeElimination.UserCode.cs">
+      <BoundTo>e0c23345-9dbc-4dbb-950b-42b3a3e77ff5</BoundTo>
+      <DependentUpon>ChallengeTypeElimination.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de6920f3-d9dc-4092-8c96-e97482f2d347</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\TypeEliminationOverview.cs">
+      <BoundTo>2c3833bb-2a84-4985-ac7a-22df616e629b</BoundTo>
+      <DependentUpon>TypeEliminationOverview.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7f4dc16f-da2e-431c-968c-6c3e49081301</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\TypeEliminationOverview.UserCode.cs">
+      <BoundTo>2c3833bb-2a84-4985-ac7a-22df616e629b</BoundTo>
+      <DependentUpon>TypeEliminationOverview.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>573c869f-8bdd-447c-9554-8cee077d6347</id>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Activities.cs">
+      <DependentUpon>Activities.rxrec</DependentUpon>
+      <id>077f0062-9d5d-49a7-9834-d530f14c66b6</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>88a634b6-e680-4c19-9652-72280c5fe31f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Activities.UserCode.cs">
+      <DependentUpon>Activities.rxrec</DependentUpon>
+      <id>324d948b-3a38-40f0-b25f-0309920bdebf</id>
+      <UserCode>true</UserCode>
+      <BoundTo>88a634b6-e680-4c19-9652-72280c5fe31f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\ActivitiesValidation1.cs">
+      <DependentUpon>ActivitiesValidation1.rxrec</DependentUpon>
+      <id>a58b41f5-fab2-450c-8728-27e586c465ea</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>47d258dd-adcd-4444-b50a-4bf3a131e01d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\ActivitiesValidation1.UserCode.cs">
+      <DependentUpon>ActivitiesValidation1.rxrec</DependentUpon>
+      <id>7c2c2de8-0540-48a7-803e-d5b2ff021d13</id>
+      <UserCode>true</UserCode>
+      <BoundTo>47d258dd-adcd-4444-b50a-4bf3a131e01d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\ButtonClose.cs">
+      <BoundTo>6dce0c00-0123-4228-a977-03f72b2f07e9</BoundTo>
+      <DependentUpon>ButtonClose.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e7c4736f-842d-4128-8dae-97ecce672d30</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\ButtonClose.UserCode.cs">
+      <BoundTo>6dce0c00-0123-4228-a977-03f72b2f07e9</BoundTo>
+      <DependentUpon>ButtonClose.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>547bf9c6-6575-450b-84e3-1ea099b790ad</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\ButtonSave.cs">
+      <BoundTo>3d4544f2-7c58-40be-b19f-907c2016348b</BoundTo>
+      <DependentUpon>ButtonSave.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>297f8755-a4de-4859-9275-8ac307ac32c3</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\ButtonSave.UserCode.cs">
+      <BoundTo>3d4544f2-7c58-40be-b19f-907c2016348b</BoundTo>
+      <DependentUpon>ButtonSave.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a05e19d8-8fd7-4cd8-bae5-eda86276f564</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewActivity.cs">
+      <DependentUpon>ButtonNewActivity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>443f3cf2-cbc8-4451-98e2-0a3b075088d3</id>
+      <BoundTo>5bbf92c1-4178-4263-9e97-10a73bc851b1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewActivity.UserCode.cs">
+      <DependentUpon>ButtonNewActivity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>471a8f5f-3952-444f-ad83-489e808863fb</id>
+      <BoundTo>5bbf92c1-4178-4263-9e97-10a73bc851b1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewChallenges.cs">
+      <DependentUpon>ButtonNewChallenges.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>74f48a7d-09a3-4bb8-877c-ea4267651d24</id>
+      <BoundTo>ad2dea92-608a-4983-921f-87c570681dc8</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewChallenges.UserCode.cs">
+      <DependentUpon>ButtonNewChallenges.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1d2563d9-6e6a-4519-b0b5-d1783d730a53</id>
+      <BoundTo>ad2dea92-608a-4983-921f-87c570681dc8</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewCommon.cs">
+      <DependentUpon>ButtonNewCommon.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0aa90e4c-a426-4f68-9c31-9acb50501d6c</id>
+      <BoundTo>9f51d41a-62de-4cb6-8cdd-7b67cad989eb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewCommon.UserCode.cs">
+      <DependentUpon>ButtonNewCommon.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>203c6335-34de-4d08-8fdf-6ce94979a667</id>
+      <BoundTo>9f51d41a-62de-4cb6-8cdd-7b67cad989eb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewHT.cs">
+      <DependentUpon>ButtonNewHT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef7f807a-e910-4ad6-9cc5-9ebbb99d6b54</id>
+      <BoundTo>414bbe53-c759-4821-9866-c49058777c2f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewHT.UserCode.cs">
+      <DependentUpon>ButtonNewHT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>084c35e0-0756-4442-ae40-0008be5ca2ca</id>
+      <BoundTo>414bbe53-c759-4821-9866-c49058777c2f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewPackageGroup.cs">
+      <BoundTo>58de49ea-b62a-44bf-844a-152394035cae</BoundTo>
+      <DependentUpon>ButtonNewPackageGroup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3528205-86b8-4698-88ab-8950681eba26</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\NewButton\ButtonNewPackageGroup.UserCode.cs">
+      <BoundTo>58de49ea-b62a-44bf-844a-152394035cae</BoundTo>
+      <DependentUpon>ButtonNewPackageGroup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b68c14f5-5d58-4689-adc4-2e8aea0317e5</id>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActive.cs">
+      <DependentUpon>ButtonTurnActive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ca58b010-ff32-4c19-bcd1-6d92762d4c81</id>
+      <BoundTo>e9016242-2d84-459a-a59d-fb01bd702072</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActive.UserCode.cs">
+      <DependentUpon>ButtonTurnActive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>04212191-3ce7-4ac0-97e0-23f34b1d7955</id>
+      <BoundTo>e9016242-2d84-459a-a59d-fb01bd702072</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActiveProgram.cs">
+      <DependentUpon>ButtonTurnActiveProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4446a8ce-2a5b-41b0-b01b-cabaf695b86d</id>
+      <BoundTo>ae018843-addf-47ec-80f8-f5dfe1040631</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActiveProgram.UserCode.cs">
+      <DependentUpon>ButtonTurnActiveProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a86483bb-370f-444e-8973-52762eadd7dd</id>
+      <BoundTo>ae018843-addf-47ec-80f8-f5dfe1040631</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActiveRewards.cs">
+      <DependentUpon>ButtonTurnActiveRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c65c771f-cf03-40f2-863c-b76348932c96</id>
+      <BoundTo>aaaae0ff-f809-4032-9361-ff6a278fe3b2</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\ButtonTurnActiveRewards.UserCode.cs">
+      <DependentUpon>ButtonTurnActiveRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>353c4cbf-d70b-433f-bae5-32723ef3cae7</id>
+      <BoundTo>aaaae0ff-f809-4032-9361-ff6a278fe3b2</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\Button_TurnActive_HT.cs">
+      <DependentUpon>Button_TurnActive_HT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db2e4211-e60a-4331-a382-583c569a6b10</id>
+      <BoundTo>44117ace-81ae-4c23-8330-b0c7537a09fd</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Buttons\Turn Active\Button_TurnActive_HT.UserCode.cs">
+      <DependentUpon>Button_TurnActive_HT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41daa04b-21e7-4fd0-bee1-2514ecbf5fc8</id>
+      <BoundTo>44117ace-81ae-4c23-8330-b0c7537a09fd</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Challenges\RecTeamTab.cs">
+      <BoundTo>51a24bba-79ad-43e5-ab33-71f67115d5c0</BoundTo>
+      <DependentUpon>RecTeamTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>13c866b9-55e9-4bc1-aa77-06af0517d259</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\RecTeamTab.UserCode.cs">
+      <BoundTo>51a24bba-79ad-43e5-ab33-71f67115d5c0</BoundTo>
+      <DependentUpon>RecTeamTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0d5033ba-21a6-49e1-9853-2eddc8a7b091</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\SelectValueChallengeTeamType.cs">
+      <BoundTo>89077525-4d2e-4c75-a54b-f47426ce40d3</BoundTo>
+      <DependentUpon>SelectValueChallengeTeamType.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2af77d50-87e8-4c6b-9436-09f3526f65b5</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\SelectValueChallengeTeamType.UserCode.cs">
+      <BoundTo>89077525-4d2e-4c75-a54b-f47426ce40d3</BoundTo>
+      <DependentUpon>SelectValueChallengeTeamType.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a9ff099d-05ae-47f9-a6be-b93e676c6c37</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\ChallengeTypeTraditional.cs">
+      <BoundTo>5f80c7e4-6c0f-438a-b34c-3ee1c65fb41c</BoundTo>
+      <DependentUpon>ChallengeTypeTraditional.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>032a4566-ca1d-4543-a6e0-79684158bc80</id>
+    </Compile>
+    <Compile Include="Recordings\Challenges\ChallengeTypeTraditional.UserCode.cs">
+      <BoundTo>5f80c7e4-6c0f-438a-b34c-3ee1c65fb41c</BoundTo>
+      <DependentUpon>ChallengeTypeTraditional.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a8c02d6-6474-4866-8e3b-fc542eba229e</id>
+    </Compile>
+    <Compile Include="Recordings\Delete\DeleteChallenge.cs">
+      <BoundTo>bf1ccd4b-2c36-4c04-b2a2-5689c9378172</BoundTo>
+      <DependentUpon>DeleteChallenge.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33c56e6c-2ae2-49d7-991a-d627d47ea672</id>
+    </Compile>
+    <Compile Include="Recordings\Delete\DeleteChallenge.UserCode.cs">
+      <BoundTo>bf1ccd4b-2c36-4c04-b2a2-5689c9378172</BoundTo>
+      <DependentUpon>DeleteChallenge.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eedf23c3-ca1d-47d2-9454-1165b13f8a90</id>
+    </Compile>
+    <Compile Include="Recordings\Delete\DeleteItem.cs">
+      <DependentUpon>DeleteItem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6776bb3d-4769-4a05-8015-f7d05e904455</id>
+      <BoundTo>37e197b1-182c-4afe-ae02-db9511c20a4f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Delete\DeleteItem.UserCode.cs">
+      <DependentUpon>DeleteItem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e1fe62e8-fae3-4d0c-8c7e-234384f73270</id>
+      <BoundTo>37e197b1-182c-4afe-ae02-db9511c20a4f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragActivityAbAttack.cs">
+      <BoundTo>5be861c4-bb9c-4ef9-a596-2a518914a794</BoundTo>
+      <DependentUpon>DragActivityAbAttack.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>03ce5e6f-66c7-44f5-9551-c20121add472</id>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragActivityAbAttack.UserCode.cs">
+      <BoundTo>5be861c4-bb9c-4ef9-a596-2a518914a794</BoundTo>
+      <DependentUpon>DragActivityAbAttack.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>15e67fad-3638-4e74-9b23-653e65e481e3</id>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragBloodSugarActivityInPrograms.cs">
+      <BoundTo>17647af8-48d3-4ffa-86af-d3750f2b7c3f</BoundTo>
+      <DependentUpon>DragBloodSugarActivityInPrograms.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>81a88ca5-7132-4f09-a133-46a4d3057de8</id>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragBloodSugarActivityInPrograms.UserCode.cs">
+      <BoundTo>17647af8-48d3-4ffa-86af-d3750f2b7c3f</BoundTo>
+      <DependentUpon>DragBloodSugarActivityInPrograms.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d38cc3f-3f88-4dc7-ab44-0d1f1ca0c23c</id>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragStretchActivity.cs">
+      <BoundTo>8f6ded55-46b7-4702-96f6-8b681d84ada1</BoundTo>
+      <DependentUpon>DragStretchActivity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0ff21773-35f1-44fb-8f1e-6359884c09fc</id>
+    </Compile>
+    <Compile Include="Recordings\DragItems\DragStretchActivity.UserCode.cs">
+      <BoundTo>8f6ded55-46b7-4702-96f6-8b681d84ada1</BoundTo>
+      <DependentUpon>DragStretchActivity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b5bc7c0-9b8d-47a5-9b4a-6a3b6a6da393</id>
+    </Compile>
+    <Compile Include="Recordings\Dropdowns\IconSelect.cs">
+      <BoundTo>0d2cbc04-cbe7-4e99-b8ae-461319f1da79</BoundTo>
+      <DependentUpon>IconSelect.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>267e0950-08b3-4957-904f-e9e99753e65e</id>
+    </Compile>
+    <Compile Include="Recordings\Dropdowns\IconSelect.UserCode.cs">
+      <BoundTo>0d2cbc04-cbe7-4e99-b8ae-461319f1da79</BoundTo>
+      <DependentUpon>IconSelect.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ee3a87ec-4913-4000-bbde-d66c0b834bd6</id>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\FormsSearch.cs">
+      <DependentUpon>FormsSearch.rxrec</DependentUpon>
+      <id>507217ac-b5ee-41d4-bdc2-b267a6f75ca8</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>fd2ae6ad-7d33-4658-8b02-e9e245956f80</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\FormsSearch.UserCode.cs">
+      <DependentUpon>FormsSearch.rxrec</DependentUpon>
+      <id>e99ac9d1-1bd0-4c09-8936-e03571ab27a0</id>
+      <UserCode>true</UserCode>
+      <BoundTo>fd2ae6ad-7d33-4658-8b02-e9e245956f80</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Forms_Validation_.cs">
+      <DependentUpon>Forms_Validation_.rxrec</DependentUpon>
+      <id>40f6c566-a00c-4b47-94e2-1e623370ab6f</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>89592b1e-33f6-4ec9-8655-1de508d62bc7</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Forms_Validation_.UserCode.cs">
+      <DependentUpon>Forms_Validation_.rxrec</DependentUpon>
+      <id>59fa4d4a-4373-4d96-b57f-7d266af7dd35</id>
+      <UserCode>true</UserCode>
+      <BoundTo>89592b1e-33f6-4ec9-8655-1de508d62bc7</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\HealthTrackers.cs">
+      <DependentUpon>HealthTrackers.rxrec</DependentUpon>
+      <id>6a343be8-4a9d-4273-a0b5-bc90c7a3e0b1</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>68a3c53e-cd7a-45bb-933c-1b19a2fa51d0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\HealthTrackers.UserCode.cs">
+      <DependentUpon>HealthTrackers.rxrec</DependentUpon>
+      <id>fdf25345-d228-450b-8877-7da84eac4722</id>
+      <UserCode>true</UserCode>
+      <BoundTo>68a3c53e-cd7a-45bb-933c-1b19a2fa51d0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\HTValidation.cs">
+      <DependentUpon>HTValidation.rxrec</DependentUpon>
+      <id>f6d227c4-a95e-4106-aaa0-3c432d48529d</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>5121e26c-4d47-46f9-a6ee-90e8277f605e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\HTValidation.UserCode.cs">
+      <DependentUpon>HTValidation.rxrec</DependentUpon>
+      <id>c096d0a1-58e0-4e8a-bc20-9052336383b4</id>
+      <UserCode>true</UserCode>
+      <BoundTo>5121e26c-4d47-46f9-a6ee-90e8277f605e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\MemberSearchEntity.cs">
+      <BoundTo>69975bca-3f6e-4b85-9edd-d76c678ce36d</BoundTo>
+      <DependentUpon>MemberSearchEntity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e1bd57d-9ad1-4744-9f59-bfbb04bc4f8b</id>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\MemberSearchEntity.UserCode.cs">
+      <BoundTo>69975bca-3f6e-4b85-9edd-d76c678ce36d</BoundTo>
+      <DependentUpon>MemberSearchEntity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eccaff14-04c3-4251-a0ce-3cef141434d9</id>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\MemberSearchValidation.cs">
+      <DependentUpon>MemberSearchValidation.rxrec</DependentUpon>
+      <id>edcdb3e8-6367-4db8-9970-a128a8494712</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>583dd275-894e-465f-8992-dcae74603724</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\MemberSearchValidation.UserCode.cs">
+      <DependentUpon>MemberSearchValidation.rxrec</DependentUpon>
+      <id>7383f1d2-f055-4cf5-8a8d-cc16226beaf8</id>
+      <UserCode>true</UserCode>
+      <BoundTo>583dd275-894e-465f-8992-dcae74603724</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Programs.cs">
+      <DependentUpon>Programs.rxrec</DependentUpon>
+      <id>033ecbc3-b2a5-4883-95ae-dae35ef28438</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>cf9ae5ee-38a6-4b80-a1bb-889ef7defe3a</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Programs.UserCode.cs">
+      <DependentUpon>Programs.rxrec</DependentUpon>
+      <id>bd8b3b18-c5f8-4f8b-8b3d-d435dd517850</id>
+      <UserCode>true</UserCode>
+      <BoundTo>cf9ae5ee-38a6-4b80-a1bb-889ef7defe3a</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\ProgramValidation.cs">
+      <DependentUpon>ProgramValidation.rxrec</DependentUpon>
+      <id>42438ec8-20e1-45f3-896e-bd4b8430ad20</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>b1b2c31f-b3f2-458b-863c-dc4c3b96d2f2</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\ProgramValidation.UserCode.cs">
+      <DependentUpon>ProgramValidation.rxrec</DependentUpon>
+      <id>34ed98f4-4089-4c92-bf23-e65096d57741</id>
+      <UserCode>true</UserCode>
+      <BoundTo>b1b2c31f-b3f2-458b-863c-dc4c3b96d2f2</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Users.cs">
+      <DependentUpon>Users.rxrec</DependentUpon>
+      <id>a2a4b6bb-7588-4784-a209-4b35be516cfa</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>e832104e-9ba9-4a2a-a557-2474b9b5b9cb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\Users.UserCode.cs">
+      <DependentUpon>Users.rxrec</DependentUpon>
+      <id>f49a6f7f-6ad5-4768-8df1-397d4009d79b</id>
+      <UserCode>true</UserCode>
+      <BoundTo>e832104e-9ba9-4a2a-a557-2474b9b5b9cb</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\UseSearchValidation.cs">
+      <DependentUpon>UseSearchValidation.rxrec</DependentUpon>
+      <id>49e660f9-0805-4d74-a3e8-518cbb95b2d2</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>c41e8156-4ee3-4ff4-a19d-cdd4c3e81627</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Entity Testing\UseSearchValidation.UserCode.cs">
+      <DependentUpon>UseSearchValidation.rxrec</DependentUpon>
+      <id>1d4f61ed-3b2f-4cad-9dff-c315d2aeff06</id>
+      <UserCode>true</UserCode>
+      <BoundTo>c41e8156-4ee3-4ff4-a19d-cdd4c3e81627</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTag.cs">
+      <BoundTo>ad8f14e8-4610-4c61-a642-2f0b9968f6e5</BoundTo>
+      <DependentUpon>ClickFocusTag.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6543b06d-9660-477f-8f41-e1aaf6857651</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTag.UserCode.cs">
+      <BoundTo>ad8f14e8-4610-4c61-a642-2f0b9968f6e5</BoundTo>
+      <DependentUpon>ClickFocusTag.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>51219fcc-4a90-4aff-8f05-0eca419f4591</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTagHT.cs">
+      <BoundTo>d903a85a-d66c-438a-aaf4-bf814a2db45f</BoundTo>
+      <DependentUpon>ClickFocusTagHT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>734e31de-25a9-470b-a97b-0247ba9f2c1a</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTagHT.UserCode.cs">
+      <BoundTo>d903a85a-d66c-438a-aaf4-bf814a2db45f</BoundTo>
+      <DependentUpon>ClickFocusTagHT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>791c60dc-e119-413a-8f98-e991948db8ea</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTagPrograms.cs">
+      <BoundTo>e042bec9-db61-4b6a-9eb1-a2dd489add81</BoundTo>
+      <DependentUpon>ClickFocusTagPrograms.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7fa4aa26-1826-4145-84fb-df3612dba432</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\ClickFocusTagPrograms.UserCode.cs">
+      <BoundTo>e042bec9-db61-4b6a-9eb1-a2dd489add81</BoundTo>
+      <DependentUpon>ClickFocusTagPrograms.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b3ae06e3-d95f-4b34-95a3-0a977dd930fc</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\Focuses.cs">
+      <DependentUpon>Focuses.rxrec</DependentUpon>
+      <id>12f17548-300a-4812-872c-f7529cf61494</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>06b0eb1e-38f2-46ea-af0c-7d92af17c179</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Focuses\Focuses.UserCode.cs">
+      <DependentUpon>Focuses.rxrec</DependentUpon>
+      <id>d21bda22-f457-4a86-bc33-ed78fb859458</id>
+      <UserCode>true</UserCode>
+      <BoundTo>06b0eb1e-38f2-46ea-af0c-7d92af17c179</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Focuses\FocusTagImageClick.cs">
+      <BoundTo>202221c8-3e7f-47d5-9d6c-09918ec81950</BoundTo>
+      <DependentUpon>FocusTagImageClick.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1bb6015b-447e-4e89-ba39-09e66dfcd916</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\FocusTagImageClick.UserCode.cs">
+      <BoundTo>202221c8-3e7f-47d5-9d6c-09918ec81950</BoundTo>
+      <DependentUpon>FocusTagImageClick.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cc5d6afc-b3ce-4c95-9a5f-c490a5e6e632</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\SelectFocus.cs">
+      <BoundTo>6e0a1155-1b44-4764-a331-45e3dbf7b65f</BoundTo>
+      <DependentUpon>SelectFocus.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3f1342a-4874-4d55-97e3-fb103a84a769</id>
+    </Compile>
+    <Compile Include="Recordings\Focuses\SelectFocus.UserCode.cs">
+      <BoundTo>6e0a1155-1b44-4764-a331-45e3dbf7b65f</BoundTo>
+      <DependentUpon>SelectFocus.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cfbda72c-ff2d-4e45-9b1d-50720bc8e330</id>
+    </Compile>
+    <Compile Include="Recordings\Forms\Add_Form.cs">
+      <DependentUpon>Add_Form.rxrec</DependentUpon>
+      <id>3190291e-7e51-46eb-b903-81b073b41c55</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>bc94786a-2a2b-4b52-9c6a-409d80291792</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Forms\Add_Form.UserCode.cs">
+      <DependentUpon>Add_Form.rxrec</DependentUpon>
+      <id>1722871f-d759-4e3f-acc1-220c9db75c19</id>
+      <UserCode>true</UserCode>
+      <BoundTo>bc94786a-2a2b-4b52-9c6a-409d80291792</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Forms\DeleteForm.cs">
+      <DependentUpon>DeleteForm.rxrec</DependentUpon>
+      <id>36bc81c4-fbb2-4a42-a1a2-d3c5c90c9445</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>3fbb2871-c9a0-46f8-8ec5-43c75b4e475c</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Forms\DeleteForm.UserCode.cs">
+      <DependentUpon>DeleteForm.rxrec</DependentUpon>
+      <id>94d885ae-e9a9-4f06-8cb2-4d0ebc6f6df6</id>
+      <UserCode>true</UserCode>
+      <BoundTo>3fbb2871-c9a0-46f8-8ec5-43c75b4e475c</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Forms\EditForm.cs">
+      <DependentUpon>EditForm.rxrec</DependentUpon>
+      <id>ec8a39f4-9ff9-4eeb-a679-9e9ca129b214</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>c993fb8d-e610-4630-879e-c6fe32211c14</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Forms\EditForm.UserCode.cs">
+      <DependentUpon>EditForm.rxrec</DependentUpon>
+      <id>c7fff783-2487-4a00-9de0-24ff6a5b08b5</id>
+      <UserCode>true</UserCode>
+      <BoundTo>c993fb8d-e610-4630-879e-c6fe32211c14</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\CloseApplication.cs">
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a095c88-badb-484d-a336-e366eb65089d</id>
+      <BoundTo>3385079a-3bf4-4e08-bd25-cf1a72a998c9</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\CloseApplication.UserCode.cs">
+      <DependentUpon>CloseApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>912662a5-359d-4e79-bfe3-fb825517222d</id>
+      <BoundTo>3385079a-3bf4-4e08-bd25-cf1a72a998c9</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\LaunchApplication.cs">
+      <DependentUpon>LaunchApplication.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76b4af1c-43d0-4fcd-a25d-45849937dfd3</id>
+      <BoundTo>adb11abd-fe03-4b05-8b6d-38b7885441f0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\LaunchApplication.UserCode.cs">
+      <DependentUpon>LaunchApplication.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5749dfe2-bcf4-48c3-b7fa-cf35cd768ae5</id>
+      <BoundTo>adb11abd-fe03-4b05-8b6d-38b7885441f0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\Login.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7837dc98-2efa-4795-8af3-6f008d41128f</id>
+      <BoundTo>34d4f5eb-2ed3-4d9b-8fe3-cb7350610238</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\Login.UserCode.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d925d7e3-2b8e-42a0-b439-af4158747be2</id>
+      <BoundTo>34d4f5eb-2ed3-4d9b-8fe3-cb7350610238</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\LogOut.cs">
+      <BoundTo>6395120f-080d-4b11-a0c5-975f1c498983</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dc353525-aaa0-43c2-862e-c715daf24117</id>
+    </Compile>
+    <Compile Include="Recordings\Login\LogOut.UserCode.cs">
+      <BoundTo>6395120f-080d-4b11-a0c5-975f1c498983</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ed3a4e8f-ba85-4438-b8a8-85cb1c97b55a</id>
+    </Compile>
+    <Compile Include="Recordings\Members\AddMemberToFavorites.cs">
+      <BoundTo>09bb6d09-60c0-4f53-931e-ae81018974eb</BoundTo>
+      <DependentUpon>AddMemberToFavorites.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eb710401-5b47-432c-a5de-75b2786f44aa</id>
+    </Compile>
+    <Compile Include="Recordings\Members\AddMemberToFavorites.UserCode.cs">
+      <BoundTo>09bb6d09-60c0-4f53-931e-ae81018974eb</BoundTo>
+      <DependentUpon>AddMemberToFavorites.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d65daca7-93a7-4829-afce-4567fde7180a</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberAdministrationNavigation.cs">
+      <BoundTo>6b1cba60-6551-4db6-912a-bac32c67118d</BoundTo>
+      <DependentUpon>MemberAdministrationNavigation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c29e1e05-7a41-4ddd-8866-3394d45cd2fc</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberAdministrationNavigation.UserCode.cs">
+      <BoundTo>6b1cba60-6551-4db6-912a-bac32c67118d</BoundTo>
+      <DependentUpon>MemberAdministrationNavigation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f82bf7f-b2af-40dc-8870-aaf7b22af143</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchEmail.cs">
+      <BoundTo>5d6c4f0c-ad00-430d-9874-117acec1ba60</BoundTo>
+      <DependentUpon>MemberSearchEmail.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e38c8c15-8d93-4843-8c7e-f72f2f7af266</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchEmail.UserCode.cs">
+      <BoundTo>5d6c4f0c-ad00-430d-9874-117acec1ba60</BoundTo>
+      <DependentUpon>MemberSearchEmail.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>83f41955-421c-4c09-b0c5-06cf2f1adcd3</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchNeg.cs">
+      <BoundTo>2a36d517-391b-43cb-91f7-b8296c65d2ea</BoundTo>
+      <DependentUpon>MemberSearchNeg.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>58d6f662-a65f-46f0-8850-decb4f0fc7cd</id>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchNeg.UserCode.cs">
+      <BoundTo>2a36d517-391b-43cb-91f7-b8296c65d2ea</BoundTo>
+      <DependentUpon>MemberSearchNeg.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d90bd6ff-614f-4c39-b0c6-819028bd923e</id>
+    </Compile>
+    <Compile Include="Recordings\Members\SearchByDOB.cs">
+      <BoundTo>168e89b6-5897-4f4a-9539-3cfa640584a7</BoundTo>
+      <DependentUpon>SearchByDOB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>065d9398-84d2-476c-a205-5a2cb0ad259e</id>
+    </Compile>
+    <Compile Include="Recordings\Members\SearchByDOB.UserCode.cs">
+      <BoundTo>168e89b6-5897-4f4a-9539-3cfa640584a7</BoundTo>
+      <DependentUpon>SearchByDOB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3d2c1cbd-f960-4172-900d-ce53461a16a5</id>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavMembers.cs">
+      <BoundTo>a07e88cf-219f-4c21-9710-9cc35674f332</BoundTo>
+      <DependentUpon>NavMembers.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b58639fc-ba9a-4257-9ce6-f1eec81622a6</id>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavMembers.UserCode.cs">
+      <BoundTo>a07e88cf-219f-4c21-9710-9cc35674f332</BoundTo>
+      <DependentUpon>NavMembers.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f695b09-8901-47fe-b385-caf076199a8c</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\AddChallengeTemplate.cs">
+      <BoundTo>f7f2bfcb-ba5a-4c37-8687-11b02bf30b65</BoundTo>
+      <DependentUpon>AddChallengeTemplate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>353055c1-2985-4020-8599-9e6d5d09d3f3</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\AddChallengeTemplate.UserCode.cs">
+      <BoundTo>f7f2bfcb-ba5a-4c37-8687-11b02bf30b65</BoundTo>
+      <DependentUpon>AddChallengeTemplate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6bd28480-37cb-44ed-8b63-d1716b881068</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\AddRewards.cs">
+      <BoundTo>b8c58fcc-b515-4ee4-beef-435679d3a5ee</BoundTo>
+      <DependentUpon>AddRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5f64b37-9ee8-4b9b-9612-6658a076d4a9</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\AddRewards.UserCode.cs">
+      <BoundTo>b8c58fcc-b515-4ee4-beef-435679d3a5ee</BoundTo>
+      <DependentUpon>AddRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ec26eefe-9f5b-4ab6-9710-56b3b2caeca4</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\DeletePackageGroup.cs">
+      <BoundTo>4d0b5854-79aa-4a67-94c4-94de3df2bc6d</BoundTo>
+      <DependentUpon>DeletePackageGroup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>63d75b6f-a16d-44a0-9061-0bf4e96a2659</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\DeletePackageGroup.UserCode.cs">
+      <BoundTo>4d0b5854-79aa-4a67-94c4-94de3df2bc6d</BoundTo>
+      <DependentUpon>DeletePackageGroup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fded2196-dd38-40af-9d79-4da38a2da09b</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditMainTab.cs">
+      <BoundTo>55b3cf02-5667-4d97-9055-a94346c686e0</BoundTo>
+      <DependentUpon>EditMainTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9c081da4-205c-4d23-bad2-00f01274c19b</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditMainTab.UserCode.cs">
+      <BoundTo>55b3cf02-5667-4d97-9055-a94346c686e0</BoundTo>
+      <DependentUpon>EditMainTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6ca2799b-5d67-47d9-adfd-d1bf8406168a</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditPackagesTab.cs">
+      <BoundTo>a59a5495-b069-47a0-af17-ce5b9254651f</BoundTo>
+      <DependentUpon>EditPackagesTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e36304a6-82f5-4b3d-9e68-72a5092b8acb</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditPackagesTab.UserCode.cs">
+      <BoundTo>a59a5495-b069-47a0-af17-ce5b9254651f</BoundTo>
+      <DependentUpon>EditPackagesTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2e6864c-034a-4594-a2fb-36c953a00801</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditRewards.cs">
+      <BoundTo>f24a604f-b654-4f46-a955-ce90ebb4055e</BoundTo>
+      <DependentUpon>EditRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>63e6d824-1504-4df8-995d-3097b15491e6</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\EditRewards.UserCode.cs">
+      <BoundTo>f24a604f-b654-4f46-a955-ce90ebb4055e</BoundTo>
+      <DependentUpon>EditRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b5e025cc-1423-4ba2-8135-19e611cba85f</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\ScheduleChallenge.cs">
+      <BoundTo>fa0ad46e-df70-4439-b588-9ba9598e3ac4</BoundTo>
+      <DependentUpon>ScheduleChallenge.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91187e7d-7e23-48c1-a25a-49753c982ee1</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\ScheduleChallenge.UserCode.cs">
+      <BoundTo>fa0ad46e-df70-4439-b588-9ba9598e3ac4</BoundTo>
+      <DependentUpon>ScheduleChallenge.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b67a6e3-0c7b-4336-91b8-8ca38a3a8b79</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\MainTab.cs">
+      <BoundTo>9bc43a56-4017-4d62-88aa-f1a0e2c3a767</BoundTo>
+      <DependentUpon>MainTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>28098e28-70dd-4c3e-94e3-31ae4cec0d47</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\MainTab.UserCode.cs">
+      <BoundTo>9bc43a56-4017-4d62-88aa-f1a0e2c3a767</BoundTo>
+      <DependentUpon>MainTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a616822-cb86-4f57-b8e3-4cf88afacc34</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\Relationships.cs">
+      <BoundTo>c17bde6e-363b-4eaf-95b6-f0e1193243c1</BoundTo>
+      <DependentUpon>Relationships.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0d0ebba-d819-4ccc-b852-799190b514be</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\Relationships.UserCode.cs">
+      <BoundTo>c17bde6e-363b-4eaf-95b6-f0e1193243c1</BoundTo>
+      <DependentUpon>Relationships.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2ade791-7ed9-4634-8a95-82ccff563af8</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\SearchPackageGroup.cs">
+      <BoundTo>1abb919c-2225-471e-81dd-e968e3a911e9</BoundTo>
+      <DependentUpon>SearchPackageGroup.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6291ad9-ba12-40e7-9eb2-4983f5b9f04b</id>
+    </Compile>
+    <Compile Include="Recordings\Package Group\SearchPackageGroup.UserCode.cs">
+      <BoundTo>1abb919c-2225-471e-81dd-e968e3a911e9</BoundTo>
+      <DependentUpon>SearchPackageGroup.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e9229dcd-c872-475e-83eb-35d356fbe8f3</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\CarePlan\EditCareplan.cs">
+      <BoundTo>962399e5-2425-4711-b587-dd407f3580b8</BoundTo>
+      <DependentUpon>EditCareplan.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c409088-eefa-4eab-ba5d-e844793c7ae7</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\CarePlan\EditCareplan.UserCode.cs">
+      <BoundTo>962399e5-2425-4711-b587-dd407f3580b8</BoundTo>
+      <DependentUpon>EditCareplan.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a2b1d02-d972-4ea5-aa3e-d6bb13ee83a7</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\CarePlan\SelectProgramTypeCareplan.cs">
+      <BoundTo>6fe0031c-725a-46c2-9214-f0992ac01ef5</BoundTo>
+      <DependentUpon>SelectProgramTypeCareplan.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4e5fe60-e80b-49a7-9f38-39381331b318</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\CarePlan\SelectProgramTypeCareplan.UserCode.cs">
+      <BoundTo>6fe0031c-725a-46c2-9214-f0992ac01ef5</BoundTo>
+      <DependentUpon>SelectProgramTypeCareplan.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9b17544-962a-4d73-bd67-0833b55be716</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Daily Opportunity\CreateDailyOpportunity.cs">
+      <DependentUpon>CreateDailyOpportunity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cf653984-8d3b-4c60-9e40-22a84e80acb2</id>
+      <BoundTo>3f2fbb43-e608-4f7d-8adb-03d433746e09</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\Daily Opportunity\CreateDailyOpportunity.UserCode.cs">
+      <DependentUpon>CreateDailyOpportunity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a72816a6-0aa5-4d00-bf95-7153650378bd</id>
+      <BoundTo>3f2fbb43-e608-4f7d-8adb-03d433746e09</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\ClickContentTab.cs">
+      <BoundTo>794588ae-16b7-45a0-ac2e-1640f344b166</BoundTo>
+      <DependentUpon>ClickContentTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4dcccf15-59c2-40cf-8554-dc6fa6d90b68</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\ClickContentTab.UserCode.cs">
+      <BoundTo>794588ae-16b7-45a0-ac2e-1640f344b166</BoundTo>
+      <DependentUpon>ClickContentTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1824480b-ca79-4199-8b62-1d81a63e00c6</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\DragContent.cs">
+      <BoundTo>e2ff3e97-d9ad-49cc-8198-41d6ece74211</BoundTo>
+      <DependentUpon>DragContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef47958f-79de-4218-a230-e9df42cb60ac</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\DragContent.UserCode.cs">
+      <BoundTo>e2ff3e97-d9ad-49cc-8198-41d6ece74211</BoundTo>
+      <DependentUpon>DragContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88731b0d-e3ef-4f4a-9648-16f162374992</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\EditElectiveProgram.cs">
+      <BoundTo>553eb8ac-fed2-49a3-8634-8202aecada63</BoundTo>
+      <DependentUpon>EditElectiveProgram.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>26dc6fae-d058-45e5-b672-bb62f999ead6</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\EditElectiveProgram.UserCode.cs">
+      <BoundTo>553eb8ac-fed2-49a3-8634-8202aecada63</BoundTo>
+      <DependentUpon>EditElectiveProgram.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b75cf848-b8df-496f-ad75-23891a55f7d2</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\ElectiveProgramDetails.cs">
+      <DependentUpon>ElectiveProgramDetails.rxrec</DependentUpon>
+      <id>0f2a0fd1-e571-4d2b-9095-87011f6ccccf</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>024cca17-d990-467a-b017-cc95a0568e8d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\ElectiveProgramDetails.UserCode.cs">
+      <DependentUpon>ElectiveProgramDetails.rxrec</DependentUpon>
+      <id>947366f0-3766-4d3c-9188-d27385699cde</id>
+      <UserCode>true</UserCode>
+      <BoundTo>024cca17-d990-467a-b017-cc95a0568e8d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\SelectContent.cs">
+      <BoundTo>0d6fff48-fc15-480a-a728-fb9cb57cc7e9</BoundTo>
+      <DependentUpon>SelectContent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>174d2a86-adeb-442b-b493-3764fde165d2</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\SelectContent.UserCode.cs">
+      <BoundTo>0d6fff48-fc15-480a-a728-fb9cb57cc7e9</BoundTo>
+      <DependentUpon>SelectContent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>39006ff2-d705-420f-b6e4-50b757bdb13d</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\SelectProgramTypeElective.cs">
+      <DependentUpon>SelectProgramTypeElective.rxrec</DependentUpon>
+      <id>85d8c81f-26fa-4bb2-ac10-7b392d065bd4</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>5d70dd3b-11a1-4cd3-ab96-0301fd88c023</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\Elective\SelectProgramTypeElective.UserCode.cs">
+      <DependentUpon>SelectProgramTypeElective.rxrec</DependentUpon>
+      <id>17de4367-5f2a-4351-b94c-8e2e96cddfd0</id>
+      <UserCode>true</UserCode>
+      <BoundTo>5d70dd3b-11a1-4cd3-ab96-0301fd88c023</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\GlobeProgramTitleAndDescription.cs">
+      <BoundTo>505b5ec7-e155-47e3-b732-c1a3b6b1a426</BoundTo>
+      <DependentUpon>GlobeProgramTitleAndDescription.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d10c2e40-67dd-4518-a48f-d1b3c1a31498</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\GlobeProgramTitleAndDescription.UserCode.cs">
+      <BoundTo>505b5ec7-e155-47e3-b732-c1a3b6b1a426</BoundTo>
+      <DependentUpon>GlobeProgramTitleAndDescription.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9a29b920-04b6-4467-a6d6-c45d51a58b8c</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramStatusSort.cs">
+      <BoundTo>1e6385c6-2a5e-4bb0-b4e3-67806c9a87e6</BoundTo>
+      <DependentUpon>ProgramStatusSort.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fdffaa0f-c639-41a2-b784-8129e225d21e</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramStatusSort.UserCode.cs">
+      <BoundTo>1e6385c6-2a5e-4bb0-b4e3-67806c9a87e6</BoundTo>
+      <DependentUpon>ProgramStatusSort.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76e3eafc-ddec-4cba-b5d9-278f1468ea49</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramTypeSort.cs">
+      <BoundTo>e921cfba-1bf5-4481-b303-ca71675dc68f</BoundTo>
+      <DependentUpon>ProgramTypeSort.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>60c92b4e-03b4-4df6-9a23-87dd314a1de9</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramTypeSort.UserCode.cs">
+      <BoundTo>e921cfba-1bf5-4481-b303-ca71675dc68f</BoundTo>
+      <DependentUpon>ProgramTypeSort.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84d134fa-4382-4d5e-9f28-6e01485b7517</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\SelectIconAndHeaderColor.cs">
+      <BoundTo>2c07b656-4003-4eb0-a517-77f5c9afee49</BoundTo>
+      <DependentUpon>SelectIconAndHeaderColor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f27f59c-c3ea-4fa6-9f2f-d562ad223e06</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\SelectIconAndHeaderColor.UserCode.cs">
+      <BoundTo>2c07b656-4003-4eb0-a517-77f5c9afee49</BoundTo>
+      <DependentUpon>SelectIconAndHeaderColor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f699ae5-e67e-4978-a3e5-5166fff21e2f</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ActivateAccount.cs">
+      <BoundTo>f3032c57-6425-4e90-8228-ab68a9c950dc</BoundTo>
+      <DependentUpon>ActivateAccount.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d8300db6-bf90-4396-b206-5bc6ee017ee1</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ActivateAccount.UserCode.cs">
+      <BoundTo>f3032c57-6425-4e90-8228-ab68a9c950dc</BoundTo>
+      <DependentUpon>ActivateAccount.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ae8e1a90-df4f-4638-875f-c8c913b869ee</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ChangePassButton.cs">
+      <BoundTo>4694a1fd-f9ab-49c8-9d26-18a10380e8db</BoundTo>
+      <DependentUpon>ChangePassButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c568ce80-5852-4f7a-af3d-cd228f72f421</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ChangePassButton.UserCode.cs">
+      <BoundTo>4694a1fd-f9ab-49c8-9d26-18a10380e8db</BoundTo>
+      <DependentUpon>ChangePassButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>66a72d95-5436-4e4a-aff9-afedb5a3ef4f</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ChangePassword.cs">
+      <DependentUpon>ChangePassword.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0335e028-c8b7-47c1-b109-c092a072039a</id>
+      <BoundTo>582f5479-f9e2-4809-a1e7-ecadb0b7351a</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ChangePassword.UserCode.cs">
+      <DependentUpon>ChangePassword.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41624de8-84c8-4c0f-b0c2-6795b3db63ca</id>
+      <BoundTo>582f5479-f9e2-4809-a1e7-ecadb0b7351a</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ForgotPassword.cs">
+      <DependentUpon>ForgotPassword.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ff1973ae-b8c9-43b8-a65a-6b8439dc5325</id>
+      <BoundTo>66c60bb7-88e6-4be8-9cf3-c686a9fd2199</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\ForgotPassword.UserCode.cs">
+      <DependentUpon>ForgotPassword.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1eea9288-85ee-4ccc-aef7-972d5cfd311b</id>
+      <BoundTo>66c60bb7-88e6-4be8-9cf3-c686a9fd2199</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\FPEmailPN.cs">
+      <BoundTo>83ec671b-56f8-4af8-8fd2-6e6179f2b57a</BoundTo>
+      <DependentUpon>FPEmailPN.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5572c135-f202-48b4-a8b4-81850b3bac22</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\FPEmailPN.UserCode.cs">
+      <BoundTo>83ec671b-56f8-4af8-8fd2-6e6179f2b57a</BoundTo>
+      <DependentUpon>FPEmailPN.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4287432c-fb9c-40ab-a571-09b2055a454c</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\MemSearch.cs">
+      <BoundTo>abc61388-d5f9-4faf-bc5f-6eeee1eeeca2</BoundTo>
+      <DependentUpon>MemSearch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b8cd7ec8-86df-4251-954e-243b96e79b0e</id>
+    </Compile>
+    <Compile Include="Recordings\Reset Password\MemSearch.UserCode.cs">
+      <BoundTo>abc61388-d5f9-4faf-bc5f-6eeee1eeeca2</BoundTo>
+      <DependentUpon>MemSearch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>03814c56-5ba1-4542-bf82-d6c28411cb67</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\BadgeLabelandIcon.cs">
+      <BoundTo>2f8ca597-2475-4137-8ec4-605d3d275134</BoundTo>
+      <DependentUpon>BadgeLabelandIcon.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>07a896a3-674e-4265-a771-bf813253e2f4</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\BadgeLabelandIcon.UserCode.cs">
+      <BoundTo>2f8ca597-2475-4137-8ec4-605d3d275134</BoundTo>
+      <DependentUpon>BadgeLabelandIcon.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>403c7664-ddd8-4981-a4a4-2f6afb2ca91f</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Bucket.cs">
+      <BoundTo>5a004f11-cfbc-42cd-97e9-c15e3a82dc77</BoundTo>
+      <DependentUpon>Bucket.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5439383-251c-4966-9ed3-6f5b8e69c459</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Bucket.UserCode.cs">
+      <BoundTo>5a004f11-cfbc-42cd-97e9-c15e3a82dc77</BoundTo>
+      <DependentUpon>Bucket.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e8d539a-7b99-4195-9b79-c670a5cb3990</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Category.cs">
+      <BoundTo>8b54bd50-b588-4ff5-bc39-c710cb50ceb5</BoundTo>
+      <DependentUpon>Category.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b58d1993-9a9e-45a2-b21f-1cc41db5e0e7</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Category.UserCode.cs">
+      <BoundTo>8b54bd50-b588-4ff5-bc39-c710cb50ceb5</BoundTo>
+      <DependentUpon>Category.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e2a5586c-8dc8-42b9-bf99-04231fba1a5c</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\DollarLabelIconDescription.cs">
+      <BoundTo>c235d32e-8687-429b-8132-d4e3b21a813f</BoundTo>
+      <DependentUpon>DollarLabelIconDescription.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f377de16-d20b-4829-853d-3038324b8705</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\DollarLabelIconDescription.UserCode.cs">
+      <BoundTo>c235d32e-8687-429b-8132-d4e3b21a813f</BoundTo>
+      <DependentUpon>DollarLabelIconDescription.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>321a2852-d414-433c-bd47-9a3054b18bcd</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Level.cs">
+      <BoundTo>5d3f75d1-8910-4f4a-8dd5-9b45eba68c0b</BoundTo>
+      <DependentUpon>Level.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1061f48d-8234-4811-ac87-8be346d45a43</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\Level.UserCode.cs">
+      <BoundTo>5d3f75d1-8910-4f4a-8dd5-9b45eba68c0b</BoundTo>
+      <DependentUpon>Level.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>05bf2173-dd01-4182-aad7-5133733ea3d1</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\MainTabNameDescpMaxDollar.cs">
+      <BoundTo>92086a96-a2c8-48a1-8216-efa77d742ac0</BoundTo>
+      <DependentUpon>MainTabNameDescpMaxDollar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2f06e179-fba1-4a07-be78-5d7a2960f826</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\MainTabNameDescpMaxDollar.UserCode.cs">
+      <BoundTo>92086a96-a2c8-48a1-8216-efa77d742ac0</BoundTo>
+      <DependentUpon>MainTabNameDescpMaxDollar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a0a18eaa-d022-43a5-bd4d-52615164e5ef</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\PointLabelandIcon.cs">
+      <BoundTo>5047e0ae-b279-4dea-8c64-94061f6813c9</BoundTo>
+      <DependentUpon>PointLabelandIcon.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>076f2507-1c69-40d1-887e-b7faa0ed4bbd</id>
+    </Compile>
+    <Compile Include="Recordings\Reward Group Template\PointLabelandIcon.UserCode.cs">
+      <BoundTo>5047e0ae-b279-4dea-8c64-94061f6813c9</BoundTo>
+      <DependentUpon>PointLabelandIcon.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c52c680a-9944-4f88-aa04-dafb2981659b</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\BlockedByTab.cs">
+      <BoundTo>376481a5-5094-4cd7-a6e3-c48b2c4091d8</BoundTo>
+      <DependentUpon>BlockedByTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5a1141b5-4e5b-4c6e-b1dc-427a2c585297</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\BlockedByTab.UserCode.cs">
+      <BoundTo>376481a5-5094-4cd7-a6e3-c48b2c4091d8</BoundTo>
+      <DependentUpon>BlockedByTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d84cfc76-468d-47a3-8bae-eb5d20b6d8d2</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\DragRewards.cs">
+      <DependentUpon>DragRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b830ae64-84e0-4403-b791-bf1ee69d32ef</id>
+      <BoundTo>76c0cc78-f0db-4e17-bc50-f4019c5ea5e0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Rewards\DragRewards.UserCode.cs">
+      <DependentUpon>DragRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af1eceb5-c855-40b6-b5cf-46b920cf2540</id>
+      <BoundTo>76c0cc78-f0db-4e17-bc50-f4019c5ea5e0</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Rewards\BottonEditRewards.cs">
+      <DependentUpon>BottonEditRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e899ff1-5752-46c4-b42f-089a253cfe94</id>
+      <BoundTo>f478d4e8-cbc4-44f3-89c9-cb5487d82024</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Rewards\BottonEditRewards.UserCode.cs">
+      <DependentUpon>BottonEditRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c75067b-b77b-4f3b-bfe5-4165341465df</id>
+      <BoundTo>f478d4e8-cbc4-44f3-89c9-cb5487d82024</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Rewards\EditRewards.cs">
+      <BoundTo>f425699e-b7ef-4ce3-8819-8e02b4ae2876</BoundTo>
+      <DependentUpon>EditRewards.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>383f66cf-be42-4c54-9c5e-60e27e11b9b9</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\EditRewards.UserCode.cs">
+      <BoundTo>f425699e-b7ef-4ce3-8819-8e02b4ae2876</BoundTo>
+      <DependentUpon>EditRewards.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>17007d4c-3632-4703-b624-dcabccddadf8</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\MainTab1.cs">
+      <BoundTo>160ed8f3-5415-4c69-9809-7934e2c3ae04</BoundTo>
+      <DependentUpon>MainTab1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa160ff3-19da-4388-a55d-229221b12958</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\MainTab1.UserCode.cs">
+      <BoundTo>160ed8f3-5415-4c69-9809-7934e2c3ae04</BoundTo>
+      <DependentUpon>MainTab1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fec3bbb6-3802-4ffc-a22c-fa1668de8024</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\MainTab2.cs">
+      <BoundTo>6a4f1bf9-f965-471a-a061-922776f8fea7</BoundTo>
+      <DependentUpon>MainTab2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8fccbf97-da8e-49c4-be1d-83907fd5ab6c</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\MainTab2.UserCode.cs">
+      <BoundTo>6a4f1bf9-f965-471a-a061-922776f8fea7</BoundTo>
+      <DependentUpon>MainTab2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ffc924c-f9ff-4857-98bb-65db0cd73af3</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\RewardsTab.cs">
+      <BoundTo>25c43c47-c7d5-4d74-a4ad-59bc64164e72</BoundTo>
+      <DependentUpon>RewardsTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>042ec933-c5be-4226-a206-3b2d860b3158</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\RewardsTab.UserCode.cs">
+      <BoundTo>25c43c47-c7d5-4d74-a4ad-59bc64164e72</BoundTo>
+      <DependentUpon>RewardsTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>687ba5ae-0d67-4d2d-8f4d-973ddd3b25ed</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToEarnDetails.cs">
+      <BoundTo>4231d0ce-0ed8-4af7-994b-4071d13a190b</BoundTo>
+      <DependentUpon>ToEarnDetails.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35f5f7bc-396f-4e6e-9221-e1f6f707e91f</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToEarnDetails.UserCode.cs">
+      <BoundTo>4231d0ce-0ed8-4af7-994b-4071d13a190b</BoundTo>
+      <DependentUpon>ToEarnDetails.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b04a0f2f-417d-4372-bc35-39ef069453d0</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToEarnTab.cs">
+      <BoundTo>dce31e99-3ae7-4f73-956a-08b7e32af39f</BoundTo>
+      <DependentUpon>ToEarnTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>75c17a8c-cafa-4742-8103-855836827116</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToEarnTab.UserCode.cs">
+      <BoundTo>dce31e99-3ae7-4f73-956a-08b7e32af39f</BoundTo>
+      <DependentUpon>ToEarnTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c75c0f87-ba1c-4b16-9089-cdb38c5cf8ee</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToRedeemTab.cs">
+      <BoundTo>8f5f21b7-62f7-4957-b591-e396392c2624</BoundTo>
+      <DependentUpon>ToRedeemTab.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dd44fa54-0607-448c-b3e8-fc036898ce5e</id>
+    </Compile>
+    <Compile Include="Recordings\Rewards\ToRedeemTab.UserCode.cs">
+      <BoundTo>8f5f21b7-62f7-4957-b591-e396392c2624</BoundTo>
+      <DependentUpon>ToRedeemTab.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d8c88b8-901b-46db-9188-977125586aa0</id>
+    </Compile>
+    <Compile Include="Recordings\Schedule\FrequencyDaily.cs">
+      <BoundTo>565da0f6-981f-47a1-bbfc-a561d7f24c60</BoundTo>
+      <DependentUpon>FrequencyDaily.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d938251-d5f0-45dd-9a2c-003f65176c32</id>
+    </Compile>
+    <Compile Include="Recordings\Schedule\FrequencyDaily.UserCode.cs">
+      <BoundTo>565da0f6-981f-47a1-bbfc-a561d7f24c60</BoundTo>
+      <DependentUpon>FrequencyDaily.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88a6b9bb-b12f-436a-b354-46fef9a9dedb</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeChallengeFAQ.cs">
+      <BoundTo>a621e263-4c0e-40b7-b73b-e5be63fb5010</BoundTo>
+      <DependentUpon>GlobeChallengeFAQ.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f278412d-8cc3-4d7f-a331-7da692ea0cd7</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeChallengeFAQ.UserCode.cs">
+      <BoundTo>a621e263-4c0e-40b7-b73b-e5be63fb5010</BoundTo>
+      <DependentUpon>GlobeChallengeFAQ.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c6e113fa-73f6-4e5c-bca9-bcd0ab138fe4</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeChallengeRules.cs">
+      <BoundTo>40d72fc4-f42b-4cfc-9969-da316304d117</BoundTo>
+      <DependentUpon>GlobeChallengeRules.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4017320f-7aa1-4aa7-8444-5ae2b5fc25f2</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeChallengeRules.UserCode.cs">
+      <BoundTo>40d72fc4-f42b-4cfc-9969-da316304d117</BoundTo>
+      <DependentUpon>GlobeChallengeRules.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3082131d-ea98-4802-b72e-c212ae7afb2e</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeFirst.cs">
+      <BoundTo>5390ee83-f266-4d73-ae0b-744770de444f</BoundTo>
+      <DependentUpon>GlobeFirst.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3dbe4c11-71a2-47f7-8302-f07edcf102cf</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeFirst.UserCode.cs">
+      <BoundTo>5390ee83-f266-4d73-ae0b-744770de444f</BoundTo>
+      <DependentUpon>GlobeFirst.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08f5b3b7-ebee-4a00-9bc8-a8fb1dc5d501</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeSecond.cs">
+      <BoundTo>8ca61808-c6e3-4037-ae82-c8be01d6f287</BoundTo>
+      <DependentUpon>GlobeSecond.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9e63f5a-0700-4713-baef-eff31596eabc</id>
+    </Compile>
+    <Compile Include="Recordings\Globe\GlobeSecond.UserCode.cs">
+      <BoundTo>8ca61808-c6e3-4037-ae82-c8be01d6f287</BoundTo>
+      <DependentUpon>GlobeSecond.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e32ca2eb-d68e-4989-b319-dddfd11ca3d3</id>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\Add_HealthTracker.cs">
+      <DependentUpon>Add HealthTracker.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>67b21f64-ae11-46dd-bc3f-58d6acccc575</id>
+      <BoundTo>40ece6db-b4c7-49b4-9a2f-dc7397b0099f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\Add_HealthTracker.UserCode.cs">
+      <DependentUpon>Add HealthTracker.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64c2b6e9-e6b1-426d-b97e-4b341c1b64ee</id>
+      <BoundTo>40ece6db-b4c7-49b4-9a2f-dc7397b0099f</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\DeleteHealthTracker.cs">
+      <DependentUpon>DeleteHealthTracker.rxrec</DependentUpon>
+      <id>19e30b06-7472-4475-a1e6-bf941135ddbc</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>478c5501-cf18-4102-a8e9-b035e2cf8c8d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\DeleteHealthTracker.UserCode.cs">
+      <DependentUpon>DeleteHealthTracker.rxrec</DependentUpon>
+      <id>7f877150-2048-4a7e-b00d-81af0ca339b9</id>
+      <UserCode>true</UserCode>
+      <BoundTo>478c5501-cf18-4102-a8e9-b035e2cf8c8d</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\EditHealthTracker.cs">
+      <DependentUpon>EditHealthTracker.rxrec</DependentUpon>
+      <id>dd092309-c795-4e49-8ef6-6fd12a517a2c</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>07ae32b2-bf86-42c2-937e-b12420a8cba4</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\EditHealthTracker.UserCode.cs">
+      <DependentUpon>EditHealthTracker.rxrec</DependentUpon>
+      <id>bddb916c-2da6-4d53-b7fe-95010ffe3175</id>
+      <UserCode>true</UserCode>
+      <BoundTo>07ae32b2-bf86-42c2-937e-b12420a8cba4</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\SearchHealthTracker.cs">
+      <DependentUpon>SearchHealthTracker.rxrec</DependentUpon>
+      <id>911bb563-d72c-4f9e-bf52-e5b3221030e0</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>202af16d-b52d-4237-bda0-469b9905c879</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Health Trackers\SearchHealthTracker.UserCode.cs">
+      <DependentUpon>SearchHealthTracker.rxrec</DependentUpon>
+      <id>49bab8f7-590a-4a4e-987b-3c8c939585cf</id>
+      <UserCode>true</UserCode>
+      <BoundTo>202af16d-b52d-4237-bda0-469b9905c879</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\DeleteMember.cs">
+      <BoundTo>e0eca006-fc29-4316-ace0-756bc0f10ec7</BoundTo>
+      <DependentUpon>DeleteMember.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d746eda6-8385-43f4-9312-0e1fc3f34530</id>
+    </Compile>
+    <Compile Include="Recordings\Members\DeleteMember.UserCode.cs">
+      <BoundTo>e0eca006-fc29-4316-ace0-756bc0f10ec7</BoundTo>
+      <DependentUpon>DeleteMember.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea917062-9ab4-4a68-aadf-df613183a0c8</id>
+    </Compile>
+    <Compile Include="Recordings\Members\EditMemberMiddleName.cs">
+      <DependentUpon>EditMemberMiddleName.rxrec</DependentUpon>
+      <id>be097186-9467-4ebc-ad7a-fe918a90bc2c</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>df996a45-7c1d-494f-a1c7-2862db5fa483</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\EditMemberMiddleName.UserCode.cs">
+      <DependentUpon>EditMemberMiddleName.rxrec</DependentUpon>
+      <id>c3edee2d-44e0-4c8a-b52f-86f5f02979dd</id>
+      <UserCode>true</UserCode>
+      <BoundTo>df996a45-7c1d-494f-a1c7-2862db5fa483</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\EditRegistration.cs">
+      <DependentUpon>EditRegistration.rxrec</DependentUpon>
+      <id>e9911a19-a3e4-4efd-8090-8080f5bdb6ee</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>c08d9936-81a9-43c1-bd0b-58e9d6318380</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\EditRegistration.UserCode.cs">
+      <DependentUpon>EditRegistration.rxrec</DependentUpon>
+      <id>9b67d1e0-2dbb-4565-89f2-9d8000e820bd</id>
+      <UserCode>true</UserCode>
+      <BoundTo>c08d9936-81a9-43c1-bd0b-58e9d6318380</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchFN.cs">
+      <DependentUpon>MemberSearchFN.rxrec</DependentUpon>
+      <id>01ecc040-9b0e-401a-a136-0bc9945cc040</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>f867ed81-4284-4533-9dad-0010233e46d1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchFN.UserCode.cs">
+      <DependentUpon>MemberSearchFN.rxrec</DependentUpon>
+      <id>45cef22a-4647-4216-9e92-a23d45e20b31</id>
+      <UserCode>true</UserCode>
+      <BoundTo>f867ed81-4284-4533-9dad-0010233e46d1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchLN.cs">
+      <DependentUpon>MemberSearchLN.rxrec</DependentUpon>
+      <id>181f61db-fb63-42a2-a072-3022d514d448</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>b280f570-1145-48b7-b13d-1e8eb1d3ac38</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\MemberSearchLN.UserCode.cs">
+      <DependentUpon>MemberSearchLN.rxrec</DependentUpon>
+      <id>70dcef98-5a30-42f4-b2cb-aded82fa8ff0</id>
+      <UserCode>true</UserCode>
+      <BoundTo>b280f570-1145-48b7-b13d-1e8eb1d3ac38</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\NewMember.cs">
+      <DependentUpon>NewMember.rxrec</DependentUpon>
+      <id>0deea84c-143e-4a4c-badf-ac291da5b7c4</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>052faccb-e914-4d8e-8c75-897f1a0b8f3b</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\NewMember.UserCode.cs">
+      <DependentUpon>NewMember.rxrec</DependentUpon>
+      <id>f6d15606-48f9-466a-818f-308d595871d9</id>
+      <UserCode>true</UserCode>
+      <BoundTo>052faccb-e914-4d8e-8c75-897f1a0b8f3b</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\RegistrationSearch.cs">
+      <DependentUpon>RegistrationSearch.rxrec</DependentUpon>
+      <id>d81309db-9848-460f-8b44-9944462efdb4</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>0591b119-3bda-4da8-91c0-d0de16d14d15</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Members\RegistrationSearch.UserCode.cs">
+      <DependentUpon>RegistrationSearch.rxrec</DependentUpon>
+      <id>148fba56-a834-4e45-9b96-e87403d367c0</id>
+      <UserCode>true</UserCode>
+      <BoundTo>0591b119-3bda-4da8-91c0-d0de16d14d15</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavSidebar.cs">
+      <BoundTo>0311e473-8cf4-4931-a98c-08a9148ffdaa</BoundTo>
+      <DependentUpon>NavSidebar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5089d6c0-228a-4484-8b23-de905a7e7213</id>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavSidebar.UserCode.cs">
+      <BoundTo>0311e473-8cf4-4931-a98c-08a9148ffdaa</BoundTo>
+      <DependentUpon>NavSidebar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3bbac458-27d6-4f0b-b637-8971873a4251</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\DeleteProgram.cs">
+      <DependentUpon>DeleteProgram.rxrec</DependentUpon>
+      <id>0a5e7ff4-8184-4452-b163-cbb4dd3450dd</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>7659c2d1-88ff-4d10-93e4-7be05875ce54</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\DeleteProgram.UserCode.cs">
+      <DependentUpon>DeleteProgram.rxrec</DependentUpon>
+      <id>bbdf9883-ff7b-483d-8df0-b5918d674643</id>
+      <UserCode>true</UserCode>
+      <BoundTo>7659c2d1-88ff-4d10-93e4-7be05875ce54</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\SearchCarePlan.cs">
+      <DependentUpon>SearchCarePlan.rxrec</DependentUpon>
+      <id>78267777-3b97-4a42-85cf-fb35de5c5ae9</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>38a79e3a-1417-4a9a-9252-7e1cf08dfbf5</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Programs\SearchCarePlan.UserCode.cs">
+      <DependentUpon>SearchCarePlan.rxrec</DependentUpon>
+      <id>3ced983e-723c-4343-ae39-3a58c959f485</id>
+      <UserCode>true</UserCode>
+      <BoundTo>38a79e3a-1417-4a9a-9252-7e1cf08dfbf5</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\AddNewRole.cs">
+      <DependentUpon>AddNewRole.rxrec</DependentUpon>
+      <id>2786d7c2-9919-49c4-be06-90bef3342cf8</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>72d289bb-8885-4338-8eb7-d4dc9949948e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\AddNewRole.UserCode.cs">
+      <DependentUpon>AddNewRole.rxrec</DependentUpon>
+      <id>b5e5aa60-e8c4-4e78-8e4b-93f84a9a7927</id>
+      <UserCode>true</UserCode>
+      <BoundTo>72d289bb-8885-4338-8eb7-d4dc9949948e</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\DeleteRole.cs">
+      <DependentUpon>DeleteRole.rxrec</DependentUpon>
+      <id>e94b52e5-685a-483a-b3ab-0611a96b705a</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>3cc1710d-2698-4944-aecc-7b936521d9f1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\DeleteRole.UserCode.cs">
+      <DependentUpon>DeleteRole.rxrec</DependentUpon>
+      <id>8d14fc22-e72a-432a-b461-ac867096a658</id>
+      <UserCode>true</UserCode>
+      <BoundTo>3cc1710d-2698-4944-aecc-7b936521d9f1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\EditRole.cs">
+      <DependentUpon>EditRole.rxrec</DependentUpon>
+      <id>e9be0db1-c2c7-4ebf-a4e1-c772fb3fa2e0</id>
+      <RecorderCode>true</RecorderCode>
+      <BoundTo>bde0792f-a7a7-428f-9aec-bcee927cff04</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Role\EditRole.UserCode.cs">
+      <DependentUpon>EditRole.rxrec</DependentUpon>
+      <id>347c5c81-8baa-4fca-aca7-bef55f5f8ed0</id>
+      <UserCode>true</UserCode>
+      <BoundTo>bde0792f-a7a7-428f-9aec-bcee927cff04</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Schedule\FrequencyMonthlyPrograms.cs">
+      <BoundTo>4857d489-4818-457d-9bdf-a8001c3f520e</BoundTo>
+      <DependentUpon>FrequencyMonthlyPrograms.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d22b7356-9444-4715-b609-c506100a82e5</id>
+    </Compile>
+    <Compile Include="Recordings\Schedule\FrequencyMonthlyPrograms.UserCode.cs">
+      <BoundTo>4857d489-4818-457d-9bdf-a8001c3f520e</BoundTo>
+      <DependentUpon>FrequencyMonthlyPrograms.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8074e5fe-1227-4179-8054-f59135d35955</id>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchChallengeTemplate.cs">
+      <DependentUpon>SearchChallengeTemplate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d0f04145-a709-4f5a-a990-06119c77a321</id>
+      <BoundTo>003b12d3-8a88-402d-aa48-ba20f0118bbe</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchChallengeTemplate.UserCode.cs">
+      <DependentUpon>SearchChallengeTemplate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e843a0f5-b8f4-490b-a5e9-47ae2bb7de23</id>
+      <BoundTo>003b12d3-8a88-402d-aa48-ba20f0118bbe</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchItem.cs">
+      <BoundTo>a1339a15-87cf-41ee-bee2-8a14fd4f617d</BoundTo>
+      <DependentUpon>SearchItem.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b3480e48-9210-4bf8-91d9-0c72a4f20cd4</id>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchItem.UserCode.cs">
+      <BoundTo>a1339a15-87cf-41ee-bee2-8a14fd4f617d</BoundTo>
+      <DependentUpon>SearchItem.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ad2d8cb-2c95-4b2b-a8a6-eff731cb168b</id>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchRewardGroupTemplate.cs">
+      <BoundTo>2117afe1-054f-4c44-8c4b-387ff9630e42</BoundTo>
+      <DependentUpon>SearchRewardGroupTemplate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>276b9627-5bba-4953-82b2-cf2f31dd190c</id>
+    </Compile>
+    <Compile Include="Recordings\Search\SearchRewardGroupTemplate.UserCode.cs">
+      <BoundTo>2117afe1-054f-4c44-8c4b-387ff9630e42</BoundTo>
+      <DependentUpon>SearchRewardGroupTemplate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59d33954-6a10-44ac-bf4a-1e38e0ea2d41</id>
+    </Compile>
+    <Compile Include="Recordings\Support\RecSupport.cs">
+      <BoundTo>da79024c-58ea-46fb-8447-deffa73f7189</BoundTo>
+      <DependentUpon>RecSupport.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>62d38e60-a5fe-4bad-8d4b-ff42a9208660</id>
+    </Compile>
+    <Compile Include="Recordings\Support\RecSupport.UserCode.cs">
+      <BoundTo>da79024c-58ea-46fb-8447-deffa73f7189</BoundTo>
+      <DependentUpon>RecSupport.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64b31297-68ee-4ee3-83f8-061def2da91a</id>
+    </Compile>
+    <Compile Include="Recordings\User\RequestShortCode.cs">
+      <BoundTo>93d3fa1e-30bf-4b21-9680-8899c8e99ffd</BoundTo>
+      <DependentUpon>RequestShortCode.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c2192ed-9ffa-40c8-88ed-a7a2e653da3f</id>
+    </Compile>
+    <Compile Include="Recordings\User\RequestShortCode.UserCode.cs">
+      <BoundTo>93d3fa1e-30bf-4b21-9680-8899c8e99ffd</BoundTo>
+      <DependentUpon>RequestShortCode.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4dcf9bec-98b8-43f6-bcdf-ca8112e570a6</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationAlert.cs">
+      <BoundTo>9ab47b11-3076-49ac-9b93-675be0c6bb46</BoundTo>
+      <DependentUpon>ValidationAlert.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>23a1008d-2991-4b55-80a5-bce2468431de</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationAlert.UserCode.cs">
+      <BoundTo>9ab47b11-3076-49ac-9b93-675be0c6bb46</BoundTo>
+      <DependentUpon>ValidationAlert.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4522e125-3242-4f06-8a3f-de3aad910fe2</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationGeneral.cs">
+      <DependentUpon>ValidationGeneral.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d5df7ae-3aca-4dd7-9f93-31bfd6c45351</id>
+      <BoundTo>2087c1c8-ecdf-4fd8-91a6-f46b78962507</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationGeneral.UserCode.cs">
+      <DependentUpon>ValidationGeneral.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>774ff359-73c1-4905-bb4f-60f6528e38f0</id>
+      <BoundTo>2087c1c8-ecdf-4fd8-91a6-f46b78962507</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validations\NewUserLoginValidation.cs">
+      <BoundTo>643f1e91-cc8f-4864-b94b-64e73a056e19</BoundTo>
+      <DependentUpon>NewUserLoginValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a1e32994-3681-4118-b812-fe2a0fbd9008</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\NewUserLoginValidation.UserCode.cs">
+      <BoundTo>643f1e91-cc8f-4864-b94b-64e73a056e19</BoundTo>
+      <DependentUpon>NewUserLoginValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>043e2136-f09e-4dbb-a1dd-be0b97cf1e8b</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationChangesSaved.cs">
+      <DependentUpon>ValidationChangesSaved.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>87b2654f-47a4-4d89-b923-1d14914a33d7</id>
+      <BoundTo>8fb04292-7fa0-4ac4-9484-99e8596fe8d1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationChangesSaved.UserCode.cs">
+      <DependentUpon>ValidationChangesSaved.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>575f1e66-8793-4a29-9daa-303c27d2cf7e</id>
+      <BoundTo>8fb04292-7fa0-4ac4-9484-99e8596fe8d1</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationPackageCreate.cs">
+      <BoundTo>f15d0846-8233-4945-a494-3ffd3cdf3409</BoundTo>
+      <DependentUpon>ValidationPackageCreate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>43a80fed-7d52-41a3-8b98-25c4f5f10bf7</id>
+    </Compile>
+    <Compile Include="Recordings\Validations\ValidationPackageCreate.UserCode.cs">
+      <BoundTo>f15d0846-8233-4945-a494-3ffd3cdf3409</BoundTo>
+      <DependentUpon>ValidationPackageCreate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ebdf4895-f27c-4ac4-bfee-b4f1b389c645</id>
+    </Compile>
+    <Compile Include="SmokeTestRepositoryKS.cs">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <DependentUpon>SmokeTestRepositoryKS.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>56232758-d2ec-453e-a395-7732991f44c9</id>
+    </Compile>
+    <Compile Include="CodeModules\Accept_Consent.cs">
+      <id>e7cfa4c9-2006-4f26-851b-e4ced88b7931</id>
+    </Compile>
+    <Compile Include="CodeModules\CreateUserNeg.cs">
+      <id>320e572d-e8b0-45ce-b6f0-e75362586334</id>
+    </Compile>
+    <Compile Include="CodeModules\UserCodeModule1.cs">
+      <id>b719ef10-e6bd-4b74-9a56-6f76849f41c8</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>de7a7e28-c193-4d77-b466-8cffb4b62806</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\AddActivity.cs">
+      <BoundTo>46105a9b-5fc4-4010-af45-fe9b0d0ba99d</BoundTo>
+      <DependentUpon>AddActivity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d6b8666f-dd83-4b4d-a48e-a58d1b6f2728</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\AddActivity.UserCode.cs">
+      <BoundTo>46105a9b-5fc4-4010-af45-fe9b0d0ba99d</BoundTo>
+      <DependentUpon>AddActivity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>68a77214-00a2-4b9a-b4bc-46458efa26ea</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\EditActivity.cs">
+      <BoundTo>0971f989-7f78-44ee-b56f-1c9ec335d4dc</BoundTo>
+      <DependentUpon>EditActivity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2d43b1d-b329-4c61-a437-0ef964768523</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\EditActivity.UserCode.cs">
+      <BoundTo>0971f989-7f78-44ee-b56f-1c9ec335d4dc</BoundTo>
+      <DependentUpon>EditActivity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94346cfb-7f0f-4dc5-82c5-f7aa8699f0ac</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\SearchActivity.cs">
+      <BoundTo>d9b76c8a-a462-4f24-9b60-94393c831676</BoundTo>
+      <DependentUpon>SearchActivity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>92f50ab4-27a1-4bf7-a221-8bcba2b51ba8</id>
+    </Compile>
+    <Compile Include="Recordings\Activities\SearchActivity.UserCode.cs">
+      <BoundTo>d9b76c8a-a462-4f24-9b60-94393c831676</BoundTo>
+      <DependentUpon>SearchActivity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c811c99d-4fd6-47c8-a789-c8626babdfb1</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\DisplayRecord.cs">
+      <BoundTo>a38822a6-36ef-481a-ab38-ccd6655a2ed0</BoundTo>
+      <DependentUpon>DisplayRecord.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>566e0d8a-396f-4689-8919-79a00c60ce92</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\DisplayRecord.UserCode.cs">
+      <BoundTo>a38822a6-36ef-481a-ab38-ccd6655a2ed0</BoundTo>
+      <DependentUpon>DisplayRecord.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3519979-2a2d-4e41-979d-d4fd3f9f90e4</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\HomePageNavigations.cs">
+      <BoundTo>08d57584-87b0-4c51-bcfd-637327d0c522</BoundTo>
+      <DependentUpon>HomePageNavigations.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef68a28d-8ee3-4866-8d5a-8aeaa39b5882</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\HomePageNavigations.UserCode.cs">
+      <BoundTo>08d57584-87b0-4c51-bcfd-637327d0c522</BoundTo>
+      <DependentUpon>HomePageNavigations.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5c097889-6663-44a0-b477-5aa089c4fc21</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\PaginationHomePage.cs">
+      <BoundTo>fac37185-b68d-4605-b90a-c1776a141e00</BoundTo>
+      <DependentUpon>PaginationHomePage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6971b90a-f266-4879-9b77-a941e40a77df</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\PaginationHomePage.UserCode.cs">
+      <BoundTo>fac37185-b68d-4605-b90a-c1776a141e00</BoundTo>
+      <DependentUpon>PaginationHomePage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d2c0bf9-0e8a-487a-a619-f92f59592ee7</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\RemoveFavHomeScreen.cs">
+      <BoundTo>dbf8f103-7e07-49ff-9575-2cb4bfb62d64</BoundTo>
+      <DependentUpon>RemoveFavHomeScreen.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>16a99d2b-a672-4ac7-a854-9230d145fb91</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\RemoveFavHomeScreen.UserCode.cs">
+      <BoundTo>dbf8f103-7e07-49ff-9575-2cb4bfb62d64</BoundTo>
+      <DependentUpon>RemoveFavHomeScreen.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe3ae655-c930-4475-80f0-9d423c6fe765</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\SortDOB.cs">
+      <BoundTo>b40538e6-546e-4983-b7ce-6bdd7a2085c9</BoundTo>
+      <DependentUpon>SortDOB.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1a2a2646-e1f3-46b1-92b5-9e7195de0028</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\SortDOB.UserCode.cs">
+      <BoundTo>b40538e6-546e-4983-b7ce-6bdd7a2085c9</BoundTo>
+      <DependentUpon>SortDOB.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>95e6d642-95b2-44d2-b690-844658ecca01</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\SortMemberName.cs">
+      <BoundTo>502a0076-9ced-47ba-86e6-b75dd4ed6536</BoundTo>
+      <DependentUpon>SortMemberName.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9a70e60a-712a-4810-b519-40b1852b3845</id>
+    </Compile>
+    <Compile Include="Recordings\Home Page\SortMemberName.UserCode.cs">
+      <BoundTo>502a0076-9ced-47ba-86e6-b75dd4ed6536</BoundTo>
+      <DependentUpon>SortMemberName.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>687c0815-f986-46a0-8006-168679772842</id>
+    </Compile>
+    <Compile Include="Recordings\Login\LoginValidation.cs">
+      <DependentUpon>LoginValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a490ab40-a114-4ac5-a861-b566c66557c3</id>
+      <BoundTo>8885609f-82d5-4902-9c13-1b1a4413c4df</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Login\LoginValidation.UserCode.cs">
+      <DependentUpon>LoginValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fecc09a-d30c-4fb7-a97f-99c2fdf6b14c</id>
+      <BoundTo>8885609f-82d5-4902-9c13-1b1a4413c4df</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavAdministration.cs">
+      <BoundTo>8ce42b7e-e6e0-472c-9389-1865931a0425</BoundTo>
+      <DependentUpon>NavAdministration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed141491-bc98-4406-849a-e8a6544b34b7</id>
+    </Compile>
+    <Compile Include="Recordings\Navigations\NavAdministration.UserCode.cs">
+      <BoundTo>8ce42b7e-e6e0-472c-9389-1865931a0425</BoundTo>
+      <DependentUpon>NavAdministration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0224015a-1f1a-4a8f-aa30-0f43d4bdd1fc</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramLevelSort.cs">
+      <BoundTo>60b1fd0f-fb01-446d-bb37-69c8395d2a18</BoundTo>
+      <DependentUpon>ProgramLevelSort.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>99e3c0ed-c6bb-4dc1-8cfb-cb1f3ae31d08</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramLevelSort.UserCode.cs">
+      <BoundTo>60b1fd0f-fb01-446d-bb37-69c8395d2a18</BoundTo>
+      <DependentUpon>ProgramLevelSort.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>52807825-39ce-468a-b1a3-1f8de47a140e</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramSearchByActive.cs">
+      <BoundTo>0e37523f-ebea-42a3-9c88-08acc4c2fd3d</BoundTo>
+      <DependentUpon>ProgramSearchByActive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7f98d22f-002d-4bba-8dab-0e17a036bc54</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramSearchByActive.UserCode.cs">
+      <BoundTo>0e37523f-ebea-42a3-9c88-08acc4c2fd3d</BoundTo>
+      <DependentUpon>ProgramSearchByActive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f594f4af-8394-4eaf-bce8-2d1dc04fd42b</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramSearchElectiveEasy.cs">
+      <BoundTo>49ed4b53-e995-4dc5-bf0a-2a0ba92ca4d1</BoundTo>
+      <DependentUpon>ProgramSearchElectiveEasy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a448ecde-81a7-4631-a4ee-e9b3a381ee52</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramSearchElectiveEasy.UserCode.cs">
+      <BoundTo>49ed4b53-e995-4dc5-bf0a-2a0ba92ca4d1</BoundTo>
+      <DependentUpon>ProgramSearchElectiveEasy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>196ed77d-5334-401f-99fe-cc50e34c39d8</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramTitleSort.cs">
+      <BoundTo>6eb34f60-a1c1-487f-8e47-bfeaf66a3672</BoundTo>
+      <DependentUpon>ProgramTitleSort.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f3376b0-02c1-4c9d-b1f2-1d39fdbb8540</id>
+    </Compile>
+    <Compile Include="Recordings\Programs\ProgramTitleSort.UserCode.cs">
+      <BoundTo>6eb34f60-a1c1-487f-8e47-bfeaf66a3672</BoundTo>
+      <DependentUpon>ProgramTitleSort.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c2ae6e55-17ef-4141-94e3-1206dfaff894</id>
+    </Compile>
+    <Compile Include="Recordings\Test\Test.cs">
+      <BoundTo>3f3584bb-c142-467c-aa31-2555831b4f52</BoundTo>
+      <DependentUpon>Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a342e024-2f14-44a3-8cf2-f2068e9e9d0f</id>
+    </Compile>
+    <Compile Include="Recordings\Test\Test.UserCode.cs">
+      <BoundTo>3f3584bb-c142-467c-aa31-2555831b4f52</BoundTo>
+      <DependentUpon>Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f8e7048-943b-4db5-8da8-2c2af93d1e1e</id>
+    </Compile>
+    <Compile Include="Recordings\Test\ValidateTableTest.cs">
+      <id>dfdce3be-eab5-4248-856e-b61f3f5298d1</id>
+    </Compile>
+    <Compile Include="Recordings\User\AddUser.cs">
+      <DependentUpon>AddUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0fa016e7-5e84-4f44-a0a6-1bb621fb89dc</id>
+      <BoundTo>2ef9ff19-ece4-4a6b-ad92-b4205b7c3328</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\User\AddUser.UserCode.cs">
+      <DependentUpon>AddUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c12dbbd-73e7-4801-ba03-4d2ccdbea7c5</id>
+      <BoundTo>2ef9ff19-ece4-4a6b-ad92-b4205b7c3328</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\User\DeleteUser.cs">
+      <BoundTo>08e93436-047c-44b3-bdf1-484dad49477b</BoundTo>
+      <DependentUpon>DeleteUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a35308a7-2b12-4494-b763-9e6d08acacb9</id>
+    </Compile>
+    <Compile Include="Recordings\User\DeleteUser.UserCode.cs">
+      <BoundTo>08e93436-047c-44b3-bdf1-484dad49477b</BoundTo>
+      <DependentUpon>DeleteUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4dfc94b1-0b1a-4f5c-bb97-12eed64225e7</id>
+    </Compile>
+    <Compile Include="Recordings\User\EditUser.cs">
+      <BoundTo>91bbff84-b7b0-4270-9657-d8e173d2274d</BoundTo>
+      <DependentUpon>EditUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1d2d74d9-15c3-4564-a50e-cc3e61e84745</id>
+    </Compile>
+    <Compile Include="Recordings\User\EditUser.UserCode.cs">
+      <BoundTo>91bbff84-b7b0-4270-9657-d8e173d2274d</BoundTo>
+      <DependentUpon>EditUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0574e036-8c3a-4fe1-a73a-0ca34eae8688</id>
+    </Compile>
+    <Compile Include="Recordings\User\UserSearch.cs">
+      <DependentUpon>UserSearch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>81c1b6e3-27ce-4c65-b5ac-ede6bfac6018</id>
+      <BoundTo>bef1a48b-ce4e-47ea-8804-ce8a6232ffc9</BoundTo>
+    </Compile>
+    <Compile Include="Recordings\User\UserSearch.UserCode.cs">
+      <DependentUpon>UserSearch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>42e0407c-8189-44bc-935d-c1c3c7a6416f</id>
+      <BoundTo>bef1a48b-ce4e-47ea-8804-ce8a6232ffc9</BoundTo>
+    </Compile>
+    <Compile Include="SMOKTEST_SKRepository.cs">
+      <DependentUpon>SMOKTEST_SKRepository.rxrep</DependentUpon>
+      <id>b151f6f5-9822-49f9-b3b2-1bec0ab2ce8b</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\SMOKTEST SK\CCHSSMOKTEST\SMOKTEST_SKRepository.rximg">
+      <Link>SMOKTEST_SKRepository.rximg</Link>
+      <DependentUpon>SMOKTEST_SKRepository.rxrep</DependentUpon>
+      <id>bedca6dc-3b07-47ce-9885-fd239234f1f2</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="..\..\..\SMOKTEST SK\CCHSSMOKTEST\SMOKTEST_SKRepository.rxrep">
+      <Link>SMOKTEST_SKRepository.rxrep</Link>
+      <id>86da6194-1f21-4537-97b3-8bddd0b91a2f</id>
+      <repoid>6639eb22-8218-44b2-8733-b1d15807f2ca</repoid>
+      <reporootid>834aa82c-04c4-4daf-b8ed-2eea7ab0fe91</reporootid>
+    </None>
+    <None Include="app.config">
+      <id>f39b7620-9d04-47bf-aea1-a9c8e8a32105</id>
+    </None>
+    <None Include="Recordings\Buttons\ButtonClose.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6dce0c00-0123-4228-a977-03f72b2f07e9</id>
+      <recordtableid>12a4d08b-5a68-4d86-82b7-d6fe21bb0715</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\ButtonSave.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>3d4544f2-7c58-40be-b19f-907c2016348b</id>
+      <recordtableid>f7b21298-6c37-4a29-958d-b6a40933d33e</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\NewButton\ButtonNewActivity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5bbf92c1-4178-4263-9e97-10a73bc851b1</id>
+      <recordtableid>e192e076-04a1-4de8-9bfe-8fb510b49bad</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\NewButton\ButtonNewChallenges.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>ad2dea92-608a-4983-921f-87c570681dc8</id>
+      <recordtableid>2565a63c-3059-44a8-8876-25b98a6657ee</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\NewButton\ButtonNewCommon.rxrec">
+      <id>9f51d41a-62de-4cb6-8cdd-7b67cad989eb</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>dc2056f4-507e-4730-95b8-e3e296ed254c</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\NewButton\ButtonNewHT.rxrec">
+      <id>414bbe53-c759-4821-9866-c49058777c2f</id>
+      <recordtableid>a77aa85e-091a-4fda-991a-a43c4f0af00f</recordtableid>
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+    </None>
+    <None Include="Recordings\Buttons\NewButton\ButtonNewPackageGroup.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>58de49ea-b62a-44bf-844a-152394035cae</id>
+      <recordtableid>caa796da-185a-4eab-81a7-8d063df80d64</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\Turn Active\ButtonTurnActive.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>e9016242-2d84-459a-a59d-fb01bd702072</id>
+      <recordtableid>f0d7ceb2-e01c-4978-9eac-84819653355b</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\Turn Active\ButtonTurnActiveProgram.rxrec">
+      <id>ae018843-addf-47ec-80f8-f5dfe1040631</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>f291496d-f503-4691-b0e6-05c3237e2851</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\Turn Active\ButtonTurnActiveRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>aaaae0ff-f809-4032-9361-ff6a278fe3b2</id>
+      <recordtableid>22ffda5d-29cd-40bd-bcdd-1b773d55746e</recordtableid>
+    </None>
+    <None Include="Recordings\Buttons\Turn Active\Button_TurnActive_HT.rxrec">
+      <id>44117ace-81ae-4c23-8330-b0c7537a09fd</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>f1a3c311-8925-49a1-8454-061831dd1026</recordtableid>
+    </None>
+    <None Include="Recordings\Challenges\ChallengeTypeElimination.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>e0c23345-9dbc-4dbb-950b-42b3a3e77ff5</id>
+      <recordtableid>b7b10ba7-038a-4bb8-971f-f6f1e8056ee1</recordtableid>
+    </None>
+    <None Include="Recordings\Challenges\RecTeamTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>51a24bba-79ad-43e5-ab33-71f67115d5c0</id>
+      <recordtableid>ba2fda85-2cd4-41ef-9b1d-355e8877c272</recordtableid>
+    </None>
+    <None Include="Recordings\Challenges\SelectValueChallengeTeamType.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>89077525-4d2e-4c75-a54b-f47426ce40d3</id>
+      <recordtableid>d47bb054-fb2c-4315-bff8-fb0144595a7d</recordtableid>
+    </None>
+    <None Include="Recordings\Challenges\ChallengeTypeTraditional.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5f80c7e4-6c0f-438a-b34c-3ee1c65fb41c</id>
+      <recordtableid>cb6cad4b-53fe-4888-989a-b47f0a3d54dc</recordtableid>
+    </None>
+    <None Include="Recordings\Challenges\TypeEliminationOverview.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2c3833bb-2a84-4985-ac7a-22df616e629b</id>
+      <recordtableid>d4672687-079a-4fb6-b3a0-5f2a0d13ff40</recordtableid>
+    </None>
+    <None Include="Recordings\Delete\DeleteChallenge.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>bf1ccd4b-2c36-4c04-b2a2-5689c9378172</id>
+      <recordtableid>0dd788c6-7196-4242-bee4-a6bb48735c79</recordtableid>
+    </None>
+    <None Include="Recordings\Delete\DeleteItem.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>37e197b1-182c-4afe-ae02-db9511c20a4f</id>
+      <recordtableid>33f46103-08f7-44f3-a91c-e1906700ecc4</recordtableid>
+    </None>
+    <None Include="Recordings\DragItems\DragActivityAbAttack.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5be861c4-bb9c-4ef9-a596-2a518914a794</id>
+      <recordtableid>7b290b08-673c-48b0-a766-eeb2689207ea</recordtableid>
+    </None>
+    <None Include="Recordings\DragItems\DragBloodSugarActivityInPrograms.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>17647af8-48d3-4ffa-86af-d3750f2b7c3f</id>
+      <recordtableid>f8c87d15-0c69-4547-8cfb-3372012afa67</recordtableid>
+    </None>
+    <None Include="Recordings\DragItems\DragStretchActivity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8f6ded55-46b7-4702-96f6-8b681d84ada1</id>
+      <recordtableid>83cfe1b8-3c6e-444b-81a4-c2037245d14f</recordtableid>
+    </None>
+    <None Include="Recordings\Dropdowns\IconSelect.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>0d2cbc04-cbe7-4e99-b8ae-461319f1da79</id>
+      <recordtableid>a9a0aa3c-e8c5-4d69-8711-f29ca3f10776</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\Activities.rxrec">
+      <id>88a634b6-e680-4c19-9652-72280c5fe31f</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>1686836e-35c1-4701-968c-3b768a27dcea</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\ActivitiesValidation1.rxrec">
+      <id>47d258dd-adcd-4444-b50a-4bf3a131e01d</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>155d823f-a195-4480-ad54-0afd43737ec0</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\FormsSearch.rxrec">
+      <id>fd2ae6ad-7d33-4658-8b02-e9e245956f80</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>11389d0f-8245-42b2-b548-e49db5f2c4de</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\Forms_Validation_.rxrec">
+      <id>89592b1e-33f6-4ec9-8655-1de508d62bc7</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>0b6c89ae-7e67-4012-9aa4-d22aadb0943d</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\HealthTrackers.rxrec">
+      <id>68a3c53e-cd7a-45bb-933c-1b19a2fa51d0</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>bc1db6ac-0c0f-4b78-a6e7-8c91e2e43cc3</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\HTValidation.rxrec">
+      <id>5121e26c-4d47-46f9-a6ee-90e8277f605e</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>754883f4-d92e-452f-91d9-791057191018</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\MemberSearchEntity.rxrec">
+      <id>69975bca-3f6e-4b85-9edd-d76c678ce36d</id>
+      <recordtableid>16ff6013-30be-4ff6-be7d-a7e6bae108a9</recordtableid>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+    </None>
+    <None Include="Recordings\Entity Testing\MemberSearchValidation.rxrec">
+      <id>583dd275-894e-465f-8992-dcae74603724</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>22c5e4ad-ec1e-40bb-a2b8-6b43fac499c7</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\Programs.rxrec">
+      <id>cf9ae5ee-38a6-4b80-a1bb-889ef7defe3a</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>3d2cb227-309d-44a7-a168-3245842e84e5</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\ProgramValidation.rxrec">
+      <id>b1b2c31f-b3f2-458b-863c-dc4c3b96d2f2</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>ae3c4f7e-4446-4dd0-80fa-b8cfb7137a57</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\Users.rxrec">
+      <id>e832104e-9ba9-4a2a-a557-2474b9b5b9cb</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>b11d8ba7-cd48-479e-a608-db13d3d0b28d</recordtableid>
+    </None>
+    <None Include="Recordings\Entity Testing\UseSearchValidation.rxrec">
+      <id>c41e8156-4ee3-4ff4-a19d-cdd4c3e81627</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>bd0c3e94-c824-4952-a376-81f45370c180</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\ClickFocusTag.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>ad8f14e8-4610-4c61-a642-2f0b9968f6e5</id>
+      <recordtableid>3a733942-0b1d-46b8-b055-ef721d34e312</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\ClickFocusTagHT.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>d903a85a-d66c-438a-aaf4-bf814a2db45f</id>
+      <recordtableid>e0de1a72-a7d5-45b3-a660-0024376a39e9</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\ClickFocusTagPrograms.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>e042bec9-db61-4b6a-9eb1-a2dd489add81</id>
+      <recordtableid>27d6b09d-8f10-4c68-9b5c-eeaeadc93235</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\Focuses.rxrec">
+      <id>06b0eb1e-38f2-46ea-af0c-7d92af17c179</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>c8f4b70d-7522-4b81-adb8-e7c5277c3742</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\FocusTagImageClick.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>202221c8-3e7f-47d5-9d6c-09918ec81950</id>
+      <recordtableid>0e3629a8-5ef0-48d1-9a74-1e7ace02ee0f</recordtableid>
+    </None>
+    <None Include="Recordings\Focuses\SelectFocus.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6e0a1155-1b44-4764-a331-45e3dbf7b65f</id>
+      <recordtableid>e67f4e46-c5c3-4ddf-8d62-76dc9c9e9a79</recordtableid>
+    </None>
+    <None Include="Recordings\Forms\Add_Form.rxrec">
+      <id>bc94786a-2a2b-4b52-9c6a-409d80291792</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>0c603577-54f2-4495-90e6-377d716b885c</recordtableid>
+    </None>
+    <None Include="Recordings\Forms\DeleteForm.rxrec">
+      <id>3fbb2871-c9a0-46f8-8ec5-43c75b4e475c</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>c53130df-c0a7-4555-aa80-c1d331cf47c0</recordtableid>
+    </None>
+    <None Include="Recordings\Forms\EditForm.rxrec">
+      <id>c993fb8d-e610-4630-879e-c6fe32211c14</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>8f1c3840-7e07-4066-832b-b9531a3fbcad</recordtableid>
+    </None>
+    <None Include="Recordings\Login\CloseApplication.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>3385079a-3bf4-4e08-bd25-cf1a72a998c9</id>
+      <recordtableid>73cd2d0d-d3af-4ec5-92ed-97fe3ff11b00</recordtableid>
+    </None>
+    <None Include="Recordings\Login\LaunchApplication.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>adb11abd-fe03-4b05-8b6d-38b7885441f0</id>
+      <recordtableid>5cd65174-2163-48e5-a8dc-d08bc3999fa5</recordtableid>
+    </None>
+    <None Include="Recordings\Login\Login.rxrec">
+      <id>34d4f5eb-2ed3-4d9b-8fe3-cb7350610238</id>
+      <recordtableid>4d5c09ec-6200-4094-8d71-f4db98117095</recordtableid>
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+    </None>
+    <None Include="Recordings\Login\LogOut.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6395120f-080d-4b11-a0c5-975f1c498983</id>
+      <recordtableid>d83d449e-31da-4ab8-9a38-bbc5d17f681f</recordtableid>
+    </None>
+    <None Include="Recordings\Members\AddMemberToFavorites.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>09bb6d09-60c0-4f53-931e-ae81018974eb</id>
+      <recordtableid>b081ebd1-ef97-4482-a761-17c2afe5676f</recordtableid>
+    </None>
+    <None Include="Recordings\Members\MemberAdministrationNavigation.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6b1cba60-6551-4db6-912a-bac32c67118d</id>
+      <recordtableid>e8a595d7-b07a-4a09-9921-c193adec0ad0</recordtableid>
+    </None>
+    <None Include="Recordings\Members\MemberSearchEmail.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5d6c4f0c-ad00-430d-9874-117acec1ba60</id>
+      <recordtableid>a989ca32-cc15-4680-8e60-afb057e4dee6</recordtableid>
+    </None>
+    <None Include="Recordings\Members\MemberSearchNeg.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2a36d517-391b-43cb-91f7-b8296c65d2ea</id>
+      <recordtableid>72b85c73-396a-4fb9-8c4a-e961aca0fd4f</recordtableid>
+    </None>
+    <None Include="Recordings\Members\SearchByDOB.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>168e89b6-5897-4f4a-9539-3cfa640584a7</id>
+      <recordtableid>e99d94b5-f100-420c-8b62-4866ce875a55</recordtableid>
+    </None>
+    <None Include="Recordings\Navigations\NavMembers.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>a07e88cf-219f-4c21-9710-9cc35674f332</id>
+      <recordtableid>a774dda2-fdeb-45a0-b96a-1f7a91037ed6</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\AddChallengeTemplate.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f7f2bfcb-ba5a-4c37-8687-11b02bf30b65</id>
+      <recordtableid>61a93d32-6eef-4db3-8e90-23347b47a6bf</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\AddRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>b8c58fcc-b515-4ee4-beef-435679d3a5ee</id>
+      <recordtableid>6ef65a25-9227-4546-8fc6-3c739c6aec14</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\DeletePackageGroup.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>4d0b5854-79aa-4a67-94c4-94de3df2bc6d</id>
+      <recordtableid>87bb370a-ea6f-496f-ab97-f0b2c7a8162e</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\EditMainTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>55b3cf02-5667-4d97-9055-a94346c686e0</id>
+      <recordtableid>2ca9d85d-5a1e-4c56-9506-58beab0e5551</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\EditPackagesTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>a59a5495-b069-47a0-af17-ce5b9254651f</id>
+      <recordtableid>1fe592db-cf0d-4888-b44e-1881e48d5942</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\EditRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f24a604f-b654-4f46-a955-ce90ebb4055e</id>
+      <recordtableid>9fe8e259-3fa5-43e7-adfa-ea5b14ac2790</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\ScheduleChallenge.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>fa0ad46e-df70-4439-b588-9ba9598e3ac4</id>
+      <recordtableid>01216b5b-d27d-4c77-bae9-50ca661621c5</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\MainTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>9bc43a56-4017-4d62-88aa-f1a0e2c3a767</id>
+      <recordtableid>7eabe1de-7012-49f2-adb0-4b2948718362</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\Relationships.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>c17bde6e-363b-4eaf-95b6-f0e1193243c1</id>
+      <recordtableid>887d0256-ae25-47c8-a9e9-d7b42fff4ed7</recordtableid>
+    </None>
+    <None Include="Recordings\Package Group\SearchPackageGroup.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>1abb919c-2225-471e-81dd-e968e3a911e9</id>
+      <recordtableid>18aa87cd-9c85-4f5b-b857-5e70d566ae16</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\CarePlan\EditCareplan.rxrec">
+      <id>962399e5-2425-4711-b587-dd407f3580b8</id>
+      <recordtableid>c9ab6d34-9894-4c5f-940c-2a69b39c1ba2</recordtableid>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+    </None>
+    <None Include="Recordings\Programs\CarePlan\SelectProgramTypeCareplan.rxrec">
+      <id>6fe0031c-725a-46c2-9214-f0992ac01ef5</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>f46a0d85-69c3-46ab-9c8d-0e617f106ba0</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Daily Opportunity\CreateDailyOpportunity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>3f2fbb43-e608-4f7d-8adb-03d433746e09</id>
+      <recordtableid>da23e0cb-8b4b-43bb-8d1d-02e61ee47b5d</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\ClickContentTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>794588ae-16b7-45a0-ac2e-1640f344b166</id>
+      <recordtableid>4554ca42-a71b-4140-b8de-91a0b8e9398b</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\DragContent.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>e2ff3e97-d9ad-49cc-8198-41d6ece74211</id>
+      <recordtableid>7b7af881-cee5-4921-ba03-4f0a338d7446</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\EditElectiveProgram.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>553eb8ac-fed2-49a3-8634-8202aecada63</id>
+      <recordtableid>b6da9a8b-fc56-425b-b8c3-6323c677d4ab</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\ElectiveProgramDetails.rxrec">
+      <id>024cca17-d990-467a-b017-cc95a0568e8d</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>f2c69de6-3cc5-424d-9997-ca20177b54f6</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\SelectContent.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>0d6fff48-fc15-480a-a728-fb9cb57cc7e9</id>
+      <recordtableid>4ba9127c-c455-49e4-ac6b-cacd32988eaa</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\Elective\SelectProgramTypeElective.rxrec">
+      <id>5d70dd3b-11a1-4cd3-ab96-0301fd88c023</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>1ae4d4ce-57b4-48ec-8c8c-ab83b38d696d</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\GlobeProgramTitleAndDescription.rxrec">
+      <id>505b5ec7-e155-47e3-b732-c1a3b6b1a426</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>db478f4d-378e-4103-8bb5-b0745fc42818</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\ProgramStatusSort.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>1e6385c6-2a5e-4bb0-b4e3-67806c9a87e6</id>
+      <recordtableid>8af8f654-1a5b-4d44-91a5-d931f24ec308</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\ProgramTypeSort.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>e921cfba-1bf5-4481-b303-ca71675dc68f</id>
+      <recordtableid>cb75fa4a-30f5-4293-b5fa-9c9419b5ec76</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\SelectIconAndHeaderColor.rxrec">
+      <id>2c07b656-4003-4eb0-a517-77f5c9afee49</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>db5b64d2-4110-4b1c-a809-c798644e65c6</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\ActivateAccount.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f3032c57-6425-4e90-8228-ab68a9c950dc</id>
+      <recordtableid>454bf063-e84a-4999-83a2-5de74aed5467</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\ChangePassButton.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>4694a1fd-f9ab-49c8-9d26-18a10380e8db</id>
+      <recordtableid>1aca185f-b43b-4cf7-8d2c-dff8fa208f5d</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\ChangePassword.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>582f5479-f9e2-4809-a1e7-ecadb0b7351a</id>
+      <recordtableid>1f8b880f-928f-436e-aded-c7fdcff59dcd</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\ForgotPassword.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>66c60bb7-88e6-4be8-9cf3-c686a9fd2199</id>
+      <recordtableid>09fcf6d7-5b96-429c-8da8-846497c2ef50</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\FPEmailPN.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>83ec671b-56f8-4af8-8fd2-6e6179f2b57a</id>
+      <recordtableid>39648988-3b97-4818-b86e-0ea7c4fcd6b1</recordtableid>
+    </None>
+    <None Include="Recordings\Reset Password\MemSearch.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>abc61388-d5f9-4faf-bc5f-6eeee1eeeca2</id>
+      <recordtableid>613784b6-a107-426e-8a66-6e7dc8604146</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\BadgeLabelandIcon.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2f8ca597-2475-4137-8ec4-605d3d275134</id>
+      <recordtableid>381ed6db-2c93-4d1d-a710-b4115de160bb</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\Bucket.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5a004f11-cfbc-42cd-97e9-c15e3a82dc77</id>
+      <recordtableid>069a1ac4-a37f-482a-a6bb-4745650d69ff</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\Category.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8b54bd50-b588-4ff5-bc39-c710cb50ceb5</id>
+      <recordtableid>8c50351b-dbf4-4e82-ac8d-226e12175590</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\DollarLabelIconDescription.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>c235d32e-8687-429b-8132-d4e3b21a813f</id>
+      <recordtableid>a3d6ea1a-638a-4551-a436-eca1bac405ed</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\Level.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5d3f75d1-8910-4f4a-8dd5-9b45eba68c0b</id>
+      <recordtableid>12111b15-9a3a-4a9b-914d-c5f7c31c4b4d</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\MainTabNameDescpMaxDollar.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>92086a96-a2c8-48a1-8216-efa77d742ac0</id>
+      <recordtableid>87ba80cb-5564-44ea-ace5-3be91c319c0e</recordtableid>
+    </None>
+    <None Include="Recordings\Reward Group Template\PointLabelandIcon.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5047e0ae-b279-4dea-8c64-94061f6813c9</id>
+      <recordtableid>23e3ada4-584e-425a-9d0a-f66e5d82055c</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\BlockedByTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>376481a5-5094-4cd7-a6e3-c48b2c4091d8</id>
+      <recordtableid>a5435d68-eebc-440f-a0a4-9a023e96bcc9</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\DragRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>76c0cc78-f0db-4e17-bc50-f4019c5ea5e0</id>
+      <recordtableid>434b81bd-eba3-494c-9e8e-d767dc0d9cbc</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\BottonEditRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f478d4e8-cbc4-44f3-89c9-cb5487d82024</id>
+      <recordtableid>1b03ccce-3bec-49f7-bcae-0df12e8c78e8</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\EditRewards.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f425699e-b7ef-4ce3-8819-8e02b4ae2876</id>
+      <recordtableid>b2a098aa-f6fc-4494-adc4-c94b72d3493c</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\MainTab1.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>160ed8f3-5415-4c69-9809-7934e2c3ae04</id>
+      <recordtableid>d4d1e5d4-7705-4a84-8de9-619f5babb603</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\MainTab2.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6a4f1bf9-f965-471a-a061-922776f8fea7</id>
+      <recordtableid>0de1d789-744e-4f77-8849-6eee6032596b</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\RewardsTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>25c43c47-c7d5-4d74-a4ad-59bc64164e72</id>
+      <recordtableid>deb30fe4-1acf-4a8a-af61-c046dd309570</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\ToEarnDetails.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>4231d0ce-0ed8-4af7-994b-4071d13a190b</id>
+      <recordtableid>c2cb50c7-804f-4670-b1e9-561fdc4e3b94</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\ToEarnTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>dce31e99-3ae7-4f73-956a-08b7e32af39f</id>
+      <recordtableid>83e917c6-788a-41ff-bae8-ffba3c563dfc</recordtableid>
+    </None>
+    <None Include="Recordings\Rewards\ToRedeemTab.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8f5f21b7-62f7-4957-b591-e396392c2624</id>
+      <recordtableid>601c9616-9e4c-438d-a4a6-4199c46c9161</recordtableid>
+    </None>
+    <None Include="Recordings\Schedule\FrequencyDaily.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>565da0f6-981f-47a1-bbfc-a561d7f24c60</id>
+      <recordtableid>31830516-aacd-4836-a020-adf696b2c58b</recordtableid>
+    </None>
+    <None Include="Recordings\Globe\GlobeChallengeFAQ.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>a621e263-4c0e-40b7-b73b-e5be63fb5010</id>
+      <recordtableid>75599f12-455b-48d3-af60-31a2a8863ff0</recordtableid>
+    </None>
+    <None Include="Recordings\Globe\GlobeChallengeRules.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>40d72fc4-f42b-4cfc-9969-da316304d117</id>
+      <recordtableid>dcb2a36a-c5c5-4acd-8c9e-e1e8b74e8eb6</recordtableid>
+    </None>
+    <None Include="Recordings\Globe\GlobeFirst.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>5390ee83-f266-4d73-ae0b-744770de444f</id>
+      <recordtableid>cda89996-3087-4f1f-8b39-d2716d538183</recordtableid>
+    </None>
+    <None Include="Recordings\Globe\GlobeSecond.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8ca61808-c6e3-4037-ae82-c8be01d6f287</id>
+      <recordtableid>760d4c97-cbde-4863-935d-cd73c9121cea</recordtableid>
+    </None>
+    <None Include="Recordings\Health Trackers\Add HealthTracker.rxrec">
+      <id>40ece6db-b4c7-49b4-9a2f-dc7397b0099f</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>1e8d9221-3103-4e72-8af4-63538153217d</recordtableid>
+    </None>
+    <None Include="Recordings\Health Trackers\DeleteHealthTracker.rxrec">
+      <id>478c5501-cf18-4102-a8e9-b035e2cf8c8d</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>e176e236-32f2-4fb0-a53b-b763eadbab60</recordtableid>
+    </None>
+    <None Include="Recordings\Health Trackers\EditHealthTracker.rxrec">
+      <id>07ae32b2-bf86-42c2-937e-b12420a8cba4</id>
+      <recordtableid>02535981-7fd1-4b83-b1f1-32b84a023534</recordtableid>
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+    </None>
+    <None Include="Recordings\Health Trackers\SearchHealthTracker.rxrec">
+      <id>202af16d-b52d-4237-bda0-469b9905c879</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>ec07b488-7a4f-4e8e-8568-a490d9e29815</recordtableid>
+    </None>
+    <None Include="Recordings\Members\DeleteMember.rxrec">
+      <id>e0eca006-fc29-4316-ace0-756bc0f10ec7</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>4475316c-c9d3-4da0-956a-68f5efeccc1a</recordtableid>
+    </None>
+    <None Include="Recordings\Members\EditMemberMiddleName.rxrec">
+      <id>df996a45-7c1d-494f-a1c7-2862db5fa483</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>296cda97-79a7-48b2-90dd-ab5f2ad25a1f</recordtableid>
+    </None>
+    <None Include="Recordings\Members\EditRegistration.rxrec">
+      <id>c08d9936-81a9-43c1-bd0b-58e9d6318380</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>c4f04b93-bd45-476e-a62f-805e4b1d9f22</recordtableid>
+    </None>
+    <None Include="Recordings\Members\MemberSearchFN.rxrec">
+      <id>f867ed81-4284-4533-9dad-0010233e46d1</id>
+      <recordtableid>c0580c88-b559-4c45-ada4-7a4e7d7bcce4</recordtableid>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+    </None>
+    <None Include="Recordings\Members\MemberSearchLN.rxrec">
+      <id>b280f570-1145-48b7-b13d-1e8eb1d3ac38</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>55b4a7dc-5e1a-427f-bec7-9369782ad1f9</recordtableid>
+    </None>
+    <None Include="Recordings\Members\NewMember.rxrec">
+      <id>052faccb-e914-4d8e-8c75-897f1a0b8f3b</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>a704f7b7-d961-4242-ad79-4c4a214e3899</recordtableid>
+    </None>
+    <None Include="Recordings\Members\RegistrationSearch.rxrec">
+      <id>0591b119-3bda-4da8-91c0-d0de16d14d15</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>ef2f1280-8e2e-4167-a076-d37f1bd5ddd9</recordtableid>
+    </None>
+    <None Include="Recordings\Navigations\NavSidebar.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>0311e473-8cf4-4931-a98c-08a9148ffdaa</id>
+      <recordtableid>f9f1ef05-3819-4732-ab08-8d7f38d58aad</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\DeleteProgram.rxrec">
+      <id>7659c2d1-88ff-4d10-93e4-7be05875ce54</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>3b053ae6-5607-4a0c-aaab-0fcac63b76c7</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\SearchCarePlan.rxrec">
+      <id>38a79e3a-1417-4a9a-9252-7e1cf08dfbf5</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>a53a0d43-26c2-49d5-a1ae-2470a45dde4b</recordtableid>
+    </None>
+    <None Include="Recordings\Role\AddNewRole.rxrec">
+      <id>72d289bb-8885-4338-8eb7-d4dc9949948e</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>080424c3-20ae-43b2-98ac-cb4f5583b18e</recordtableid>
+    </None>
+    <None Include="Recordings\Role\DeleteRole.rxrec">
+      <id>3cc1710d-2698-4944-aecc-7b936521d9f1</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>059293d6-3c68-47e8-b235-bdef2391f737</recordtableid>
+    </None>
+    <None Include="Recordings\Role\EditRole.rxrec">
+      <id>bde0792f-a7a7-428f-9aec-bcee927cff04</id>
+      <BoundTo>86da6194-1f21-4537-97b3-8bddd0b91a2f</BoundTo>
+      <recordtableid>c7137b0e-06fe-4206-bbc8-1c3505e35a66</recordtableid>
+    </None>
+    <None Include="Recordings\Schedule\FrequencyMonthlyPrograms.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>4857d489-4818-457d-9bdf-a8001c3f520e</id>
+      <recordtableid>a3475ae3-2665-49f8-8acf-d9c235808341</recordtableid>
+    </None>
+    <None Include="Recordings\Search\SearchChallengeTemplate.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>003b12d3-8a88-402d-aa48-ba20f0118bbe</id>
+      <recordtableid>792c4b1a-913b-4fd3-9972-60a5a406959b</recordtableid>
+    </None>
+    <None Include="Recordings\Search\SearchItem.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>a1339a15-87cf-41ee-bee2-8a14fd4f617d</id>
+      <recordtableid>89fd8555-bc7b-4cd9-b4ea-a4b038c7cc83</recordtableid>
+    </None>
+    <None Include="Recordings\Search\SearchRewardGroupTemplate.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2117afe1-054f-4c44-8c4b-387ff9630e42</id>
+      <recordtableid>fa6da18e-442c-4bfd-bbf8-37ea90f20e1a</recordtableid>
+    </None>
+    <None Include="Recordings\Support\RecSupport.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>da79024c-58ea-46fb-8447-deffa73f7189</id>
+      <recordtableid>b7867400-1bea-4157-9a1c-9d67e252bdf8</recordtableid>
+    </None>
+    <None Include="Recordings\User\RequestShortCode.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>93d3fa1e-30bf-4b21-9680-8899c8e99ffd</id>
+      <recordtableid>343e4298-9822-435f-b8f2-4781f8fde657</recordtableid>
+    </None>
+    <None Include="Recordings\Validations\ValidationAlert.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>9ab47b11-3076-49ac-9b93-675be0c6bb46</id>
+      <recordtableid>31816a32-d8f3-400e-b0d9-8ea1a919452d</recordtableid>
+    </None>
+    <None Include="Recordings\Validations\ValidationGeneral.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2087c1c8-ecdf-4fd8-91a6-f46b78962507</id>
+      <recordtableid>fe4e44c7-8f8a-479a-824d-a27d3e9d1363</recordtableid>
+    </None>
+    <None Include="Recordings\Validations\NewUserLoginValidation.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>643f1e91-cc8f-4864-b94b-64e73a056e19</id>
+      <recordtableid>1c18ff4f-8f48-4858-a24b-7f1830c02117</recordtableid>
+    </None>
+    <None Include="Recordings\Validations\ValidationChangesSaved.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8fb04292-7fa0-4ac4-9484-99e8596fe8d1</id>
+      <recordtableid>f6ed1b66-c668-4a07-9860-05c0c305a743</recordtableid>
+    </None>
+    <None Include="Recordings\Validations\ValidationPackageCreate.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>f15d0846-8233-4945-a494-3ffd3cdf3409</id>
+      <recordtableid>bc6b4d21-070c-4d29-8c01-5b3bf666e8f7</recordtableid>
+    </None>
+    <None Include="SmokeTestRepositoryKS.rximg">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <DependentUpon>SmokeTestRepositoryKS.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>8cd8164f-46dd-4996-8a08-980f1073b0a3</id>
+    </None>
+    <None Include="SmokeTestRepositoryKS.rxrep">
+      <id>8e1112f5-d072-49cd-9f68-e134b9891952</id>
+      <repoid>1af4fca7-223e-4cfa-8b80-4142b99be25b</repoid>
+      <reporootid>808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55</reporootid>
+    </None>
+    <None Include="Recordings\Activities\AddActivity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>46105a9b-5fc4-4010-af45-fe9b0d0ba99d</id>
+      <recordtableid>01986fd2-63e7-46ab-b497-291729e8fe70</recordtableid>
+    </None>
+    <None Include="Recordings\Activities\EditActivity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>0971f989-7f78-44ee-b56f-1c9ec335d4dc</id>
+      <recordtableid>d27f6456-40af-4ddf-b349-7eece8ed38f9</recordtableid>
+    </None>
+    <None Include="Recordings\Activities\SearchActivity.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>d9b76c8a-a462-4f24-9b60-94393c831676</id>
+      <recordtableid>e0c1871b-495c-4b1b-aa2a-796d2b7db4b9</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\DisplayRecord.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>a38822a6-36ef-481a-ab38-ccd6655a2ed0</id>
+      <recordtableid>b2465180-baf0-4923-85c1-cbe137c4d4cb</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\HomePageNavigations.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>08d57584-87b0-4c51-bcfd-637327d0c522</id>
+      <recordtableid>3be1e818-c008-40b3-b5bb-b3c9297b59a7</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\PaginationHomePage.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>fac37185-b68d-4605-b90a-c1776a141e00</id>
+      <recordtableid>0a9c2bd3-3391-4110-9e76-de772e42a93e</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\RemoveFavHomeScreen.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>dbf8f103-7e07-49ff-9575-2cb4bfb62d64</id>
+      <recordtableid>544d063a-542c-4735-9b3b-c59464323899</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\SortDOB.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>b40538e6-546e-4983-b7ce-6bdd7a2085c9</id>
+      <recordtableid>1072f082-bb1c-43b0-a654-df28145d77c9</recordtableid>
+    </None>
+    <None Include="Recordings\Home Page\SortMemberName.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>502a0076-9ced-47ba-86e6-b75dd4ed6536</id>
+      <recordtableid>9b5823cd-4052-40b3-8365-a39cac66e73e</recordtableid>
+    </None>
+    <None Include="Recordings\Login\LoginValidation.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>8885609f-82d5-4902-9c13-1b1a4413c4df</id>
+      <recordtableid>a5e79474-a493-4369-ab98-4e4ca10bf6d7</recordtableid>
+    </None>
+    <None Include="Recordings\Navigations\NavAdministration.rxrec">
+      <id>8ce42b7e-e6e0-472c-9389-1865931a0425</id>
+      <recordtableid>78149723-4237-4816-a7b3-1883a52e5c78</recordtableid>
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+    </None>
+    <None Include="Recordings\Programs\ProgramLevelSort.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>60b1fd0f-fb01-446d-bb37-69c8395d2a18</id>
+      <recordtableid>b2103653-8a66-4c28-9270-43051c0d69b7</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\ProgramSearchByActive.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>0e37523f-ebea-42a3-9c88-08acc4c2fd3d</id>
+      <recordtableid>04f4d115-76c4-4340-85de-666bcd4766d7</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\ProgramSearchElectiveEasy.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>49ed4b53-e995-4dc5-bf0a-2a0ba92ca4d1</id>
+      <recordtableid>02597fdf-857c-49b7-a80e-fe9743f2f39c</recordtableid>
+    </None>
+    <None Include="Recordings\Programs\ProgramTitleSort.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>6eb34f60-a1c1-487f-8e47-bfeaf66a3672</id>
+      <recordtableid>5830cf42-9474-471d-a07e-5c65e660ce8e</recordtableid>
+    </None>
+    <None Include="Recordings\Test\Test.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>3f3584bb-c142-467c-aa31-2555831b4f52</id>
+      <recordtableid>822c797c-2170-4c02-92bc-db7ef4b1ba59</recordtableid>
+    </None>
+    <None Include="Recordings\User\AddUser.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>2ef9ff19-ece4-4a6b-ad92-b4205b7c3328</id>
+      <recordtableid>737e4f17-e237-4029-b240-179624cd6fab</recordtableid>
+    </None>
+    <None Include="Recordings\User\DeleteUser.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>08e93436-047c-44b3-bdf1-484dad49477b</id>
+      <recordtableid>c43bc403-8873-4eac-8b77-edcbd4b6c1ef</recordtableid>
+    </None>
+    <None Include="Recordings\User\EditUser.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>91bbff84-b7b0-4270-9657-d8e173d2274d</id>
+      <recordtableid>b9c0893e-d55f-4296-b13b-83bd33b7f6ac</recordtableid>
+    </None>
+    <None Include="Recordings\User\UserSearch.rxrec">
+      <BoundTo>8e1112f5-d072-49cd-9f68-e134b9891952</BoundTo>
+      <id>bef1a48b-ce4e-47ea-8804-ce8a6232ffc9</id>
+      <recordtableid>4294a8e7-50a0-4a11-bad8-5fb05c5f2a13</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CCHSSmokeTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>498cef29-1d13-41ef-8da0-b84a5138b256</id>
+    </Content>
+    <Content Include="New_Ocean.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f351fe58-474a-43fd-b8bf-b7cacc5583dd</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CodeModules">
+      <id>333baffd-98cd-49dd-abf5-e7790d6b739b</id>
+    </Folder>
+    <Folder Include="CodeModules\Member">
+      <id>f73663e2-3c84-4821-be83-c668733bc49f</id>
+    </Folder>
+    <Folder Include="CodeModules\ResetPassword">
+      <id>92cadcc6-cbab-4ae7-bbcf-59b68a6ea142</id>
+    </Folder>
+    <Folder Include="Recordings">
+      <id>60b0c51d-3db4-40a4-b878-5dfb8399c686</id>
+    </Folder>
+    <Folder Include="Recordings\Buttons\Turn Active">
+      <id>30dc98ca-92ea-4ea3-9cc4-39dc6b1b8916</id>
+    </Folder>
+    <Folder Include="Recordings\Buttons\NewButton">
+      <id>60bd663c-1c50-4708-8ff3-a07cfe92d88f</id>
+    </Folder>
+    <Folder Include="Recordings\Home Page">
+      <id>ba8a45c5-050e-4b49-8f6e-af97a63f11ae</id>
+    </Folder>
+    <Folder Include="Recordings\Activities">
+      <id>996069df-22b0-4d73-b0ba-cd046ea9fdc9</id>
+    </Folder>
+    <Folder Include="Recordings\Login">
+      <id>ffb4d20c-0ff6-414c-b9b8-ac7c0b9c8f9f</id>
+    </Folder>
+    <Folder Include="Recordings\Navigations">
+      <id>21d674fa-0302-4870-86d8-d1acfa1904d5</id>
+    </Folder>
+    <Folder Include="Recordings\Challenges">
+      <id>bd6426ec-e675-4cfa-8979-bee74bbc82a9</id>
+    </Folder>
+    <Folder Include="Recordings\Health Trackers">
+      <id>b8f43539-83ff-41a5-9ec7-ed5692e1d7c8</id>
+    </Folder>
+    <Folder Include="Recordings\Forms">
+      <id>9a091d02-6fbf-406e-97b8-5fae7a679457</id>
+    </Folder>
+    <Folder Include="Recordings\Members">
+      <id>08c80797-9dba-4367-ac1e-f3eba8c9634c</id>
+    </Folder>
+    <Folder Include="Recordings\Focuses">
+      <id>f30af15a-f6c5-4f59-a08b-992ec27762f4</id>
+    </Folder>
+    <Folder Include="Recordings\Buttons">
+      <id>88a949cd-db81-46f5-a7dc-88a99c857768</id>
+    </Folder>
+    <Folder Include="Recordings\Globe">
+      <id>1d9a3f3a-0d17-495e-ba1f-139e8c9e989c</id>
+    </Folder>
+    <Folder Include="Recordings\Dropdowns">
+      <id>0182c508-a806-4a02-93e5-33e63a297b7b</id>
+    </Folder>
+    <Folder Include="Recordings\DragItems">
+      <id>9629a510-e21b-497b-87c5-bbb6a3db80e0</id>
+    </Folder>
+    <Folder Include="Recordings\Delete">
+      <id>a2a7e338-67a6-4f8f-9ce6-896dcd28c2d2</id>
+    </Folder>
+    <Folder Include="Recordings\Entity Testing">
+      <id>c2e7d8dc-7c80-487e-b017-bc6e5b1967d8</id>
+    </Folder>
+    <Folder Include="Recordings\Reset Password">
+      <id>da2325da-f90c-43c6-9f83-4d9eb1bda932</id>
+    </Folder>
+    <Folder Include="Recordings\Support">
+      <id>16f40349-7d9c-4d99-b1b8-95724b5c58e0</id>
+    </Folder>
+    <Folder Include="Recordings\Package Group">
+      <id>42b22282-357a-4b71-be26-e67bf0343bd7</id>
+    </Folder>
+    <Folder Include="Recordings\Programs\CarePlan">
+      <id>5f8db913-a70b-471c-9227-64dbc400c10a</id>
+    </Folder>
+    <Folder Include="Recordings\Programs\Elective">
+      <id>64130b5e-a53d-42a9-898b-edfe22ffa58a</id>
+    </Folder>
+    <Folder Include="Recordings\Programs\Daily Opportunity">
+      <id>2781f80e-e53d-4b5e-8e69-8fc524cc9a59</id>
+    </Folder>
+    <Folder Include="Recordings\Rewards">
+      <id>bba33534-5ebd-4d55-a520-680b65b8ccbc</id>
+    </Folder>
+    <Folder Include="Recordings\Reward Group Template">
+      <id>2faef0c1-b129-48b5-83d9-3d0165be1b68</id>
+    </Folder>
+    <Folder Include="Recordings\Search">
+      <id>5ccb77b5-52c2-4f29-a5f9-3a823b5bc908</id>
+    </Folder>
+    <Folder Include="Recordings\Schedule">
+      <id>426f72a6-76fa-4e8b-bd1e-9b3d047c0de1</id>
+    </Folder>
+    <Folder Include="Recordings\Validations">
+      <id>0d025844-7df3-49a0-8326-8b1e3f012b3b</id>
+    </Folder>
+    <Folder Include="Recordings\Role">
+      <id>128b9e17-1fb9-4c4d-9f07-43cf1ec377c1</id>
+    </Folder>
+    <Folder Include="Recordings\Programs">
+      <id>41e055b7-6af7-48b9-8ebb-225e7bcf8504</id>
+    </Folder>
+    <Folder Include="Recordings\Test">
+      <id>297735b1-0df4-4a46-b0bc-12facc7bac86</id>
+    </Folder>
+    <Folder Include="Recordings\User">
+      <id>41887e43-1162-4a8b-8841-6f0b47dcd4ae</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

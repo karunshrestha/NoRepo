@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="30c0b538bb7b2e8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="4"
+		totalfailedcount="2"
+		totalblockedcount="1"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/13/2017 8:09:22 PM"
+		timestampiso="2017-02-14T01:09:22"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="52.93s"
+			durationms="52933"
+			type="test suite"
+			rid="3719fed7961f0a8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="4"
+			totalfailedcount="2"
+			totalblockedcount="1"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="52.92s"
+				durationms="52915"
+				type="test case"
+				rid="3e70737b847c7360"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="4"
+				totalfailedcount="2"
+				totalblockedcount="1"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource=""
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="52.91s"
+					durationms="52913"
+					type="test case"
+					rid="31f36030e8d8320"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="4"
+					totalfailedcount="1"
+					totalblockedcount="1"
+					testcasename="Login_PN"
+					testcaseid="f047c769-a997-48a8-a08a-b6966953bd76"
+					datasource="NewConnector35"
+					iterationcount="6"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="7.09s"
+						durationms="7094"
+						type="test case iteration"
+						rid="140b06996222d86c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="1">
+						<datarow>
+							<field
+								name="ColmEmail">
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="7.08s"
+							durationms="7082"
+							type="test module"
+							rid="1aa2ac5fcd21a4f0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value=""/>
+								<varbinding
+									name="varPassword"
+									value=""/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.249"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="20:09:22"
+								time="00:00.249"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLogin = '', $varPassword = ''
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.454"
+								timeRelativeToTestModuleStartTime="00:02.207"
+								timeWallClock="20:09:24"
+								time="00:02.454"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Tab}'.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="76"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.720"
+								timeRelativeToTestModuleStartTime="00:06.473"
+								timeWallClock="20:09:28"
+								time="00:06.720"
+								level="Info"
+								category="User">
+								<message>
+									Current Index: 1
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.839"
+								timeRelativeToTestModuleStartTime="00:06.592"
+								timeWallClock="20:09:28"
+								time="00:06.839"
+								level="Info"
+								category="User">
+								<message>
+									&#32;Please correct the validation errors below.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="93"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.900"
+								timeRelativeToTestModuleStartTime="00:06.653"
+								timeWallClock="20:09:29"
+								time="00:06.900"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="94"
+									loglvl="Success"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.038"
+								timeRelativeToTestModuleStartTime="00:06.791"
+								timeWallClock="20:09:29"
+								time="00:07.038"
+								level="Info"
+								category="User">
+								<message>
+									Email Address is required.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="97"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.097"
+								timeRelativeToTestModuleStartTime="00:06.850"
+								timeWallClock="20:09:29"
+								time="00:07.097"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="98"
+									loglvl="Success"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.218"
+								timeRelativeToTestModuleStartTime="00:06.971"
+								timeWallClock="20:09:29"
+								time="00:07.218"
+								level="Info"
+								category="User">
+								<message>
+									The Password is required.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="102"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.261"
+								timeRelativeToTestModuleStartTime="00:07.014"
+								timeWallClock="20:09:29"
+								time="00:07.261"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="103"
+									loglvl="Success"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="7.04s"
+						durationms="7042"
+						type="test case iteration"
+						rid="1457f2bbfa1549d7"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="2">
+						<datarow>
+							<field
+								name="ColmEmail">
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="7.04s"
+							durationms="7040"
+							type="test module"
+							rid="1b5da8fd1f3dc5e2"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value=""/>
+								<varbinding
+									name="varPassword"
+									value="Password1"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.333"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="20:09:29"
+								time="00:07.333"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLogin = '', $varPassword = 'Password1'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:09.682"
+								timeRelativeToTestModuleStartTime="00:02.350"
+								timeWallClock="20:09:31"
+								time="00:09.682"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Tab}'.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="76"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:13.935"
+								timeRelativeToTestModuleStartTime="00:06.603"
+								timeWallClock="20:09:36"
+								time="00:13.935"
+								level="Info"
+								category="User">
+								<message>
+									Current Index: 2
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.064"
+								timeRelativeToTestModuleStartTime="00:06.732"
+								timeWallClock="20:09:36"
+								time="00:14.064"
+								level="Info"
+								category="User">
+								<message>
+									&#32;Please correct the validation errors below.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="110"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.129"
+								timeRelativeToTestModuleStartTime="00:06.797"
+								timeWallClock="20:09:36"
+								time="00:14.129"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="111"
+									loglvl="Success"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.253"
+								timeRelativeToTestModuleStartTime="00:06.921"
+								timeWallClock="20:09:36"
+								time="00:14.253"
+								level="Info"
+								category="User">
+								<message>
+									Email Address is required.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="114"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.308"
+								timeRelativeToTestModuleStartTime="00:06.976"
+								timeWallClock="20:09:36"
+								time="00:14.308"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="115"
+									loglvl="Success"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="8.58s"
+						durationms="8577"
+						type="test case iteration"
+						rid="64089673fe8d980"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="3">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="8.58s"
+							durationms="8575"
+							type="test module"
+							rid="11128dd8c269493"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value="firefoxcchs123@gmail.com"/>
+								<varbinding
+									name="varPassword"
+									value=""/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:14.376"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="20:09:36"
+								time="00:14.376"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLogin = 'firefoxcchs123@gmail.com', $varPassword = ''
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:18.232"
+								timeRelativeToTestModuleStartTime="00:03.856"
+								timeWallClock="20:09:40"
+								time="00:18.232"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Tab}'.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="76"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.489"
+								timeRelativeToTestModuleStartTime="00:08.113"
+								timeWallClock="20:09:44"
+								time="00:22.489"
+								level="Info"
+								category="User">
+								<message>
+									Current Index: 3
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.617"
+								timeRelativeToTestModuleStartTime="00:08.241"
+								timeWallClock="20:09:44"
+								time="00:22.617"
+								level="Info"
+								category="User">
+								<message>
+									&#32;Please correct the validation errors below.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="122"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.668"
+								timeRelativeToTestModuleStartTime="00:08.292"
+								timeWallClock="20:09:44"
+								time="00:22.668"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="123"
+									loglvl="Success"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.813"
+								timeRelativeToTestModuleStartTime="00:08.437"
+								timeWallClock="20:09:44"
+								time="00:22.813"
+								level="Info"
+								category="User">
+								<message>
+									The Password is required.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="126"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.870"
+								timeRelativeToTestModuleStartTime="00:08.494"
+								timeWallClock="20:09:44"
+								time="00:22.870"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="127"
+									loglvl="Success"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="9.31s"
+						durationms="9310"
+						type="test case iteration"
+						rid="bf52888c6c25d8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="4">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+								Incorrect
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="9.31s"
+							durationms="9308"
+							type="test module"
+							rid="1be526b09879089e"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value="firefoxcchs123@gmail.com"/>
+								<varbinding
+									name="varPassword"
+									value="Incorrect"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:22.955"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="20:09:45"
+								time="00:22.955"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLogin = 'firefoxcchs123@gmail.com', $varPassword = 'Incorrect'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:27.748"
+								timeRelativeToTestModuleStartTime="00:04.794"
+								timeWallClock="20:09:49"
+								time="00:27.748"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Tab}'.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="76"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:32.013"
+								timeRelativeToTestModuleStartTime="00:09.059"
+								timeWallClock="20:09:54"
+								time="00:32.013"
+								level="Info"
+								category="User">
+								<message>
+									Current Index: 4
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:32.141"
+								timeRelativeToTestModuleStartTime="00:09.187"
+								timeWallClock="20:09:54"
+								time="00:32.141"
+								level="Info"
+								category="User">
+								<message>
+									&#32;The login credentials specified are invalid.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="134"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:32.194"
+								timeRelativeToTestModuleStartTime="00:09.240"
+								timeWallClock="20:09:54"
+								time="00:32.194"
+								level="Success"
+								category="Validation">
+								<message>
+									Condition is true.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="135"
+									loglvl="Success"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="20.88s"
+						durationms="20881"
+						type="test case iteration"
+						rid="48dbdc61edb0080"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="5">
+						<datarow>
+							<field
+								name="ColmEmail">
+								test@test
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="20.88s"
+							durationms="20879"
+							type="test module"
+							rid="3b944e4c546320c"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Failed to find item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Home.Home'.
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value="test@test"/>
+								<varbinding
+									name="varPassword"
+									value="Password1"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:32.266"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="20:09:54"
+								time="00:32.266"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varLogin = 'test@test', $varPassword = 'Password1'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:35.543"
+								timeRelativeToTestModuleStartTime="00:03.277"
+								timeWallClock="20:09:57"
+								time="00:35.543"
+								level="Info"
+								category="Keyboard"
+								errimg="images_New_Ocea_de186d97\New_Ocea_de186d97_b4537add_trace.jpg"
+								errthumb="images_New_Ocea_de186d97\New_Ocea_de186d97_b4537add_trace_thumb.jpg">
+								<message>
+									Key sequence '{Tab}'.
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="76"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:39.772"
+								timeRelativeToTestModuleStartTime="00:07.506"
+								timeWallClock="20:10:01"
+								time="00:39.772"
+								level="Info"
+								category="User"
+								errimg="images_New_Ocea_de186d97\New_Ocea_de186d97_ba04a659_trace.jpg"
+								errthumb="images_New_Ocea_de186d97\New_Ocea_de186d97_ba04a659_trace_thumb.jpg">
+								<message>
+									Current Index: 5
+								</message>
+								<metainfo
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:52.987"
+								timeRelativeToTestModuleStartTime="00:20.721"
+								timeWallClock="20:10:15"
+								time="00:52.987"
+								level="Error"
+								category="Module"
+								errimg="images_New_Ocea_de186d97\New_Ocea_de186d97_ca9170e6_trace.jpg"
+								errthumb="images_New_Ocea_de186d97\New_Ocea_de186d97_ca9170e6_trace_thumb.jpg">
+								<message>
+									Failed to find item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Home.Home'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Home']' within 1m.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.HomeFolder.get_Home() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 4168
+   at CCHSSmokeTest.CodeModules.LoginPN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 140
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="140"
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Home']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Home.Home"
+									id="b48caedfab3c4481b68a43b7619ef3ae"
+									timeout="60000"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="2bb1d1257b0e698"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="6">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

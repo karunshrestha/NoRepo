@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6495f98aef27b68"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/14/2017 1:58:20 PM"
+		timestampiso="2017-01-14T18:58:20"
+		timeoutfactor="1"
+		module="CreateUserNeg">
+		<detail>
+			CreateUserNeg
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.191"
+			timeRelativeToTestModuleStartTime="00:17.191"
+			timeWallClock="13:58:38"
+			time="00:17.191"
+			level="Success"
+			category="Validation"
+			errimg=".\CreateUs_e0a27370_2a0033da_trace.jpg"
+			errthumb=".\CreateUs_e0a27370_2a0033da_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Users.ErrorValidationMsg.OrgnRegValidationMsg' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//span[#'organizationsVal']/span[@innertext='Organization is required.']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Users.ErrorValidationMsg.OrgnRegValidationMsg"
+				id="15b266de3aba48089c63b7f6ca1bf825"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\CreateUserNeg.cs"
+				codeline="113"
+				loglvl="Success"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.422"
+			timeRelativeToTestModuleStartTime="00:48.422"
+			timeWallClock="13:59:09"
+			time="00:48.422"
+			level="Error"
+			category="User"
+			errimg=".\CreateUs_e0a27370_20449894_trace.jpg"
+			errthumb=".\CreateUs_e0a27370_20449894_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

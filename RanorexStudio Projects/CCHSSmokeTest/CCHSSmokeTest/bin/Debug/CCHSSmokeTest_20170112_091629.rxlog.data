@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c8af56498f9e293"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/12/2017 9:16:29 AM"
+		timestampiso="2017-01-12T14:16:29"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="20.42s"
+			durationms="20416"
+			type="test suite"
+			rid="481e420853c7679"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="19.75s"
+				durationms="19749"
+				type="test case"
+				rid="2d913a973d7638ad"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TC17_Add_User"
+				testcaseid="48e9d7f1-831c-4631-95df-3037f1ff5c22"
+				datasource="AddUser"
+				iterationcount="1"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="19.74s"
+					durationms="19741"
+					type="test case iteration"
+					rid="1b6f3a61bbb28d42"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TC17_Add_User"
+					iteration="1">
+					<datarow>
+						<field
+							name="LoginEmail">
+							iecchs123@gmail.com
+						</field>
+						<field
+							name="Password">
+							Password1
+						</field>
+						<field
+							name="SecurityAnswer">
+							front street
+						</field>
+						<field
+							name="UserSearchFN">
+							srujana
+						</field>
+						<field
+							name="UserSearchLN">
+							katta
+						</field>
+						<field
+							name="NewUserEmail">
+							usertest@sharklasers.com
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="19.68s"
+						durationms="19678"
+						type="test module"
+						rid="83831bbcc7d04d8"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="AddUser"
+						moduleid="737e4f17-e237-4029-b240-179624cd6fab"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="NewUserEmail"
+								value="usertest@sharklasers.com"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.583"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="09:16:31"
+							time="00:01.583"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$NewUserEmail = 'usertest@sharklasers.com'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.662"
+							timeRelativeToTestModuleStartTime="00:00.081"
+							timeWallClock="09:16:31"
+							time="00:01.662"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Users.Administration' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Administration']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Users.Administration"
+								id="3c7b3ded807245de913e6b3290e81ed2"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.727"
+							timeRelativeToTestModuleStartTime="00:01.146"
+							timeWallClock="09:16:32"
+							time="00:02.727"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Users.Users' at 61;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/li[9]/ul//span[@innertext='Users']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Users.Users"
+								id="d1e2b91d1623461b8953ccfa2004ad01"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.588"
+							timeRelativeToTestModuleStartTime="00:02.007"
+							timeWallClock="09:16:33"
+							time="00:03.588"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Users.ButtonTagNew' at 29;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'new']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Users.ButtonTagNew"
+								id="b3c3ea3ac5ce4e819d81684ce6a19686"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.442"
+							timeRelativeToTestModuleStartTime="00:02.861"
+							timeWallClock="09:16:34"
+							time="00:04.442"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 4s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="107"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.509"
+							timeRelativeToTestModuleStartTime="00:06.928"
+							timeWallClock="09:16:38"
+							time="00:08.509"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.FirstName' at 111;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'firstName']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.FirstName"
+								id="dbeed278e1d54f8c8b712724d9eea699"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="110"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.303"
+							timeRelativeToTestModuleStartTime="00:07.722"
+							timeWallClock="09:16:38"
+							time="00:09.303"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Test' with focus on 'LoginCCHSPortal.Member.FirstName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'firstName']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.FirstName"
+								id="dbeed278e1d54f8c8b712724d9eea699"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="114"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.980"
+							timeRelativeToTestModuleStartTime="00:08.399"
+							timeWallClock="09:16:39"
+							time="00:09.980"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.LastName' at 150;19.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'lastName']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.LastName"
+								id="c44957774c2f4586935d3b0d99dfdc97"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="118"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.810"
+							timeRelativeToTestModuleStartTime="00:09.229"
+							timeWallClock="09:16:40"
+							time="00:10.810"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence 'Qa440' with focus on 'LoginCCHSPortal.Member.LastName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'lastName']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.LastName"
+								id="c44957774c2f4586935d3b0d99dfdc97"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="122"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.515"
+							timeRelativeToTestModuleStartTime="00:09.934"
+							timeWallClock="09:16:41"
+							time="00:11.515"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.Organization' at 449;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'organization']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.Organization"
+								id="8970bc935ed044cd9f2e15dc1b269acb"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="126"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.339"
+							timeRelativeToTestModuleStartTime="00:10.758"
+							timeWallClock="09:16:41"
+							time="00:12.339"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.NewOcean' at 36;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//li[#'1']/div[@innertext='New Ocean']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.NewOcean"
+								id="a25fcf93f55440e09c7ebf2c2713e990"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="130"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.379"
+							timeRelativeToTestModuleStartTime="00:11.798"
+							timeWallClock="09:16:42"
+							time="00:13.379"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.EmailAddress' at 161;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.EmailAddress"
+								id="7bb73c18015341d68b6101ac3c158f8a"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="134"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.142"
+							timeRelativeToTestModuleStartTime="00:12.561"
+							timeWallClock="09:16:43"
+							time="00:14.142"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$NewUserEmail' with focus on 'LoginCCHSPortal.Member.EmailAddress'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.EmailAddress"
+								id="7bb73c18015341d68b6101ac3c158f8a"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="138"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.815"
+							timeRelativeToTestModuleStartTime="00:15.234"
+							timeWallClock="09:16:46"
+							time="00:16.815"
+							level="Info"
+							category="Set Value">
+							<message>
+								Setting attribute TagValue to '1' on item 'LoginCCHSPortal.Users.Roles'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//select[#'roles']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Users.Roles"
+								id="a1cd708a886c4957b050d8e94e0c0112"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="142"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.120"
+							timeRelativeToTestModuleStartTime="00:15.539"
+							timeWallClock="09:16:46"
+							time="00:17.120"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Member.Save' at 30;11.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'save']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.Save"
+								id="03d4e94014384216b06f09a481b2af96"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="146"
+								itemindex="13"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.921"
+							timeRelativeToTestModuleStartTime="00:16.339"
+							timeWallClock="09:16:47"
+							time="00:17.921"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText=' The changes have been successfully saved.') on item 'LoginCCHSPortal.Member.DivTagTheChangesHaveBeenSuccessfull'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ changes\ have\ been\ su']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.DivTagTheChangesHaveBeenSuccessfull"
+								id="c4fc3c48716542e78fade25923a54ed8"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="150"
+								itemindex="14"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.054"
+							timeRelativeToTestModuleStartTime="00:19.473"
+							timeWallClock="09:16:50"
+							time="00:21.054"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Member.DivTagTheChangesHaveBeenSuccessfull' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ changes\ have\ been\ su']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.DivTagTheChangesHaveBeenSuccessfull"
+								id="c4fc3c48716542e78fade25923a54ed8"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\User\AddUser.cs"
+								codeline="151"
+								loglvl="Success"
+								itemindex="14"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

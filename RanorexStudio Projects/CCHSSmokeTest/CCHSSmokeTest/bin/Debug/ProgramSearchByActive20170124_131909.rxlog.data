@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a7f1b1256017a5e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/24/2017 1:19:10 PM"
+		timestampiso="2017-01-24T18:19:10"
+		timeoutfactor="1"
+		module="ProgramSearchByActive">
+		<detail>
+			ProgramSearchByActive
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.123"
+			timeRelativeToTestModuleStartTime="00:00.124"
+			timeWallClock="13:19:10"
+			time="00:00.123"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.FormControl' at 172;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.952"
+			timeRelativeToTestModuleStartTime="00:01.953"
+			timeWallClock="13:19:12"
+			time="00:01.952"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '1' on item 'LoginCCHSPortal.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.460"
+			timeRelativeToTestModuleStartTime="00:02.461"
+			timeWallClock="13:19:12"
+			time="00:02.460"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member.Search1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.Search1"
+				id="dce2be2ce4b64e369419a9ee6af34f90"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.599"
+			timeRelativeToTestModuleStartTime="00:03.600"
+			timeWallClock="13:19:13"
+			time="00:03.599"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Active') on item 'LoginCCHSPortal.DivTagRow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow"
+				id="9d5c0000e7084382bb37f861681ce9ee"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.772"
+			timeRelativeToTestModuleStartTime="00:04.773"
+			timeWallClock="13:19:14"
+			time="00:04.772"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow"
+				id="9d5c0000e7084382bb37f861681ce9ee"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="100"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.776"
+			timeRelativeToTestModuleStartTime="00:04.777"
+			timeWallClock="13:19:14"
+			time="00:04.776"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.FormControl' at 173;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.626"
+			timeRelativeToTestModuleStartTime="00:05.627"
+			timeWallClock="13:19:15"
+			time="00:05.626"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Up}{Up}' with focus on 'LoginCCHSPortal.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.411"
+			timeRelativeToTestModuleStartTime="00:06.412"
+			timeWallClock="13:19:16"
+			time="00:06.411"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'LoginCCHSPortal.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.049"
+			timeRelativeToTestModuleStartTime="00:07.050"
+			timeWallClock="13:19:17"
+			time="00:07.049"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member.Search1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.Search1"
+				id="dce2be2ce4b64e369419a9ee6af34f90"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+				codeline="115"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

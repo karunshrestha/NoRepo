@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d823d9f14e85b95"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/29/2017 10:07:20 PM"
+		timestampiso="2017-01-30T03:07:20"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="33.84s"
+			durationms="33835"
+			type="test suite"
+			rid="2e909f5761598348"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="33.83s"
+				durationms="33830"
+				type="test case"
+				rid="1ad2114281864f6b"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Add_Traditional_Individual_Challenge"
+				testcaseid="af1aeb91-a9c4-4cea-a6f5-78716a50ceb9"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="4.21s"
+					durationms="4214"
+					type="test module"
+					rid="285d372968c5d3a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ButtonNewChallenges"
+					moduleid="2565a63c-3059-44a8-8876-25b98a6657ee"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.108"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="22:07:20"
+						time="00:00.108"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LoginCCHSPortal.AddChallenge' at 24;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'addChallenge']"
+							fullname="SmokeTestRepositoryKS.LoginCCHSPortal.AddChallenge"
+							id="dac899d3b4254c6ebf54f08b41db2f66"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Buttons\ButtonNewChallenges.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.252"
+						timeRelativeToTestModuleStartTime="00:01.146"
+						timeWallClock="22:07:21"
+						time="00:01.252"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 3s.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Buttons\ButtonNewChallenges.cs"
+							codeline="86"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="29.58s"
+					durationms="29583"
+					type="test module"
+					rid="ce4fa1fec19260c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="FocusTag"
+					moduleid="ecbcfd57-e9e3-4ab1-8980-3dc16a0a8ede"
+					moduletype="UserCode">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.835"
+						timeRelativeToTestModuleStartTime="00:29.513"
+						timeWallClock="22:07:54"
+						time="00:33.835"
+						level="Error"
+						category="User"
+						errimg="images_CCHSSmok_cfaae02a\CCHSSmok_cfaae02a_ccf66609_trace.jpg"
+						errthumb="images_CCHSSmok_cfaae02a\CCHSSmok_cfaae02a_ccf66609_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

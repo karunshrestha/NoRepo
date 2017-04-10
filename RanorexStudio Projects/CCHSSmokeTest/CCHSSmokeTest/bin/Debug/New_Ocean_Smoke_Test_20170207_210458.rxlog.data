@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f2a80d15bc2fe40"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="2/7/2017 9:04:58 PM"
+		timestampiso="2017-02-08T02:04:58"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.61s"
+			durationms="2609"
+			type="test suite"
+			rid="17033f53a6adca6a"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="New_Ocean_Smoke_Test"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="2.6s"
+				durationms="2595"
+				type="test case"
+				rid="9c0f9758664be6b"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="New_Ocean_Admin_Portal_Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="2.59s"
+					durationms="2594"
+					type="test case iteration"
+					rid="6132a2e1773967e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="New_Ocean_Admin_Portal_Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="2.59s"
+						durationms="2592"
+						type="test case"
+						rid="7f791f83374c892"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC19_ProgramSort"
+						testcaseid="92a017f4-204b-4376-b154-4ef1d53325e7"
+						datasource="ConnectorProgramSort"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="2.59s"
+							durationms="2591"
+							type="test case iteration"
+							rid="348a21d019450ee"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="TC19_ProgramSort"
+							iteration="1">
+							<datarow>
+								<field
+									name="ColumnProgmTitle1">
+								</field>
+								<field
+									name="ColumnProgmTitle2">
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="2.54s"
+								durationms="2540"
+								type="test module"
+								rid="267b829cad8396f3"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramTypeSort"
+								moduleid="cb75fa4a-30f5-4293-b5fa-9c9419b5ec76"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle1"
+										value=""/>
+									<varbinding
+										name="varSortProgmTitle2"
+										value=""/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.131"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="21:04:58"
+									time="00:00.131"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle1 = '', $varSortProgmTitle2 = ''
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.187"
+									timeRelativeToTestModuleStartTime="00:00.057"
+									timeWallClock="21:04:58"
+									time="00:00.187"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Content.ProgramType' at 77;12.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Type']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramType"
+										id="565d825d6d48440da66ff48107b9a565"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.393"
+									timeRelativeToTestModuleStartTime="00:01.263"
+									timeWallClock="21:04:59"
+									time="00:01.393"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'LoginCCHSPortal.Content.ProgramTypeCareplan' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Care Plan']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramTypeCareplan"
+										id="fce38ffb4abc44b29d515955e4dc4c1f"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.487"
+									timeRelativeToTestModuleStartTime="00:01.357"
+									timeWallClock="21:04:59"
+									time="00:01.487"
+									level="Info"
+									category="User">
+									<message>
+										Care Plan
+									</message>
+									<metainfo
+										itemindex="2"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="116"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.535"
+									timeRelativeToTestModuleStartTime="00:01.405"
+									timeWallClock="21:05:00"
+									time="00:01.535"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Content.ProgramType' at 109;9.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Type']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramType"
+										id="565d825d6d48440da66ff48107b9a565"
+										timeout="68000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="118"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.397"
+									timeRelativeToTestModuleStartTime="00:02.267"
+									timeWallClock="21:05:00"
+									time="00:02.397"
+									level="Info"
+									category="Get Value">
+									<message>
+										Getting attribute 'InnerText' from item 'LoginCCHSPortal.Content.ProgramTypeElective' and assigning its value to variable 'varSortProgmTitle2'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="122"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.489"
+									timeRelativeToTestModuleStartTime="00:02.359"
+									timeWallClock="21:05:00"
+									time="00:02.489"
+									level="Info"
+									category="User">
+									<message>
+										Elective
+									</message>
+									<metainfo
+										itemindex="5"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="126"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.534"
+									timeRelativeToTestModuleStartTime="00:02.404"
+									timeWallClock="21:05:01"
+									time="00:02.534"
+									level="Info"
+									category="Validation">
+									<message>
+										Validating AttributeNotContains (InnerText!&gt;$varSortProgmTitle1) on item 'LoginCCHSPortal.Content.ProgramTypeElective'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="128"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.640"
+									timeRelativeToTestModuleStartTime="00:02.510"
+									timeWallClock="21:05:01"
+									time="00:02.640"
+									level="Success"
+									category="Validation">
+									<message>
+										Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramTypeElective' does match the specified RegEx.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramTypeElective"
+										id="95a5fd8e4d4a48888d90bd0446332122"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramTypeSort.cs"
+										codeline="129"
+										loglvl="Success"
+										itemindex="6"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="53148f4a6ca31e2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="2/5/2017 12:25:06 AM"
+		timestampiso="2017-02-05T05:25:06"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="8.82s"
+			durationms="8815"
+			type="test suite"
+			rid="6878d5879a96931"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="8.81s"
+				durationms="8810"
+				type="test case"
+				rid="192f3dcf06208be0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="New_Ocean_Admin_Portal_Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="8.81s"
+					durationms="8809"
+					type="test case iteration"
+					rid="e94942dfa11bd2c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="New_Ocean_Admin_Portal_Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="8.81s"
+						durationms="8808"
+						type="test case"
+						rid="2c164fe9b2cbdc8"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TC38_Support"
+						testcaseid="82e3efb0-0781-4707-958e-1e3e9a8bcbdb"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="8.75s"
+							durationms="8753"
+							type="test module"
+							rid="7d3661766cab6f"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="RecSupport"
+							moduleid="b7867400-1bea-4157-9a1c-9d67e252bdf8"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<errmsg>
+								Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.Support'.
+							</errmsg>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.127"
+								timeRelativeToTestModuleStartTime="00:00.003"
+								timeWallClock="00:25:07"
+								time="00:00.127"
+								level="Info"
+								category="Mouse"
+								errimg="images_CCHSSmok_d7af0c5e\CCHSSmok_d7af0c5e_f5a7bc81_trace.jpg"
+								errthumb="images_CCHSSmok_d7af0c5e\CCHSSmok_d7af0c5e_f5a7bc81_trace_thumb.jpg">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Content.Support' at 35;4.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul//span[@innertext='Support']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Support"
+									id="358521918ceb49b7ae1504f75c051f2c"
+									timeout="90000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:08.771"
+								timeRelativeToTestModuleStartTime="00:08.647"
+								timeWallClock="00:25:15"
+								time="00:08.771"
+								level="Error"
+								category="Module"
+								errimg="images_CCHSSmok_d7af0c5e\CCHSSmok_d7af0c5e_70e0f574_trace.jpg"
+								errthumb="images_CCHSSmok_d7af0c5e\CCHSSmok_d7af0c5e_70e0f574_trace_thumb.jpg">
+								<message>
+									Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.Support'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul//span[@innertext='Support']' within 1.5m.
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.ContentFolder.get_Support() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 5118
+   at CCHSSmokeTest.Recordings.Support.RecSupport.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="83"
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul//span[@innertext='Support']"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Support"
+									id="358521918ceb49b7ae1504f75c051f2c"
+									timeout="90000"
+									loglvl="Error"
+									itemindex="0"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

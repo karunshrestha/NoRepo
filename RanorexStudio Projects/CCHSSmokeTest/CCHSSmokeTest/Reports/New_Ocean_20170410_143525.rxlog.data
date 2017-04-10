@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="39aa7cfa91d8d45"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="3"
+		totalblockedcount="1"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="4/10/2017 2:35:25 PM"
+		timestampiso="2017-04-10T18:35:25"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="17.56s"
+			durationms="17561"
+			type="test suite"
+			rid="7629de6b31e7b8"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="3"
+			totalblockedcount="1"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params>
+				<param
+					name="parDomainName">
+					qa.carecamhealthsystems.com
+				</param>
+			</params>
+			<detail>
+			</detail>
+			<errmsg>
+				An internal error occurred while executing the test case. System.Threading.ThreadAbortException: Thread was being aborted.
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(IEnumerable`1 entries, TestResult overallResult, Boolean&amp; childSkip, Boolean&amp; tearDownPending)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(TestResult overallResult, Boolean&amp; childSkip, Boolean tearDownPending)
+   at Ranorex.Core.Testing.TestCaseNode.ActuallyRun(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+			</errmsg>
+			<activity
+				result="Success"
+				duration="17.54s"
+				durationms="17536"
+				type="test case"
+				rid="1423a4298dab1a65"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="3"
+				totalblockedcount="1"
+				testcasename="Smoke_Test"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="3"
+				maxchildren="98">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="17.53s"
+					durationms="17534"
+					type="test case iteration"
+					rid="10511146980a7562"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="2"
+					totalblockedcount="1"
+					testcasename="Smoke_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<errmsg>
+						An internal error occurred while executing the test case. System.Threading.ThreadAbortException: Thread was being aborted.
+   at Ranorex.Core.Testing.TestCaseNode.LoadDataFromSource(String dataSourceName, Int32 childCount, TestResult&amp; tr)
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+					</errmsg>
+					<activity
+						result="Success"
+						duration="239ms"
+						durationms="239"
+						type="test module"
+						rid="9c2314176ee3e0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="LaunchApplication"
+						moduleid="5cd65174-2163-48e5-a8dc-d08bc3999fa5"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="BrowserType"
+								value="Chrome"/>
+							<varbinding
+								name="varDomainName"
+								value="qa.carecamhealthsystems.com"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.290"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="14:35:26"
+							time="00:00.290"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$BrowserType = 'Chrome', $varDomainName = 'qa.carecamhealthsystems.com'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.366"
+							timeRelativeToTestModuleStartTime="00:00.078"
+							timeWallClock="14:35:26"
+							time="00:00.366"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site URL in variable $varDomainName with browser specified by variable $BrowserType in maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Login\LaunchApplication.cs"
+								codeline="108"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="13.28s"
+						durationms="13282"
+						type="test case"
+						rid="3ad78c9830a221e"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TC1_Change_Password"
+						testcaseid="224245c2-f6ee-47d4-908a-70d1ed7ffbdd"
+						datasource="ChangePassword"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="13.28s"
+							durationms="13275"
+							type="test case iteration"
+							rid="1b7dd329bc727c88"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="TC1_Change_Password"
+							iteration="1">
+							<datarow>
+								<field
+									name="ExC_LoginEmail">
+									iecchs123@gmail.com
+								</field>
+								<field
+									name="ExC_Password">
+									Password1
+								</field>
+								<field
+									name="ExC_SecurityAnswer">
+									front street
+								</field>
+								<field
+									name="ExC_UserSearchFN">
+									Test440
+								</field>
+								<field
+									name="ExC_UserSearchLN">
+									Qa440
+								</field>
+								<field
+									name="ExC_NewUserEmail">
+									usertest@cchs.com
+								</field>
+								<field
+									name="ExC_MemberMiddleNameText">
+									Test
+								</field>
+								<field
+									name="ExC_MemberMiddleNameNum">
+									111
+								</field>
+								<field
+									name="ExC_NewMemberEmail">
+									automationtest@cchs.com
+								</field>
+								<field
+									name="ExC_EditMemberEmail">
+									42835.6079712963
+								</field>
+								<field
+									name="ExC_ZipCodeMemRegistration">
+									19326
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Failed"
+								duration="13.23s"
+								durationms="13233"
+								type="test module"
+								rid="1fef6e32797f64f8"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ChangePassword"
+								moduleid="1f8b880f-928f-436e-aded-c7fdcff59dcd"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="LoginEmail"
+										value="iecchs123@gmail.com"/>
+									<varbinding
+										name="OldPassword"
+										value="Password1"/>
+									<varbinding
+										name="NewPassword"
+										value="Password1"/>
+									<varbinding
+										name="ConfirmNewPassword"
+										value="Password1"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.011"
+									timeRelativeToTestModuleStartTime="00:00.001"
+									timeWallClock="14:35:28"
+									time="00:03.011"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$LoginEmail = 'iecchs123@gmail.com', $OldPassword = 'Password1', $NewPassword = 'Password1', $ConfirmNewPassword = 'Password1'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.068"
+									timeRelativeToTestModuleStartTime="00:00.058"
+									timeWallClock="14:35:28"
+									time="00:03.068"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Reset_Password.ChangePassBtn' at 71;20.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'change']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Reset_Password.ChangePassBtn"
+										id="4362c549482549c7a8a0535ac08835d5"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="134"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:06.911"
+									timeRelativeToTestModuleStartTime="00:03.901"
+									timeWallClock="14:35:32"
+									time="00:06.911"
+									level="Info"
+									category="Delay">
+									<message>
+										Waiting for 3s.
+									</message>
+									<metainfo
+										itemindex="1"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="138"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.947"
+									timeRelativeToTestModuleStartTime="00:06.937"
+									timeWallClock="14:35:35"
+									time="00:09.947"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'NewOceanAdminPortal.Login.Email' at 28;18.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.Email"
+										id="1d18b98d2fc1446caac6b1e3edf16591"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="141"
+										itemindex="2"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.816"
+									timeRelativeToTestModuleStartTime="00:07.806"
+									timeWallClock="14:35:36"
+									time="00:10.816"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$LoginEmail' with focus on 'NewOceanAdminPortal.Login.Email'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.Email"
+										id="1d18b98d2fc1446caac6b1e3edf16591"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="145"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:13.072"
+									timeRelativeToTestModuleStartTime="00:10.062"
+									timeWallClock="14:35:38"
+									time="00:13.072"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse XButton2 Click item 'NewOceanAdminPortal.Reset_Password.OldPassword' at 30;18.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'oldPassword']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Reset_Password.OldPassword"
+										id="b3725e19824446d0a64cd75554566f26"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="149"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:13.970"
+									timeRelativeToTestModuleStartTime="00:10.960"
+									timeWallClock="14:35:39"
+									time="00:13.970"
+									level="Info"
+									category="Keyboard"
+									errimg="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_7c24c64c_trace.jpg"
+									errthumb="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_7c24c64c_trace_thumb.jpg">
+									<message>
+										Key sequence from variable '$OldPassword' with focus on 'NewOceanAdminPortal.Reset_Password.OldPassword'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'oldPassword']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Reset_Password.OldPassword"
+										id="b3725e19824446d0a64cd75554566f26"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="153"
+										itemindex="5"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:15.215"
+									timeRelativeToTestModuleStartTime="00:12.205"
+									timeWallClock="14:35:41"
+									time="00:15.215"
+									level="Info"
+									category="Mouse"
+									errimg="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_20b05352_trace.jpg"
+									errthumb="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_20b05352_trace_thumb.jpg">
+									<message>
+										Mouse XButton1 Click item 'NewOceanAdminPortal.Reset_Password.NewPassword' at 72;12.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']"
+										fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Reset_Password.NewPassword"
+										id="949b6acd640d4dff80050c3d07e55833"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ChangePassword.cs"
+										codeline="157"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:16.099"
+									timeRelativeToTestModuleStartTime="00:13.089"
+									timeWallClock="14:35:42"
+									time="00:16.099"
+									level="Error"
+									category="User"
+									errimg="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_e174a58b_trace.jpg"
+									errthumb="images_New_Ocea_fcadf6bc\New_Ocea_fcadf6bc_e174a58b_trace_thumb.jpg">
+									<message>
+										The test run has been aborted by the user.
+									</message>
+									<metainfo
+										loglvl="Error"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="5ms"
+						durationms="5"
+						type="test case"
+						rid="8af1f9533e12a0"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="1"
+						testcasename="TC2_Forgot_Password"
+						testcaseid="6294af4e-f483-457b-9be2-5e28e1d1b6f3"
+						datasource="ForgotPassword"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Failed"
+						duration="2ms"
+						durationms="2"
+						type="test case"
+						rid="50bd82c0eac70f2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TC3_Login_And_Consent"
+						testcaseid="66619126-871b-4983-a404-f455b9fa0570"
+						datasource="Login"
+						iterationcount="0"
+						maxchildren="0">
+						<params/>
+						<errormessage>
+							Failed to get rows from data source: Thread was being aborted.
+						</errormessage>
+						<detail>
+						</detail>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.775"
+			timeRelativeToTestModuleStartTime="00:17.778"
+			timeWallClock="14:35:43"
+			time="00:17.775"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String testSuiteXml, RunParams rp)"
+				loglvl="Failure"/>
+		</item>
+	</activity>
+</report>

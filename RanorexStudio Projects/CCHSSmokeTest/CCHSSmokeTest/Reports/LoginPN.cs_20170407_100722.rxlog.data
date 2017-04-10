@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b75c2092ed1ef90"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="4/7/2017 10:07:24 AM"
+		timestampiso="2017-04-07T14:07:24"
+		timeoutfactor="1"
+		module="LoginPN">
+		<detail>
+			LoginPN
+		</detail>
+		<errmsg>
+			Setting attribute 'innertext' failed on element '{InputTag:email}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.311"
+			timeRelativeToTestModuleStartTime="00:00.311"
+			timeWallClock="10:07:25"
+			time="00:00.311"
+			level="Warn"
+			category="Data"
+			errimg=".\LoginPN._956e79d2_ad08a44c_trace.jpg"
+			errthumb=".\LoginPN._956e79d2_ad08a44c_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>varPassword, varLogin
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.036"
+			timeRelativeToTestModuleStartTime="00:02.036"
+			timeWallClock="10:07:26"
+			time="00:02.036"
+			level="Error"
+			category="Module"
+			errimg=".\LoginPN._956e79d2_02167120_trace.jpg"
+			errthumb=".\LoginPN._956e79d2_02167120_trace_thumb.jpg">
+			<message>
+				Setting attribute 'innertext' failed on element '{InputTag:email}'.<br/>Error in MsgHostDom call: Error NoModificationAllowedError: Failed to set the 'innerText' property on 'HTMLElement': The 'input' element does not support text insertion. Error: Failed to set the 'innerText' property on 'HTMLElement': The 'input' element does not support text insertion.
+    at chrome-extension://egdlgaljianpgdlmfijpphbadibfncdm/content.js:1:2822
+    at window.RXmsg.onRecv (chrome-extension://egdlgaljianpgdlmfijpphbadibfncdm/msgport.js:1:118)
+    at EventImpl.dispatchToListener (extensions::event_bindings:388:22)
+    at Event.publicClassPrototype.(anonymous function) [as dispatchToListener] (extensions::utils:149:26)
+    at EventImpl.dispatch_ (extensions::event_bindings:372:35)
+    at EventImpl.dispatch (extensions::event_bindings:394:17)
+    at Event.publicClassPrototype.(anonymous function) [as dispatch] (extensions::utils:149:26)
+    at dispatchOnMessage (extensions::messaging:320:22)
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at Ranorex.WebElement.set_InnerText(String value)
+   at CCHSSmokeTest.CodeModules.LoginPN.fillInputField(InputTag inputTagName, String value) in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 150
+   at CCHSSmokeTest.CodeModules.LoginPN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 74
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+				codeline="150"
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

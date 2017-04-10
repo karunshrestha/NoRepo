@@ -1,0 +1,1080 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="519a72ff0976af"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="5"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="3/27/2017 10:31:47 PM"
+		timestampiso="2017-03-28T02:31:47"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="53.89s"
+			durationms="53891"
+			type="test suite"
+			rid="cbbe19b6e8af402"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="5"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="53.87s"
+				durationms="53872"
+				type="test case"
+				rid="2edbdaba61b433ab"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="5"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Smoke_Test"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="3"
+				maxchildren="98">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="53.87s"
+					durationms="53870"
+					type="test case iteration"
+					rid="2887e19c19d5e743"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="4"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Smoke_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="16.99s"
+						durationms="16989"
+						type="test case"
+						rid="1325341f8d4632b3"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC36_Edit_Package_Group"
+						testcaseid="021e55ed-523b-403d-b22a-5dd92c2b86fe"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="4.35s"
+							durationms="4349"
+							type="test module"
+							rid="26cae2e17d5490c0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="EditPackagesTab"
+							moduleid="1fe592db-cf0d-4888-b44e-1881e48d5942"
+							moduletype="Recording">
+							<detail>
+								Uncheck Child of Insured
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.287"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="22:31:48"
+								time="00:00.287"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 3s.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditPackagesTab.cs"
+									codeline="82"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.346"
+								timeRelativeToTestModuleStartTime="00:03.061"
+								timeWallClock="22:31:51"
+								time="00:03.346"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Package_Group.Package0RowChildOfInsuredCheck' at 5;4.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'package0RowChild of InsuredCheck']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.Package0RowChildOfInsuredCheck"
+									id="298f3a74857343c8b35069ef8a4a0d00"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditPackagesTab.cs"
+									codeline="85"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="6.2s"
+							durationms="6203"
+							type="test module"
+							rid="1bece883eb053cac"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="EditMainTab"
+							moduleid="2ca9d85d-5a1e-4c56-9506-58beab0e5551"
+							moduletype="Recording">
+							<detail>
+								Edit Description
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.638"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="22:31:52"
+								time="00:04.638"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.ATagMain' at 33;21.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//li[#'activity']/a[@innertext&lt;' Main']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.ATagMain"
+									id="9074d013703c46a5a2b8c6026089c384"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditMainTab.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.487"
+								timeRelativeToTestModuleStartTime="00:00.851"
+								timeWallClock="22:31:53"
+								time="00:05.487"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Package_Group.Description' at 109;21.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'description']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.Description"
+									id="a1d31bace79e43729ee5984685d1aeba"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditMainTab.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.500"
+								timeRelativeToTestModuleStartTime="00:01.864"
+								timeWallClock="22:31:54"
+								time="00:06.500"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '{Space}' with focus on 'NewOceanAdminPortal.Package_Group.Description'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'description']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.Description"
+									id="a1d31bace79e43729ee5984685d1aeba"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditMainTab.cs"
+									codeline="90"
+									itemindex="2"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.039"
+								timeRelativeToTestModuleStartTime="00:02.403"
+								timeWallClock="22:31:54"
+								time="00:07.039"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence '123' with focus on 'NewOceanAdminPortal.Package_Group.Description'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'description']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.Description"
+									id="a1d31bace79e43729ee5984685d1aeba"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditMainTab.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.789"
+								timeRelativeToTestModuleStartTime="00:03.153"
+								timeWallClock="22:31:55"
+								time="00:07.789"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 3s.
+								</message>
+								<metainfo
+									itemindex="4"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\EditMainTab.cs"
+									codeline="98"
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="843ms"
+							durationms="843"
+							type="test module"
+							rid="90f560f168d8586"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ButtonSave"
+							moduleid="f7b21298-6c37-4a29-958d-b6a40933d33e"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:10.845"
+								timeRelativeToTestModuleStartTime="00:00.004"
+								timeWallClock="22:31:58"
+								time="00:10.845"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Member.Save' at 21;16.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'save']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Member.Save"
+									id="03d4e94014384216b06f09a481b2af96"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Buttons\ButtonSave.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+						</activity>
+						<activity
+							result="Success"
+							duration="5.54s"
+							durationms="5536"
+							type="test module"
+							rid="949226beaabebf0"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ValidationPackageCreate"
+							moduleid="bc6b4d21-070c-4d29-8c01-5b3bf666e8f7"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:11.691"
+								timeRelativeToTestModuleStartTime="00:00.004"
+								timeWallClock="22:31:59"
+								time="00:11.691"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeContains (InnerText&gt;'package') on item 'NewOceanAdminPortal.Validations.PackageAddandEditValidation'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^The']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.PackageAddandEditValidation"
+									id="a92e6d2882a64d98b74cb2b010c757c6"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationPackageCreate.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.041"
+								timeRelativeToTestModuleStartTime="00:00.354"
+								timeWallClock="22:31:59"
+								time="00:12.041"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.PackageAddandEditValidation' does match the specified RegEx.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^The']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.PackageAddandEditValidation"
+									id="a92e6d2882a64d98b74cb2b010c757c6"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationPackageCreate.cs"
+									codeline="83"
+									loglvl="Success"
+									itemindex="0"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:12.174"
+								timeRelativeToTestModuleStartTime="00:00.487"
+								timeWallClock="22:31:59"
+								time="00:12.174"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 5s.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Validations\ValidationPackageCreate.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="14.47s"
+						durationms="14466"
+						type="test case"
+						rid="b86dfbd04e34cb4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC37_Delete_Package_Group"
+						testcaseid="c48d7756-d181-424d-a386-f18a47c8a0b9"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="14.46s"
+							durationms="14463"
+							type="test module"
+							rid="6bdb45b6e84df9"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="DeletePackageGroup"
+							moduleid="87bb370a-ea6f-496f-ab97-f0b2c7a8162e"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:17.229"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="22:32:04"
+								time="00:17.229"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Users.Actions' at 44;16.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'actions']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Users.Actions"
+									id="c834af9e8297422eae7dc59f5a45ce6f"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:18.092"
+								timeRelativeToTestModuleStartTime="00:00.864"
+								timeWallClock="22:32:05"
+								time="00:18.092"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Users.Delete' at 64;10.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'delete']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Users.Delete"
+									id="e2655ef9c5314904959cddad0e1e4323"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="86"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:18.963"
+								timeRelativeToTestModuleStartTime="00:01.735"
+								timeWallClock="22:32:06"
+								time="00:18.963"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 2s.
+								</message>
+								<metainfo
+									itemindex="2"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="90"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:21.006"
+								timeRelativeToTestModuleStartTime="00:03.778"
+								timeWallClock="22:32:08"
+								time="00:21.006"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'ImagesObject' at .485;.444.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']"
+									fullname="SmokeTestRepositoryKS.ImagesObject"
+									id="7d5f84074514440daa76590cde8dab69"
+									timeout="30000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="93"
+									itemindex="3"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:31.461"
+								timeRelativeToTestModuleStartTime="00:14.233"
+								timeWallClock="22:32:19"
+								time="00:31.461"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating AttributeEqual (InnerText=' The Package Group has been successfully deleted.') on item 'NewOceanAdminPortal.Validations.DeletePackageValidation'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Package\ Group\ has\ be']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.DeletePackageValidation"
+									id="d101f2680b0b432b871ea5d023cae7c7"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="98"
+									itemindex="4"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:31.562"
+								timeRelativeToTestModuleStartTime="00:14.334"
+								timeWallClock="22:32:19"
+								time="00:31.562"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.DeletePackageValidation' does match the specified value.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Package\ Group\ has\ be']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Validations.DeletePackageValidation"
+									id="d101f2680b0b432b871ea5d023cae7c7"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\DeletePackageGroup.cs"
+									codeline="99"
+									loglvl="Success"
+									itemindex="4"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="18.52s"
+						durationms="18517"
+						type="test case"
+						rid="2717c46cd74992c1"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC38_Support"
+						testcaseid="82e3efb0-0781-4707-958e-1e3e9a8bcbdb"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="18.51s"
+							durationms="18513"
+							type="test module"
+							rid="1fc422ea063d716"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="RecSupport"
+							moduleid="b7867400-1bea-4157-9a1c-9d67e252bdf8"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:31.705"
+								timeRelativeToTestModuleStartTime="00:00.008"
+								timeWallClock="22:32:19"
+								time="00:31.705"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'ImagesObject' at 8;5.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']"
+									fullname="SmokeTestRepositoryKS.ImagesObject"
+									id="7d5f84074514440daa76590cde8dab69"
+									timeout="30000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:35.979"
+								timeRelativeToTestModuleStartTime="00:04.281"
+								timeWallClock="22:32:23"
+								time="00:35.979"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 1s.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:37.030"
+								timeRelativeToTestModuleStartTime="00:05.332"
+								timeWallClock="22:32:24"
+								time="00:37.030"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'ImagesObject' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']"
+									fullname="SmokeTestRepositoryKS.ImagesObject"
+									id="7d5f84074514440daa76590cde8dab69"
+									timeout="30000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="89"
+									itemindex="2"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:40.505"
+								timeRelativeToTestModuleStartTime="00:08.807"
+								timeWallClock="22:32:28"
+								time="00:40.505"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.HowDoIGetStarted'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s1q1']/h4[@innertext='How do I get started?']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoIGetStarted"
+									id="8005d73704484cd58247c78a76d2636b"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="94"
+									itemindex="3"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:40.863"
+								timeRelativeToTestModuleStartTime="00:09.165"
+								timeWallClock="22:32:28"
+								time="00:40.863"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'HowDoIGetStarted' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s1q1']/h4[@innertext='How do I get started?']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoIGetStarted"
+									id="8005d73704484cd58247c78a76d2636b"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="95"
+									loglvl="Success"
+									itemindex="3"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:40.997"
+								timeRelativeToTestModuleStartTime="00:09.299"
+								timeWallClock="22:32:28"
+								time="00:40.997"
+								level="Info"
+								category="Mouse">
+								<message>
+									(Optional Action)<br/>Mouse Left Click item 'NewOceanAdminPortal.NavNavTabs.MemberManagement' at 85;19.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Member Management']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.NavNavTabs.MemberManagement"
+									id="cc88c5f786574e72b2ea73a68da07baa"
+									timeout="61000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="100"
+									itemindex="4"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:41.944"
+								timeRelativeToTestModuleStartTime="00:10.246"
+								timeWallClock="22:32:29"
+								time="00:41.944"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.HowDoIEnterANewMember'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s2q1']/h4[@innertext~'^How\ do\ I\ enter\ a\ new\ memb']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoIEnterANewMember"
+									id="937fa3ca63354e1c8ee6f81c2fe5ca07"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="106"
+									itemindex="5"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:42.027"
+								timeRelativeToTestModuleStartTime="00:10.329"
+								timeWallClock="22:32:29"
+								time="00:42.027"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'HowDoIEnterANewMember' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s2q1']/h4[@innertext~'^How\ do\ I\ enter\ a\ new\ memb']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoIEnterANewMember"
+									id="937fa3ca63354e1c8ee6f81c2fe5ca07"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="107"
+									loglvl="Success"
+									itemindex="5"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:42.160"
+								timeRelativeToTestModuleStartTime="00:10.462"
+								timeWallClock="22:32:29"
+								time="00:42.160"
+								level="Info"
+								category="Mouse">
+								<message>
+									(Optional Action)<br/>Mouse Left Click item 'NewOceanAdminPortal.NavNavTabs.MemberCarePlan' at 86;16.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Member Care Plan']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.NavNavTabs.MemberCarePlan"
+									id="290d0955f18347dda33798215ad87601"
+									timeout="61000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="112"
+									itemindex="6"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:42.990"
+								timeRelativeToTestModuleStartTime="00:11.292"
+								timeWallClock="22:32:30"
+								time="00:42.990"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.HowDoICustomizeACarePlanForAMem'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s3q1']/h4[@innertext~'^How\ do\ I\ customize\ a\ care']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoICustomizeACarePlanForAMem"
+									id="f47fdbab5ed44a9182e07f9d84a55f60"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="118"
+									itemindex="7"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:43.075"
+								timeRelativeToTestModuleStartTime="00:11.377"
+								timeWallClock="22:32:30"
+								time="00:43.075"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'HowDoICustomizeACarePlanForAMem' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s3q1']/h4[@innertext~'^How\ do\ I\ customize\ a\ care']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoICustomizeACarePlanForAMem"
+									id="f47fdbab5ed44a9182e07f9d84a55f60"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="119"
+									loglvl="Success"
+									itemindex="7"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:43.209"
+								timeRelativeToTestModuleStartTime="00:11.511"
+								timeWallClock="22:32:30"
+								time="00:43.209"
+								level="Info"
+								category="Mouse">
+								<message>
+									(Optional Action)<br/>Mouse Left Click item 'NewOceanAdminPortal.NavNavTabs.CarePlansAndActivities' at 82;18.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Care Plans and Activities']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.NavNavTabs.CarePlansAndActivities"
+									id="58e8bf338d9a4d5ca096f4d410baab21"
+									timeout="61000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="124"
+									itemindex="8"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:44.040"
+								timeRelativeToTestModuleStartTime="00:12.342"
+								timeWallClock="22:32:31"
+								time="00:44.040"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.HowDoICreateACarePlan'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s4q1']/h4[@innertext~'^How\ do\ I\ create\ a\ care\ pl']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoICreateACarePlan"
+									id="e836cf51f3194b1c9942cace6047f3c6"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="130"
+									itemindex="9"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:44.121"
+								timeRelativeToTestModuleStartTime="00:12.423"
+								timeWallClock="22:32:31"
+								time="00:44.121"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'HowDoICreateACarePlan' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s4q1']/h4[@innertext~'^How\ do\ I\ create\ a\ care\ pl']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.HowDoICreateACarePlan"
+									id="e836cf51f3194b1c9942cace6047f3c6"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="131"
+									loglvl="Success"
+									itemindex="9"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:44.259"
+								timeRelativeToTestModuleStartTime="00:12.561"
+								timeWallClock="22:32:32"
+								time="00:44.259"
+								level="Info"
+								category="Mouse">
+								<message>
+									(Optional Action)<br/>Mouse Left Click item 'NewOceanAdminPortal.NavNavTabs.MemberMobileApplications' at 86;20.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext~'^Member\ Mobile\ Application']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.NavNavTabs.MemberMobileApplications"
+									id="86b9c8895c2547e38dc68cf1c45f8995"
+									timeout="61000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="136"
+									itemindex="10"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:45.102"
+								timeRelativeToTestModuleStartTime="00:13.404"
+								timeWallClock="22:32:32"
+								time="00:45.102"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.ActivitiesWhatIsAnActivity'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s5q1']/h4[@innertext~'^Activities:\ What\ is\ an\ ac']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.ActivitiesWhatIsAnActivity"
+									id="290a1be839974edc8bdc7ff62c15a965"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="142"
+									itemindex="11"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:45.192"
+								timeRelativeToTestModuleStartTime="00:13.494"
+								timeWallClock="22:32:32"
+								time="00:45.192"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'ActivitiesWhatIsAnActivity' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'s5q1']/h4[@innertext~'^Activities:\ What\ is\ an\ ac']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.ActivitiesWhatIsAnActivity"
+									id="290a1be839974edc8bdc7ff62c15a965"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="143"
+									loglvl="Success"
+									itemindex="11"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:45.327"
+								timeRelativeToTestModuleStartTime="00:13.629"
+								timeWallClock="22:32:33"
+								time="00:45.327"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'ImagesObject' at Center.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']"
+									fullname="SmokeTestRepositoryKS.ImagesObject"
+									id="7d5f84074514440daa76590cde8dab69"
+									timeout="30000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="147"
+									itemindex="12"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:49.959"
+								timeRelativeToTestModuleStartTime="00:18.262"
+								timeWallClock="22:32:37"
+								time="00:49.959"
+								level="Info"
+								category="Validation">
+								<message>
+									(Optional Action)<br/>Validating Exists on item 'NewOceanAdminPortal.Home.ContentHeader'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//span[#'contentHeader']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Home.ContentHeader"
+									id="157710cab7c84df3a45f122a12d27c4d"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="152"
+									itemindex="13"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:50.054"
+								timeRelativeToTestModuleStartTime="00:18.357"
+								timeWallClock="22:32:37"
+								time="00:50.054"
+								level="Success"
+								category="Validation">
+								<message>
+									Element for item 'ContentHeader' does exist.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//span[#'contentHeader']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Home.ContentHeader"
+									id="157710cab7c84df3a45f122a12d27c4d"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Support\RecSupport.cs"
+									codeline="153"
+									loglvl="Success"
+									itemindex="13"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Success"
+						duration="3.89s"
+						durationms="3889"
+						type="test case"
+						rid="2baddbd1d9b32ca"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="TC39_Log_Out"
+						testcaseid="3aea223f-50e0-4450-a179-5abfdf65d5c6"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="3.88s"
+							durationms="3883"
+							type="test module"
+							rid="283deff557740d4"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LogOut"
+							moduleid="d83d449e-31da-4ab8-9a38-bbc5d17f681f"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:50.217"
+								timeRelativeToTestModuleStartTime="00:00.002"
+								timeWallClock="22:32:37"
+								time="00:50.217"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.SpanTagLogout' at 13;6.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//nav[#'user-nav']/ul//span[@innertext=' Logout']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.SpanTagLogout"
+									id="3cafad0651cc47a18d0f5feb7946ea5f"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Login\LogOut.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:51.052"
+								timeRelativeToTestModuleStartTime="00:00.837"
+								timeWallClock="22:32:38"
+								time="00:51.052"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 3s.
+								</message>
+								<metainfo
+									itemindex="1"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Login\LogOut.cs"
+									codeline="86"
+									loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

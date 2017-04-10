@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7760cf75835a2f8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 12:01:39 PM"
+		timestampiso="2017-01-06T17:01:39"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="3.04s"
+			durationms="3040"
+			type="test suite"
+			rid="ab4d311b7b8f2c1"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="3.03s"
+				durationms="3034"
+				type="test case"
+				rid="89fdb9894f70d20"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="TC4_Home_Page_Sorting"
+				testcaseid="04fc468c-845b-487a-8099-ee670ce29fb7"
+				datasource="NewConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params>
+					<param
+						name="NewParameter">
+					</param>
+				</params>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="3.03s"
+					durationms="3032"
+					type="test case iteration"
+					rid="b71a230296ef754"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TC4_Home_Page_Sorting"
+					iteration="1">
+					<datarow>
+						<field
+							name="NewColumn">
+							0
+						</field>
+						<field
+							name="NewColumn1">
+							0
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="1.62s"
+						durationms="1617"
+						type="test module"
+						rid="12c03396e06ec8ee"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SortMemberName"
+						moduleid="9b5823cd-4052-40b3-8365-a39cac66e73e"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varCompareName1"
+								value="0"/>
+							<varbinding
+								name="varComareName2"
+								value="0"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.099"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="12:01:39"
+							time="00:00.099"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varCompareName1 = '0', $varComareName2 = '0'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.180"
+							timeRelativeToTestModuleStartTime="00:00.082"
+							timeWallClock="12:01:40"
+							time="00:00.180"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varCompareName1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+								id="7c7d10794e8b4878957923f6462a590d"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.510"
+							timeRelativeToTestModuleStartTime="00:00.412"
+							timeWallClock="12:01:40"
+							time="00:00.510"
+							level="Info"
+							category="User">
+							<message>
+								Qa, Zeaa
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.569"
+							timeRelativeToTestModuleStartTime="00:00.471"
+							timeWallClock="12:01:40"
+							time="00:00.569"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Home_Screen.MemberName_Sort' at 192;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div//table/thead/?/?/th[@innertext='Member Name']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.MemberName_Sort"
+								id="c943bf992846474d87d698f43e6f0df8"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="114"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.412"
+							timeRelativeToTestModuleStartTime="00:01.314"
+							timeWallClock="12:01:41"
+							time="00:01.412"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'Home_Screen.FirstMemberName_HomeScreen' and assigning its value to variable 'varComareName2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+								id="7c7d10794e8b4878957923f6462a590d"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="118"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.517"
+							timeRelativeToTestModuleStartTime="00:01.419"
+							timeWallClock="12:01:41"
+							time="00:01.517"
+							level="Info"
+							category="User">
+							<message>
+								Aalex, Aandy
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="122"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.565"
+							timeRelativeToTestModuleStartTime="00:01.467"
+							timeWallClock="12:01:41"
+							time="00:01.565"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeNotContains (InnerText!&gt;$varCompareName1) on item 'Home_Screen.FirstMemberName_HomeScreen'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+								id="7c7d10794e8b4878957923f6462a590d"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="124"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.678"
+							timeRelativeToTestModuleStartTime="00:01.580"
+							timeWallClock="12:01:41"
+							time="00:01.678"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen' does match the specified RegEx.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstMemberName_HomeScreen"
+								id="7c7d10794e8b4878957923f6462a590d"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortMemberName.cs"
+								codeline="125"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="1.41s"
+						durationms="1406"
+						type="test module"
+						rid="1bfa9688898f632c"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="SortDOB"
+						moduleid="1072f082-bb1c-43b0-a654-df28145d77c9"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varCompareDOB1"
+								value="Aalex, Aandy"/>
+							<varbinding
+								name="varComapreDOB2"
+								value="Aalex, Aandy"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.718"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="12:01:41"
+							time="00:01.718"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varCompareDOB1 = 'Aalex, Aandy', $varComapreDOB2 = 'Aalex, Aandy'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.781"
+							timeRelativeToTestModuleStartTime="00:00.065"
+							timeWallClock="12:01:41"
+							time="00:01.781"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'Home_Screen.FirstDOB_HomeScreen' and assigning its value to variable 'varCompareDOB1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'dob0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstDOB_HomeScreen"
+								id="218b86aa01cc49c19e80a2f0fb0500d7"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.896"
+							timeRelativeToTestModuleStartTime="00:00.180"
+							timeWallClock="12:01:41"
+							time="00:01.896"
+							level="Info"
+							category="User">
+							<message>
+								01/12/1975
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="112"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.950"
+							timeRelativeToTestModuleStartTime="00:00.234"
+							timeWallClock="12:01:41"
+							time="00:01.950"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Home_Screen.DOB_Sort' at 192;10.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div//table/thead/?/?/th[@innertext='DOB']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.DOB_Sort"
+								id="4df8e6ec18594853beff0b17035396ab"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="114"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.769"
+							timeRelativeToTestModuleStartTime="00:01.053"
+							timeWallClock="12:01:42"
+							time="00:02.769"
+							level="Info"
+							category="Get Value">
+							<message>
+								Getting attribute 'InnerText' from item 'Home_Screen.FirstDOB_HomeScreen' and assigning its value to variable 'varComapreDOB2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'dob0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstDOB_HomeScreen"
+								id="218b86aa01cc49c19e80a2f0fb0500d7"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="118"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.889"
+							timeRelativeToTestModuleStartTime="00:01.173"
+							timeWallClock="12:01:42"
+							time="00:02.889"
+							level="Info"
+							category="User">
+							<message>
+								01/09/1966
+							</message>
+							<metainfo
+								itemindex="4"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="122"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.950"
+							timeRelativeToTestModuleStartTime="00:01.234"
+							timeWallClock="12:01:42"
+							time="00:02.950"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeNotContains (InnerText!&gt;$varCompareDOB1) on item 'Home_Screen.FirstDOB_HomeScreen'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'dob0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstDOB_HomeScreen"
+								id="218b86aa01cc49c19e80a2f0fb0500d7"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="124"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.071"
+							timeRelativeToTestModuleStartTime="00:01.355"
+							timeWallClock="12:01:42"
+							time="00:03.071"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.Home_Screen.FirstDOB_HomeScreen' does match the specified RegEx.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'dob0']"
+								fullname="CCHSSmokeTestRepository.Home_Screen.FirstDOB_HomeScreen"
+								id="218b86aa01cc49c19e80a2f0fb0500d7"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\SortDOB.cs"
+								codeline="125"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="9de036cfd0f20a6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/31/2017 4:09:58 PM"
+		timestampiso="2017-01-31T21:09:58"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="17.66s"
+			durationms="17663"
+			type="test suite"
+			rid="2a3f6c67bfa55429"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="17.66s"
+				durationms="17655"
+				type="test case"
+				rid="22d9b197fbbf1e5c"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="17.65s"
+					durationms="17654"
+					type="test case iteration"
+					rid="27762f5000a4230"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="17.65s"
+						durationms="17653"
+						type="test case"
+						rid="8d9c1c04a308338"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="Program_Search"
+						testcaseid="8fb3aa60-69cd-4412-b961-58eed7709906"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="17.62s"
+							durationms="17615"
+							type="test module"
+							rid="26ca5fc1138ea1c6"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="ProgramSearchByActive"
+							moduleid="04f4d115-76c4-4340-85de-666bcd4766d7"
+							moduletype="Recording">
+							<detail>
+								Search for Active Programs
+							</detail>
+							<varbindings/>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.169"
+								timeRelativeToTestModuleStartTime="00:00.004"
+								timeWallClock="16:09:59"
+								time="00:00.169"
+								level="Info"
+								category="Mouse"
+								errimg="images_CCHSSmok_3ba08333\CCHSSmok_3ba08333_4ea8f0e6_trace.jpg"
+								errthumb="images_CCHSSmok_3ba08333\CCHSSmok_3ba08333_4ea8f0e6_trace_thumb.jpg">
+								<message>
+									Mouse Left Click item 'LoginCCHSPortal.Other.SelectAStatus' at 172;16.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+									fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Other.SelectAStatus"
+									id="499469e18a87413591aa795c4f87f416"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchByActive.cs"
+									codeline="82"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:17.591"
+								timeRelativeToTestModuleStartTime="00:17.425"
+								timeWallClock="16:10:16"
+								time="00:17.591"
+								level="Error"
+								category="User"
+								errimg="images_CCHSSmok_3ba08333\CCHSSmok_3ba08333_16b1dbc3_trace.jpg"
+								errthumb="images_CCHSSmok_3ba08333\CCHSSmok_3ba08333_16b1dbc3_trace_thumb.jpg">
+								<message>
+									The test run has been aborted by the user.
+								</message>
+								<metainfo
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

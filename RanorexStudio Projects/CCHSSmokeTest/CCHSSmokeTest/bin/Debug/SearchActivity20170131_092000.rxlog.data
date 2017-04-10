@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c968d5bc145eb21"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/31/2017 9:20:01 AM"
+		timestampiso="2017-01-31T14:20:01"
+		timeoutfactor="1"
+		module="SearchActivity">
+		<detail>
+			SearchActivity
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.124"
+			timeRelativeToTestModuleStartTime="00:00.124"
+			timeWallClock="09:20:01"
+			time="00:00.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Activities.SearchBox' at 101;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\SearchActivity.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.079"
+			timeRelativeToTestModuleStartTime="00:01.079"
+			timeWallClock="09:20:02"
+			time="00:01.079"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '12345 Auto' with focus on 'LoginCCHSPortal.Activities.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\SearchActivity.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.304"
+			timeRelativeToTestModuleStartTime="00:02.304"
+			timeWallClock="09:20:03"
+			time="00:02.304"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Activities.SpanTag12345Auto' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul//span[@innertext='12345 Auto']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SpanTag12345Auto"
+				id="b42db35d6bd045bbb67e09df136c7841"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\SearchActivity.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.321"
+			timeRelativeToTestModuleStartTime="00:03.321"
+			timeWallClock="09:20:04"
+			time="00:03.321"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='12345 Auto') on item 'LoginCCHSPortal.Activities.SpanTag12345Auto'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul//span[@innertext='12345 Auto']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SpanTag12345Auto"
+				id="b42db35d6bd045bbb67e09df136c7841"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\SearchActivity.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.015"
+			timeRelativeToTestModuleStartTime="00:15.015"
+			timeWallClock="09:20:16"
+			time="00:15.015"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SpanTag12345Auto' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul//span[@innertext='12345 Auto']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SpanTag12345Auto"
+				id="b42db35d6bd045bbb67e09df136c7841"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Activities\SearchActivity.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

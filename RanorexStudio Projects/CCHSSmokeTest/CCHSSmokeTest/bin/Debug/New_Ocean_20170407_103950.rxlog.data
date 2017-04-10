@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="70cf04cb06c995e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="5"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="4/7/2017 10:39:50 AM"
+		timestampiso="2017-04-07T14:39:50"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.73s"
+			durationms="1731"
+			type="test suite"
+			rid="cb399dd6286130"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="5"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.71s"
+				durationms="1711"
+				type="test case"
+				rid="2b85e19093d252"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="5"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource=""
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1.71s"
+					durationms="1709"
+					type="test case"
+					rid="2be61ff7bbefcdf6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="5"
+					testcasename="Login_PN"
+					testcaseid="f047c769-a997-48a8-a08a-b6966953bd76"
+					datasource="NewConnector35"
+					iterationcount="6"
+					maxchildren="0">
+					<params/>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1.7s"
+						durationms="1697"
+						type="test case iteration"
+						rid="2fc034aee74bec4"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="1">
+						<datarow>
+							<field
+								name="ColmEmail">
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="1.68s"
+							durationms="1684"
+							type="test module"
+							rid="1399c37dc040f68"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="LoginPN"
+							moduleid="f985bec5-be91-4140-b4ea-7b068ef1f5ed"
+							moduletype="UserCode">
+							<detail>
+							</detail>
+							<errmsg>
+								Setting attribute 'innertext' failed on element '{InputTag:email}'.
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="varLogin"
+									value=""/>
+								<varbinding
+									name="varPassword"
+									value=""/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.249"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="10:39:51"
+								time="00:00.249"
+								level="Info"
+								category="Data"
+								errimg="images_New_Ocea_316f6999\New_Ocea_316f6999_a2370300_trace.jpg"
+								errthumb="images_New_Ocea_316f6999\New_Ocea_316f6999_a2370300_trace_thumb.jpg">
+								<message>
+									Current variable values:<br/>$varLogin = '', $varPassword = ''
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.815"
+								timeRelativeToTestModuleStartTime="00:01.567"
+								timeWallClock="10:39:52"
+								time="00:01.815"
+								level="Error"
+								category="Module"
+								errimg="images_New_Ocea_316f6999\New_Ocea_316f6999_82b76720_trace.jpg"
+								errthumb="images_New_Ocea_316f6999\New_Ocea_316f6999_82b76720_trace_thumb.jpg">
+								<message>
+									Setting attribute 'innertext' failed on element '{InputTag:email}'.<br/>Error in MsgHostDom call: Error NoModificationAllowedError: Failed to set the 'innerText' property on 'HTMLElement': The 'input' element does not support text insertion. Error: Failed to set the 'innerText' property on 'HTMLElement': The 'input' element does not support text insertion.
+    at chrome-extension://egdlgaljianpgdlmfijpphbadibfncdm/content.js:1:2822
+    at window.RXmsg.onRecv (chrome-extension://egdlgaljianpgdlmfijpphbadibfncdm/msgport.js:1:118)
+    at EventImpl.dispatchToListener (extensions::event_bindings:388:22)
+    at Event.publicClassPrototype.(anonymous function) [as dispatchToListener] (extensions::utils:149:26)
+    at EventImpl.dispatch_ (extensions::event_bindings:372:35)
+    at EventImpl.dispatch (extensions::event_bindings:394:17)
+    at Event.publicClassPrototype.(anonymous function) [as dispatch] (extensions::utils:149:26)
+    at dispatchOnMessage (extensions::messaging:320:22)
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at Ranorex.WebElement.set_InnerText(String value)
+   at CCHSSmokeTest.CodeModules.LoginPN.fillInputField(InputTag inputTagName, String value) in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 150
+   at CCHSSmokeTest.CodeModules.LoginPN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs:line 74
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\CodeModules\LoginPN.cs"
+									codeline="150"
+									loglvl="Error"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="bd40173e7c9b5c2"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="2">
+						<datarow>
+							<field
+								name="ColmEmail">
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="0ms"
+						durationms="0"
+						type="test case iteration"
+						rid="4e03ba3b74ae122"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="3">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="438d774821ba968"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="4">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+								Incorrect
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="14ff81d2dd9ad30"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="5">
+						<datarow>
+							<field
+								name="ColmEmail">
+								test@test
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case iteration"
+						rid="1af65df2eeabfa58"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Login_PN"
+						iteration="6">
+						<datarow>
+							<field
+								name="ColmEmail">
+								firefoxcchs123@gmail.com
+							</field>
+							<field
+								name="ColmPassword">
+								Password1
+							</field>
+						</datarow>
+						<detail>
+						</detail>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="155d823f-a195-4480-ad54-0afd43737ec0"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ActivitiesValidation1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ActivitiesValidation1"
+	namespace="CCHSSmokeTest.Recordings.Entity_Testing"/>
+	<variables>
+		<var
+		name="VarEntity"
+		id="7215a04f-4236-4253-8129-a2533b8d323d">
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="acf1abec-a817-4179-a8a5-9d65ee091cbf"
+		action="AttributeEqual">
+			<comment/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="VarEntity"/>
+			</bindings>
+			<info
+			sourcename="RepositoryEditor"
+			id="ae051d26-9f1f-482a-a151-7cd076d053ab">
+				<path>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul//span[@innertext=$VarEntity]
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="SMOKTEST_SKRepository"
+	id="6639eb22-8218-44b2-8733-b1d15807f2ca"
+	rxversion="6.2"
+	relativepath="..\..\..\..\..\SMOKTEST SK\CCHSSMOKTEST\SMOKTEST_SKRepository.rxrep">
+		<codegen
+		classname="SMOKTEST_SKRepository"
+		namespace="CCHSSMOKTEST"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="834aa82c-04c4-4daf-b8ed-2eea7ab0fe91"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ActivitiesValidation1.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

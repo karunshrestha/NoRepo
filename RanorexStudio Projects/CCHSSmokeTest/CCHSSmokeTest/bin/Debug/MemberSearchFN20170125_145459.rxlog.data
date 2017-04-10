@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3007336eb27d9c10"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/25/2017 2:55:00 PM"
+		timestampiso="2017-01-25T19:55:00"
+		timeoutfactor="1"
+		module="MemberSearchFN">
+		<detail>
+			MemberSearchFN
+		</detail>
+		<errmsg>
+			parsing &quot;?'John'&quot; - Quantifier {x,y} following nothing.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.121"
+			timeRelativeToTestModuleStartTime="00:00.121"
+			timeWallClock="14:55:00"
+			time="00:00.121"
+			level="Warn"
+			category="Data"
+			errimg=".\MemberSe_f6326f0c_cb3e655f_trace.jpg"
+			errthumb=".\MemberSe_f6326f0c_cb3e655f_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>FirstName
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.129"
+			timeRelativeToTestModuleStartTime="00:00.129"
+			timeWallClock="14:55:00"
+			time="00:00.129"
+			level="Info"
+			category="Validation"
+			errimg=".\MemberSe_f6326f0c_cb3e655f_trace.jpg"
+			errthumb=".\MemberSe_f6326f0c_cb3e655f_trace_thumb.jpg">
+			<message>
+				Validating AttributeRegEx (InnerText~'?'John'') on item 'LoginCCHSPortal.Member_Demographics.Search_Fn.Validation_for_FN_John'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[1]"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.Search_Fn.Validation_for_FN_John"
+				id="c395b20af34b49719e8f4b4863fb2960"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberSearchFN.cs"
+				codeline="95"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.142"
+			timeRelativeToTestModuleStartTime="00:00.142"
+			timeWallClock="14:55:00"
+			time="00:00.142"
+			level="Error"
+			category="Module"
+			errimg=".\MemberSe_f6326f0c_cb3e655f_trace.jpg"
+			errthumb=".\MemberSe_f6326f0c_cb3e655f_trace_thumb.jpg">
+			<message>
+				parsing &quot;?'John'&quot; - Quantifier {x,y} following nothing.
+			</message>
+			<metainfo
+				stacktrace="   at System.Text.RegularExpressions.RegexParser.ScanRegex()
+   at System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   at System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   at System.Text.RegularExpressions.Regex..ctor(String pattern)
+   at CCHSSmokeTest.Recordings.Members.MemberSearchFN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberSearchFN.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberSearchFN.cs"
+				codeline="96"
+				loglvl="Error"
+				itemindex="5"/>
+		</item>
+	</activity>
+</report>

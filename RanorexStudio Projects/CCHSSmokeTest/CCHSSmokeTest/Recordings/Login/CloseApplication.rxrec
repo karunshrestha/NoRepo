@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="73cd2d0d-d3af-4ec5-92ed-97fe3ff11b00"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CloseApplication
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApplication"
+	namespace="CCHSSmokeTest.Recordings.Login"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="3647d066-2068-4af0-b77a-49e7a98c6627"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="48305eb8-8bc5-4f53-a25a-ea1efb0e6ca6">
+				<path>
+					/dom[@domain='qa.carecamhealthsystems.com']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="SmokeTestRepositoryKS"
+	id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+	rxversion="6.2"
+	relativepath="..\..\SmokeTestRepositoryKS.rxrep">
+		<codegen
+		classname="SmokeTestRepositoryKS"
+		namespace="CCHSSmokeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApplication.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

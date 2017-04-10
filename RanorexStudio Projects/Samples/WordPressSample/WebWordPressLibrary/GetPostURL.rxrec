@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="a144ff6a-5458-489a-b361-c147c99c84cb"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		GetPostURL
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GetPostURL"
+	namespace="WebWordPressLibrary"/>
+	<variables>
+		<var
+		name="varPostURL"
+		id="b1596443-4254-4a51-8f14-21ed0b4103fa">
+			http://webtest.ranorex.org
+		</var>
+	</variables>
+	<recorditems>
+		<getvaluerecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="888e08d5-af86-4968-a607-f01e72da6b9b"
+		attrname="InnerText"
+		varname="varPostURL">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="a75cd9f8-99bc-40c3-9ddc-8f2f3aaa705e">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="web"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="2209,279,322,15"
+				snapElem="">
+					<attribute
+					name="contenteditable"
+					type="System.String">
+						inherit
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						sample-permalink
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						http://demo.opensourcecms.com/wordpress/?p=18
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					name="accesskey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-activedescendant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-atomic"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-autocomplete"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-busy"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-checked"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-controls"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-describedby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-dropeffect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-expanded"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-flowto"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-grabbed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-haspopup"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-hidden"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-invalid"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-label"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-labelledby"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-level"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-live"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiline"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-multiselectable"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-orientation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-owns"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-posinset"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-pressed"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-readonly"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-relevant"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-required"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-secret"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-selected"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-setsize"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-sort"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemax"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuemin"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuenow"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="aria-valuetext"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="cite"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="datetime"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="dir"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="disabled"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="hidefocus"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="implementation"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="lang"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="language"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="nofocusrect"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="role"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="spellcheck"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="tabindex"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-acceleratorkey"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="x-ms-aria-flowfrom"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='demo.opensourcecms.com']//span[#'sample-permalink']
+				</path>
+			</info>
+		</getvaluerecorditem>
+	</recorditems>
+	<repository
+	name="WebWordPressLibraryRepository"
+	id="b68c5ae7-5d54-49e3-893c-ecd04dbce34b"
+	rxversion="6.0"
+	relativepath="WebWordPressLibraryRepository.rxrep">
+		<codegen
+		classname="WebWordPressLibraryRepository"
+		namespace="WebWordPressLibrary"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="5251cef1-231f-4e1a-b0bd-41e54b4b13f8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GetPostURL.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\..\web\wordpresssample\WordPressSample\bin\Debug\WordPressSample.exe
+		</reference>
+	</references>
+</recordtable>

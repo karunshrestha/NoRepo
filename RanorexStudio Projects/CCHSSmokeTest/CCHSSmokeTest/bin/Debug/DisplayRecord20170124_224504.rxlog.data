@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5440a9d830e2e8a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/24/2017 10:45:05 PM"
+		timestampiso="2017-01-25T03:45:05"
+		timeoutfactor="1"
+		module="DisplayRecord">
+		<detail>
+			DisplayRecord
+		</detail>
+		<errmsg>
+			Attribute 'TagValue' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown' does not match the specified value (actual='25', expected='5').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.115"
+			timeRelativeToTestModuleStartTime="00:00.115"
+			timeWallClock="22:45:05"
+			time="00:00.115"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '25' on item 'LoginCCHSPortal.Home.DisplayRecordDropDown'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown"
+				id="74bc73446c384768a25ab950a372bd7a"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\DisplayRecord.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.702"
+			timeRelativeToTestModuleStartTime="00:00.702"
+			timeWallClock="22:45:06"
+			time="00:00.702"
+			level="Info"
+			category="Validation"
+			errimg=".\DisplayR_509e3bfe_f8cd54cc_trace.jpg"
+			errthumb=".\DisplayR_509e3bfe_f8cd54cc_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (TagValue='5') on item 'LoginCCHSPortal.Home.DisplayRecordDropDown'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown"
+				id="74bc73446c384768a25ab950a372bd7a"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\DisplayRecord.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.917"
+			timeRelativeToTestModuleStartTime="00:00.917"
+			timeWallClock="22:45:06"
+			time="00:00.917"
+			level="Failure"
+			category="Validation"
+			errimg=".\DisplayR_509e3bfe_c255e94e_trace.jpg"
+			errthumb=".\DisplayR_509e3bfe_c255e94e_trace_thumb.jpg">
+			<message>
+				Attribute 'TagValue' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown' does not match the specified value (actual='25', expected='5').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown"
+				id="74bc73446c384768a25ab950a372bd7a"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\DisplayRecord.cs"
+				codeline="97"
+				loglvl="Failure"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.921"
+			timeRelativeToTestModuleStartTime="00:00.921"
+			timeWallClock="22:45:06"
+			time="00:00.921"
+			level="Error"
+			category="Module"
+			errimg=".\DisplayR_509e3bfe_c255e94e_trace.jpg"
+			errthumb=".\DisplayR_509e3bfe_c255e94e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'TagValue' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown' does not match the specified value (actual='25', expected='5').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CCHSSmokeTest.Recordings.Home_Page.DisplayRecord.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\DisplayRecord.cs:line 97
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\DisplayRecord.cs"
+				codeline="97"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Home.DisplayRecordDropDown"
+				id="74bc73446c384768a25ab950a372bd7a"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

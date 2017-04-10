@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a02d1d6a284ba83"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="2"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/2/2017 12:57:36 PM"
+		timestampiso="2017-02-02T17:57:36"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="15.88s"
+			durationms="15880"
+			type="test suite"
+			rid="260ac4a28a5ae10"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="2"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="15.87s"
+				durationms="15872"
+				type="test case"
+				rid="d3e93127884ae47"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="2"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="15.87s"
+					durationms="15871"
+					type="test case iteration"
+					rid="1f064be80b901250"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+						<field
+							name="ColmSBUsers">
+							Users
+						</field>
+						<field
+							name="ColmSBRoles">
+							Roles
+						</field>
+						<field
+							name="ColmSBActivities">
+							Activities
+						</field>
+						<field
+							name="ColmSBForms">
+							Forms
+						</field>
+						<field
+							name="ColmSBHT">
+							Health Trackers
+						</field>
+						<field
+							name="ColmSBFocuses">
+							Focuses
+						</field>
+						<field
+							name="ColmSBPrograms">
+							Programs
+						</field>
+						<field
+							name="ColmSBChallenge">
+							Challenge Template
+						</field>
+						<field
+							name="ColmSBReward">
+							Reward Group Templates
+						</field>
+						<field
+							name="ColmSBPackage">
+							Package Groups
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="15.84s"
+						durationms="15842"
+						type="test case"
+						rid="d905bc495734638"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="1"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						testcasename="Activate_User"
+						testcaseid="b58811d4-7c19-4f24-9c1c-ef8fd021a92e"
+						datasource="VerificationCodeConnector"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Success"
+							duration="15.84s"
+							durationms="15841"
+							type="test case iteration"
+							rid="1fd6ca3a1e10b080"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="Activate_User"
+							iteration="1">
+							<datarow>
+								<field
+									name="ShortCode">
+									9796
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Success"
+								duration="15.79s"
+								durationms="15793"
+								type="test module"
+								rid="ea293c593de14c"
+								totalerrorcount="0"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ActivateAccount"
+								moduleid="454bf063-e84a-4999-83a2-5de74aed5467"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<varbindings>
+									<varbinding
+										name="varVerificationCode"
+										value="9796"/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.802"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="12:57:37"
+									time="00:00.802"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varVerificationCode = '9796'
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.885"
+									timeRelativeToTestModuleStartTime="00:00.085"
+									timeWallClock="12:57:37"
+									time="00:00.885"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.ActivateAccount' at 246;17.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activateBtn']/a[@innertext='Activate Account']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.ActivateAccount"
+										id="4da0070149a14cb88d337a9825e315c4"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="95"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:02.480"
+									timeRelativeToTestModuleStartTime="00:01.680"
+									timeWallClock="12:57:39"
+									time="00:02.480"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Login.Email' at 27;19.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Login.Email"
+										id="1d18b98d2fc1446caac6b1e3edf16591"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="99"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:03.516"
+									timeRelativeToTestModuleStartTime="00:02.716"
+									timeWallClock="12:57:40"
+									time="00:03.516"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence 'usertest@cchs.com' with focus on 'LoginCCHSPortal.Login.Email'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Login.Email"
+										id="1d18b98d2fc1446caac6b1e3edf16591"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="103"
+										itemindex="2"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:05.525"
+									timeRelativeToTestModuleStartTime="00:04.725"
+									timeWallClock="12:57:42"
+									time="00:05.525"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Login.LoginBtn' at 133;19.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Login.LoginBtn"
+										id="baf274284353498084e740cdf1446d00"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="107"
+										itemindex="3"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:06.402"
+									timeRelativeToTestModuleStartTime="00:05.602"
+									timeWallClock="12:57:42"
+									time="00:06.402"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Reset_Password.Code' at 38;21.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'code']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.Code"
+										id="e75046fd11604aaf923003e9b5076efe"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="111"
+										itemindex="4"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.160"
+									timeRelativeToTestModuleStartTime="00:07.360"
+									timeWallClock="12:57:44"
+									time="00:08.160"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence from variable '$varVerificationCode' with focus on 'LoginCCHSPortal.Reset_Password.Code'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'code']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.Code"
+										id="e75046fd11604aaf923003e9b5076efe"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="115"
+										itemindex="5"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:08.883"
+									timeRelativeToTestModuleStartTime="00:08.083"
+									timeWallClock="12:57:45"
+									time="00:08.883"
+									level="Info"
+									category="Set Value">
+									<message>
+										Setting attribute TagValue to 'What is the name of the street where you grew up?' on item 'LoginCCHSPortal.SystemComObject.TheSecurityQuestionIsRequired'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[3]//select[@title~'^The\ Security\ Question\ is\ ']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SystemComObject.TheSecurityQuestionIsRequired"
+										id="b33225ae58574c4891f8837c2e8542dd"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="119"
+										itemindex="6"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:09.181"
+									timeRelativeToTestModuleStartTime="00:08.381"
+									timeWallClock="12:57:45"
+									time="00:09.181"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Reset_Password.Answer' at 37;22.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'answer']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.Answer"
+										id="2d0d25dd090a43e9a998e90df0fc2a70"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="123"
+										itemindex="7"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:10.051"
+									timeRelativeToTestModuleStartTime="00:09.251"
+									timeWallClock="12:57:46"
+									time="00:10.051"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence 'front street' with focus on 'LoginCCHSPortal.Reset_Password.Answer'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'answer']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.Answer"
+										id="2d0d25dd090a43e9a998e90df0fc2a70"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="127"
+										itemindex="8"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:11.553"
+									timeRelativeToTestModuleStartTime="00:10.753"
+									timeWallClock="12:57:48"
+									time="00:11.553"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Reset_Password.NewPassword' at 36;21.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.NewPassword"
+										id="949b6acd640d4dff80050c3d07e55833"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="131"
+										itemindex="9"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:12.411"
+									timeRelativeToTestModuleStartTime="00:11.611"
+									timeWallClock="12:57:48"
+									time="00:12.411"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence 'Password1' with focus on 'LoginCCHSPortal.Reset_Password.NewPassword'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.NewPassword"
+										id="949b6acd640d4dff80050c3d07e55833"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="135"
+										itemindex="10"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:13.692"
+									timeRelativeToTestModuleStartTime="00:12.892"
+									timeWallClock="12:57:50"
+									time="00:13.692"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Reset_Password.ConfirmNewPassword' at 45;22.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'confirmNewPassword']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.ConfirmNewPassword"
+										id="22e79aec629341a0b74bf35bce010ac5"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="139"
+										itemindex="11"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:14.567"
+									timeRelativeToTestModuleStartTime="00:13.767"
+									timeWallClock="12:57:51"
+									time="00:14.567"
+									level="Info"
+									category="Keyboard">
+									<message>
+										Key sequence 'Password1' with focus on 'LoginCCHSPortal.Reset_Password.ConfirmNewPassword'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'confirmNewPassword']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Reset_Password.ConfirmNewPassword"
+										id="22e79aec629341a0b74bf35bce010ac5"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="143"
+										itemindex="12"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:15.764"
+									timeRelativeToTestModuleStartTime="00:14.964"
+									timeWallClock="12:57:52"
+									time="00:15.764"
+									level="Info"
+									category="Mouse">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Login.LoginBtn' at 177;16.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Login.LoginBtn"
+										id="baf274284353498084e740cdf1446d00"
+										timeout="60000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+										codeline="147"
+										itemindex="13"
+										loglvl="Info"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

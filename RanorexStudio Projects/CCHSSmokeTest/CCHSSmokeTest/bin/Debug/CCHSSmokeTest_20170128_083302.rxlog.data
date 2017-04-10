@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29360482bc51d8e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="1/28/2017 8:33:02 AM"
+		timestampiso="2017-01-28T13:33:02"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="19.72s"
+			durationms="19717"
+			type="test suite"
+			rid="1185c551afce205c"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="19.71s"
+				durationms="19712"
+				type="test case"
+				rid="100cd8a109c9b079"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Add_Traditional_Individual_Challenge"
+				testcaseid="af1aeb91-a9c4-4cea-a6f5-78716a50ceb9"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="1.13s"
+					durationms="1133"
+					type="test module"
+					rid="2625b4e2a39f7801"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="ButtonNewChallenges"
+					moduleid="2565a63c-3059-44a8-8876-25b98a6657ee"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.110"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="08:33:02"
+						time="00:00.110"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'LoginCCHSPortal.AddChallenge' at 24;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'addChallenge']"
+							fullname="SmokeTestRepositoryKS.LoginCCHSPortal.AddChallenge"
+							id="dac899d3b4254c6ebf54f08b41db2f66"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Buttons\ButtonNewChallenges.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="18.55s"
+					durationms="18546"
+					type="test module"
+					rid="1409e69702ec472e"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SelectFocus"
+					moduleid="e67f4e46-c5c3-4ddf-8d62-76dc9c9e9a79"
+					moduletype="Recording">
+					<detail>
+						Depression Prevention
+					</detail>
+					<errmsg>
+						Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.Focus'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.244"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="08:33:03"
+						time="00:01.244"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 6s.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.291"
+						timeRelativeToTestModuleStartTime="00:06.049"
+						timeWallClock="08:33:09"
+						time="00:07.291"
+						level="Info"
+						category="Mouse"
+						errimg="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_1d51bb92_trace.jpg"
+						errthumb="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_1d51bb92_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'LoginCCHSPortal.Focus.ExpandFocus' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'info']/form//div[1]//i"
+							fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Focus.ExpandFocus"
+							id="d86df67b57194459a3865aa72906ed31"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.352"
+						timeRelativeToTestModuleStartTime="00:07.110"
+						timeWallClock="08:33:10"
+						time="00:08.352"
+						level="Info"
+						category="Mouse"
+						errimg="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_71bddd44_trace.jpg"
+						errthumb="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_71bddd44_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'LoginCCHSPortal.Content.Focus' at 35;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//ul/?/?/a[@innertext='Focus']"
+							fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Focus"
+							id="5a6ef6404377497789f7ad88654f341c"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.676"
+						timeRelativeToTestModuleStartTime="00:18.434"
+						timeWallClock="08:33:21"
+						time="00:19.676"
+						level="Error"
+						category="Module"
+						errimg="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_de01c7b4_trace.jpg"
+						errthumb="images_CCHSSmok_955d0d16\CCHSSmok_955d0d16_de01c7b4_trace_thumb.jpg">
+						<message>
+							Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.Focus'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//ul/?/?/a[@innertext='Focus']' within 1.5m.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.ContentFolder.get_Focus() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 3202
+   at CCHSSmokeTest.Recordings.Focuses.SelectFocus.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs:line 90
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Focuses\SelectFocus.cs"
+							codeline="90"
+							type="repoitem"
+							path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//ul/?/?/a[@innertext='Focus']"
+							fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Focus"
+							id="5a6ef6404377497789f7ad88654f341c"
+							timeout="90000"
+							loglvl="Error"
+							itemindex="2"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

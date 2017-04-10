@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1fa98b9c76d672b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="2/7/2017 8:56:16 PM"
+		timestampiso="2017-02-08T01:56:16"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="37.39s"
+			durationms="37393"
+			type="test suite"
+			rid="99bf4898589cf30"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="New_Ocean_Smoke_Test"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="37.39s"
+				durationms="37386"
+				type="test case"
+				rid="2988b6ebaa884ff1"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="New_Ocean_Admin_Portal_Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="37.39s"
+					durationms="37385"
+					type="test case iteration"
+					rid="1f98c58ec88b0a54"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="New_Ocean_Admin_Portal_Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							Chrome
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="37.38s"
+						durationms="37384"
+						type="test case"
+						rid="1222fcabf9ddf438"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="TC19_ProgramSort"
+						testcaseid="92a017f4-204b-4376-b154-4ef1d53325e7"
+						datasource="ConnectorProgramSort"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Failed"
+							duration="37.38s"
+							durationms="37384"
+							type="test case iteration"
+							rid="e41bbdd63c677c"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="TC19_ProgramSort"
+							iteration="1">
+							<datarow>
+								<field
+									name="ColumnProgmTitle1">
+								</field>
+								<field
+									name="ColumnProgmTitle2">
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+							<activity
+								result="Failed"
+								duration="37.34s"
+								durationms="37339"
+								type="test module"
+								rid="2b708676b4632c73"
+								totalerrorcount="1"
+								totalwarningcount="0"
+								totalsuccesscount="0"
+								totalfailedcount="0"
+								totalblockedcount="0"
+								modulename="ProgramLevelSort"
+								moduleid="b2103653-8a66-4c28-9270-43051c0d69b7"
+								moduletype="Recording">
+								<detail>
+								</detail>
+								<errmsg>
+									Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramLevelEasy'.
+								</errmsg>
+								<varbindings>
+									<varbinding
+										name="varSortProgmTitle2"
+										value=""/>
+									<varbinding
+										name="varSortProgmTitle1"
+										value=""/>
+								</varbindings>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.142"
+									timeRelativeToTestModuleStartTime="00:00.002"
+									timeWallClock="20:56:16"
+									time="00:00.142"
+									level="Info"
+									category="Data">
+									<message>
+										Current variable values:<br/>$varSortProgmTitle2 = '', $varSortProgmTitle1 = ''
+									</message>
+									<metainfo
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:00.195"
+									timeRelativeToTestModuleStartTime="00:00.055"
+									timeWallClock="20:56:16"
+									time="00:00.195"
+									level="Info"
+									category="Mouse"
+									errimg="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_cf9e31d3_trace.jpg"
+									errthumb="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_cf9e31d3_trace_thumb.jpg">
+									<message>
+										Mouse Left Click item 'LoginCCHSPortal.Content.ProgramLevel' at 74;15.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Level']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramLevel"
+										id="75bda6ed93234be5b3f983ee1bdc7383"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="108"
+										itemindex="0"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:01.395"
+									timeRelativeToTestModuleStartTime="00:01.255"
+									timeWallClock="20:56:17"
+									time="00:01.395"
+									level="Info"
+									category="Get Value"
+									errimg="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_0eb63e1b_trace.jpg"
+									errthumb="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_0eb63e1b_trace_thumb.jpg">
+									<message>
+										Getting attribute 'InnerText' from item 'LoginCCHSPortal.Content.ProgramLevelEasy' and assigning its value to variable 'varSortProgmTitle1'.
+									</message>
+									<metainfo
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Easy']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramLevelEasy"
+										id="f04c2988a07841a395115ea6d051323a"
+										timeout="90000"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="112"
+										itemindex="1"
+										loglvl="Info"/>
+								</item>
+								<item
+									timeRelativeToTestSuiteStartTime="00:37.355"
+									timeRelativeToTestModuleStartTime="00:37.215"
+									timeWallClock="20:56:53"
+									time="00:37.355"
+									level="Error"
+									category="Module"
+									errimg="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_1f4161c1_trace.jpg"
+									errthumb="images_New_Ocea_263f9a3f\New_Ocea_263f9a3f_1f4161c1_trace_thumb.jpg">
+									<message>
+										Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramLevelEasy'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Easy']' within 1.5m.
+									</message>
+									<metainfo
+										stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.ContentFolder.get_ProgramLevelEasy() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 5561
+   at CCHSSmokeTest.Recordings.Programs.ProgramLevelSort.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs:line 113
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+										codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramLevelSort.cs"
+										codeline="113"
+										type="repoitem"
+										path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Easy']"
+										fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.ProgramLevelEasy"
+										id="f04c2988a07841a395115ea6d051323a"
+										timeout="90000"
+										loglvl="Error"
+										itemindex="1"/>
+								</item>
+							</activity>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

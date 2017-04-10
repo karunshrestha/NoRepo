@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="10c67d25576fd178"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/6/2017 3:08:09 PM"
+		timestampiso="2017-01-06T20:08:09"
+		timeoutfactor="1"
+		module="RemoveFavHomeScreen">
+		<detail>
+			RemoveFavHomeScreen
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.078"
+			timeRelativeToTestModuleStartTime="00:00.078"
+			timeWallClock="15:08:09"
+			time="00:00.078"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varGetNameFav, varGetNameFav2
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.093"
+			timeRelativeToTestModuleStartTime="00:00.093"
+			timeWallClock="15:08:09"
+			time="00:00.093"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Home_Screen.Reports' at 21;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Reports']"
+				fullname="CCHSSmokeTestRepository.Home_Screen.Reports"
+				id="5bebac9d5364461d9224f4e6f53c6baa"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Home Page\RemoveFavHomeScreen.cs"
+				codeline="108"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

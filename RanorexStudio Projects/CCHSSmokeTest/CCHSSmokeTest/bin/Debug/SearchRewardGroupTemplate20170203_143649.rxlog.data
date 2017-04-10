@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2cf60c4522aa7e0d"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/3/2017 2:36:50 PM"
+		timestampiso="2017-02-03T19:36:50"
+		timeoutfactor="1"
+		module="SearchRewardGroupTemplate">
+		<detail>
+			SearchRewardGroupTemplate
+		</detail>
+		<errmsg>
+			Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate' does not match the specified value (actual='Inactive&#160;', expected='Burn to Earn').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.089"
+			timeRelativeToTestModuleStartTime="00:00.090"
+			timeWallClock="14:36:50"
+			time="00:00.089"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varFirstRewardTemplate
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.102"
+			timeRelativeToTestModuleStartTime="00:00.103"
+			timeWallClock="14:36:50"
+			time="00:00.102"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Activities.SearchBox' at 53;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.216"
+			timeRelativeToTestModuleStartTime="00:01.217"
+			timeWallClock="14:36:51"
+			time="00:01.216"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Burn to Earn' with focus on 'LoginCCHSPortal.Activities.SearchBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Activities.SearchBox"
+				id="a8f13c2f079a47758a94d4d5707ff6af"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.615"
+			timeRelativeToTestModuleStartTime="00:02.616"
+			timeWallClock="14:36:52"
+			time="00:02.615"
+			level="Info"
+			category="Validation"
+			errimg=".\SearchRe_de3507d5_bea94bfe_trace.jpg"
+			errthumb=".\SearchRe_de3507d5_bea94bfe_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (InnerText='Burn to Earn') on item 'LoginCCHSPortal.Content.FirstRewardTemplate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/?/?/a[@href~'^\#main/rewardGroupTemplate']/?/?/span[@innertext!='1000']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate"
+				id="085bf186ad5a4416957d4e31b123d86c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.696"
+			timeRelativeToTestModuleStartTime="00:02.697"
+			timeWallClock="14:36:53"
+			time="00:02.696"
+			level="Failure"
+			category="Validation"
+			errimg=".\SearchRe_de3507d5_cdd9d9e7_trace.jpg"
+			errthumb=".\SearchRe_de3507d5_cdd9d9e7_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate' does not match the specified value (actual='Inactive&#160;', expected='Burn to Earn').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/?/?/a[@href~'^\#main/rewardGroupTemplate']/?/?/span[@innertext!='1000']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate"
+				id="085bf186ad5a4416957d4e31b123d86c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="104"
+				loglvl="Failure"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.703"
+			timeRelativeToTestModuleStartTime="00:02.704"
+			timeWallClock="14:36:53"
+			time="00:02.703"
+			level="Error"
+			category="Module"
+			errimg=".\SearchRe_de3507d5_cdd9d9e7_trace.jpg"
+			errthumb=".\SearchRe_de3507d5_cdd9d9e7_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate' does not match the specified value (actual='Inactive&#160;', expected='Burn to Earn').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CCHSSmokeTest.Recordings.Search.SearchRewardGroupTemplate.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs:line 104
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="104"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/?/?/a[@href~'^\#main/rewardGroupTemplate']/?/?/span[@innertext!='1000']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate"
+				id="085bf186ad5a4416957d4e31b123d86c"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

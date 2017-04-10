@@ -1,0 +1,3439 @@
+﻿<repository
+name="SmokeTestRepositoryKS"
+id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+rxversion="6.2">
+	<codegen
+	classname="SmokeTestRepositoryKS"
+	namespace="CCHSSmokeTest"/>
+	<rootfolder
+	name="Root"
+	id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="NewOceanAdminPortal"
+		id="48305eb8-8bc5-4f53-a25a-ea1efb0e6ca6"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="SystemComObject"
+			id="01b3cf30-2712-44ae-a213-be0e27dc749f"
+			searchtimeout="30000ms"
+			capname="form"
+			addcaps="unknown,webelement,formtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="IconIconGlobeIconLarge"
+				id="e38153ba-c295-4a9b-a1c6-b31dc1f808b5"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="e97c5b87-7b96-45b0-9507-0b7b9206e63a">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[3]/div[1]/div/div/div/div/div//i
+				</item>
+				<item
+				name="IconIconGlobeIconLarge1"
+				id="059a2a4b-e395-4c04-a10c-dde64f50f511"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="46cc0e7b-1ccf-4e24-9f6a-019fd9dd1aca">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[4]/div[1]/div/div/div/div/div//i
+				</item>
+				<item
+				name="IconIconGlobeIconLarge2"
+				id="c7e24097-42a6-4868-adae-48317a9a627c"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="0669ae22-7cdb-4d6d-9c7f-a23a7d5bfaf2">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[5]/div[1]/div/div/div/div/div//i
+				</item>
+				<item
+				name="IconIconGlobeIconLarge3"
+				id="b3398f5f-afc5-4489-8cc2-d683ef4fce04"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="7896ba1f-2593-404a-8dce-5f14b5d3d71d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[6]/div[1]/div/div/div/div/div//i
+				</item>
+				<item
+				name="ActivityPicture"
+				id="3d03bff6-d501-4e38-b7b1-8e565022d173"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="1bbf245d-9e13-43ce-a909-a91c58955586">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[10]//select[@id='icon']
+				</item>
+				<item
+				name="ButtonTagSelectAnInstructionalVideo"
+				id="cbded5f2-61f6-443e-b7ad-909d92902b99"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="5071a5a4-2904-4232-b05c-5aff4dec957b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[14]/div[1]/div/div/div/button[@title~'^\(Select\ an\ instructional\ ']/span[@innertext~'^\(Select\ an\ instructional\ ']
+				</item>
+				<item
+				name="SelectForm"
+				id="04e0ceac-c7af-4b64-b523-2e1e16cf7d94"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="ec24d55e-8519-484b-b7d9-0d41e01354cb">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[15]/div/div/div/button[@title='(Select a form...)']/span[@innertext='(Select a form...)']
+				</item>
+				<item
+				name="ActiveNo"
+				id="38a4a294-3b56-4dd2-af49-21cfe8bfb7e3"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="dcb5c170-242a-437f-8494-33563adc7579">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]//span[@innertext='Yes']
+				</item>
+				<item
+				name="AChallengeTypeIsRequired"
+				id="34c85d7e-c48c-4fd7-89c9-66d53b5ab84f"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="bb9ee608-1ce0-4b91-8bff-e25d66a26661">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form//select[@title~'^A\ Challenge\ Type\ is\ requi']
+				</item>
+				<item
+				name="ImageFocus"
+				id="9365e249-a3c9-4e64-a68a-32ad5b5f79bd"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="f66569e8-3712-4011-854d-7eeb56b44894">
+					<image
+					name="Screenshot1"
+					guid="35c7ff23-4852-4311-a4df-7cee23e39899">
+						iVBORw0KGgoAAAANSUhEUgAAAFUAAAAdCAYAAADb/iBbAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL8SURBVGhD7ZnLaxNRFIf9D1z4J0h3rkQRwaUr
+68aFVrtzUUXiwlpwISq2Uh8oQheCRoRWVERs0YIilrowrahYSAWDrZpHTZvU2Dya5tHmcbxnmAnX
+6ZnJzGQyk0nywQ/C6aUJX+fec266BdqYTltqHTAstVwuw+jENHR0noCte7vIbNvXDQdd/fDi3UdY
+isXh/cw3ONx3vVJ/7fkC+fUN8Tc2D4alBhaXYffRs6RMKqcH70I6kxMkXrn3dFO9mTAs9XsgDDsO
+uf4TVy0nB+4IAgvFIgy6n22qKzGXzoBnJQGPf0fg9s+QEHyNtfm1jLiqcTBFKm5n9/M3wlO4vJKE
+4xeHKsLk0SM2ml+HB6FFuDYfUA2uwbWNgilSj527CauZrPgTAO+cH7Yf6KkIk0eLWM/fBClQLfjk
+NgK2SMWoiZ2MxEhpWvI5kRI/hX1Yvv35UGI7unpJWXpi91FgaaOiIhfbO/GBFPUqGoPVQlF472IZ
+wM92hjsYJtfiGWsntkvFSGJ9qTQpaWRhCRIbBQhmc4JIFJxmgn+wzk+tx+DEYBeGpcbiKdjfc4GU
+ZCRqZ+kUa0Br7El+GflTqc2yPwA+uU/YaMWvlYKNzi4MS8Xten7oISnIaC5NzZCCvjKByUIBhrnx
+CkVniyUY50TzecRk24VhqYg/HIU93X2kICO57PWRggLsaIixJsjXUCZKRbl8XQpeEOyiJqmI79cC
+7DxyhpSkN+ZKDYqf0HpqloqYJfbU+CQpyKu0/UsloWnxa6U4dvvzmCG288Z9UlDLNCqKWsXucg2Q
+glpmpFKiVrH9n2ZJSXiGxplYpMQSzuWVh/+gQ4d/NYyKxVnVn6QvAHri2GtqNfSK5a+rV99Ok7K0
+xNFfqGhBq1j5/R9rSk1LLY0gFKmrVKSaWEqoVMejAM9HSiAfXNMUX1LrQUmsmlCsSwj/TmEjEs6e
+ONRj8DXW7OzySlgiFZGL1SrUiVgmFQmxsejW8BiMsJtTltuuSnWnYqnUVqEttQ60pZoOwD//vGMx
+n3qEoAAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[2]
+				</item>
+				<item
+				name="FormControl"
+				id="86dfb608-90fe-4dcc-b71a-e00aa89c91c0"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="7b40d3fe-547c-4e8b-a6e0-5dc77c2da8c9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[10]/div/select
+				</item>
+				<item
+				name="KoUnique16"
+				id="2a60ef44-ad00-4b7c-b4d4-14f46455edf2"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="4d17fc00-3669-4d7d-a30d-8fcc83372ccc">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]/div[1]/div/div/div/div[1]/div[1]/div[1]/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/input[@title='Frequency is required.']
+				</item>
+				<item
+				name="LabelTag"
+				id="1f718991-5a63-49b4-b35e-2bc32fc8abe9"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="415f9049-6a2c-4183-9dbe-d0ad31362994">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]/div[1]/div/div/div/div[1]/div[1]/div[3]/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+				</item>
+				<item
+				name="LabelTagSunday"
+				id="0bd70ef0-6d39-4b18-8e55-b7cd652fd70f"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="7f28fc52-47d0-47b5-8d6c-590e23a98bfd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[2]/label[1]
+				</item>
+				<item
+				name="LabelTagMonday"
+				id="ec5497e7-40ed-4399-afe5-c8e7f1538112"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="a3a5f898-186b-4bf2-9f2a-1c1318c8fca6">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[2]/label[2]
+				</item>
+				<item
+				name="LabelTagTuesda"
+				id="120cb447-6cf6-4067-8299-af1561d1c443"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="b48d3125-fa2b-4a90-96d7-d4ef8d36b022">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]/div[1]/div/div/div/div[1]/div[2]/div/div[2]/label[3]
+				</item>
+				<item
+				name="ClickProgramLevel"
+				id="cbd43f2c-8ced-49d2-875e-b188a59c881e"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="aa408db5-cb3d-4c39-a47a-dbceee6fcd66">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div/div[2]/div/div[4]/label
+				</item>
+				<item
+				name="TheSecurityQuestionIsRequired"
+				id="b33225ae-5857-4c48-91f8-837c2e8542dd"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="7e255edd-1c54-4fbf-9f9a-5ccec5f1b2c8">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[3]//select[@title~'^The\ Security\ Question\ is\ ']
+				</item>
+				<item
+				name="Frequency"
+				id="73795712-7092-43cd-bc17-3c9318dcc4ec"
+				searchtimeout="8000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="3e0d5415-ea59-4fb8-a83a-77e06eb14f1e">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form/div[1]/div[3]//label[@innertext='Frequency:']
+				</item>
+				<item
+				name="SelectChallengeType"
+				id="58a2a00f-954c-4efe-8f1c-9e7cb5365a96"
+				searchtimeout="8000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="0fb80621-f6a6-45c9-91de-827a65377a7d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form//select[@title='']
+				</item>
+				<item
+				name="TypeRequired"
+				id="e8bf4dda-9174-4225-bb3e-ba011d7430a9"
+				searchtimeout="8000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="136a3381-6de6-4eeb-9801-1b35b52c70a9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form//label[@innertext='Type (required):']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div//?/?//form
+				</basepath>
+			</folder>
+			<folder
+			name="Login"
+			id="d6a500cc-d078-441b-8390-16b45a4a2db8"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Email"
+				id="1d18b98d-2fc1-446c-aac6-b1e3edf16591"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="01a61282-fdf5-40ac-8a30-acbf598fa626">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']
+				</item>
+				<item
+				name="Password"
+				id="c7eed782-a890-4f0b-ba71-f4ce0301d1a4"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="9a31c72e-314f-4f1c-ba7f-43fa02c7be98">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'password']
+				</item>
+				<item
+				name="ContinueButton"
+				id="baf27428-4353-4980-84e7-40cdf1446d00"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="6bcae5d2-b78b-4130-9d57-b7c79290b4f9">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']
+				</item>
+				<item
+				name="Accept"
+				id="febfba97-74e4-420b-bb7c-06e365eee1fe"
+				searchtimeout="1000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="a0960a11-69d1-48b2-bd24-c5cf5791d4de">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'accept']
+				</item>
+			</folder>
+			<folder
+			name="Member"
+			id="3164e57d-a949-40c7-bd01-2c0ee85f1cd4"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="FirstName"
+				id="dbeed278-e1d5-4f8c-8b71-2724d9eea699"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="a53991a8-c3ed-4712-bee9-2eeab37dcc0f">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'firstName']
+				</item>
+				<item
+				name="LastName"
+				id="c4495777-4c2f-4586-935d-3b0d99dfdc97"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="fb83192d-5d94-4fbd-b287-d1bb23b251b0">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'lastName']
+				</item>
+				<item
+				name="Organization"
+				id="8970bc93-5ed0-44cd-9f2e-15dc1b269acb"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="1436572c-b14f-47bb-8dbf-6d56610ca59d">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'organization']
+				</item>
+				<item
+				name="NewOcean"
+				id="a25fcf93-f554-40e0-9c7e-bf2c2713e990"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="dc787bde-f21d-4f10-9b68-129d0dba3fc0">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'1']/div[@innertext='New Ocean']
+				</item>
+				<item
+				name="EmailAddress"
+				id="7bb73c18-0153-41d6-8b61-01ac3c158f8a"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="b1d09d3d-c27c-4cb2-a303-4b63df43bc9f">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'emailAddress']
+				</item>
+				<item
+				name="Save"
+				id="03d4e940-1438-4216-b06f-09a481b2af96"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="fec9dd09-9260-4fd4-9c85-fe1a856d7e95">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'save']
+				</item>
+				<item
+				name="SearchButton"
+				id="dce2be2c-e4b6-4e36-9419-a9ee6af34f90"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="9f983090-0399-4672-9d54-8c49fa5d4bb5">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']
+				</item>
+				<item
+				name="Test1009"
+				id="e2a7b4cc-a74a-4a3d-a637-50756e2d06d0"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="fa857066-6e92-4148-80c3-213e49479513">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext='Test1009']
+				</item>
+				<item
+				name="TableFirstElementDOB"
+				id="b020210c-d305-401b-9056-dadb477054fd"
+				searchtimeout="30000ms"
+				capname="tdtag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext&lt;$varRepDOB]
+				</item>
+				<item
+				name="TableFirstElementEmail"
+				id="14727423-6a44-4b7b-b0e2-0cd3961fc878"
+				searchtimeout="30000ms"
+				capname="tdtag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'searchResults']//table/tbody/tr[1]/td[@innertext=$varRepEmail]
+				</item>
+				<item
+				name="FirstProgramOnMemberAdministration"
+				id="5357df25-499c-414f-b09e-c58368758086"
+				searchtimeout="30000ms"
+				capname="litag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="b5d25599-8ae8-4cfb-aaf0-69473cae4b8c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'programsList']/div/div[3]/?/?/ul/li[1]
+				</item>
+			</folder>
+			<folder
+			name="Sidebar"
+			id="ba390dbf-90a8-4ca8-8041-83dfe0105cab"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Members"
+				id="ffd133f0-5d58-4a48-b4db-28b241511c88"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="26187c1b-ccc2-4c38-9198-17a5d81f0b9a">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Members']
+				</item>
+				<item
+				name="GlobalSidebarName"
+				id="b8d1f951-3c76-4cff-87f4-60f7522f0c49"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="b83d24eb-fb5d-4bea-9cb1-1d5cbdb3aa5c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/li[9]/ul//span[@innertext=$varSidebarName]
+				</item>
+				<item
+				name="Programs"
+				id="f2446709-f615-4713-a370-09489efdbb69"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="c81d3422-5d53-496a-9e66-03ad6e9d063e">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/li[9]/ul//span[@innertext='Programs']
+				</item>
+			</folder>
+			<folder
+			name="Reset_Password"
+			id="da3ccff5-0021-41df-952c-fc2a664622af"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="ChangePassBtn"
+				id="4362c549-4825-49c7-a8a0-535ac08835d5"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="7141340c-4422-4af0-b14e-d8bad0b3977d">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'change']
+				</item>
+				<item
+				name="OldPassword"
+				id="b3725e19-8244-46d0-a64c-d75554566f26"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="54656969-823b-4803-9d3b-0f137fa58d06">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'oldPassword']
+				</item>
+				<item
+				name="NewPassword"
+				id="949b6acd-640d-4dff-8005-0c3d07e55833"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="9c3fd759-43b4-41f9-8a3c-3504609c455d">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'newPassword']
+				</item>
+				<item
+				name="ConfirmNewPassword"
+				id="22e79aec-6293-41a0-b74b-f35bce010ac5"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="91f35d96-5472-4295-9e48-17b75f7016b0">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'confirmNewPassword']
+				</item>
+				<item
+				name="DivTagYourPasswordHasBeenSuccessful"
+				id="8af37754-5c18-4664-af01-2ea4a2046a8a"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="c5152eeb-6801-4868-a8b0-11add88590ed">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ s']
+				</item>
+				<item
+				name="ChangePasswordBtn"
+				id="4a1654d1-8b36-4d80-b179-9cd2934dd05c"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="931a0a61-c9c7-4e5a-b6ae-37e0deb4c96f">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn2']
+				</item>
+				<item
+				name="DivTagYourPasswordHasBeenChangedY"
+				id="cfe40991-b667-44fd-8cb0-b0a7e341c799"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="1c28fb80-e0e9-42d9-bb4e-a8d3e59e2b30">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ Your\ password\ has\ been\ c']
+				</item>
+				<item
+				name="Forgot"
+				id="75b01b20-039f-4838-b9ad-a5840ce37fe7"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="4c2251ed-6ef7-4037-8498-d19630d47893">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'forgot']
+				</item>
+				<item
+				name="Answer"
+				id="2d0d25dd-090a-43e9-a998-e90df0fc2a70"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="231832fb-b0e6-4012-b221-e95b4d940257">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'answer']
+				</item>
+				<item
+				name="Code"
+				id="e75046fd-1160-4aaf-9230-03e9b5076efe"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="a7429594-6e6d-4871-a7a5-a9c649cf3f51">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'code']
+				</item>
+			</folder>
+			<folder
+			name="Activities"
+			id="b666e5e9-5c95-4010-bad7-5162991c5edd"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="AddActivityNewButton"
+				id="845773ac-f285-40dc-8e37-f8843e051640"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="e73a9bd2-7942-4c02-8c7e-39952341ca24">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'addActivity']
+				</item>
+				<item
+				name="ActiveYes"
+				id="3dbd43bd-f97b-4869-8874-cdd99ddb38f8"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="de169995-63da-40a5-ae16-9ca02be70579">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'activityTab']//span[@innertext='No']
+				</item>
+				<item
+				name="DisplayName"
+				id="13df5ebe-6c90-4ee4-977b-2f828d97bd25"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="763390c6-7161-44b2-94d1-f367d7e07e4e">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'displayName']
+				</item>
+				<item
+				name="Globe_Text_Box_1_En"
+				id="0dcfcf40-a284-4fbf-89de-898b4df27844"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="b214370e-67ac-4542-9c65-063e41f45bda">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'localeValue0']
+				</item>
+				<item
+				name="Globe_Text_Box_1_Es"
+				id="691afd1c-4a73-4a6c-a2e8-8c302b49f812"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="5a030b97-4287-4a5d-abe4-a93e9f903d58">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'localeValue1']
+				</item>
+				<item
+				name="Globe_Text_Box_2_Es"
+				id="b6d48e66-e182-4379-ba8c-050ccc22281c"
+				searchtimeout="30000ms"
+				capname="textareatag"
+				addcaps="unknown,webelement,textareatag"
+				refimgid="1a60d674-c485-4bc0-abeb-2a1fc3c94bcc">
+					/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'localeValue0']
+				</item>
+				<item
+				name="Globe_Text_Box_2_En"
+				id="54547722-09ee-4a58-bc30-e110f46e022f"
+				searchtimeout="30000ms"
+				capname="textareatag"
+				addcaps="unknown,webelement,textareatag"
+				refimgid="7e80ba5d-9504-47f0-9eef-c4e04ad2f293">
+					/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'localeValue1']
+				</item>
+				<item
+				name="ActivityIcon"
+				id="91b80013-5d89-44c2-b2d5-898a7a380134"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="9aeff9a3-e0f2-4a99-9f86-56023fc64c7e">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'icon']
+				</item>
+				<item
+				name="ActivityCompletedIcon"
+				id="48520ef7-5aaf-40a5-8623-caada22148f3"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="cebcaab8-2a77-449a-a19a-2ac39a552dc8">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'completedIcon']
+				</item>
+				<item
+				name="ActivityHeaderColor"
+				id="12ad6f29-9efa-449a-a9ed-7737fac6c180"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="f81e1a6a-b593-41d0-89f7-4fbc2db16126">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'headerColor']
+				</item>
+				<item
+				name="ActivityCompletedHeaderColor"
+				id="c45e8f63-22ed-4953-9d7f-2980d9344c7d"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="b7d1ff86-15c6-472a-88bc-d3bebcc2df13">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'completedHeaderColor']
+				</item>
+				<item
+				name="SearchBox"
+				id="a8f13c2f-079a-4775-8a94-d4d5707ff6af"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="ff40e6a3-a709-4a95-bde4-f265fd600630">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'filterList']
+				</item>
+				<item
+				name="SpanTag12345Auto"
+				id="b42db35d-6bd0-45bb-b67e-09df136c7841"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="5ddd8d45-e111-4adf-a83c-0d7fa5afe56d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul//span[@innertext='12345 Auto']
+				</item>
+				<item
+				name="ItemSuccessfullyDeleted_ToastMessage"
+				id="cd78b76b-a79a-42ac-b564-42fd90799608"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="f5bc2c4f-8fb9-417a-8597-4962ff8a7955">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The']
+				</item>
+			</folder>
+			<folder
+			name="Users"
+			id="150a89e3-03f7-4c49-9f1d-b052e658c16b"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Administration"
+				id="3c7b3ded-8072-45de-913e-6b3290e81ed2"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="19ace4b9-afea-4f27-bb5b-15e666f19ff9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Administration']
+				</item>
+				<item
+				name="New_Button"
+				id="b3c3ea3a-c5ce-4e81-9d81-684ce6a19686"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="dd09d7a2-007c-4b93-a001-5dd9c1987b18">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'new']
+				</item>
+				<item
+				name="Roles"
+				id="a1cd708a-886c-4957-b050-d8e94e0c0112"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="e7991499-220a-4a5a-b7ca-50184d20dafc">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'roles']
+				</item>
+				<item
+				name="Users"
+				id="d1e2b91d-1623-461b-8953-ccfa2004ad01"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="125c1057-f460-41b9-a59d-cde72863e1ef">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul/li[9]/ul//span[@innertext='Users']
+				</item>
+				<item
+				name="Search"
+				id="efcdaf7d-686c-42fd-aa73-efb1a2f4bf8f"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="71d6a03a-50dc-4fc6-af7d-b8215d132795">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']
+				</item>
+				<item
+				name="TopFirstNamefromTable"
+				id="bf7f9ca8-d72e-4960-803d-7372298f516f"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="f940f868-a802-4f46-a575-8a20586b8fdc">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/tbody/tr[1]/td[@innertext=$varUserSearchFN]
+				</item>
+				<item
+				name="TopLastNamefromTable"
+				id="bbe20868-cb9f-4911-a0bc-37ece0059f53"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="63bfb07e-eb39-45ce-bc65-88971cabe995">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/tbody/tr[1]/td[@innertext=$varUserSearchLN]
+				</item>
+				<item
+				name="ActionsCaret"
+				id="0af6841c-bb16-4379-925f-4fe497004689"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="2ebd624d-a003-41af-b5f6-647c41525ded">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'row0']
+				</item>
+				<item
+				name="ATagUe0"
+				id="89a54df7-5611-4cc5-8db0-f30b7717910f"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="0cf30b0e-9164-499f-bc40-bb538305fc87">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'ue0']
+				</item>
+				<item
+				name="Permissions"
+				id="50e69814-cbe8-4512-9f94-62188d200238"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="d78063f9-2759-45b0-b6fa-1882869b7cb5">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'permissions']/a[@innertext='Permissions']
+				</item>
+				<item
+				name="Role19"
+				id="2d736ba0-cc47-4d6c-a4b7-5ae779031c54"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="fd663447-a8da-4afb-90c7-521eb7abc9cb">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'role19']
+				</item>
+				<item
+				name="Role20"
+				id="facf3b17-9ce2-46cf-a317-f3882c598f49"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="601fd5ff-9cf6-42ac-870b-5a1c57c5bbd1">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'role20']
+				</item>
+				<item
+				name="Actions"
+				id="c834af9e-8297-422e-ae7d-c59f5a45ce6f"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="edc6ea7a-5136-410b-822a-32b5bb7ba356">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'actions']
+				</item>
+				<item
+				name="Delete"
+				id="e2655ef9-c531-4904-959c-ddad0e1e4323"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="40ed7697-7b0b-4a6c-982c-8d6d8b65994e">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'delete']
+				</item>
+				<item
+				name="DeleteYes"
+				id="ce69024a-d057-4ed7-95a3-2cc630c74c77"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="723845dd-44e5-4903-91bb-b9b620e81289">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteYes']
+				</item>
+				<item
+				name="DivTagTheUserHasBeenSuccessfullyDe"
+				id="259f2e9d-17a0-456d-a819-d15869d05409"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="7bf650d5-ddee-4964-88a0-40eca42808fd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ user\ has\ been\ succes']
+				</item>
+				<folder
+				name="ErrorValidationMsg"
+				id="8d558e92-90b6-4409-9d79-09daa1006f93"
+				searchtimeout="0ms"
+				capname="unknown"
+				isrooted="False">
+					<item
+					name="FNReqValidationMsg"
+					id="4118e9cd-035b-4d78-b62e-c7a08fee4b32"
+					searchtimeout="30000ms"
+					capname="spantag">
+						/dom[@domain='qa.carecamhealthsystems.com']//span[#'firstNameVal']/span[@innertext='First name is required.']
+					</item>
+					<item
+					name="LNReqValidationMsg"
+					id="3ba23686-8ad2-450c-977b-5eb26a62ca88"
+					searchtimeout="30000ms"
+					capname="spantag">
+						/dom[@domain='qa.carecamhealthsystems.com']//span[#'lastNameVal']/span[@innertext='Last name is required.']
+					</item>
+					<item
+					name="OrgnRegValidationMsg"
+					id="15b266de-3aba-4808-9c63-b7f6ca1bf825"
+					searchtimeout="30000ms"
+					capname="spantag">
+						/dom[@domain='qa.carecamhealthsystems.com']//span[#'organizationsVal']/span[@innertext='Organization is required.']
+					</item>
+					<item
+					name="EmailReqValidationMsg"
+					id="30d9bcdd-669c-4e52-b19b-663d67452a30"
+					searchtimeout="30000ms"
+					capname="spantag">
+						/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailAddressVal']/span[@innertext='This field is required.']
+					</item>
+					<item
+					name="RoleReqValidationMsg"
+					id="7d45cdc8-72ff-44b5-8ad2-c09c9499dfcc"
+					searchtimeout="30000ms"
+					capname="spantag">
+						/dom[@domain='qa.carecamhealthsystems.com']//span[#'rolesVal']/span[@innertext='This field is required.']
+					</item>
+					<item
+					name="GenericAlert"
+					id="5d5dfa63-b904-4701-841d-b06bb4be0184"
+					searchtimeout="30000ms"
+					capname="strongtag">
+						/dom[@domain='qa.carecamhealthsystems.com']//div[#'alert']/strong[@innertext='Stop!']
+					</item>
+				</folder>
+			</folder>
+			<folder
+			name="Home"
+			id="84d6763c-2eba-4430-8609-f3164c79d6c1"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="FirstMemberName_HomeScreen"
+				id="7c7d1079-4e8b-4878-9579-23f6462a590d"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="39660b33-33de-450c-924f-d9950ed12359">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']
+				</item>
+				<item
+				name="MemberName_Sort"
+				id="c943bf99-2846-474d-87d6-98f43e6f0df8"
+				searchtimeout="30000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="5320619f-7103-491b-8d93-5a7dd5682377">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div//table/thead/?/?/th[@innertext='Member Name']
+				</item>
+				<item
+				name="DOB_Sort"
+				id="4df8e6ec-1859-4853-beff-0b17035396ab"
+				searchtimeout="30000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="e1a2e500-3339-410c-86c9-831c40d80b7c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div//table/thead/?/?/th[@innertext='DOB']
+				</item>
+				<item
+				name="FirstDOB_HomeScreen"
+				id="218b86aa-01cc-49c1-9e80-a2f0fb0500d7"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="dee78f8c-c432-47f4-95e5-a81fb2d00a94">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'dob0']
+				</item>
+				<item
+				name="Page_2"
+				id="9ae7216e-cfdb-4c0e-9040-9c02bd93c19a"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="1befd033-56e2-4bdf-a181-7fd0f01eac8b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/ul/li[3]/a[@innertext='2']
+				</item>
+				<item
+				name="Page_3"
+				id="f93ca720-9f90-4012-813d-56d2c2bf5108"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="96d0cf94-2f31-4061-a1ed-97f34f5aae97">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/ul/li[4]/a[@innertext='3']
+				</item>
+				<item
+				name="TopFavoriteIcon"
+				id="def5b04c-5afe-4aae-8cc8-7274bf2cf232"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="0a26fb02-c3a3-4112-a6f9-9d8e298c4d5d">
+					/dom[@domain='qa.carecamhealthsystems.com']//i[@title='Remove from My Favorites']
+				</item>
+				<item
+				name="Reports"
+				id="5bebac9d-5364-461d-9224-f4e6f53c6baa"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="ed37099d-fc6a-4007-bb4d-e447ec6efa13">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Reports']
+				</item>
+				<item
+				name="Home"
+				id="b48caedf-ab3c-4481-b68a-43b7619ef3ae"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="6f7fa5c7-0499-4d3c-97ba-a5e425bd2383">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'sidebar']/ul//span[@innertext='Home']
+				</item>
+				<item
+				name="RemoveFromMyFavorites"
+				id="b4027f01-a2a0-4cf3-b559-1de4acb3e682"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="14e5eb87-4422-4beb-972b-ca9eae8b30ae">
+					/dom[@domain='qa.carecamhealthsystems.com']//a[#'f0']/span[@innertext='Remove from My Favorites']
+				</item>
+				<item
+				name="Demographics"
+				id="4297c8ef-2bab-41b4-8a5e-556800390032"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="27d97dca-a7c1-48c3-ae6d-07225149d845">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'memberTab']/form[@method='get']/?/?/label[@innertext='&#160;Member Name (required):']
+				</item>
+				<item
+				name="DisplayRecordDropDown"
+				id="74bc7344-6c38-4768-a25a-b950a372bd7a"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="95a25ed5-4d61-4b69-a2a6-783045de6a56">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[3]/div/div/div/div/div[2]/select
+				</item>
+				<item
+				name="ContentHeader"
+				id="157710ca-b7c8-4df3-a45f-122a12d27c4d"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="ad9e667c-8959-4332-b494-9e4ace35d223">
+					/dom[@domain='qa.carecamhealthsystems.com']//span[#'contentHeader']
+				</item>
+			</folder>
+			<folder
+			name="Content"
+			id="bc012e1d-8b19-40ee-952f-ae04f3d991ba"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Easy"
+				id="91915b70-1d28-4b2a-b6ae-d35d92d61d05"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="3c819093-130b-466d-9ce8-1222f4f45fb4">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Easy']
+				</item>
+				<item
+				name="Elective"
+				id="25bc7899-c37a-4443-bd6f-c359800813d8"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="a7d02290-e737-4b80-88a4-3f92d4985fad">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']
+				</item>
+				<item
+				name="SelectProgramType"
+				id="33b2fc61-2031-4c09-b2e3-326b89c7251c"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="53f90f42-b146-4721-88c4-bb365faeedad">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form/div/div[2]/div/div[3]/select
+				</item>
+				<item
+				name="ProgramSearchFirstElement"
+				id="16c4a6d7-98b2-4bd8-868d-056a63725208"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="ba5ef527-c407-4b69-8c9d-4cc2c513a978">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td
+				</item>
+				<item
+				name="ProgramTitle"
+				id="73e1a5fd-af8a-47eb-9b03-5c2b612e49b5"
+				searchtimeout="30000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="51fb46aa-facb-4dc4-863b-8117775b47b4">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Title']
+				</item>
+				<item
+				name="ProgramLevel"
+				id="75bda6ed-9323-4be5-b3f9-83ee1bdc7383"
+				searchtimeout="30000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="7738e329-29b3-4e8e-ac51-33bd8a86f093">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Level']
+				</item>
+				<item
+				name="TurnActive"
+				id="977a6f5d-9e58-4ea1-80f9-d9d354d1c07d"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="b154d642-e307-4290-8eac-3438b4f98741">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/?/?/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Active:&#160;']//span[@innertext='No']
+				</item>
+				<item
+				name="Glob_Icon_1"
+				id="f031a490-a0be-49be-bdbf-c7446dff73c8"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="7f3bfc7f-ba21-402a-8221-29d7a4e4751c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[3]/div/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="Glob_Icon_2"
+				id="d58abcea-2816-4409-a8d0-af95140c553e"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="f4aa04c0-c620-4dc5-95d6-fba31800e1d5">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[4]/div/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="Select_Focus"
+				id="ea1f913d-3cf4-4eb8-ae06-3c6124cfa2aa"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="f9ae4093-8c06-473e-873e-7dedf5989bb3">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]//i
+				</item>
+				<item
+				name="Focus"
+				id="5a6ef640-4377-4977-89f7-ad88654f341c"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="a68b8bbc-15f3-40ec-a31b-07174e2da096">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//ul/?/?/a[@innertext='Focus']
+				</item>
+				<item
+				name="Select_Nutrition_Focus"
+				id="3b8d573d-5cdc-4814-8110-a31d72fbaed8"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="a2da98d8-04c4-4b50-a646-382e2c10ab7d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Nutrition']
+				</item>
+				<item
+				name="Select_Type_for_Program"
+				id="59e37a3a-19d6-480b-8d2b-ac1217dab02d"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="db316654-9d80-4aff-8491-cc2521520594">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[7]/?/?/select[@title='A Type is required']
+				</item>
+				<item
+				name="TypeToSearchPrograms"
+				id="adc36d93-5936-42a3-9ebf-b00281991f73"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="c296b5f0-fedd-4c71-913e-3ff39c21d9ce">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[9]/div/div/div/span[@innertext~'^Type\ to\ search\ programs\.\.']
+				</item>
+				<item
+				name="FirstChallengeTemplate"
+				id="7dae7893-acc8-4605-9e0c-6680d45ccd8a"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="2637d702-85f2-4c14-8520-3b4ff9dead85">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/li[1]//span
+				</item>
+				<item
+				name="Select_Focus_Name"
+				id="3de0b092-0461-45b6-ab75-424adb4bfedb"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f41e7493-dad0-4154-a0c8-21332550aa0b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext=$varChooseFocus]
+				</item>
+				<item
+				name="IconIconGlobeIconLarge"
+				id="cbe590d3-5919-4b3e-a92d-dbbb204689d7"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="199d8a26-3bfa-419e-9a9f-942bfec499f9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[@id='rewardsMain']/div[5]/div[1]/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="IconIconGlobeIconLarge1"
+				id="f327ac7e-1e4c-4dcd-b25a-f6d22f14af07"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="400b66ac-b033-49e2-ba5b-38426e302754">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[@id='rewardsMain']/div[7]/div[1]/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="IconIconGlobeIconLarge2"
+				id="891b8dc3-8166-4074-a30a-b7ae8978ecd6"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="7adf393a-8f84-4edf-92b6-71eaef163323">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[@id='rewardsMain']/div[8]/div[1]/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="ButtonTagAddBucket"
+				id="7149dc5e-6455-459d-9483-b834ac9cd35f"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="99aa1805-0026-49f6-9d69-86a6add5dee8">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//button[@innertext='&#160;Add Bucket']
+				</item>
+				<item
+				name="IconIconGlobeIconLarge3"
+				id="f8e5595a-0ed7-4753-9134-81d167060338"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="4eeb0421-9565-4027-99f0-c107aa37cdfd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div/div[1]/div[@id='rewardsBucket']/div/div[2]/div[2]/div[1]/div[1]/div/div/div/div//i
+				</item>
+				<item
+				name="Icon2xIconTagsCursorPointer"
+				id="2c88d7a3-6023-4e0c-bd12-5dd8b35cc704"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="dda369b0-1143-413b-b398-c2324b8fcca5">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[2]//i
+				</item>
+				<item
+				name="DragAnItemOrClickHereToConfigure"
+				id="0fffa3db-0012-49cc-ac94-90733a58330f"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="f84d123f-ee5e-4701-913b-6af007045fb4">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//span[@innertext~'^Drag\ an\ item\ or\ click\ her']
+				</item>
+				<item
+				name="ContentDragDestination"
+				id="3c8315cb-4510-4908-8551-a5c51261c5dc"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="bb954775-b5b0-45c7-9295-f86d8f4d0ca5">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//span[@innertext=$varContentDestination]
+				</item>
+				<item
+				name="FormControl"
+				id="8a5fa6d1-1dd5-4a05-bfc6-2b3da6311793"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="5135b794-863b-43d1-a1b8-0d6218cc9d97">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[8]/div/div[1]/select
+				</item>
+				<item
+				name="Edit"
+				id="1f3c616d-de22-455d-937a-5004e6745d62"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="4908b99b-6468-4a82-8e4b-63937b4ec170">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[1]//ul/?/?/a[@innertext='Edit']
+				</item>
+				<item
+				name="DollarIcon"
+				id="cdff0495-a1f2-475b-b0a3-3548d05ec3f4"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="ebb843df-242a-4ba5-9333-6b2a5f23c201">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//label[@innertext='Dollar Icon:']
+				</item>
+				<item
+				name="Programs"
+				id="bc0f1b9b-4c68-48e3-89e8-81ebf9eedf3b"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="2a1bb509-d360-4ca7-a303-479896215e08">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Programs']
+				</item>
+				<item
+				name="Challenges"
+				id="13b404b0-4488-4375-b132-d16f89b19010"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="36fa083b-8311-4c64-8559-6584e947b2e6">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Challenges']
+				</item>
+				<item
+				name="Rewards"
+				id="22229ea8-cd5e-410a-8298-a9511d648130"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f628d2ec-d566-4f5a-b438-0a3bb28071a4">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Rewards']
+				</item>
+				<item
+				name="AvailableRewards"
+				id="a5290bf1-71e2-46e5-bbca-06bd623ee134"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="4ff099d9-73dd-40c6-8d81-ea572d2efd94">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/?/?/div[@id='memberTab']/div/div[2]/div[1]/table[1]/thead//span[@innertext='Configurations (active)']
+				</item>
+				<item
+				name="Activities"
+				id="796a0bba-51c0-4f26-ab98-50c7b7860741"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="17c911be-4828-446e-948f-db708603bad0">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Activities']
+				</item>
+				<item
+				name="Name"
+				id="5d022141-e4a0-4605-8c21-832bc19c331f"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="cd836c14-9870-4d54-882b-adbe6274dd9d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/?/?/div[@id='memberTab']/div/h5/span[@innertext=' Active Activities ']
+				</item>
+				<item
+				name="SupportTeam"
+				id="2c568353-d98d-4d9d-b428-bb43caa3d6bd"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="834b698e-2edb-4a4e-9404-72bb480afcc9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Support Team']
+				</item>
+				<item
+				name="Administration"
+				id="d106eae8-f9f6-418f-9453-9c041cf7e5ec"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="7d94e798-f5e5-4b4b-bb24-60a30b43c415">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Administration']
+				</item>
+				<item
+				name="ContactUs"
+				id="af1bd63a-a5fc-4712-9aac-dba37da70131"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="57dddf8d-cf5b-4ef3-9b6a-b9ee90e04ffb">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul/li[10]/ul//span[@innertext='Contact Us']
+				</item>
+				<item
+				name="Support"
+				id="29d37d21-2bb6-4c39-9531-97482d4cd637"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="e75e4dda-5ba3-497b-ab53-039674e9cb7d">
+					<image
+					name="Screenshot1"
+					guid="691523b8-0086-4f09-96bf-b4b62812dc7f">
+						iVBORw0KGgoAAAANSUhEUgAAADUAAAATCAYAAAAwE0VbAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALESURBVFhH7ZXvSxNxHMf7DwYHPhB8ItWTUeyB
+gzhkbIwlk8kwkB0dK1emKyXXTMccchR6KBmDyoQDYwy0OERnq2UZWRZFGBlM2AP3wD/l3fd7N7fv
+budQKFDxwRt29/mx72vfz+e9M5M7uzhpOoU6LjqFOi7SoOTPKtqu30QDL8BC1OC9C/vTNdOCo6c8
+bgxEEFirvCNQOfjaRVycfgcpT14WtjG2mkVvdpMpPMLKL+Oyxwi1psDKy+hjE1mZxhfh5iuNRpIR
+WKff4PbDKBod5LYdIVxIqIgX2HwZPbkXaO0M6tPQKSGQ+VOK65IyClq7QuDoxLjuoDWZg1SO6z36
+NlfgE/Uc97MFOAN0wkQ0doTR7A/Dp2o3lUW7JwRe+Q6Z+YKyDghl4XvgTv3EOI3nP6IrKKJJypZ6
+0nwBXHAW97aK5LmIsbSMJkccwY1Sz40UWlxD8C/90mrkrQ9aD+v0OtOjH+eFYXRlt5mzVp+FStsp
+KTMDm4v+enH4lFWM0jHcKzoo1FUFI2xO9gmaPY8xUM4X4Z6nQHs5dBcEtDzXxzw61Q8utlj9w9b0
+EHBJqb7dfaE0kV0anlfgolfrGiTXWCo+KBQ5UCVO9HsBPD8E4VNt/p4iE2Fw8SXtc19MgDX5pSpe
+XWfeoz5UWUXEZ+LgrswgSp/NoAoqnMcLiogFMYOiY2GECsziPpMjq4/QaBgdZ5odvx8QQ5Xxoz1M
+x88xhbD2fBiot4vofv0NY9oC0wVdR/dgD7jBl3hAkwqkyEFMIK0v8GT+K67RuBHqXxiFI4IOg1Gc
+m3jP9DCD0o3Oma7sGoGag12zRf2Pl/P0wpZ4hRhjFpKahM1bsmLvMNm3Zfj9BqihOdxK1LN0cmCF
+WHYdSx+nls9Yun1yxWDpZlC7GE1N4CwxOgsfRJtu6bVJh5XpTlVp/wP9D51C7acTCXW0tIu/m27R
+O/w1BGAAAAAASUVORK5CYII=
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul//span[@innertext='Support']
+				</item>
+				<item
+				name="SpanTagFAQ"
+				id="c7e3b112-07e2-48d2-ac7f-dfe715ae15ec"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="8acd2d73-eafa-43e9-86b3-b9868b60a072">
+					<image
+					name="Screenshot1"
+					guid="98d81e55-18e6-4fa9-b7ca-52771d272012">
+						iVBORw0KGgoAAAANSUhEUgAAADkAAAAUCAYAAAA3KpVtAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHFSURBVFhH3Za7TgJBGIWteANeghewsKPQByC0
+FBaQ2JpYUFjZmRhijA3hUiiiFkTDJYABQRCQWRaWi0CAVznOcNHZdZRGN8sUX8Kcf/5kz+zP2dna
+Cs4gPUJRNoSibAhF2RCKsiEUTcJTJCDESAcefl+0jwhREEhMdb2fhEfwPqlINZb9TQWpFw37MW6/
+rsFkmMlEdiSsrXBkVORqLbyW+rAb69EBzusKcuUuXLEJbFSzRcdwZdsoNFUc3y6N6ppMZr3JIU5q
+Cs4e+wjThz680ted+RZItYttTlswxS6rVXpwsLW+aC7rTNoSHZRrGpzBCXwlgrvMmKuP4a8SRFIT
+TuOId5Egy4MRbjCJ301O4S4oSOeH8/WX4VV9gEv6H7x44Ht4WJ2ObJz+Fm8wB2HwFAeLOg0cNqLz
+h2Tr0DsCDT6ANsjkT2+SBc63A6DU6SGwgJFgXFngEISTBgP3GtLNNnzRxXoePKtw0THFTo4ekqWD
+h5lpdOAOGXT69o4qXADRET5ln5DnHvauF2O8IZ8QfeAYsSfbqPMBZLwMUMpVDd4bi1wG/h46plkV
+9UYbB1a58fwPS6NvKvxWGFfTEIqyIRSlYoYPTh1RHJZ6FuMAAAAASUVORK5CYII=
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul/li[10]/ul//span[@innertext='FAQ']
+				</item>
+				<item
+				name="ATagHashmainFaq"
+				id="62b6d7e8-2f81-45ba-a450-6a9932c7f130"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f13f41ae-0bfd-4b84-b716-2963ee1d0cd6">
+					<image
+					name="Screenshot1"
+					guid="8df164f0-4930-4bf1-882e-95c469944470">
+						iVBORw0KGgoAAAANSUhEUgAAANwAAAAoCAYAAACVWZSOAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJUSURBVHhe7doxaxNhGMDxNrmkSU2azxOCEBAh
+gxQKYmiUFgeR1kBbsEQqpYtKraXLiRxEN+lSQXDsIop0r4uQoV/l8c5r6vX6pJ2eNxf4D7/h/k8y
+PuTte52a6p8JAEfUCMCGGgHYUCMAG2oEYEONAGyoEYANNQKwoUYANtQIwIYaAdhQIwAbagRgQ40A
+bKgRgA01OuIttaVWT3stXvJz/meZrS9LaXtw6bsXPvyQwpMXUml24u83lqVy/0C8dyM+D4yTGh2J
+Fq7S/a7OhnLrm1Jtrcrc4qFMp+f+FyndfSTVB0G4YL/j9v6XeN0tqTY2pPiGpUPGqNGRmxfuWGZa
+4a/b1qGUGz0pHFye51dWpXYvkFyixQaSfxrOFj4qM2CM1OjIjQu3vSdzLV/y/VMpLHbk1vpJYv5T
+ivNtmd08TbSE3UAq9atLCoyVGh25fuEG4j0O/x5bOY6fL5ZvOD+Scr0jpZfD57RovibFXW0GjIka
+HVEvTZaO4rkfHSMTCxN8lVIzeXnCwmECqdGR637hosuSK8uYXEiOlJhEanRk9MJFlyUdKfdSy/TK
+l0pjRwp+/Pzv0kS9GBlI7tkalybIHjU6MnLhosVq7okXpHr/RIoL7f+XJ8E3mYleCzz8JPn9P3Hj
+tQCyTI2O6AuXuixJme7tSC15eZJ+8R2am9+XwtvzBQSyRI0TKzxKdjekdic8dvKfJsgiNU6086W7
+/ZwjJbJHjQBsqBGADTUCsKFGADbUCMCGGgHYUCMAG2oEYEONAGyoEYANNQKwoUYANtQIwMCZ/AVK
+LZvaSWYQTgAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul/li[10]/ul/?/?/a[@href='#main/faq']
+				</item>
+				<item
+				name="ATagHashmainContactUs"
+				id="5ee4de88-a741-4b25-9bed-955b06121a51"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="a7439e42-073a-4d40-b45a-5b68e556b16a">
+					<image
+					name="Screenshot1"
+					guid="482662c4-499a-4561-97d6-59bf6b9b030d">
+						iVBORw0KGgoAAAANSUhEUgAAANwAAAAqCAYAAADYkTWFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAARESURBVHhe7dntS1tXHAdwk5vEaJ7+HgmBoSAW
+fOHomBjShrrZbMStDV1Ran0gq0RX0WWWLNCyF1v3Qjr6Qls2Bl1RSmEbdKxvCnnR/SnfnXvviXno
+L4nLei4s+774gPme+6Byfvmde+5QqfYXiMgbQ0N3X4OIPCKGRGSGGBKRGWJIRGaIIRGZIYZEZIYY
+EpEZYkhEZoghEZkhhkRkhhgSkRliSERmiCERmSGGRGSGGBKRGWJIRGaIoZcqxwguLCP6ThqJsVkk
+klnEZjYQ3BSO7ZOVy2Hkhjz2j+3fx+h0FX5pzPEUoelZ+X43NpHoei4NPDH0SvkBRibSiL1fReD2
+Sze78wzW8kP4q23H9qt6gtC7HQqgD76bJcRZcNQvMfREDYFLWSRm78MnjmvlxwjN5RFPqu43lkFs
+rgqr3Bj3L15BNH+EwMJniKX0MTO7CDjHPMLwdM45Nz6eQ2wyh9HCiXOeb+VLjJ5T99ddNXLpoLXI
+bx8gPDOPuD1uXzPzPazrRUTHM24XVteKTar71I8/ddaCq8FfWGt09tQ8Ih8+7P6/oP8+MfTEDwir
+iRterQljdc8RPJ9BJHcEn10M1Zew8gU1aSunxWEXXCK5gJFrx+5krf6GYCaL+AeH+hpyAfhKj2Dt
+vHI/Vx5jeCqtjtG/S/UQYdV5I/mf3PtW/oB/54U71rNLnbHgbu2rYisiuKfvaXf2bX0PGlxi6IWt
+KqJjVxDaEsbq7EmZ3ESgZXn5I4YnVaGuu5+dgmsvgJai6FIATQIXZxFdfOr87Fta71xUb6vgimXE
+mguO/h/E0AtnKbgOk7u5OJyCu/igZbx3wdXg27iHkRm1LByfd5eHajna9Zp1b6vg7r6A9fES4im1
+nL2gnmFL+hmWBpsYekIvKXWnEpkquPUd1V1WEWya5D2vWfdvCm65iMT5b1qf0+78gsDi54im0ogu
+HPIZbtCJoSf+RHAujXjmoPMks7uguKRMI7zifu6n4N4851f1rNi0pLy+2rmoehace63I1edteQ3W
+5VzTs2WbnXuIjKm/VRqjwSGGXtlSk8z+Zs9+C+v0tcDv8G8e6wltb5qo8cttmyZTZVjNmyZdC04X
+U/7J6bhTUFN7sCr251fwX1tHLKnuowtuaF9134ksRj/Vmybqvv7SM/eLQXXHuHr2cndBZb6Vkrpe
+AcNr6pz6+Usl1cUKHZbQaol78wtEJ3ZhvTFGA0UMvbR3hNDcJ3pL392ij8183Zh4lZ9bXwu8t98y
+2XsXnCqAYgURZ/s9rTrPiSqAJ6q7fuRu+etXAtbVpUbB2dpfC6S/051YfQlc0Oemtjt0pBr8y7uN
+1w7Oq4ptBLf1rqht4yv3FYMzrjr9uTWEbjWN02ASQyIyQwyJyAwxJCIzxJCIzBBDIjJDDInIDDEk
+IjPEkIjMEEMiMkMMicgMMSQiM8SQiMwQQyIyQwyJyAwxJCIDXuNvAz0wJU2s9UoAAAAASUVORK5C
+YII=
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul/li[10]/ul/?/?/a[@href='#main/contactUs']
+				</item>
+				<item
+				name="SecondChallengeTemplate"
+				id="5c4cec71-e9f2-44e6-b658-4484c1378c90"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="da073693-6b38-4ab4-bb40-2aa62456a1b2">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/li[2]//span
+				</item>
+				<item
+				name="Search"
+				id="481ba2e0-b710-4c4e-8c9c-f458c41cea66"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="6501f0f3-73bd-471e-80b1-9d7e2b873545">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/ul/?/?/ul//span[@innertext='Search']
+				</item>
+				<item
+				name="ProgramLevelEasy"
+				id="f04c2988-a078-41a3-9511-5ea6d051323a"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="a8578551-9308-4679-a541-ca219a238bff">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Easy']
+				</item>
+				<item
+				name="ProgramLevelMedium"
+				id="8b188041-243e-4762-b818-930dc19c9078"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="973912f8-c73b-4cc8-8269-7ed1110efff8">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Medium' or @innertext='Hard']
+				</item>
+				<item
+				name="ProgramTypeElective"
+				id="95a5fd8e-4d4a-4888-8d90-bd0446332122"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="45add172-6ee1-4957-9e7d-aa59ba45420a">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']
+				</item>
+				<item
+				name="ProgramTypeCareplan"
+				id="fce38ffb-4abc-44b2-9d51-5955e4dc4c1f"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="9eb75e0e-89ce-4e0d-a1f9-273d047fb67c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Care Plan']
+				</item>
+				<item
+				name="ProgramStatusInactive"
+				id="9da0e86e-2cb3-49df-98a2-f64ae1381705"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="63db35dc-179c-4d9a-a306-f23f35f8bef0">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Inactive']
+				</item>
+				<item
+				name="ProgramStatusActive"
+				id="43e86960-3f4e-41fe-b117-ada1c98e9de2"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="84d4e96d-c041-4630-9d75-5f66c0cd4c9d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Active']
+				</item>
+				<item
+				name="ProgramType"
+				id="565d825d-6d48-440d-a66f-f48107b9a565"
+				searchtimeout="8000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="40193a8f-d8c1-4910-b707-0237013ce2bd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Type']
+				</item>
+				<item
+				name="ProgramStatus"
+				id="7eb58d20-9591-4fb7-adff-c34cb5f2e52c"
+				searchtimeout="8000ms"
+				capname="thtag"
+				addcaps="unknown,webelement,thtag"
+				refimgid="6fa11954-5477-463c-a522-763ccfae8363">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div//table/thead/?/?/th[@innertext='Program Status']
+				</item>
+				<item
+				name="EliminationOverviewRequired"
+				id="de97ba15-9ea8-4839-897b-e570c886575a"
+				searchtimeout="8000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="b988a6ff-8cde-473f-981c-a094b8c88dc4">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//label[@innertext~'^Elimination\ Overview\ \(req']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]
+				</basepath>
+			</folder>
+			<folder
+			name="Focus"
+			id="85e69fcc-a1d0-4f34-9cd2-f390e171f226"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Enter_Tags_Included"
+				id="cd100cdf-ea55-49c7-bb46-5be1cea488f2"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="c86a36b3-3b18-4cdd-9fbb-478c5f78f4c1">
+					/dom[@domain='qa.carecamhealthsystems.com']/descendant-or-self::*/?/span[@innertext='Enter tags...']
+				</item>
+				<item
+				name="Close_Button_Focus"
+				id="d5f117dc-a35e-4185-9383-2af98c4f8b8e"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="f569a4a9-5f4b-4973-a346-672a37144031">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'closeTagSelector']
+				</item>
+				<item
+				name="Content1"
+				id="121f80e7-22e8-464b-9704-9180a96f75eb"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="ad147fc1-cfa7-4407-a466-70ef0c8d12d7">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'content']/a[@innertext='Content']
+				</item>
+				<item
+				name="ExpandFocus"
+				id="d86df67b-5719-4459-a386-5aa72906ed31"
+				searchtimeout="1000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="d55c4b5e-93c6-494d-9a46-bc61f5c6a917">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'info']/form//div[1]//i
+				</item>
+			</folder>
+			<folder
+			name="Other"
+			id="0aa9b58f-08ae-4456-a88a-f907baa42c7b"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Name"
+				id="d506c727-ec28-4380-96a5-69be71612497"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="e32d10d3-d73a-4aac-a1cd-ae1c8c30d82f">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'name']
+				</item>
+				<item
+				name="OpportunityBox"
+				id="88903fbf-012d-46c5-8efc-96eb3c09d7d3"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="0451f250-17a3-426f-bd9f-36151cc399ca">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleContent']/div/div/div/div/span[@innertext='Opportunity']
+				</item>
+				<item
+				name="Drag_New_Items_Here"
+				id="ee867732-1638-486e-8338-7f6b0c6ab669"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="252c06dc-4845-406c-9fff-9414ae4ed733">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[11]/div/div[1]/div[1]/div[4]/?/?/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ &#160;\ \ ']
+				</item>
+				<item
+				name="Checkbox_Select_Daily_Opp"
+				id="fbd03e2a-908d-4f6f-803c-d0f9cf72823a"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="dbed639d-035a-4cc2-843f-a0259b7c8da1">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureContent']/?/?/form[@method='get']/div/div[1]/div[1]/div[2]/div[1]/?/?/input[@type='checkbox']
+				</item>
+				<item
+				name="ModalClose"
+				id="aa56c5f2-03a9-44e5-891d-e99ea7ac091b"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="de93395c-82a1-4b0c-89ce-dcc5a07398e5">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'modalClose']
+				</item>
+				<item
+				name="SelectAStatus"
+				id="499469e1-8a87-4135-91aa-795c4f87f416"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="8dace8e8-2338-43da-bf9a-c61c11a72c16">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form/div/div[2]/div/div[2]/select
+				</item>
+				<item
+				name="ProgramSearchResults"
+				id="9d5c0000-e708-4382-bb37-f861681ce9ee"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="58d0aa26-7e11-4276-b4a6-8b3b00ac7c42">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]//table/tbody/tr[1]/td[@innertext='Active']
+				</item>
+				<item
+				name="BloodSugarActyBoxDraggable"
+				id="59a889b9-b270-43bc-a25c-5e6b0269a568"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="8ee9dc44-ea2e-42c2-a991-a7e0e8523397">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleActivities']/div/div/div/div[1]/span[@innertext='Blood Sugar']
+				</item>
+				<item
+				name="DragHere"
+				id="a4da4b44-79df-44e7-bbcc-4f4406a7168a"
+				searchtimeout="30000ms"
+				capname="spantag">
+					/dom[@domain='qa.carecamhealthsystems.com']//span[@innertext~'^Drag\ an\ item\ or\ click\ her']
+				</item>
+				<item
+				name="TemplateTitle"
+				id="820b385d-2abb-469f-9dae-a06798df42f3"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="72d57b1b-dcdf-40cd-bb77-ee158c554194">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'templateTitle']
+				</item>
+			</folder>
+			<folder
+			name="Challenges"
+			id="b349c1d5-851d-4ce6-ad0b-8d2c7e245a38"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="ChallengeGlobeIcon3"
+				id="81d3a86e-f781-46fa-9cfd-137e985e72de"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="73b2999f-517e-486b-aec9-032045ca86a0">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'info']/form[@method='get']/div[9]/div/div/div/div//span/?/?/i
+				</item>
+				<item
+				name="ChallengeGlobeIcon4"
+				id="37575649-5e97-4983-96e9-fdcc176ad37e"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="d398d800-b991-4d51-ac0b-280d1e699354">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'info']/form[@method='get']/div[10]/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="TeamType"
+				id="94ec23a8-f2c9-40a1-970f-df1b51001896"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="a43547ba-559d-428c-8e78-aa5dca72507c">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'teamType']
+				</item>
+				<item
+				name="ActivityName"
+				id="ca54e1be-bdca-4f68-bbe3-771f6f6b2922"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="cf14f01e-359e-4190-b9ee-9b5142930564">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'activityName']
+				</item>
+				<item
+				name="AbAttackPA"
+				id="60a653ee-cbc4-420a-9102-3d7bc50ce6c4"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="9087a9a0-c88f-425f-9433-0818a2adcc64">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleActivities']/div/div/div/div[1]/span[@innertext='Ab Attack-PA']
+				</item>
+				<item
+				name="PleaseSelectFrequencyDropDown"
+				id="37469266-d7fe-49cf-b64a-dcdf64c6119a"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="b224f812-1a88-43fd-84da-847cae5e61af">
+					/dom[@domain='qa.carecamhealthsystems.com']//label[@innertext='(Please select frequency)']
+				</item>
+				<item
+				name="FrequencyOption"
+				id="042663a4-509e-46b2-a8c7-b0120c418efe"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="6a533b8c-d49b-4efb-bdce-aa49ff10ac4f">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureSchedule']/div[2]/form[@method='get']/div[1]/div[3]//label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/input[@name='frequencyOption']
+				</item>
+				<item
+				name="Close"
+				id="ef7fc9e6-6029-4227-b939-fa9ba3d6759e"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="3724a37e-eacf-4add-99f3-86a746edbf9b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureSchedule']/?/?/form[@method='get']/div[1]/div[3]/div[1]/div/div/div/div[2]/button[@innertext='Close']
+				</item>
+				<item
+				name="AddChallenge"
+				id="dac899d3-b425-4c6e-bf54-f08b41db2f66"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="fba8c973-1328-46dc-9b60-aa81f3f155da">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'addChallenge']
+				</item>
+				<item
+				name="Team1_Icon"
+				id="78eb1dc0-f8ca-4f3a-b197-df364f5960e4"
+				searchtimeout="30000ms"
+				capname="selecttag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'teams']/div[2]/div[2]//select[@id='icon']
+				</item>
+				<item
+				name="Team2_Icon"
+				id="dcda4bf5-d63f-43e4-9b82-856ceda47848"
+				searchtimeout="30000ms"
+				capname="selecttag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'teams']/div[2]/div[4]//select[@id='icon']
+				</item>
+				<item
+				name="ChallengeIcon"
+				id="ed82cd76-24fa-45f8-8c77-332ae7d2e44b"
+				searchtimeout="8000ms"
+				capname="selecttag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'info']/form[@method='get']/div[7]//select[@id='icon']
+				</item>
+			</folder>
+			<folder
+			name="Validations"
+			id="9eeacd61-0607-4fe5-93d5-c0d0d70e5ba9"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="DivTagTheChangesHaveBeenSuccessfull"
+				id="c4fc3c48-7165-42e7-8fad-e25923a54ed8"
+				searchtimeout="1000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="f1301e01-146a-4215-b326-06d4368babf7">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ changes\ have\ been\ su']
+				</item>
+				<item
+				name="DivTagTheChallengeHasBeenSuccessful"
+				id="f0b4111e-cd4d-4ef7-b2bf-997767a8ea37"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="ec82cd10-ac23-46ff-9194-34da7d3b6c52">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Challenge\ has\ been\ s']
+				</item>
+				<item
+				name="PackageAddandEditValidation"
+				id="a92e6d28-82a6-4d98-b74c-b2b010c757c6"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="9b14a86d-c76e-4bd7-8bbc-0842c592b527">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^The']
+				</item>
+				<item
+				name="DeletePackageValidation"
+				id="d101f268-0b0b-432b-871e-a5d023cae7c7"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="bd641914-48d9-4c15-9164-6e5f2fee0384">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ Package\ Group\ has\ be']
+				</item>
+				<item
+				name="ToastMsgGeneral"
+				id="10327d70-6d03-4ed8-b6cd-01b596071572"
+				searchtimeout="1000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="f1301e01-146a-4215-b326-06d4368babf7">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?//div
+				</item>
+			</folder>
+			<folder
+			name="Buttons"
+			id="f6fe8fa6-4f76-499f-b8e7-843b7ce18f50"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="Delete"
+				id="54f2800b-9de1-4185-9af6-feee536cd259"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="62885573-083a-467c-9bb7-47b448cb5fa7">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'delete']
+				</item>
+				<item
+				name="Delete1"
+				id="b00ddcc0-8c13-424b-8de0-b9819ee1b4ac"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="c395ac35-bbf4-40d4-b0bb-3a2b18b2e347">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'deleteMember']
+				</item>
+			</folder>
+			<folder
+			name="RewardGroupTemplates"
+			id="46c354c4-ca99-4871-bea2-85c5976bcc91"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="TurnActiveRewards"
+				id="d45e478d-1d6d-450b-ad45-a7cc25e70935"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refimgid="f73759d6-9293-47cf-b2d8-4c64c9c43df7">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsMain']/div[1]/?/?/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']//span[@innertext='No']
+				</item>
+				<item
+				name="TemplateDescription"
+				id="775cb6ce-05f2-4354-9bd7-51271ed03069"
+				searchtimeout="30000ms"
+				capname="textareatag"
+				addcaps="unknown,webelement,textareatag"
+				refimgid="0c05f994-45a0-42ff-9760-fa63f538c48f">
+					/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'templateDescription']
+				</item>
+				<item
+				name="MaxDollarAmount"
+				id="87c2edea-3c3f-4d0a-aad0-d24703a91280"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="852587fd-c349-4a1d-98f4-81aa82ed8077">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'maxDollarAmount']
+				</item>
+				<item
+				name="IconIconGlobeIconLarge"
+				id="46475fcb-1dcc-41cd-bbbc-dbab9fedb8d5"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="e4abc59f-5bad-479f-89a0-5163e4cf3067">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsMain']/div[6]/div/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="PointsIcon"
+				id="993d2a83-109f-436f-8018-124bc1cfe0d3"
+				searchtimeout="30000ms"
+				capname="selecttag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsMain']/div[7]//select[@id='icon']
+				</item>
+				<item
+				name="Badge_Icon"
+				id="40a74db0-0ceb-4919-a68e-4bf512a6fc28"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				refimgid="ed76ceee-0de1-4bd0-a63b-223e1bcb9b19">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsMain']/div[8]//select[@id='icon']
+				</item>
+				<item
+				name="Category"
+				id="f6d5cdc2-fa0c-411a-9d37-84583da4ab9c"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="351592da-628e-4a6e-a97b-47a3739593d5">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'category']/a[@innertext='Category']
+				</item>
+				<item
+				name="ButtonTagN"
+				id="3ac7b35c-6558-4e36-b497-e9d13f4c43da"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="ee42095e-74a3-4bf3-9952-823f40ff3e4f">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsCategory']/div/div[1]/?/?/button
+				</item>
+				<item
+				name="Bucket"
+				id="573d33a1-8975-43f4-84d3-1e5f1d20a937"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="dd5a69a5-6510-47f7-87ab-dc634426aedf">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'bucket']/a[@innertext='Bucket']
+				</item>
+				<item
+				name="Level"
+				id="e6b91149-d051-4eef-8428-b8db98a3fdb5"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="89460c19-70e4-49f1-a759-a34c1b58fd4c">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'level']/a[@innertext='Level']
+				</item>
+				<item
+				name="GlobeIconRewardsLevel"
+				id="08d965d6-afbf-413f-9db9-3347f2aa0045"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="515f1ba2-aa86-4d5a-9efd-1a2f37ed26cd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsLevel']/div/div[2]/div/div[1]/div[1]/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="RewardsTab"
+				id="5775e139-d835-4ac5-9d90-de2a3164ff7a"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="15473ce4-fbd5-401c-8396-7950010dc802">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'rewards']/a[@innertext='Rewards']
+				</item>
+				<item
+				name="NewReward"
+				id="3ef52174-2c2d-41bd-a0f2-674156bcb28d"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="6c96950f-f005-42fd-ab7e-5c36a20b3710">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//span[@innertext=$varRewardDragSource]
+				</item>
+				<item
+				name="DragRewardHere"
+				id="f1c0cdf5-8938-4eac-ad96-8225cc2e3140"
+				searchtimeout="30000ms"
+				capname="h4tag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="2c349abe-07eb-4a15-b760-c0798bd24853">
+					/dom[@domain='qa.carecamhealthsystems.com']//div//h4[@innertext=$varRewardDragDestination]
+				</item>
+				<item
+				name="GlobeIconRewardsCategoty"
+				id="e5072ae5-b679-4a7f-a106-2c53d30f88d0"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="0d50d0eb-a559-4af3-907e-8d6924aba6a5">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsCategory']/div/div[2]/table//div/div/div[1]/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="NewLevel"
+				id="819774b9-1c0f-4b27-bf7e-e4d024d40614"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="69a20b32-b93c-4dfb-a008-20675a47ab31">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsLevel']/div/div[1]/?/?/button
+				</item>
+				<item
+				name="SpanTagNo"
+				id="cea54556-a274-422d-8b5f-48eea1cc7551"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="7cd3e69a-745a-4556-92bd-45879359541c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'mainCollapse']/div[1]/?/?/label[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']//span[@innertext='No']
+				</item>
+				<item
+				name="FormControl"
+				id="d5231a05-aa87-49df-997c-f015f5527116"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="252750cd-396e-482a-8bf1-871328a40295">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'mainCollapse']/div[3]//select
+				</item>
+				<item
+				name="AvailableDtStart"
+				id="97a8a921-b24c-4f19-8494-238eaf0a0b81"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="e54d0539-5b58-455d-a39e-a27c1a6d9fbc">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'availableDtStart']
+				</item>
+				<item
+				name="AvailableDtEnd"
+				id="8de8c494-2a72-4d25-b233-3643bd1cc25d"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="d6dd084c-f6b0-4bf5-b503-add132ca1465">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'availableDtEnd']
+				</item>
+				<item
+				name="IconIconGlobeIconLarge12"
+				id="448a39cb-c021-4425-a30a-0b6d9b8c1be6"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="28c73183-7c44-4bf7-a375-fdb069587f38">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'mainCollapse']/div[2]/div/div/div/div/div/div/div/?/?/span/?/?/i
+				</item>
+				<item
+				name="Text"
+				id="78857b18-ae50-49f1-ad8f-55e41816a635"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="5fabfac0-ca94-46ca-bd26-8a507d4881cd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardCollapse']//input[@type='text']
+				</item>
+				<item
+				name="Text1"
+				id="0d544b9d-7a17-483d-982f-0c7dcfcd43fc"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="5f55eb59-a74c-4d73-a0d5-1a671862c713">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardCollapse']/div[2]/div[1]/input[@type='text']
+				</item>
+				<item
+				name="ToEarn"
+				id="e864d630-ad62-4cbf-b832-fdd22dcdaa70"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="b3a44067-3b0f-49ce-b223-3360bed4296c">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'earn']/a[@innertext='To Earn']
+				</item>
+				<item
+				name="ToRedeem"
+				id="f4a5ccbf-ba42-458b-9fe1-98e29a313f48"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="87fd2b1f-71e5-432f-9714-760261602099">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'redeem']/a[@innertext='To Redeem']
+				</item>
+				<item
+				name="BlockedBy"
+				id="6571ac1a-a871-4dcd-b4ae-20302b827b7b"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="d00cc1c9-8a5b-440a-868b-56179178a686">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'blocking']/a[@innertext='Blocked By']
+				</item>
+			</folder>
+			<folder
+			name="FrequencyCollapse"
+			id="0696b36e-fefd-4e34-a4dc-23ee4664fb26"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Text"
+				id="cb33324b-9167-4557-8b9c-0513ddfea332"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="ad250ea4-7ca0-46e8-bf1e-a6ca1b7e7f93">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'frequencyCollapse']//input[@type='text']
+				</item>
+				<item
+				name="Text1"
+				id="be217f34-5c77-4f3e-b350-d03c9a051ed1"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="50d61ecf-1761-4961-96a0-3fabe8769d31">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'frequencyCollapse']/div[1]/div[2]/input[@type='text']
+				</item>
+				<item
+				name="FormControl1"
+				id="cf368929-ddc1-47b3-a337-f914afbc4af3"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="dfa98b7e-e3c1-4ea1-ad1c-97ca7167638b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'frequencyCollapse']/div[1]/div[3]/?/?/select
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'frequencyCollapse']
+				</basepath>
+			</folder>
+			<folder
+			name="ConfigureRewardMain"
+			id="17e3272c-651d-433c-86df-73d5a79bb02a"
+			searchtimeout="30000ms"
+			capname="divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Frequency"
+				id="45a40951-9715-47b0-9da2-a01078e32c20"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="f12858a2-744e-4f2e-8114-47e9f4864fa6">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']/div[2]//span[@innertext='Frequency']
+				</item>
+				<item
+				name="Eligibility"
+				id="0fa07524-837c-43a1-8dba-685b7663906c"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="8702f0b6-2e7c-45bb-a47d-8fb941210e65">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']/div[3]//span[@innertext='Eligibility']
+				</item>
+				<item
+				name="Reward"
+				id="6c56b511-25cb-44ad-9734-6bbe34cad6f6"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="10b2facf-9b43-4b73-ba2d-7426c8413acd">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']/div[4]//span[@innertext='Reward']
+				</item>
+				<item
+				name="IconIconGlobeIconLarge"
+				id="c206ee63-5b35-4a87-ad36-81be718e289b"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="3c0ab43d-68ac-4d9f-8c6b-eff00cb7624e">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']/div[4]/div[@id='rewardCollapse']/div[3]/div[1]/div/div/div/div//span/?/?/i
+				</item>
+				<item
+				name="Icon"
+				id="fd1b31c5-020b-4ff9-b7b9-e54cf6f44d72"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="7bb1fc08-356d-406c-a8ee-415e6c12455f">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']//select[@id='icon']
+				</item>
+				<item
+				name="Icon1"
+				id="5a257426-f63c-40c0-9870-ed48e28b0b51"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="5d815d73-c7ed-4f26-be47-cdd0516c223d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']/div[4]/div[@id='rewardCollapse']/div[3]/div[3]/div/select[@id='icon']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardMain']
+				</basepath>
+			</folder>
+			<folder
+			name="Condition"
+			id="c8622672-c26d-493c-9b3e-8643b5682d85"
+			searchtimeout="30000ms"
+			capname="divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="IconIconGlobeIconLarge1"
+				id="3b595ae9-237a-4915-846f-a4e4bec61be3"
+				searchtimeout="30000ms"
+				capname="itag"
+				addcaps="unknown,webelement,itag"
+				refimgid="d940dd4b-ba6c-4c5b-9b39-cbd25fa04a92">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[1]/div/div/div/div//span/?/?/i
+				</item>
+				<item
+				name="Unconfigured"
+				id="d8204136-71e9-4a3d-b4d4-6df920a360e6"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="1d73df21-4f18-4a3d-9e04-cb8d787827bb">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div[1]/div[2]/a/span[@innertext='Unconfigured']
+				</item>
+				<item
+				name="ButtonTagSelectAnActivity"
+				id="1ae2f491-c4e8-4537-805b-40df9b732db2"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="a4dc51f4-302f-4762-8bc5-d66792fb2c87">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div[2]/div/button[@title='(Select an Activity...)']
+				</item>
+				<item
+				name="Text2"
+				id="c4e97589-4092-4e55-baa7-ce826377cc26"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="cfd393de-a027-4638-8bda-249d0c35c68e">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div[2]/div/div/div/input[@type='text']
+				</item>
+				<item
+				name="CheckWeight"
+				id="5b9cc893-dfcf-4c21-b2e4-57829f470317"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="cd1a59a7-75c4-46f9-939a-18d6fc6338db">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[4]/div/div[2]/div[2]/div/div/ul/li[81]/?/?/span[@innertext='Check  Weight']
+				</item>
+				<item
+				name="ButtonTagEdit"
+				id="f4301608-74c2-4cad-93ca-17e3b7123799"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="6e5c3de1-c6ef-4c1b-abb4-d9512fd0d27a">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div/button[@innertext='&#160;Edit']
+				</item>
+				<item
+				name="FormControl"
+				id="882b747d-476e-4d25-af1a-a1f7180a5030"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="a0bb989d-59a9-4e69-ba76-a119569587e3">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[2]/?/?/div/select
+				</item>
+				<item
+				name="Text"
+				id="c52fce25-7fe6-4fda-bf2a-e995a1c3b3a9"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="f1259b58-7b04-4c2c-80b3-a3c825fc9458">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[3]/?/?/input[@type='text']
+				</item>
+				<item
+				name="ButtonTagClose"
+				id="cce7c829-32fb-4bdb-b155-90ec8cdd80e5"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="596a8bf6-11d3-41a7-9e4d-df3d9edd3280">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div/div[1]/div[2]/button[@innertext='&#160;Close']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]/div/div/div
+				</basepath>
+			</folder>
+			<folder
+			name="Programs"
+			id="1fe250da-44af-4f26-8bbb-6a348930d4e3"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="MorningStretchPA"
+				id="2e2d1d20-bf5e-497d-9d87-4684e315c052"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="96761069-7c03-406b-adf8-5cd804cb4bde">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleActivities']/div/div/div/div[1]/span[@innertext='Morning Stretch-PA']
+				</item>
+				<item
+				name="ContentDragSource"
+				id="455bcb8e-11e8-48b1-ae6f-de6410bf1d82"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="5bbfed17-194e-4277-9ec8-e3c8c43f1a12">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'scheduleContent']/div/div/div//span[@innertext=$varContent]
+				</item>
+			</folder>
+			<folder
+			name="Package_Group"
+			id="32f5554e-b449-4126-8cee-9debab8a4d05"
+			searchtimeout="0ms"
+			capname="unknown"
+			isrooted="False">
+				<item
+				name="AddPackage"
+				id="925643fe-942e-48dc-881e-046386d66ed9"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="b1dfe812-245f-4aae-bf3a-ce0e7a46d804">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'addPackage']
+				</item>
+				<item
+				name="NewPackageOkayButton"
+				id="b9cbb326-e14e-459a-9d9c-6217b1478683"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="fe071417-b8e4-44d8-b20f-fa80d64107cc">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'newPackageOkayButton']
+				</item>
+				<item
+				name="Description"
+				id="a1d31bac-e79e-4372-9ee5-984685d1aeba"
+				searchtimeout="30000ms"
+				capname="textareatag"
+				addcaps="unknown,webelement,textareatag"
+				refimgid="7d1c9fe2-044d-46e8-baa2-2dc6ad8cab4c">
+					/dom[@domain='qa.carecamhealthsystems.com']//textarea[#'description']
+				</item>
+				<item
+				name="GBehaviorProgramCode"
+				id="c0307d43-d3fa-4468-9f4c-0e3b3cd081f7"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="d5fd7751-0900-4a71-a524-aaf4ec94abe2">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'gBehaviorProgramCode']
+				</item>
+				<item
+				name="SmartQuitUrl"
+				id="058940b6-9169-43ab-97ad-0929461f2dde"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="cd92acad-7286-4324-bac3-ea0ef553b1f1">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'smartQuitUrl']
+				</item>
+				<item
+				name="ATagPackages"
+				id="dedd39ff-a82b-4832-909b-ec264d64601e"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f4126903-eaa2-4dfc-bac5-1bbe5403a7c6">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'team']/a[@innertext&lt;'&#160;Packages']
+				</item>
+				<item
+				name="Package0RowSpouseOfInsuredCheck"
+				id="2c7391aa-7811-45ed-9f2b-9a5580aa150c"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="f9392302-eaff-448a-bc86-e39f491008a6">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'package0RowSpouse of InsuredCheck']
+				</item>
+				<item
+				name="Package0RowChildOfInsuredCheck"
+				id="298f3a74-8573-43c8-b350-69ef8a4a0d00"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="c86e9da0-c9c7-4f3c-9c3c-8b6ffa70f969">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'package0RowChild of InsuredCheck']
+				</item>
+				<item
+				name="NewChallengeSelect"
+				id="c3471660-6c3f-46eb-b21d-bb7ecddbcacd"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="c5ccba7c-7a50-4061-b559-553cd5a01760">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'newChallengeSelect']
+				</item>
+				<item
+				name="NewChallengeOkayButton"
+				id="0511aa79-200d-42e1-89f1-0d5f3fb3cb7b"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="61c99d3f-a756-442c-8cb4-ef0c2a0e8c82">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'newChallengeOkayButton']
+				</item>
+				<item
+				name="ScheduleTab"
+				id="8ff9b196-8d4b-41a7-b880-bd7a627589ca"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="67c8db21-9b0c-428b-ae91-d794b4256a3b">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'challengeSchedule']/a[@innertext&lt;'&#160;Schedule']
+				</item>
+				<item
+				name="ChallengeDate31st"
+				id="fe635120-41d9-4a68-91e2-2ef82a2caf97"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="5be0f31a-fd0d-4cb1-b388-ba4e6b13c4aa">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'calendar']/div/div/table/tbody//div[@innertext='31']
+				</item>
+				<item
+				name="ButtonTagOk"
+				id="b7541b15-df97-4d61-9e9a-1e31453f67ec"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="60c7319b-649d-49b3-bc07-d5e083eb724c">
+					/dom[@domain='qa.carecamhealthsystems.com']/body/div[7]/div/div[3]/button[@innertext='Ok']
+				</item>
+				<item
+				name="LeaderboardTab"
+				id="855f9133-614e-4013-9ba6-7c1a5d05f55c"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="1f1ed263-3f4f-4fd4-8968-817d5caf085e">
+					/dom[@domain='qa.carecamhealthsystems.com']//li[#'leaderboardlink']/a[@innertext&lt;'&#160;Leaderboard']
+				</item>
+				<item
+				name="LeaderboardWillBeVisibleOnceChallen"
+				id="67bffeb5-f01e-4644-8b01-669869aee95d"
+				searchtimeout="30000ms"
+				capname="h4tag"
+				addcaps="unknown,webelement,h4tag"
+				refimgid="add72930-85d8-4e36-86ad-9e890834d107">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'leaderboard']//h4[@innertext~'^Leaderboard\ will\ be\ visib']
+				</item>
+				<item
+				name="EditChallengeCloseButton"
+				id="7d874060-e9e4-42fb-be6b-b3edd204ea03"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="8b9b4524-70ca-4041-99d7-db9daf81e27b">
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'editChallengeCloseButton']
+				</item>
+				<item
+				name="TurnActive"
+				id="3e43ffdf-5eb1-4981-8831-4cdc1a15b3e8"
+				searchtimeout="30000ms"
+				capname="spantag">
+					/dom[@domain='qa.carecamhealthsystems.com']//label[#'BRUH']//span[@innertext='No']
+				</item>
+				<item
+				name="Relationships"
+				id="c6df3e28-b39b-4c07-99c1-041871272854"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="fb22328a-d8fc-44ac-bbe3-419a203b057d">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']//span[@innertext='Relationships']
+				</item>
+				<item
+				name="Challenges"
+				id="bc29fb60-d54c-4796-9f58-264e19a5f61d"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="349573f4-6bc9-4f2c-be4c-7a43f6d6819f">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']//span[@innertext='Challenges']
+				</item>
+				<item
+				name="Rewards"
+				id="1902957b-9c43-4987-bd86-599daa3fca8f"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="32389041-0a0e-457a-9834-5e96f51d1764">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']//span[@innertext='Rewards']
+				</item>
+			</folder>
+			<item
+			name="NewRewardGroupSelect"
+			id="020e25d3-fc7a-411a-a145-8a90ad05d585"
+			searchtimeout="30000ms"
+			capname="selecttag"
+			addcaps="unknown,webelement,selecttag"
+			refimgid="d4dc3728-fec4-461e-b893-5c45e9087df8">
+				/dom[@domain='qa.carecamhealthsystems.com']//select[#'newRewardGroupSelect']
+			</item>
+			<item
+			name="NewRewardGroupOkayButton"
+			id="4eef8880-1e1b-4bec-b3b8-12838784bad1"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="a4deb5ce-c8f9-46a5-9db0-f20df0824e6d">
+				/dom[@domain='qa.carecamhealthsystems.com']//button[#'newRewardGroupOkayButton']
+			</item>
+			<item
+			name="ButtonTag"
+			id="1d04fb03-0007-4796-86f8-8fbfec24e4fa"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="312b1b1c-477b-44c8-9283-f1e337d4d985">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'package0RowcollapseThree']/div/div[1]/div/div[2]/button[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			name="Edit"
+			id="aff5178e-ef31-432d-ac47-3f833ccc3126"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="339ef034-3f39-4062-84d4-736003e5b052">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'package0RowcollapseThree']/div/div[1]/div/div[2]/ul/?/?/a[@innertext='Edit']
+			</item>
+			<item
+			name="CategoryNameRequired"
+			id="9d70bd3c-c25e-42b5-a035-1926efa5b586"
+			searchtimeout="30000ms"
+			capname="labeltag"
+			addcaps="unknown,webelement,labeltag"
+			refimgid="a90fe5be-ea31-4dea-bd59-fce5971d57fd">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsCategory']//table/tbody/tr[1]//label[@innertext='Category Name (required):']
+			</item>
+			<item
+			name="BucketName"
+			id="e095656d-9b2e-40ec-9745-7d2ae6c62d5d"
+			searchtimeout="30000ms"
+			capname="labeltag"
+			addcaps="unknown,webelement,labeltag"
+			refimgid="0d99cf52-cd0b-4e64-b156-67f9f0acbab6">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsBucket']/div/div[2]/div[1]/?/?/label[@innertext='Bucket Name:']
+			</item>
+			<item
+			name="LevelNameRequired"
+			id="2beba96e-e83e-43d2-b7e6-efceb73c8759"
+			searchtimeout="30000ms"
+			capname="labeltag"
+			addcaps="unknown,webelement,labeltag"
+			refimgid="28c82d56-01e4-4308-a2a9-c0101cb6aaae">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsLevel']/div/div[2]/div[1]/label[@innertext='Level Name (required):']
+			</item>
+			<item
+			name="AvailableRewards"
+			id="5c8f56c9-d61a-4607-9b2f-b2d8973f9b1a"
+			searchtimeout="30000ms"
+			capname="spantag"
+			addcaps="unknown,webelement,spantag"
+			refimgid="f87e6d47-a005-43ce-86c5-4340411ca3e9">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsList']//span[@innertext='Available Rewards']
+			</item>
+			<item
+			name="EditRewardGroupCloseButton"
+			id="b3c99f0b-1e46-40aa-90f6-0c3f0491e73b"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="3d850805-bee1-4c0e-ad31-ffcd9dbfa2e3">
+				/dom[@domain='qa.carecamhealthsystems.com']//button[#'editRewardGroupCloseButton']
+			</item>
+			<item
+			name="ATagMain"
+			id="9074d013-703c-46a5-a2b8-c6026089c384"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="be3ee0a0-6643-43db-b974-4db50be9b354">
+				/dom[@domain='qa.carecamhealthsystems.com']//li[#'activity']/a[@innertext&lt;'&#160;Main']
+			</item>
+			<item
+			name="ActivateAccount"
+			id="4da00701-49a1-4cb8-8d33-7a9825e315c4"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="d7170973-5e0b-432b-85c3-b10c92e44981">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'activateBtn']/a[@innertext='Activate Account']
+			</item>
+			<item
+			name="Alert"
+			id="7b3b8925-fb83-483a-a05d-d1fc66291edc"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="490d7e7d-953e-441b-af7d-52bce70cb020">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'alert']
+			</item>
+			<item
+			name="SpanTagLogout"
+			id="3cafad06-51cc-47a1-8d0f-5feb7946ea5f"
+			searchtimeout="30000ms"
+			capname="spantag"
+			addcaps="unknown,webelement,spantag"
+			refimgid="8e8248f2-252f-47b9-94a1-c4370e0948bf">
+				/dom[@domain='qa.carecamhealthsystems.com']//nav[#'user-nav']/ul//span[@innertext='&#160;Logout']
+			</item>
+			<item
+			name="IconIconGlobeIconLarge"
+			id="679566e2-de15-4a64-8c43-fb668e0a3e49"
+			searchtimeout="30000ms"
+			capname="itag"
+			addcaps="unknown,webelement,itag"
+			refimgid="90dfe7a7-73ca-401e-ba28-e82a77c40161">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'configureRewardEarn']/div[2]/div[1]/div[1]/div/div/div/div/div/div/?/?/span/?/?/i
+			</item>
+			<item
+			name="ButtonTagEdit"
+			id="a844de7a-8f6f-4db7-8273-01437ac59d4f"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="17383f57-4449-4a9d-9022-e4f54fbc3388">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'rewardsList']/?/?/ul//button[@innertext='&#160;Edit']
+			</item>
+			<item
+			name="DivTagFocus"
+			id="071bf80f-f08f-4fb5-b215-82ac7d04002d"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="853c57a5-3db2-4e86-8a6f-24cc4daf63af">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'infoCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Focus:\ \ \ \ \ ']
+			</item>
+			<item
+			name="DivTagType"
+			id="de0f1d10-864a-42b5-b253-5dcbd99bce27"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="b0f8e19a-e295-463d-abef-c220cf6148d4">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'configCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Type:\ \ \ \ \ \ ']
+			</item>
+			<item
+			name="Name"
+			id="6a4af4c1-b569-454c-9a4f-91d9a2e23af1"
+			searchtimeout="30000ms"
+			capname="thtag"
+			addcaps="unknown,webelement,thtag"
+			refimgid="6c734ee8-4c3e-473b-a06d-2a6b4d3c5765">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'progressCollapse']/table//th[@innertext='Name']
+			</item>
+			<folder
+			name="SomeDivTag"
+			id="053ec2cc-8ef1-4258-b8fa-6141c2d4d19f"
+			searchtimeout="1000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Information"
+				id="c931799f-ddbb-4e94-a36b-24e9085de3c2"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="ecec923a-3541-4dad-ad47-7d57b06f8f50">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[1]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Information']
+				</item>
+				<item
+				name="Configuration"
+				id="f1acd94a-b0ff-49c4-902a-ba1991b91972"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="4bf675a9-6435-455f-b6fe-1cc32cc22488">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[2]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Configuration']
+				</item>
+				<item
+				name="Progress"
+				id="5a880cc8-c645-40cc-aa8b-bfc58d8af091"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,spantag"
+				refimgid="29716715-9991-4ba6-92ea-f998702226c9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[3]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Progress']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]
+				</basepath>
+			</folder>
+			<item
+			name="Upcoming"
+			id="afabdbda-5e16-46f6-886e-5b24be89854d"
+			searchtimeout="30000ms"
+			capname="spantag"
+			addcaps="unknown,webelement,spantag"
+			refimgid="558bbe38-e79b-49f7-8dfb-3cb17dc4d290">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'challengesList']/div/table[1]/thead//span[@innertext='Upcoming']
+			</item>
+			<item
+			name="FirstName"
+			id="8a28566c-b241-4e57-baff-ab68e725d775"
+			searchtimeout="30000ms"
+			capname="thtag"
+			addcaps="unknown,webelement,thtag"
+			refimgid="3e0ceee0-d15f-403b-810d-66190f9a999d">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'memberTab']/?/?/table//th[@innertext='First Name']
+			</item>
+			<item
+			name="H5TagActivateMember"
+			id="35f945e6-777d-4715-81bb-3011666d46fe"
+			searchtimeout="30000ms"
+			capname="h5tag"
+			addcaps="unknown,webelement,h5tag"
+			refimgid="1ce5489d-06ed-4f80-9a35-0ff959aac915">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'memberTab']/?/?/h5[@innertext='&#160;Activate Member']
+			</item>
+			<item
+			name="InputTagDob"
+			id="77722c3f-58d5-424c-85a1-6cc148e8f33f"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="f5475487-888c-47d3-a223-87fcdde6cbdd">
+				/dom[@domain='qa.carecamhealthsystems.com']//input[#'dob']
+			</item>
+			<item
+			name="HowDoIGetStarted"
+			id="8005d737-0448-4cd5-8247-c78a76d2636b"
+			searchtimeout="30000ms"
+			capname="h4tag"
+			addcaps="unknown,webelement,h4tag"
+			refimgid="c013c59e-e5f1-4806-9aba-282640b4a868">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'s1q1']/h4[@innertext='How do I get started?']
+			</item>
+			<item
+			name="HowDoIEnterANewMember"
+			id="937fa3ca-6335-4e1c-8ee6-f81c2fe5ca07"
+			searchtimeout="30000ms"
+			capname="h4tag"
+			addcaps="unknown,webelement,h4tag"
+			refimgid="e7fafa40-cf03-4010-a957-d9e294252b97">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'s2q1']/h4[@innertext~'^How\ do\ I\ enter\ a\ new\ memb']
+			</item>
+			<item
+			name="HowDoICustomizeACarePlanForAMem"
+			id="f47fdbab-5ed4-4a91-82e0-7f9d84a55f60"
+			searchtimeout="30000ms"
+			capname="h4tag"
+			addcaps="unknown,webelement,h4tag"
+			refimgid="005f7636-bdc6-445d-a885-f30a75b83565">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'s3q1']/h4[@innertext~'^How\ do\ I\ customize\ a\ care']
+			</item>
+			<item
+			name="HowDoICreateACarePlan"
+			id="e836cf51-f319-4b1c-9942-cace6047f3c6"
+			searchtimeout="30000ms"
+			capname="h4tag"
+			addcaps="unknown,webelement,h4tag"
+			refimgid="9ded16ce-45b2-4dbc-8dbc-c1b66a41f816">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'s4q1']/h4[@innertext~'^How\ do\ I\ create\ a\ care\ pl']
+			</item>
+			<item
+			name="ActivitiesWhatIsAnActivity"
+			id="290a1be8-3997-4edc-8bdc-7ff62c15a965"
+			searchtimeout="30000ms"
+			capname="h4tag"
+			addcaps="unknown,webelement,h4tag"
+			refimgid="5ce8cc47-baf6-4b68-8812-be37001a5d10">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'s5q1']/h4[@innertext~'^Activities:\ What\ is\ an\ ac']
+			</item>
+			<folder
+			name="NavNavTabs"
+			id="c8dfab88-8284-4250-ad29-9c2cc17d37f4"
+			searchtimeout="1000ms"
+			capname="ultag"
+			addcaps="unknown,webelement,ultag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="CarePlansAndActivities"
+				id="58e8bf33-8d9a-4d5c-a096-f4d410baab21"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="0cc3b09b-e656-4895-b120-f63a07d27794">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Care Plans and Activities']
+				</item>
+				<item
+				name="MemberCarePlan"
+				id="290d0955-f183-47dd-a337-98215ad87601"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="7c5ec36e-fd03-4d63-a2ab-27ea695391e9">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Member Care Plan']
+				</item>
+				<item
+				name="MemberManagement"
+				id="cc88c5f7-8657-4e72-b2ea-73a68da07baa"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="5c472451-d9d5-44a4-9c62-8d7d2796260c">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext='Member Management']
+				</item>
+				<item
+				name="MemberMobileApplications"
+				id="86b9c889-5c25-47e3-8dc6-8cf1c45f8995"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="29f01db3-5b09-4da1-a3c7-de83fe16203b">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul/?/?/a[@innertext~'^Member\ Mobile\ Application']
+				</item>
+				<basepath>
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'faq']/?/?/ul
+				</basepath>
+			</folder>
+			<item
+			name="ATagTeams"
+			id="7c29ea9b-028b-4089-814d-0a4bcc46d8d0"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="909b61ab-6a9d-4183-9c97-a928620fb4f4">
+				/dom[@domain='qa.carecamhealthsystems.com']//li[#'team']/a[@innertext='&#160;Teams']
+			</item>
+			<item
+			name="Fi7314"
+			id="0a0c6d66-bb89-44ee-a04e-429c2b4c6a4a"
+			searchtimeout="30000ms"
+			capname="itag"
+			addcaps="unknown,webelement,itag"
+			refimgid="5184c8bb-ca79-4006-b4df-c50417dd5702">
+				/dom[@domain='qa.carecamhealthsystems.com']//i[#'fi7314']
+			</item>
+			<item
+			name="ResetAccount"
+			id="6fe983a8-72ae-4efa-b9d8-4d471974889e"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="b2524224-11dd-4263-955e-5d2aa0864643">
+				/dom[@domain='qa.carecamhealthsystems.com']//a[#'resetAccount']
+			</item>
+			<item
+			name="ResetAccountYes"
+			id="a9c0c0df-83f5-424d-9ccd-f7c8979da787"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="0b3f77d6-2882-4996-b7bd-d5710aeeca72">
+				/dom[@domain='qa.carecamhealthsystems.com']//button[#'resetAccountYes']
+			</item>
+			<item
+			name="DivTagTheAccountHasBeenSuccessfully"
+			id="4e792cff-043b-4d56-9f56-036cb59227f8"
+			searchtimeout="30000ms"
+			capname="divtag"
+			addcaps="unknown,webelement,divtag"
+			refimgid="04e09811-a686-4699-91f8-3f3f764f75c8">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/?/?/div[@innertext~'^\ The\ account\ has\ been\ suc']
+			</item>
+			<item
+			name="LoginAlert"
+			id="6197e77b-1005-4a60-89ce-bb6b3c8c1e93"
+			searchtimeout="8000ms"
+			capname="divtag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="f21cf7f5-44af-4000-bb2d-0eb9bf0961fa">
+				/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']
+			</item>
+			<item
+			name="EmailAddressIsRequired"
+			id="606d6100-b149-46da-aecc-cd1fb07520b8"
+			searchtimeout="8000ms"
+			capname="spantag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailVal']/span[@innertext='Email Address is required.']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="1b474c47-8454-4c24-9ef8-635e141d137d">
+				/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailVal']/span[@innertext~'^Email\ Address\ is\ required']
+			</item>
+			<basepath>
+				/dom[@domain='qa.carecamhealthsystems.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<item
+		name="ImagesObject"
+		id="7d5f8407-4514-440d-aa76-590cde8dab69"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		addcaps="unknown,webelement,divtag"
+		refimgid="db81647d-b106-4618-80ca-5c126e8f64c2">
+			<image
+			name="ImgContactUs"
+			guid="482662c4-499a-4561-97d6-59bf6b9b030d">
+				iVBORw0KGgoAAAANSUhEUgAAANwAAAAqCAYAAADYkTWFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAARESURBVHhe7dntS1tXHAdwk5vEaJ7+HgmBoSAW
+fOHomBjShrrZbMStDV1Ran0gq0RX0WWWLNCyF1v3Qjr6Qls2Bl1RSmEbdKxvCnnR/SnfnXvviXno
+L4nLei4s+774gPme+6Byfvmde+5QqfYXiMgbQ0N3X4OIPCKGRGSGGBKRGWJIRGaIIRGZIYZEZIYY
+EpEZYkhEZoghEZkhhkRkhhgSkRliSERmiCERmSGGRGSGGBKRGWJIRGaIoZcqxwguLCP6ThqJsVkk
+klnEZjYQ3BSO7ZOVy2Hkhjz2j+3fx+h0FX5pzPEUoelZ+X43NpHoei4NPDH0SvkBRibSiL1fReD2
+Sze78wzW8kP4q23H9qt6gtC7HQqgD76bJcRZcNQvMfREDYFLWSRm78MnjmvlxwjN5RFPqu43lkFs
+rgqr3Bj3L15BNH+EwMJniKX0MTO7CDjHPMLwdM45Nz6eQ2wyh9HCiXOeb+VLjJ5T99ddNXLpoLXI
+bx8gPDOPuD1uXzPzPazrRUTHM24XVteKTar71I8/ddaCq8FfWGt09tQ8Ih8+7P6/oP8+MfTEDwir
+iRterQljdc8RPJ9BJHcEn10M1Zew8gU1aSunxWEXXCK5gJFrx+5krf6GYCaL+AeH+hpyAfhKj2Dt
+vHI/Vx5jeCqtjtG/S/UQYdV5I/mf3PtW/oB/54U71rNLnbHgbu2rYisiuKfvaXf2bX0PGlxi6IWt
+KqJjVxDaEsbq7EmZ3ESgZXn5I4YnVaGuu5+dgmsvgJai6FIATQIXZxFdfOr87Fta71xUb6vgimXE
+mguO/h/E0AtnKbgOk7u5OJyCu/igZbx3wdXg27iHkRm1LByfd5eHajna9Zp1b6vg7r6A9fES4im1
+nL2gnmFL+hmWBpsYekIvKXWnEpkquPUd1V1WEWya5D2vWfdvCm65iMT5b1qf0+78gsDi54im0ogu
+HPIZbtCJoSf+RHAujXjmoPMks7uguKRMI7zifu6n4N4851f1rNi0pLy+2rmoehace63I1edteQ3W
+5VzTs2WbnXuIjKm/VRqjwSGGXtlSk8z+Zs9+C+v0tcDv8G8e6wltb5qo8cttmyZTZVjNmyZdC04X
+U/7J6bhTUFN7sCr251fwX1tHLKnuowtuaF9134ksRj/Vmybqvv7SM/eLQXXHuHr2cndBZb6Vkrpe
+AcNr6pz6+Usl1cUKHZbQaol78wtEJ3ZhvTFGA0UMvbR3hNDcJ3pL392ij8183Zh4lZ9bXwu8t98y
+2XsXnCqAYgURZ/s9rTrPiSqAJ6q7fuRu+etXAtbVpUbB2dpfC6S/051YfQlc0Oemtjt0pBr8y7uN
+1w7Oq4ptBLf1rqht4yv3FYMzrjr9uTWEbjWN02ASQyIyQwyJyAwxJCIzxJCIzBBDIjJDDInIDDEk
+IjPEkIjMEEMiMkMMicgMMSQiM8SQiMwQQyIyQwyJyAwxJCIDXuNvAz0wJU2s9UoAAAAASUVORK5C
+YII=
+			</image>
+			<image
+			name="ImgFaq"
+			guid="8df164f0-4930-4bf1-882e-95c469944470">
+				iVBORw0KGgoAAAANSUhEUgAAANwAAAAoCAYAAACVWZSOAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJUSURBVHhe7doxaxNhGMDxNrmkSU2azxOCEBAh
+gxQKYmiUFgeR1kBbsEQqpYtKraXLiRxEN+lSQXDsIop0r4uQoV/l8c5r6vX6pJ2eNxf4D7/h/k8y
+PuTte52a6p8JAEfUCMCGGgHYUCMAG2oEYEONAGyoEYANNQKwoUYANtQIwIYaAdhQIwAbagRgQ40A
+bKgRgA01OuIttaVWT3stXvJz/meZrS9LaXtw6bsXPvyQwpMXUml24u83lqVy/0C8dyM+D4yTGh2J
+Fq7S/a7OhnLrm1Jtrcrc4qFMp+f+FyndfSTVB0G4YL/j9v6XeN0tqTY2pPiGpUPGqNGRmxfuWGZa
+4a/b1qGUGz0pHFye51dWpXYvkFyixQaSfxrOFj4qM2CM1OjIjQu3vSdzLV/y/VMpLHbk1vpJYv5T
+ivNtmd08TbSE3UAq9atLCoyVGh25fuEG4j0O/x5bOY6fL5ZvOD+Scr0jpZfD57RovibFXW0GjIka
+HVEvTZaO4rkfHSMTCxN8lVIzeXnCwmECqdGR637hosuSK8uYXEiOlJhEanRk9MJFlyUdKfdSy/TK
+l0pjRwp+/Pzv0kS9GBlI7tkalybIHjU6MnLhosVq7okXpHr/RIoL7f+XJ8E3mYleCzz8JPn9P3Hj
+tQCyTI2O6AuXuixJme7tSC15eZJ+8R2am9+XwtvzBQSyRI0TKzxKdjekdic8dvKfJsgiNU6086W7
+/ZwjJbJHjQBsqBGADTUCsKFGADbUCMCGGgHYUCMAG2oEYEONAGyoEYANNQKwoUYANtQIwMCZ/AVK
+LZvaSWYQTgAAAABJRU5ErkJggg==
+			</image>
+			<image
+			name="ImgSupport"
+			guid="691523b8-0086-4f09-96bf-b4b62812dc7f">
+				iVBORw0KGgoAAAANSUhEUgAAADUAAAATCAYAAAAwE0VbAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALESURBVFhH7ZXvSxNxHMf7DwYHPhB8ItWTUeyB
+gzhkbIwlk8kwkB0dK1emKyXXTMccchR6KBmDyoQDYwy0OERnq2UZWRZFGBlM2AP3wD/l3fd7N7fv
+budQKFDxwRt29/mx72vfz+e9M5M7uzhpOoU6LjqFOi7SoOTPKtqu30QDL8BC1OC9C/vTNdOCo6c8
+bgxEEFirvCNQOfjaRVycfgcpT14WtjG2mkVvdpMpPMLKL+Oyxwi1psDKy+hjE1mZxhfh5iuNRpIR
+WKff4PbDKBod5LYdIVxIqIgX2HwZPbkXaO0M6tPQKSGQ+VOK65IyClq7QuDoxLjuoDWZg1SO6z36
+NlfgE/Uc97MFOAN0wkQ0doTR7A/Dp2o3lUW7JwRe+Q6Z+YKyDghl4XvgTv3EOI3nP6IrKKJJypZ6
+0nwBXHAW97aK5LmIsbSMJkccwY1Sz40UWlxD8C/90mrkrQ9aD+v0OtOjH+eFYXRlt5mzVp+FStsp
+KTMDm4v+enH4lFWM0jHcKzoo1FUFI2xO9gmaPY8xUM4X4Z6nQHs5dBcEtDzXxzw61Q8utlj9w9b0
+EHBJqb7dfaE0kV0anlfgolfrGiTXWCo+KBQ5UCVO9HsBPD8E4VNt/p4iE2Fw8SXtc19MgDX5pSpe
+XWfeoz5UWUXEZ+LgrswgSp/NoAoqnMcLiogFMYOiY2GECsziPpMjq4/QaBgdZ5odvx8QQ5Xxoz1M
+x88xhbD2fBiot4vofv0NY9oC0wVdR/dgD7jBl3hAkwqkyEFMIK0v8GT+K67RuBHqXxiFI4IOg1Gc
+m3jP9DCD0o3Oma7sGoGag12zRf2Pl/P0wpZ4hRhjFpKahM1bsmLvMNm3Zfj9BqihOdxK1LN0cmCF
+WHYdSx+nls9Yun1yxWDpZlC7GE1N4CwxOgsfRJtu6bVJh5XpTlVp/wP9D51C7acTCXW0tIu/m27R
+O/w1BGAAAAAASUVORK5CYII=
+			</image>
+			<image
+			name="YesToDeleteButton"
+			guid="7156d66f-e50f-498c-a4c4-f0d925573706">
+				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
+AAAAAElFTkSuQmCC
+			</image>
+			/dom[@domain='qa.carecamhealthsystems.com']
+		</item>
+		<appfolder
+		name="Explorer"
+		id="004c6971-f995-4b17-b44d-ce42f94b41c5"
+		searchtimeout="1000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ProgramsCCHSPortalGoogleChrome"
+			id="c4adec22-6f31-4519-9271-454f0243f0b7"
+			searchtimeout="8000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^Programs\ \|\ CCHS\ Portal\ -\ ']"
+			addcaps="button,accessible"
+			refimgid="7fecba8a-0207-444d-8a98-e28c556711cf">
+				/menubar[@processname='explorer']/?/?/container[@caption='Running applications']/?/?/toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Programs\ \|\ CCHS\ Portal\ -\ ']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="LoginCCHSPortal"
+		id="7d980190-d902-4b72-833a-bf48d5be7283"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Email"
+			id="a5a54ba7-06a1-4d0d-b703-828ebf01b25c"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			addcaps="unknown,webelement,inputtag">
+				/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']
+			</item>
+			<item
+			name="LoginBtn"
+			id="02fa7257-fd4d-4a7f-aa2d-b8ec1e924311"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			addcaps="unknown,webelement,buttontag">
+				/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']
+			</item>
+			<folder
+			name="Create_Member"
+			id="97da6755-cfa6-4ffd-bddc-d82d60a11cf4"
+			searchtimeout="0ms"
+			capname="webdocument"
+			isrooted="False">
+				<item
+				name="ToastToastSuccess"
+				id="c1a5dad8-b677-4445-9a7b-98c6ff0dece9"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'toast-container']/div
+				</item>
+			</folder>
+			<folder
+			name="Member_Demographics"
+			id="0917d481-62c3-4940-9292-0dbb90371aba"
+			searchtimeout="0ms"
+			capname="webdocument"
+			isrooted="False">
+				<item
+				name="Save_button"
+				id="914edb51-c609-41e1-aa95-368f5fcd8bb4"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag">
+					<image
+					name="Screenshot1"
+					guid="d7bca5b5-f053-4582-81f8-3366ec50a645">
+						iVBORw0KGgoAAAANSUhEUgAAADgAAAAiCAYAAAAKyxrjAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMASURBVFhH7ZnNTxNBGIf7T/ntRW6NMcaTR2/e
+1MSTHlBMkBBJQSUmkOjBGEk0Gjg1AlKkWkVpCa7ls4VSq5Bikbbbbqfd7v6cd1raLS5JaU3I1t3k
+SXdm3t3Os/PObLLjYIzh6/o2LjyYxok7kzhya8LSkAO5kBO5OejkeMckTnW+x5l7n9HW88XSkMPp
+ux9wrMMD/+ovOMiW5MyCrQw5nXX54DjJh7QVRm4v5ESZ6aC8NQtoBcjNFrQytqDVsQWtji24P35c
+n8lgq6CjdOhQsgyTbrPYw6NxwYk0FC2PT+MSzvOycyCIzqlNuJ6ZxB4iDQu2hwtAfMO0TfBoDW/i
+eSjF0viqOQW+txJv82MorkOORmrjR1OQtSyG+qgs4WFYQVpcq4PJGbx84a+Nr5PGR/CdDKbm4N73
+jxdwfyqEi6LDflyWcihmdtDO25xefi1LwWWId0WLYBsxOPn5tXkGVd5BVz+1zeJmMAdWkDEo7nUw
+GhekpxzJQ+VPOJ1Mwz22IFLVPJYzvIME+AjReV8M82oRgdHd9ggCTMO8lx7WCnwZYxvxE0va3rr6
+aEKwhHMghOfhLBKqDjWbxuMn5bb+ZbyOMfzmHVeYijT/Le4KcgZ/aNU0pfRU+QiJtg2ERFL/fYSm
+y/c+AE0LVuhbgiepIxVZ4+VFjPPzxPcYrog04xhHkCCpcppSelbnJAkW4BsuxzXJvxPkVBcek07S
+nDUK9qxhhq9AgVFKTxUzldcL1QPRublyuTkaFuye3kLvq2BlEbk4soV1/k5cn6WOUad1RKWgWDSc
+T6MIpPSaFBX3iKiQU3nIShLdhnpaZIoFBe6ROXF9W7+EG2OruGqIqZfGBZf4/DK85BnLYyGwXFlo
+LnnTYl7SUXpFbOKbWitYSlsgEV6p1glm0SWV5rU4NA3J5HbNQ6iXhgWtgi1odWxBq2MLWp3/Q5A+
+b7fup3sPHOd6P4rdGLMgK0NOzh4fHLTFdPS2p+W2z8jJuxiH2AAlSdpqoj01ylsrQw40ciTHGMMf
+9ynAO1csAzsAAAAASUVORK5CYII=
+					</image>
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'save']
+				</item>
+			</folder>
+			<folder
+			name="Health_Trackers"
+			id="02bc5b9c-132b-4a9e-8298-d72beada8b38"
+			searchtimeout="0ms"
+			capname="webdocument"
+			isrooted="False">
+				<item
+				name="Title_English"
+				id="6dfab38b-c424-4fec-a47b-fbcdaa7549fe"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag">
+					/dom[@domain='qa.carecamhealthsystems.com']//input[#'localeValue0']
+				</item>
+				<item
+				name="Select_Color_Field_"
+				id="e82f296f-297b-41e7-bb61-6ba8bda4489f"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag">
+					/dom[@domain='qa.carecamhealthsystems.com']//select[#'color']
+				</item>
+				<item
+				name="NewHealthtracker_Button"
+				id="32396d9d-e394-482a-a7c6-ffecc5036592"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag">
+					/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/?/?/button
+				</item>
+			</folder>
+			<folder
+			name="Forms"
+			id="849eafdf-c895-4d37-ad2d-85fd896cf5f2"
+			searchtimeout="0ms"
+			capname="webdocument"
+			isrooted="False">
+				<folder
+				name="SomeDivTag"
+				id="8a298ffd-1abf-47f4-9d63-066f3ae7d97c"
+				searchtimeout="30000ms"
+				capname="divtag"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="Click_on_Globe_Icon_HT_Name_"
+					id="5534be8f-4d9d-4862-bbe7-9ab1700f6d89"
+					searchtimeout="30000ms"
+					capname="itag"
+					addcaps="unknown,webelement,itag">
+						/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]/div[2]/div[2]/div/div/div/div/div/div/?/?/span/?/?/i
+					</item>
+					<basepath>
+						/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]
+					</basepath>
+				</folder>
+			</folder>
+			<item
+			name="DateOfBirthMustBeInThePast"
+			id="429cd176-f2df-41b7-8dcb-09f9f96a423f"
+			searchtimeout="8000ms"
+			capname="spantag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//span[#'dobVal']/span[@innertext='Date of birth must be in the past.']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="37d55cbf-01ab-421a-9ddf-4e38d82908a6">
+				/dom[@domain='qa.carecamhealthsystems.com']//span[#'dobVal']/span[@innertext~'^Date\ of\ birth\ must\ be\ in\ ']
+			</item>
+			<item
+			name="ActivateDtBegin"
+			id="8b9d34e3-742e-4e6f-a0b4-8d28a40604f3"
+			searchtimeout="8000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//input[#'activateDtBegin']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bbe0ca98-9515-4ff2-91f3-2f95832599d3">
+				/dom[@domain='qa.carecamhealthsystems.com']//input[#'activateDtBegin']
+			</item>
+			<item
+			name="ActivationEndDateIsRequiredWhenAct"
+			id="1a9ed3dd-88b6-4e2d-9c15-7406e0bc733e"
+			searchtimeout="8000ms"
+			capname="spantag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//span[#'activateDtEndVal']/span[@innertext='Activation end date is required when activation start date is specified.']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="8458b82d-882a-47f1-87c3-d761c47f219a">
+				/dom[@domain='qa.carecamhealthsystems.com']//span[#'activateDtEndVal']/span[@innertext~'^Activation\ end\ date\ is\ re']
+			</item>
+			<item
+			name="ActivateDtEnd"
+			id="764fc9d9-0d61-45f5-abe2-c4501693cd5e"
+			searchtimeout="8000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//input[#'activateDtEnd']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="61a66b17-0389-4cae-a143-0d8a3951f7f7">
+				/dom[@domain='qa.carecamhealthsystems.com']//input[#'activateDtEnd']
+			</item>
+			<item
+			name="EndDateMustBeGreaterThenStartDate"
+			id="e3b163ef-325a-4792-851b-5c7931bc148d"
+			searchtimeout="8000ms"
+			capname="spantag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//span[#'activateDtEndVal']/span[@innertext='End Date must be greater then Start date.']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="f47bfe1f-6515-4e8d-be17-681aad116653">
+				/dom[@domain='qa.carecamhealthsystems.com']//span[#'activateDtEndVal']/span[@innertext~'^End\ Date\ must\ be\ greater\ ']
+			</item>
+			<item
+			name="PleaseEnterAProperEmailAddress"
+			id="8395325f-13af-45fa-b876-44ec5eac509c"
+			searchtimeout="8000ms"
+			capname="spantag"
+			refpath="/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailAddressVal']/span[@innertext='Please enter a proper email address.']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="0096e133-53f9-40df-b110-384d28879567">
+				/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailAddressVal']/span[@innertext~'^Please\ enter\ a\ proper\ ema']
+			</item>
+			<basepath>
+				/dom[@domain='qa.carecamhealthsystems.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="varUserSearchLN"
+		id="ff90bc16-2402-439c-8f94-1d26b208350a">
+			katta
+		</var>
+		<var
+		name="varUserSearchFN"
+		id="4acbfab5-a25a-4c54-bda3-cf79d0b372d1">
+			srujana
+		</var>
+		<var
+		name="varRewardDragSource"
+		id="3aeb4daa-eab5-4e5c-92f2-85375a463220">
+			New Reward
+		</var>
+		<var
+		name="varRewardDragDestination"
+		id="0750e76d-adb9-48d8-bab3-2ce3fbb2a007">
+			test
+		</var>
+		<var
+		name="varChooseFocus"
+		id="3f737393-fdc5-49d6-a021-e912cd6cc62a">
+			focusValue
+		</var>
+		<var
+		name="varContent"
+		id="7e8ce2a0-9d5d-43b3-abd3-1fae0ad45ffc">
+			Tip
+		</var>
+		<var
+		name="varContentDestination"
+		id="23addb25-828a-4fde-a807-5b1e1d33a387">
+			Day 7
+		</var>
+		<var
+		name="varSidebarName"
+		id="a9d31ac7-3475-4439-bbed-f4e2b1c61399">
+			Package Groups
+		</var>
+		<var
+		name="varDOB"
+		id="5ce77bbb-966e-4cb6-9c7a-c1723b8e7453">
+			1/12/1976
+		</var>
+		<var
+		name="varSearchCriteria"
+		id="661461e6-add5-498d-95ca-e478e78a2119">
+		</var>
+		<var
+		name="varRepDOB"
+		id="a187eee3-eecc-4263-93df-0dcda13d930a">
+		</var>
+		<var
+		name="varRepEmail"
+		id="abc247bb-1d14-4feb-b7b5-a5b4af69992f">
+		</var>
+		<var
+		name="varInnerTexVal"
+		id="a7d37476-3b99-4c04-877c-9632d4f524c7">
+			Success
+		</var>
+	</variables>
+</repository>

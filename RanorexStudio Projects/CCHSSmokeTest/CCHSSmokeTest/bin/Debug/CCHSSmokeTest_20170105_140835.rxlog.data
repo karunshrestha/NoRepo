@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6d1ac0d2fee06e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/5/2017 2:08:35 PM"
+		timestampiso="2017-01-05T19:08:35"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.64s"
+			durationms="2640"
+			type="test suite"
+			rid="2099c1265839fff"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="1.94s"
+				durationms="1939"
+				type="test case"
+				rid="10361e0028081d62"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Test"
+				testcaseid="8647cc75-2385-4829-b812-6f8f6fef2bb3"
+				datasource="TestConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="1.93s"
+					durationms="1931"
+					type="test case iteration"
+					rid="2d264ea29107c30"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="Test">
+							51
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="1.88s"
+						durationms="1882"
+						type="test module"
+						rid="268c0ba23d9ef93"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Recording1"
+						moduleid="822c797c-2170-4c02-92bc-db7ef4b1ba59"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varTest"
+								value="51"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.572"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="14:08:37"
+							time="00:01.572"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varTest = '51'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.648"
+							timeRelativeToTestModuleStartTime="00:00.077"
+							timeWallClock="14:08:37"
+							time="00:01.648"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'Login.Email' at 43;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+								fullname="CCHSSmokeTestRepository.Login.Email"
+								id="1d18b98d2fc1446caac6b1e3edf16591"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\Recording1.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.920"
+							timeRelativeToTestModuleStartTime="00:01.349"
+							timeWallClock="14:08:38"
+							time="00:02.920"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varTest' with focus on 'Login.Email'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+								fullname="CCHSSmokeTestRepository.Login.Email"
+								id="1d18b98d2fc1446caac6b1e3edf16591"
+								timeout="30000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\Recording1.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

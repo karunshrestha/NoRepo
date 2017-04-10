@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="139f469a8c838f66"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/24/2017 10:19:17 AM"
+		timestampiso="2017-01-24T15:19:17"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="3.18s"
+			durationms="3183"
+			type="test suite"
+			rid="1310ef0d4c1bd05c"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="3.15s"
+				durationms="3154"
+				type="test case"
+				rid="cb570e1e35a96f8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="Activate_User"
+				testcaseid="b58811d4-7c19-4f24-9c1c-ef8fd021a92e"
+				datasource="VerificationCodeConnector"
+				iterationcount="1"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="3.15s"
+					durationms="3152"
+					type="test case iteration"
+					rid="37f4a19a9d4e970"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="Activate_User"
+					iteration="1">
+					<datarow>
+						<field
+							name="ShortCode">
+							9775
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="3.14s"
+						durationms="3136"
+						type="test module"
+						rid="cb6d1b03068547"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="ActivateAccount"
+						moduleid="454bf063-e84a-4999-83a2-5de74aed5467"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="varVerificationCode"
+								value="9775"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.696"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="10:19:17"
+							time="00:00.696"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$varVerificationCode = '9775'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.812"
+							timeRelativeToTestModuleStartTime="00:00.118"
+							timeWallClock="10:19:17"
+							time="00:00.812"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'LoginCCHSPortal.Reset_Password.Code' at 38;21.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'code']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Reset_Password.Code"
+								id="e75046fd11604aaf923003e9b5076efe"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:02.868"
+							timeRelativeToTestModuleStartTime="00:02.174"
+							timeWallClock="10:19:20"
+							time="00:02.868"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$varVerificationCode' with focus on 'LoginCCHSPortal.Reset_Password.Code'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'code']"
+								fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Reset_Password.Code"
+								id="e75046fd11604aaf923003e9b5076efe"
+								timeout="60000"
+								codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\ActivateAccount.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

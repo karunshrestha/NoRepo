@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5ad9b41d2277190"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/10/2017 1:54:16 PM"
+		timestampiso="2017-01-10T18:54:16"
+		timeoutfactor="1"
+		module="ValidateTableTest">
+		<detail>
+			ValidateTableTest
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.143"
+			timeRelativeToTestModuleStartTime="00:00.143"
+			timeWallClock="13:54:16"
+			time="00:00.143"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Active') on item 'LoginCCHSPortal.DivTagRow'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow"
+				id="9d5c0000e7084382bb37f861681ce9ee"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\ValidateTableTest.cs"
+				codeline="51"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.451"
+			timeRelativeToTestModuleStartTime="00:00.451"
+			timeWallClock="13:54:17"
+			time="00:00.451"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[2]//table/tbody/tr[1]/td[@innertext='Active']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.DivTagRow"
+				id="9d5c0000e7084382bb37f861681ce9ee"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\ValidateTableTest.cs"
+				codeline="52"
+				loglvl="Success"
+				itemindex="6"/>
+		</item>
+	</activity>
+</report>

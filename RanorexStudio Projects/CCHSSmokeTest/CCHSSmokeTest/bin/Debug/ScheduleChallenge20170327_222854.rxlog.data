@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21665137471b6c4b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="3/27/2017 10:28:55 PM"
+		timestampiso="2017-03-28T02:28:55"
+		timeoutfactor="1"
+		module="ScheduleChallenge">
+		<detail>
+			ScheduleChallenge
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.298"
+			timeRelativeToTestModuleStartTime="00:00.299"
+			timeWallClock="22:28:55"
+			time="00:00.298"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewOceanAdminPortal.Package_Group.ChallengeDate31st' at 73;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'calendar']/div/div/table/tbody//div[@innertext='31']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.ChallengeDate31st"
+				id="fe63512041d94a6891e22ef82a2caf97"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="82"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.167"
+			timeRelativeToTestModuleStartTime="00:02.168"
+			timeWallClock="22:28:57"
+			time="00:02.167"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewOceanAdminPortal.Package_Group.ButtonTagOk' at 16;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']/body/div[7]/div/div[3]/button[@innertext='Ok']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.ButtonTagOk"
+				id="b7541b15df974d619e9a1e31453f67ec"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="86"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.890"
+			timeRelativeToTestModuleStartTime="00:02.891"
+			timeWallClock="22:28:58"
+			time="00:02.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewOceanAdminPortal.Package_Group.LeaderboardTab' at 50;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//li[#'leaderboardlink']/a[@innertext&lt;' Leaderboard']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.LeaderboardTab"
+				id="855f9133614e40139ba67c1a5d05f55c"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="90"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.726"
+			timeRelativeToTestModuleStartTime="00:03.727"
+			timeWallClock="22:28:59"
+			time="00:03.726"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Leaderboard will be visible once Challenge is Active') on item 'NewOceanAdminPortal.Package_Group.LeaderboardWillBeVisibleOnceChallen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'leaderboard']//h4[@innertext~'^Leaderboard\ will\ be\ visib']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.LeaderboardWillBeVisibleOnceChallen"
+				id="67bffeb5f01e46448b01669869aee95d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="94"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.807"
+			timeRelativeToTestModuleStartTime="00:03.808"
+			timeWallClock="22:28:59"
+			time="00:03.807"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.LeaderboardWillBeVisibleOnceChallen' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'leaderboard']//h4[@innertext~'^Leaderboard\ will\ be\ visib']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.LeaderboardWillBeVisibleOnceChallen"
+				id="67bffeb5f01e46448b01669869aee95d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="12"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.909"
+			timeRelativeToTestModuleStartTime="00:03.910"
+			timeWallClock="22:28:59"
+			time="00:03.909"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewOceanAdminPortal.Package_Group.EditChallengeCloseButton' at 27;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'editChallengeCloseButton']"
+				fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Package_Group.EditChallengeCloseButton"
+				id="7d874060e9e442fbbe6bb3edd204ea03"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Package Group\ScheduleChallenge.cs"
+				codeline="98"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

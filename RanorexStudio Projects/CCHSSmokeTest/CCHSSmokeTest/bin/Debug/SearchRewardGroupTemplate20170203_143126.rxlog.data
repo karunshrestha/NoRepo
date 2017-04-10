@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1031b62294d6d699"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/3/2017 2:31:27 PM"
+		timestampiso="2017-02-03T19:31:27"
+		timeoutfactor="1"
+		module="SearchRewardGroupTemplate">
+		<detail>
+			SearchRewardGroupTemplate
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.084"
+			timeRelativeToTestModuleStartTime="00:00.084"
+			timeWallClock="14:31:27"
+			time="00:00.084"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varFirstRewardTemplate
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.092"
+			timeRelativeToTestModuleStartTime="00:00.092"
+			timeWallClock="14:31:27"
+			time="00:00.092"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'Title' from item 'LoginCCHSPortal.Content.FirstRewardTemplate' and assigning its value to variable 'varFirstRewardTemplate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]/div[1]/div[2]/ul/?/?/a[@href~'^\#main/rewardGroupTemplate']/?/?/span[@innertext!=null()]"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.FirstRewardTemplate"
+				id="085bf186ad5a4416957d4e31b123d86c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.649"
+			timeRelativeToTestModuleStartTime="00:00.649"
+			timeWallClock="14:31:27"
+			time="00:00.649"
+			level="Info"
+			category="User">
+			<message>
+				(null)
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Search\SearchRewardGroupTemplate.cs"
+				codeline="99"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

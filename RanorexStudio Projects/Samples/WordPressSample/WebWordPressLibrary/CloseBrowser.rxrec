@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="13e51bc5-44c7-4f36-89b7-c187dc391f75"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="WebWordPressLibrary"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="636b4a71-154a-482d-99c7-71824734988c"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="1155ad1c-67f9-47e2-b216-3b27bda1db0b">
+				<path>
+					/dom[@domain='demo.opensourcecms.com']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="WebWordPressLibraryRepository"
+	id="b68c5ae7-5d54-49e3-893c-ecd04dbce34b"
+	rxversion="6.0"
+	relativepath="WebWordPressLibraryRepository.rxrep">
+		<codegen
+		classname="WebWordPressLibraryRepository"
+		namespace="WebWordPressLibrary"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="5251cef1-231f-4e1a-b0bd-41e54b4b13f8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+		<reference>
+			..\..\web\wordpresssample\WordPressSample\bin\Debug\WordPressSample.exe
+		</reference>
+	</references>
+</recordtable>

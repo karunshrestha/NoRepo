@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5c04b15d7ac346"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/24/2017 1:25:23 PM"
+		timestampiso="2017-01-24T18:25:23"
+		timeoutfactor="1"
+		module="ProgramSearchElectiveEasy">
+		<detail>
+			ProgramSearchElectiveEasy
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.127"
+			timeRelativeToTestModuleStartTime="00:00.127"
+			timeWallClock="13:25:23"
+			time="00:00.127"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '2' on item 'LoginCCHSPortal.Content.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[3]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Content.FormControl"
+				id="33b2fc6120314c09b2e3326b89c7251c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.261"
+			timeRelativeToTestModuleStartTime="00:01.261"
+			timeWallClock="13:25:24"
+			time="00:01.261"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute TagValue to '0' on item 'LoginCCHSPortal.FormControl'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//form[@name='mshtml.HTMLInputElementClass']/div/div[2]/div/div[2]/select"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.FormControl"
+				id="499469e18a87413591aa795c4f87f416"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.520"
+			timeRelativeToTestModuleStartTime="00:01.520"
+			timeWallClock="13:25:25"
+			time="00:01.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member.Search1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'search']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Member.Search1"
+				id="dce2be2ce4b64e369419a9ee6af34f90"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.460"
+			timeRelativeToTestModuleStartTime="00:02.460"
+			timeWallClock="13:25:26"
+			time="00:02.460"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Elective') on item 'LoginCCHSPortal.Content.Elective'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Content.Elective"
+				id="25bc7899c37a4443bd6fc359800813d8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.165"
+			timeRelativeToTestModuleStartTime="00:03.165"
+			timeWallClock="13:25:26"
+			time="00:03.165"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Content.Elective' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Elective']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Content.Elective"
+				id="25bc7899c37a4443bd6fc359800813d8"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.272"
+			timeRelativeToTestModuleStartTime="00:03.272"
+			timeWallClock="13:25:26"
+			time="00:03.272"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Easy') on item 'LoginCCHSPortal.Content.Easy'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Easy']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Content.Easy"
+				id="91915b701d284b2ab6aed35d92d61d05"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.402"
+			timeRelativeToTestModuleStartTime="00:03.402"
+			timeWallClock="13:25:27"
+			time="00:03.402"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'CCHSSmokeTestRepository.LoginCCHSPortal.Content.Easy' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div/div/div[2]//table/tbody/tr[1]/td[@innertext='Easy']"
+				fullname="CCHSSmokeTestRepository.LoginCCHSPortal.Content.Easy"
+				id="91915b701d284b2ab6aed35d92d61d05"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Programs\ProgramSearchElectiveEasy.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4"/>
+		</item>
+	</activity>
+</report>

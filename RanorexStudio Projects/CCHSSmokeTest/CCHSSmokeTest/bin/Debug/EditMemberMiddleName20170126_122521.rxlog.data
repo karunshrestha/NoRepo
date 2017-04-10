@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="85bb98745c198ac"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="1/26/2017 12:25:22 PM"
+		timestampiso="2017-01-26T17:25:22"
+		timeoutfactor="1"
+		module="EditMemberMiddleName">
+		<detail>
+			EditMemberMiddleName
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.132"
+			timeRelativeToTestModuleStartTime="00:00.133"
+			timeWallClock="12:25:22"
+			time="00:00.132"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>MiddleNameText, MiddleNameNum
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.146"
+			timeRelativeToTestModuleStartTime="00:00.147"
+			timeWallClock="12:25:22"
+			time="00:00.146"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Member_Demographics.ClickOnFirstFNLN_On_Homescreen' at 79;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'pn0']"
+				fullname="SMOKTEST_SKRepository.LoginCCHSPortal.Member_Demographics.ClickOnFirstFNLN_On_Homescreen"
+				id="6419be0d561f411686a033c4fc40a7e4"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\EditMemberMiddleName.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

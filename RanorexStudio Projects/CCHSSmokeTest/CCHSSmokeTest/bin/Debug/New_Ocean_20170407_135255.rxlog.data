@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18a58b220452f623"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="4/7/2017 1:52:55 PM"
+		timestampiso="2017-04-07T17:52:55"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="7.04s"
+			durationms="7041"
+			type="test suite"
+			rid="202f0ba502dc6ba"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="New_Ocean"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="7.02s"
+				durationms="7015"
+				type="test case"
+				rid="5035fa69e65da22"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="2"
+				totalblockedcount="0"
+				testcasename="Regression_Test"
+				testcaseid="212134ae-44e1-44b8-9e54-e02ecc1a5f95"
+				datasource="NewConnector37"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="7.01s"
+					durationms="7013"
+					type="test case iteration"
+					rid="9ca615cf77134df"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					testcasename="Regression_Test"
+					iteration="1">
+					<datarow>
+						<field
+							name="colmDomainName">
+							qa.carecamhealthsystems.com
+						</field>
+						<field
+							name="colmEmail">
+							iecchs123@gmail.com
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="7.01s"
+						durationms="7012"
+						type="test case"
+						rid="aec5359fbc114b7"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="1"
+						totalblockedcount="0"
+						testcasename="ForgotPswdPN"
+						testcaseid="9d862735-e9be-461d-abdb-4d7432700955"
+						maxchildren="0">
+						<params/>
+						<detail>
+							&lt;P&gt;Regression TC1&lt;/P&gt;
+						</detail>
+						<activity
+							result="Failed"
+							duration="6.95s"
+							durationms="6947"
+							type="test module"
+							rid="8f904d71906632a"
+							totalerrorcount="1"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							modulename="FPEmailPN"
+							moduleid="39648988-3b97-4818-b86e-0ea7c4fcd6b1"
+							moduletype="Recording">
+							<detail>
+							</detail>
+							<errmsg>
+								Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert' does not match the specified RegEx (actual=' Please correct the validation errors below.', regex='\ The\ email\ address\ specified\ is\ not\ recognized\.').
+							</errmsg>
+							<varbindings>
+								<varbinding
+									name="varFPEmail"
+									value="iecchs123@gmail.com"/>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.356"
+								timeRelativeToTestModuleStartTime="00:00.001"
+								timeWallClock="13:52:56"
+								time="00:00.356"
+								level="Info"
+								category="Data">
+								<message>
+									Current variable values:<br/>$varFPEmail = 'iecchs123@gmail.com'
+								</message>
+								<metainfo
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:00.438"
+								timeRelativeToTestModuleStartTime="00:00.083"
+								timeWallClock="13:52:56"
+								time="00:00.438"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Reset_Password.Forgot' at 64;18.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//a[#'forgot']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Reset_Password.Forgot"
+									id="75b01b20039f4838b9ada5840ce37fe7"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="95"
+									itemindex="0"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:01.850"
+								timeRelativeToTestModuleStartTime="00:01.495"
+								timeWallClock="13:52:57"
+								time="00:01.850"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Login.ContinueButton' at 190;16.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.ContinueButton"
+									id="baf274284353498084e740cdf1446d00"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="99"
+									itemindex="1"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.834"
+								timeRelativeToTestModuleStartTime="00:02.479"
+								timeWallClock="13:52:58"
+								time="00:02.834"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeContains (InnerText&gt;' Please correct the validation errors below.') on item 'NewOceanAdminPortal.LoginAlert'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert"
+									id="6197e77b10054a6089cebb6b3c8c1e93"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="103"
+									itemindex="2"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:02.979"
+								timeRelativeToTestModuleStartTime="00:02.624"
+								timeWallClock="13:52:58"
+								time="00:02.979"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert' does match the specified RegEx.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert"
+									id="6197e77b10054a6089cebb6b3c8c1e93"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="104"
+									loglvl="Success"
+									itemindex="2"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.138"
+								timeRelativeToTestModuleStartTime="00:02.783"
+								timeWallClock="13:52:59"
+								time="00:03.138"
+								level="Info"
+								category="Validation">
+								<message>
+									Validating AttributeContains (InnerText&gt;'Email Address is required.') on item 'NewOceanAdminPortal.EmailAddressIsRequired'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailVal']/span[@innertext~'^Email\ Address\ is\ required']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.EmailAddressIsRequired"
+									id="606d6100b14946daaecccd1fb07520b8"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="107"
+									itemindex="3"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.257"
+								timeRelativeToTestModuleStartTime="00:02.902"
+								timeWallClock="13:52:59"
+								time="00:03.257"
+								level="Success"
+								category="Validation">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.EmailAddressIsRequired' does match the specified RegEx.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//span[#'emailVal']/span[@innertext~'^Email\ Address\ is\ required']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.EmailAddressIsRequired"
+									id="606d6100b14946daaecccd1fb07520b8"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="108"
+									loglvl="Success"
+									itemindex="3"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:03.407"
+								timeRelativeToTestModuleStartTime="00:03.052"
+								timeWallClock="13:52:59"
+								time="00:03.407"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Login.Email' at 71;20.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.Email"
+									id="1d18b98d2fc1446caac6b1e3edf16591"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="111"
+									itemindex="4"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.253"
+								timeRelativeToTestModuleStartTime="00:03.898"
+								timeWallClock="13:53:00"
+								time="00:04.253"
+								level="Info"
+								category="Keyboard">
+								<message>
+									Key sequence 'test@' with focus on 'NewOceanAdminPortal.Login.Email'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//input[#'email']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.Email"
+									id="1d18b98d2fc1446caac6b1e3edf16591"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="115"
+									itemindex="5"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:05.059"
+								timeRelativeToTestModuleStartTime="00:04.704"
+								timeWallClock="13:53:00"
+								time="00:05.059"
+								level="Info"
+								category="Delay">
+								<message>
+									Waiting for 1s.
+								</message>
+								<metainfo
+									itemindex="6"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="119"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.123"
+								timeRelativeToTestModuleStartTime="00:05.768"
+								timeWallClock="13:53:02"
+								time="00:06.123"
+								level="Info"
+								category="Mouse">
+								<message>
+									Mouse Left Click item 'NewOceanAdminPortal.Login.ContinueButton' at 192;12.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//button[#'loginBtn']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.Login.ContinueButton"
+									id="baf274284353498084e740cdf1446d00"
+									timeout="60000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="122"
+									itemindex="7"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:06.939"
+								timeRelativeToTestModuleStartTime="00:06.584"
+								timeWallClock="13:53:02"
+								time="00:06.939"
+								level="Info"
+								category="Validation"
+								errimg="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_d7c98bab_trace.jpg"
+								errthumb="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_d7c98bab_trace_thumb.jpg">
+								<message>
+									Validating AttributeContains (InnerText&gt;' The email address specified is not recognized.') on item 'NewOceanAdminPortal.LoginAlert'.
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert"
+									id="6197e77b10054a6089cebb6b3c8c1e93"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="126"
+									itemindex="8"
+									loglvl="Info"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.060"
+								timeRelativeToTestModuleStartTime="00:06.705"
+								timeWallClock="13:53:02"
+								time="00:07.060"
+								level="Failure"
+								category="Validation"
+								errimg="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_bd192657_trace.jpg"
+								errthumb="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_bd192657_trace_thumb.jpg">
+								<message>
+									Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert' does not match the specified RegEx (actual=' Please correct the validation errors below.', regex='\ The\ email\ address\ specified\ is\ not\ recognized\.').
+								</message>
+								<metainfo
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert"
+									id="6197e77b10054a6089cebb6b3c8c1e93"
+									timeout="38000"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="127"
+									loglvl="Failure"
+									itemindex="8"/>
+							</item>
+							<item
+								timeRelativeToTestSuiteStartTime="00:07.131"
+								timeRelativeToTestModuleStartTime="00:06.776"
+								timeWallClock="13:53:03"
+								time="00:07.131"
+								level="Error"
+								category="Module"
+								errimg="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_95c3b41c_trace.jpg"
+								errthumb="images_New_Ocea_bfa139a2\New_Ocea_bfa139a2_95c3b41c_trace_thumb.jpg">
+								<message>
+									Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert' does not match the specified RegEx (actual=' Please correct the validation errors below.', regex='\ The\ email\ address\ specified\ is\ not\ recognized\.').
+								</message>
+								<metainfo
+									stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Regex regex)
+   at CCHSSmokeTest.Recordings.Reset_Password.FPEmailPN.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs:line 127
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+									codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Reset Password\FPEmailPN.cs"
+									codeline="127"
+									type="repoitem"
+									path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'loginAlert']"
+									fullname="SmokeTestRepositoryKS.NewOceanAdminPortal.LoginAlert"
+									id="6197e77b10054a6089cebb6b3c8c1e93"
+									timeout="38000"
+									loglvl="Error"
+									itemindex="8"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

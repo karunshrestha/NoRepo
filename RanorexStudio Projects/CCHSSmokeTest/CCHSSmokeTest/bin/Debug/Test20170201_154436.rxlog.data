@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f081e4e3a0e0d9b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/1/2017 3:44:37 PM"
+		timestampiso="2017-02-01T20:44:37"
+		timeoutfactor="1"
+		module="Test">
+		<detail>
+			Test
+		</detail>
+		<errmsg>
+			Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.NewItem'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.094"
+			timeRelativeToTestModuleStartTime="00:00.094"
+			timeWallClock="15:44:37"
+			time="00:00.094"
+			level="Warn"
+			category="Data"
+			errimg=".\Test2017_b22ac3_c992d29f_trace.jpg"
+			errthumb=".\Test2017_b22ac3_c992d29f_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>varTest
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.105"
+			timeRelativeToTestModuleStartTime="00:00.105"
+			timeWallClock="15:44:37"
+			time="00:00.105"
+			level="Info"
+			category="Mouse"
+			errimg=".\Test2017_b22ac3_c992d29f_trace.jpg"
+			errthumb=".\Test2017_b22ac3_c992d29f_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.NewItem' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[@innertext='New']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.NewItem"
+				id="e5a9b6a884f4482586adb814e2285905"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\Test.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.474"
+			timeRelativeToTestModuleStartTime="00:16.474"
+			timeWallClock="15:44:54"
+			time="00:16.474"
+			level="Error"
+			category="Module"
+			errimg=".\Test2017_b22ac3_c5b2947e_trace.jpg"
+			errthumb=".\Test2017_b22ac3_c5b2947e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.NewItem'.<br/>No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//button[@innertext='New']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at CCHSSmokeTest.SmokeTestRepositoryKSFolders.LoginCCHSPortalAppFolder.get_NewItem() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\SmokeTestRepositoryKS.cs:line 705
+   at CCHSSmokeTest.Recordings.Test.Test.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\Test.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Test\Test.cs"
+				codeline="96"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//button[@innertext='New']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.NewItem"
+				id="e5a9b6a884f4482586adb814e2285905"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0"/>
+		</item>
+	</activity>
+</report>

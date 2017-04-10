@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.2"
+id="e192e076-04a1-4de8-9bfe-8fb510b49bad"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		ButtonNewActivity
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ButtonNewActivity"
+	namespace="CCHSSmokeTest.Recordings.Buttons.NewButton"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="93e83e95-2a92-44c7-846f-028be6cdb3f9"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="0"
+		sy="0"
+		loc="Center">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="RepositoryEditor"
+			id="845773ac-f285-40dc-8e37-f8843e051640">
+				<path>
+					/dom[@domain='qa.carecamhealthsystems.com']//button[#'addActivity']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		enabled="True"
+		optional="False"
+		duration="3000ms">
+			<comment/>
+			<bindings/>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	name="SmokeTestRepositoryKS"
+	id="1af4fca7-223e-4cfa-8b80-4142b99be25b"
+	rxversion="6.2"
+	relativepath="..\..\..\SmokeTestRepositoryKS.rxrep">
+		<codegen
+		classname="SmokeTestRepositoryKS"
+		namespace="CCHSSmokeTest"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="808b3ce7-9bc1-4c58-a8ce-cc9895ee2b55"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ButtonNewActivity.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

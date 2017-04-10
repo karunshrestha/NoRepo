@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="219f29805c91ee96"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/4/2017 4:38:33 PM"
+		timestampiso="2017-02-04T21:38:33"
+		timeoutfactor="1"
+		module="MemberAdministrationNavigation">
+		<detail>
+			MemberAdministrationNavigation
+		</detail>
+		<errmsg>
+			Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards' does not match the specified value (Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']' within 1.5m.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.129"
+			timeRelativeToTestModuleStartTime="00:00.129"
+			timeWallClock="16:38:33"
+			time="00:00.129"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Content.Programs' at 51;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Programs']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Programs"
+				id="bc0f1b9b4c6848e389e881ebf9eedf3b"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.118"
+			timeRelativeToTestModuleStartTime="00:01.118"
+			timeWallClock="16:38:34"
+			time="00:01.118"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Test' at 14;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'programsList']/div/div[3]/?/?/ul/li[1]//span[@innertext='test']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Test"
+				id="5357df25499c414fb09ec58368758086"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.349"
+			timeRelativeToTestModuleStartTime="00:02.349"
+			timeWallClock="16:38:36"
+			time="00:02.349"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.SomeDivTag.Information' at 24;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[1]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Information']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SomeDivTag.Information"
+				id="c931799fddbb4e94a36b24e9085de3c2"
+				timeout="61000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.255"
+			timeRelativeToTestModuleStartTime="00:03.255"
+			timeWallClock="16:38:36"
+			time="00:03.255"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='
+            Focus:
+            ') on item 'LoginCCHSPortal.DivTagFocus'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'infoCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Focus:\ \ \ \ \ ']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.DivTagFocus"
+				id="071bf80ff08f4fb5b21582ac7d04002d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.351"
+			timeRelativeToTestModuleStartTime="00:03.351"
+			timeWallClock="16:38:37"
+			time="00:03.351"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.DivTagFocus' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'infoCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Focus:\ \ \ \ \ ']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.DivTagFocus"
+				id="071bf80ff08f4fb5b21582ac7d04002d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.455"
+			timeRelativeToTestModuleStartTime="00:03.455"
+			timeWallClock="16:38:37"
+			time="00:03.455"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.SomeDivTag.Configuration' at 38;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[2]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Configuration']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SomeDivTag.Configuration"
+				id="f1acd94ab0ff49c4902aba1991b91972"
+				timeout="61000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.476"
+			timeRelativeToTestModuleStartTime="00:04.476"
+			timeWallClock="16:38:38"
+			time="00:04.476"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='
+            Type:
+            ') on item 'LoginCCHSPortal.DivTagType'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'configCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Type:\ \ \ \ \ \ ']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.DivTagType"
+				id="de0f1d10864a42b5b2535dcbd99bce27"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.570"
+			timeRelativeToTestModuleStartTime="00:04.570"
+			timeWallClock="16:38:38"
+			time="00:04.570"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.DivTagType' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'configCollapse']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ Type:\ \ \ \ \ \ ']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.DivTagType"
+				id="de0f1d10864a42b5b2535dcbd99bce27"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.674"
+			timeRelativeToTestModuleStartTime="00:04.674"
+			timeWallClock="16:38:38"
+			time="00:04.674"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.SomeDivTag.Progress' at 26;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'activitiesList']/div/div/div[2]/h5[3]/a[@href~'^https://qa\.carecamhealths']/span[@innertext='Progress']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.SomeDivTag.Progress"
+				id="5a880cc8c64540ccaa8bbfc58d8af091"
+				timeout="61000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.554"
+			timeRelativeToTestModuleStartTime="00:05.554"
+			timeWallClock="16:38:39"
+			time="00:05.554"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Name') on item 'LoginCCHSPortal.Name'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'progressCollapse']/table//th[@innertext='Name']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Name"
+				id="6a4af4c1b569454c9a4f91d9a2e23af1"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.656"
+			timeRelativeToTestModuleStartTime="00:05.656"
+			timeWallClock="16:38:39"
+			time="00:05.656"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Name' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'progressCollapse']/table//th[@innertext='Name']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Name"
+				id="6a4af4c1b569454c9a4f91d9a2e23af1"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="111"
+				loglvl="Success"
+				itemindex="7"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.760"
+			timeRelativeToTestModuleStartTime="00:05.760"
+			timeWallClock="16:38:39"
+			time="00:05.760"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Content.Challenges' at 48;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Challenges']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Challenges"
+				id="13b404b044884375b132d16f89b19010"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.574"
+			timeRelativeToTestModuleStartTime="00:06.574"
+			timeWallClock="16:38:40"
+			time="00:06.574"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Upcoming') on item 'LoginCCHSPortal.Upcoming'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'challengesList']/div/table[1]/thead//span[@innertext='Upcoming']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Upcoming"
+				id="afabdbda5e1646f6886e5b24be89854d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.672"
+			timeRelativeToTestModuleStartTime="00:06.672"
+			timeWallClock="16:38:40"
+			time="00:06.672"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Upcoming' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'challengesList']/div/table[1]/thead//span[@innertext='Upcoming']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Upcoming"
+				id="afabdbda5e1646f6886e5b24be89854d"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="119"
+				loglvl="Success"
+				itemindex="9"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.775"
+			timeRelativeToTestModuleStartTime="00:06.775"
+			timeWallClock="16:38:40"
+			time="00:06.775"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginCCHSPortal.Content.Rewards' at 51;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]//a[@innertext='Rewards']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.Rewards"
+				id="22229ea8cd5e410a8298a9511d648130"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.667"
+			timeRelativeToTestModuleStartTime="00:07.667"
+			timeWallClock="16:38:41"
+			time="00:07.667"
+			level="Info"
+			category="Validation"
+			errimg=".\MemberAd_3c093b8a_d7e41a1f_trace.jpg"
+			errthumb=".\MemberAd_3c093b8a_d7e41a1f_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (InnerText='Available Rewards') on item 'LoginCCHSPortal.Content.AvailableRewards'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards"
+				id="a5290bf171e246e5bbca06bd623ee134"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.233"
+			timeRelativeToTestModuleStartTime="00:26.233"
+			timeWallClock="16:38:59"
+			time="00:26.233"
+			level="Failure"
+			category="Validation"
+			errimg=".\MemberAd_3c093b8a_5ee9814f_trace.jpg"
+			errthumb=".\MemberAd_3c093b8a_5ee9814f_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards' does not match the specified value (Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']' within 1.5m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards"
+				id="a5290bf171e246e5bbca06bd623ee134"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="127"
+				loglvl="Failure"
+				itemindex="11"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.238"
+			timeRelativeToTestModuleStartTime="00:26.238"
+			timeWallClock="16:38:59"
+			time="00:26.238"
+			level="Error"
+			category="Module"
+			errimg=".\MemberAd_3c093b8a_5ee9814f_trace.jpg"
+			errthumb=".\MemberAd_3c093b8a_5ee9814f_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards' does not match the specified value (Failed to find item 'SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards'. No element found for path '/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']' within 1.5m.).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CCHSSmokeTest.Recordings.Members.MemberAdministrationNavigation.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs:line 127
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\CCHSSmokeTest\CCHSSmokeTest\Recordings\Members\MemberAdministrationNavigation.cs"
+				codeline="127"
+				type="repoitem"
+				path="/dom[@domain='qa.carecamhealthsystems.com']//div[#'applicationHost']/section/div/div[4]/div[2]/div[2]//a[@href~'^https://qa\.carecamhealths']/span[@innertext='Available Rewards']"
+				fullname="SmokeTestRepositoryKS.LoginCCHSPortal.Content.AvailableRewards"
+				id="a5290bf171e246e5bbca06bd623ee134"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="11"/>
+		</item>
+	</activity>
+</report>

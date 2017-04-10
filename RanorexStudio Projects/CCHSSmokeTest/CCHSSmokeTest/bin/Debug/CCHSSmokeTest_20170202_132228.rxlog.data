@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Ignored"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="59ba6990b63ff74"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="2"
+		user="Karun Shrestha"
+		host="THINK-PK2N901"
+		rxversion="6.2.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="3520x1080"
+		timestamp="2/2/2017 1:22:28 PM"
+		timestampiso="2017-02-02T18:22:28"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Ignored"
+			duration="34ms"
+			durationms="34"
+			type="test suite"
+			rid="104779e8c89b1ee0"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="2"
+			testsuitename="CCHSSmokeTest"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Ignored"
+				duration="29ms"
+				durationms="29"
+				type="test case"
+				rid="12116883b607f86e"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="2"
+				testcasename="Master_TC"
+				testcaseid="70c0d86a-c505-4b51-be73-845f01aac024"
+				datasource="NewConnector2"
+				iterationcount="1"
+				maxchildren="1">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Ignored"
+					duration="27ms"
+					durationms="27"
+					type="test case iteration"
+					rid="18dd9394b299348f"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="1"
+					testcasename="Master_TC"
+					iteration="1">
+					<datarow>
+						<field
+							name="BrowserType">
+							IE
+						</field>
+						<field
+							name="ColmSBUsers">
+							Users
+						</field>
+						<field
+							name="ColmSBRoles">
+							Roles
+						</field>
+						<field
+							name="ColmSBActivities">
+							Activities
+						</field>
+						<field
+							name="ColmSBForms">
+							Forms
+						</field>
+						<field
+							name="ColmSBHT">
+							Health Trackers
+						</field>
+						<field
+							name="ColmSBFocuses">
+							Focuses
+						</field>
+						<field
+							name="ColmSBPrograms">
+							Programs
+						</field>
+						<field
+							name="ColmSBChallenge">
+							Challenge Template
+						</field>
+						<field
+							name="ColmSBReward">
+							Reward Group Templates
+						</field>
+						<field
+							name="ColmSBPackage">
+							Package Groups
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Ignored"
+						duration="1ms"
+						durationms="1"
+						type="test case"
+						rid="1a149f1cab0d7407"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="1"
+						testcasename="Activate_User"
+						testcaseid="b58811d4-7c19-4f24-9c1c-ef8fd021a92e"
+						datasource="VerificationCodeConnector"
+						iterationcount="1"
+						maxchildren="0">
+						<params/>
+						<detail>
+						</detail>
+						<activity
+							result="Ignored"
+							duration="0ms"
+							durationms="0"
+							type="test case iteration"
+							rid="127b934cc94a8462"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							testcasename="Activate_User"
+							iteration="1">
+							<datarow>
+								<field
+									name="ShortCode">
+									7508
+								</field>
+							</datarow>
+							<detail>
+							</detail>
+						</activity>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
